@@ -1,5 +1,24 @@
 # Grandpa's Pocket Watch Shop
 
+Pocket Watches can be traced back to the late 15th century in Italy, 
+with manufacture spreading throughout the rest of Europe in the early
+part of the 16th century. They were the most common type of watch until
+around 1914 when wrist watches started to come into fashion. 
+    
+Although their professional usage in the modern environment has come to an
+end they still hold a lot of value and attraction for many enthusiast who 
+enjoy both the pleasure of owning as well as fixing and refurbishing them.
+
+Although a niche market the value of Pocket watches and parts can be
+highly sought after and highly valued.
+
+the aim of this Website is to provide an outlet for Pocket Watches,
+parts and tools. To fill the gap in the market of a modern e-commerce
+Website that paves the way for a smooth, easy and friendly place for
+consumers to search, view and purchase
+Pocket Watches, Parts and Tools.
+
+
 ---
 
 ## UX
