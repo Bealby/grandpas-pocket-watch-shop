@@ -7,10 +7,10 @@ around 1914 when wrist watches started to come into fashion.
     
 Although their professional usage in the modern environment has come to an
 end they still hold a lot of value and attraction for enthusiasts who 
-enjoy both the pleasure of owning one as well as fixing and refurbishing
-them.
+enjoy both the pleasure of owning a pocket watch and fixing and refurbishing
+one.
 
-Although a niche market the value of Pocket watches and parts can be
+Although a niche market the value of pocket watches, parts and tools can be
 highly sought after and highly valued.
 
 The aim of this Website is to provide an outlet for 'Pocket Watches',
@@ -27,21 +27,7 @@ Pocket Watches, Parts and Tools.
 
 ### Strategy
 
-The main focus of this Website is for the adventurous who are
-looking for a new exciting hobbie to participate in and share
-their finds with their local community. The Website
-will enable participants to create, read, update and delete (CRUD),
-their Magnet Fishing catches.
 
-The Website needs to be efficient on mobile devices, as well
-as functional and easy to use. This will allow participants to share
-finds while out Magnet Fishing in Stockholm. The data needs to
-be displayed concisely and clearly, with the ability to engage
-in CRUD operations out in the field.
-
-The desktop and tablet versions will provide a more visual
-and expansive user experience that can be used in a
-more comfortable environment after a long day Magnet Fishing.
 
 #### User Stories
 
@@ -59,6 +45,9 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 [here](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/wireframes/wireframes.pdf)
 
 ### Surface
+
+
+typography and colour scheme
 
 ## Technologies Used
 
