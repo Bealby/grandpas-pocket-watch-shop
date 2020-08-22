@@ -45,8 +45,8 @@ more comfortable environment after a long day Magnet Fishing.
 
 #### User Stories
 
-Please find Agile User Stories 
-[here](https://github.com/Bealby/grandpas_pocket_watch_shop/blob/master/documentation/readme/user-stories.pdf)
+Please find User-Stories 
+[here](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
 
 ### Scope
@@ -54,6 +54,9 @@ Please find Agile User Stories
 ### Structure
 
 ### Skeleton
+
+Please find my Wireframes for Desktop, Tablet and Mobile
+[here](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/wireframes/wireframes.pdf)
 
 ### Surface
 
