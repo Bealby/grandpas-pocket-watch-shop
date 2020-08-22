@@ -21,7 +21,7 @@ highly valued.
 The aim of this Website is to provide an outlet for
 **Pocket Watches**, **Parts** and **Tools**. To fill the gap
 in the market of a modern e-commerce Website that paves the way
-for a smooth, easy and friendly place; forconsumers to search,
+for a smooth, easy and friendly place; for consumers to search,
 view and purchase **Pocket Watches**, **Parts** and **Tools**.
 
 ## UX
@@ -31,34 +31,33 @@ view and purchase **Pocket Watches**, **Parts** and **Tools**.
 ### Strategy
 
 Users of this Website are a specific group of pocket
-watch enthuisasts who often have a high level of knowledge
+watch enthusiasts who often have a high level of knowledge
 with particular pocket watch requirements. The Website
 therefore needs to be fully researched and accurately
-descripted for it's products.
+describe it's products.
 
-As with most ecommerce Websites the aims of the user is to
+As for most e-commerce Websites the aims of the user is to
 be able to quickly navigate to the product they require with
-ease and intuition with limited complication. 
+ease and intuition, with limited complication. 
 
 The Website needs to stand out from it's competitors by being
 rich in imagery and product details. With added features such
 as search facilities along with a bonus Forum feature for 
 registered users, that allow users to ask questions and share
-information with fellow enthusiatis, that are drawn togteher
-through using the Website. Enticing them to contimue to
+information with fellow enthusiasts, that are drawn together
+through using the Website. Enticing them to continue to
 return.
 
-A mobile first apporoach will be instigated in the design
-to allow users to purchsse easily and efficiently on smaller
+A mobile first approach will be instigated in the design
+to allow users to purchase easily and efficiently on smaller
 devices. 
 
-For this Website the following Agile User Stories have been
-listed that will need to be achirved to ensure the greatest
-user experience and satifaction. 
+For this Website Agile User Stories have been listed that will
+be continually assessed and achieved to ensure the greatest
+experience and satisfaction for users.
 
-#### User Stories
 
-Please find User-Stories 
+Agile User-Stories can be found
 [here](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
 ### Scope
