@@ -1,39 +1,98 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Grandpa's Pocket Watch Shop
 
-Welcome Bealby,
+---
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
 
-## Gitpod Reminders
+---
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Strategy
 
-`python3 -m http.server`
+#### User Stories
 
-A blue button should appear to click: *Make Public*,
+### Scope
 
-Another blue button should appear to click: *Open Browser*.
+### Structure
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Skeleton
 
-A blue button should appear to click: *Make Public*,
+### Surface
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+---
 
-## Updates Since The Instructional Video
+The following technologies were used in this project:
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### IDE
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- [GitPod](https://gitpod.io/workspaces/) - A platform used for hard coding
+   of Website
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Hosting
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service
+  supporting several programming languages.
+- [GitHub](https://github.com/)** - Used to store repository and deploy Website
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Languages
 
---------
+- [HTML](https://en.wikipedia.org/wiki/HTML) - Markup language of Website
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style
+   HTML elements
+- [Python](https://www.python.org/) - A programming language that lets you work
+   quickly and integrate systems more effectively.
+- [JavaScript](https://www.javascript.com/) - Used in collaboration with
+   Bootstrap to collapse Navigation Bar for small devices and Google Maps.
+   Also used for EmailJS.
 
-Happy coding!
+### Databases
+
+- [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose,
+  document-based, distributed database built for modern application developers
+
+### Language Validators
+
+- [W3C](https://validator.w3.org/) - Used to validate HTML code
+- [WSC](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
+- [Validate Javascript](https://validatejavascript.com//) - Used to validate
+   javascript
+- [Pep8 online](http://pep8online.com/) - Validator for Python code
+- [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
+    checks on README.md content
+
+### Libraries
+
+- [Google Fonts](https://fonts.google.com/) - Programme used to import main
+   fonts in Website: **Playfair Display** and **Calligraffitti**
+- [Font Awesome](https://fontawesome.com/) - Programme used to import icons
+   for Footer in Website: **far-envelope** and **fas fa-phone**
+
+### Tools
+
+- [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/) - Allowed
+   preliminary designs to be drawn up of Website
+- [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
+- [Adobe Illustrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing
+  Stockholm
+- [Sweet Alert](https://sweetalert.js.org/) - Used for alerts in contact form
+- [Responsive Design](http://ami.responsivedesign.is/) - Free software
+    to generate Mockup of Website on different devices
+- [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
+    Helped to improve the quality of Website
+- [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
+   developing tool in Chrome to edit pages and diagnose problems
+
+### Frameworks
+
+- [BOOTSTRAP](https://getbootstrap.com/) - A framework for building responsive
+   Websites where the powerful Grid system was used along with styling
+- [jQuery](https://jquery.com/) - Used to implement Navigation Collapse feature
+   JavaScript Plugin
+- [Popper](https://popper.js.org/) - Used to implement Navigation Collapse
+   feature JavaScript Plugin
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework
+   written in Python
+- [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
+
+[Go to top](#contents)
