@@ -78,20 +78,20 @@ Along with a Q&A Forum that registered users can use.
 
 As an e-commerce enterprise that sells products, the
 Website needs to reflect this visably upon entering
-the Website so that users know exactly why they are 'there'
-what they can immediately 'do'.
+the Website, so that users know exactly why they are 'there', 
+and what they can immediately 'do'.
 
 To achieve this goal, e-commerce design conventions need
 to be applied, with strong brands such as 'Amazon', 'Ebay' and
 'Etsy', being closely researched and conformed to accordingly.
 
-The `Navigation Bar` will be fixed at the top along with the
+The **Navigation Bar** will be fixed at the top along with the
 **Logo**, **Search Bar**. **Product** headers will be displayed
-underneath and centred. `Icons` will be used for the
+underneath and centered. **Icons** will be used for the
 **Login** and **Basket** features that will be positioned to the
-far right of the navigation bar. 
+far right of the **Navigation Bar**. 
 
-The main home page will then have a bold heading titled "Start 
+The main **Home** page will have a bold heading titled "Start 
 Shopping" with an arrow pointing downwards to three images of
 a 'Pocket Watch', 'Parts' and 'Tools'. These images should
 intuitiviely convey the Website's aim of selling these types of
@@ -104,19 +104,21 @@ concise structure will not cause cognitive overload and
 distract the main aim of the Website. 
 
 Throughout the Website a strong emphasis will be made on 
-clear imagery of products, ensuring that product layout is
-not congested. This will allow users to view and search
-products quickly and efficiently. Expedited  the desire to
-add products to their basket and checking out smoothly. 
+clear imagery of products, ensuring that product layout does
+not come across as congested. This will allow users to view and search
+products quickly and efficiently. Expedited their desire to
+add products to their basket and check out with comlete ease. 
 
 Extra features such as links to `About`, `Contact` and `Q&A Forum`
-will be displayed in the footer of the Web page. Preventing the user
-to not get distracted into navigating to other parts of the Websiote
-that stirs aways form the main goal of the Website which is to seel
-good. The extra links will not however become lost in the Website
-as the longer the user is enagged in the Website and their trust
-gained, the more they will intuitiviely search closer for other
-features in the Website. 
+will be displayed in the footer of the Web page. This limits the users
+attention to being drawn to other parts of the Website rather than
+shopping. 
+
+Links to `About`, `Contact` and `Q&A Forum` will not however
+become obsolete as the longer the user is enagged in the
+Website the more likey their trust will grow. Leading users to
+naturally to search and find links to `About`, `Contact` and `Q&A Forum`
+as tried and tested results have proven in current e-coomerce Websites.
 
 ### Skeleton
 
