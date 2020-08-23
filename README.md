@@ -71,15 +71,28 @@ and delete products to accurately detail and expand the Website's
 product portfolio. 
 
 The final scope of the website needs to include contact information
-for users to send emails with any follow up purchase enquiries. 
-
-Communication options will be expanded further to a Q&A Forum that
-can be accessed by registered users.
+for users make any enquiries regarding products and purchases. 
+Communication options will be expanded further still to a Q&A Forum that
+can be accessed by registered users only.
 
 ### Structure
 
-The Website's aim, of an e-commerce Website which sells products, needs
-to be viusabley apparant upon enteting the Website. 
+As an e-commerce enterprise that sells products, the Website needs to
+reflect this visably upon entering the site. Keeping to e-commerce design
+conventions the navigation bar will be fixed at the top with the logo, search
+bar functionality and titles of products displayed. This along with the main
+home page titled "Start Shopping" with an arrow pointing down towards 
+images of watches, parts and tools, should intuitiviely convey the Website's
+aim.
+
+Extra features such as About, contact and Q&A Forum will be placed at the 
+bottom of the oage as separatte links, as to not distract the user into navigating
+to other reas of the Website when the main goal is for users to focus on buying. The extra links
+will become more apparant as the users trust and comfortubuly grow whle searhcing the Website for poridcts,     
+
+
+cognitive overload.
+
 
 
 
