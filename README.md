@@ -78,38 +78,45 @@ Along with a Q&A Forum that registered users can use.
 
 As an e-commerce enterprise that sells products, the
 Website needs to reflect this visably upon entering
-the Website so that users know exactly why they are 'here'
-what they can 'do'.
+the Website so that users know exactly why they are 'there'
+what they can immediately 'do'.
 
-Therefore to schieve this and goal, e-commerce design
-conventions currently used in the market, such as for
-'Amazon', 'Ebay' and 'Etsy', will be closely followed
-and tailored to accoridnty.
+To achieve this goal, e-commerce design conventions need
+to be applied, with strong brands such as 'Amazon', 'Ebay' and
+'Etsy', being closely researched and conformed to accordingly.
 
-The `Navigation Bar` will be fixed at the top with the
-**Logo**, **Search Bar** and **Product** headers displayed.
-`Icons` will then be used for the **Login** and **Basket**
-features. This along with the main home page titled "Start 
-Shopping" with an arrow pointing down towards images of
-watches, parts and tools, should intuitiviely convey the
-Website's aim. Placement of imagery and icons will be key
-to horning and focusing users intuition into buying. 
+The `Navigation Bar` will be fixed at the top along with the
+**Logo**, **Search Bar**. **Product** headers will be displayed
+underneath and centred. `Icons` will be used for the
+**Login** and **Basket** features that will be positioned to the
+far right of the navigation bar. 
 
-Extra features such as About, contact and Q&A Forum
-will be placed at the bottom of the oage as separatte
-links, as to not distract the user into navigating
-to other reas of the Website when the main goal is for
-users to focus on buying. The extra links will become
-more apparant as the users trust and comfortubuly
-grow whle searhcing the Website for poridcts,     
+The main home page will then have a bold heading titled "Start 
+Shopping" with an arrow pointing downwards to three images of
+a 'Pocket Watch', 'Parts' and 'Tools'. These images should
+intuitiviely convey the Website's aim of selling these types of
+products. 
 
+The placement of imagery and icons, as well as the structure of the
+navigation bar and home page, should help horn and focus users
+intuition into buying. The key factor being that the simple,
+concise structure will not cause cognitive overload and
+distract the main aim of the Website. 
 
-cognitive overload.
+Throughout the Website a strong emphasis will be made on 
+clear imagery of products, ensuring that product layout is
+not congested. This will allow users to view and search
+products quickly and efficiently. Expedited  the desire to
+add products to their basket and checking out smoothly. 
 
-
-
-
-
+Extra features such as links to `About`, `Contact` and `Q&A Forum`
+will be displayed in the footer of the Web page. Preventing the user
+to not get distracted into navigating to other parts of the Websiote
+that stirs aways form the main goal of the Website which is to seel
+good. The extra links will not however become lost in the Website
+as the longer the user is enagged in the Website and their trust
+gained, the more they will intuitiviely search closer for other
+features in the Website. 
 
 ### Skeleton
 
@@ -118,6 +125,7 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 ### Surface
 
+It also provides color, layout, fonts, images, order and sequence, and the site's identity.
 
 typography and colour scheme
 
