@@ -159,11 +159,6 @@ The following technologies were used in this project:
    Bootstrap to collapse Navigation Bar for small devices and Google Maps.
    Also used for EmailJS.
 
-### Databases
-
-- [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose,
-  document-based, distributed database built for modern application developers
-
 ### Language Validators
 
 - [W3C](https://validator.w3.org/) - Used to validate HTML code
@@ -195,9 +190,13 @@ The following technologies were used in this project:
     Helped to improve the quality of Website
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
+- [Placeholder](https://placeholder.com/) - Used for placeholding of color schemes in README.md
+
 
 ### Frameworks
 
+- [DJANGO](https://www.djangoproject.com//) - A high-level Python Web framework that 
+  encourages rapid development and clean, pragmatic design
 - [BOOTSTRAP](https://getbootstrap.com/) - A framework for building responsive
    Websites where the powerful Grid system was used along with styling
 - [jQuery](https://jquery.com/) - Used to implement Navigation Collapse feature
@@ -207,5 +206,3 @@ The following technologies were used in this project:
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework
    written in Python
 - [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
-
-[Go to top](#contents)
