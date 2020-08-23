@@ -21,7 +21,7 @@ highly valued.
 The aim of this Website is to provide an outlet for
 **Pocket Watches**, **Parts** and **Tools**. To fill the gap
 in the market of a modern e-commerce Website that paves the way
-for a smooth, easy and friendly place; for consumers to search,
+for a smooth, easy and friendly place for consumers to search,
 view and purchase **Pocket Watches**, **Parts** and **Tools**.
 
 ## UX
@@ -36,31 +36,42 @@ with particular pocket watch requirements. The Website
 therefore needs to be fully researched and accurately
 describe it's products.
 
-As for most e-commerce Websites the aims of the user is to
+For most e-commerce Websites the aims of the user is to
 be able to quickly navigate to the product they require with
-ease and intuition, with limited complication. 
+ease and intuition, and with limited complications. Adding a
+'Search' feature to the Website will increase users ability
+to find products in a quicker way.
 
 The Website needs to stand out from it's competitors by being
-rich in imagery and product details. With added features such
-as search facilities along with a bonus Forum feature for 
-registered users, that allow users to ask questions and share
-information with fellow enthusiasts, that are drawn together
-through using the Website. Enticing them to continue to
-return.
+rich in imagery and specific in product details. Creating a Forum
+for registered users to ask questions and share information, will
+draw users together and entice them to continue to return to the
+Website.
 
 A mobile first approach will be instigated in the design
 to allow users to purchase easily and efficiently on smaller
 devices. 
 
-For this Website Agile User Stories have been listed that will
-be continually assessed and achieved to ensure the greatest
+For this Website an 'Agile User Stories' list will
+continually be assessed and achieved to ensure the greatest
 experience and satisfaction for users.
 
-
-Agile User-Stories can be found
+Agile User Stories can be found
 [here](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
 ### Scope
+
+The Website needs to allow users to add products to their
+basket on a continues basis. To then follow through with
+checkout and payment accordingly, while being notified
+of each step along the way.
+
+The Website also needs to allow it's superusers to
+create, edit and delete products to accurately detail and
+expand the Website's product portfolio. 
+
+The final scope of the website needs to include contact information
+for users with 
 
 ### Structure
 
