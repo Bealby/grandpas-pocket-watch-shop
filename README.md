@@ -129,16 +129,21 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 **Color Scheme**
 
+Primary Colors:
 - Grey: ![#cccccc](https://via.placeholder.com/15/cccccc/000000?text=+) `#CCCCCC`
 - Light Grey: ![#dddddd](https://via.placeholder.com/15/dddddd/000000?text=+) `#DDDDDD`
+
+Font Colors
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000`
 - White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#FFFFFF`
+
+Button Color
 - Blue: ![#3e86d7](https://via.placeholder.com/15/3e86d7/000000?text=+) `#3E86D7`
 
 **Typography**
 
 - font-family: 'Rye', cursive;
-- font-family: 'Montserrat', sans-serif;
+- font-family: 'Lato', sans-serif;
 
 **Icons**
 
