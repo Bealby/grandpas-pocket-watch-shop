@@ -14,8 +14,8 @@ attraction for enthusiasts who enjoy both the pleasure of
 owning a pocket watch and fixing and refurbishing
 one.
 
-Although a niche market the value of **pocket watches**,
-**parts** and **tools** can be highly sought after and
+Although a niche market the value of **Pocket Watches**,
+**Parts** and **Tools** can be highly sought after and
 highly valued.
 
 The aim of this Website is to provide an outlet for
@@ -63,32 +63,45 @@ Agile User Stories can be found
 
 The Website needs to allow users to add products to their
 basket on a continues basis while shopping and perusing through
-the Website. To then penultimately follow through to the checkout
+the Website. For them to penultimately follow through to the checkout
 and payment, while being notified of each step along the way.
 
-The Website also needs to allow it's superusers to create, edit
-and delete products to accurately detail and expand the Website's
-product portfolio. 
+The Website also needs to allow it's 'superusers' to create, edit
+and delete products to accurately maintain details and expand the
+Website's product portfolio. 
 
-The final scope of the website needs to include contact information
-for users make any enquiries regarding products and purchases. 
-Communication options will be expanded further still to a Q&A Forum that
-can be accessed by registered users only.
+A contact information page to allow users to make enquiries
+regarding products and purchases will also be provided.
+Along with a Q&A Forum that registered users can use.
 
 ### Structure
 
-As an e-commerce enterprise that sells products, the Website needs to
-reflect this visably upon entering the site. Keeping to e-commerce design
-conventions the navigation bar will be fixed at the top with the logo, search
-bar functionality and titles of products displayed. This along with the main
-home page titled "Start Shopping" with an arrow pointing down towards 
-images of watches, parts and tools, should intuitiviely convey the Website's
-aim.
+As an e-commerce enterprise that sells products, the
+Website needs to reflect this visably upon entering
+the Website so that users know exactly why they are 'here'
+what they can 'do'.
 
-Extra features such as About, contact and Q&A Forum will be placed at the 
-bottom of the oage as separatte links, as to not distract the user into navigating
-to other reas of the Website when the main goal is for users to focus on buying. The extra links
-will become more apparant as the users trust and comfortubuly grow whle searhcing the Website for poridcts,     
+Therefore to schieve this and goal, e-commerce design
+conventions currently used in the market, such as for
+'Amazon', 'Ebay' and 'Etsy', will be closely followed
+and tailored to accoridnty.
+
+The `Navigation Bar` will be fixed at the top with the
+**Logo**, **Search Bar** and **Product** headers displayed.
+`Icons` will then be used for the **Login** and **Basket**
+features. This along with the main home page titled "Start 
+Shopping" with an arrow pointing down towards images of
+watches, parts and tools, should intuitiviely convey the
+Website's aim. Placement of imagery and icons will be key
+to horning and focusing users intuition into buying. 
+
+Extra features such as About, contact and Q&A Forum
+will be placed at the bottom of the oage as separatte
+links, as to not distract the user into navigating
+to other reas of the Website when the main goal is for
+users to focus on buying. The extra links will become
+more apparant as the users trust and comfortubuly
+grow whle searhcing the Website for poridcts,     
 
 
 cognitive overload.
