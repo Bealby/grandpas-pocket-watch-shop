@@ -62,18 +62,28 @@ Agile User Stories can be found
 ### Scope
 
 The Website needs to allow users to add products to their
-basket on a continues basis. To then follow through with
-checkout and payment accordingly, while being notified
-of each step along the way.
+basket on a continues basis while shopping and perusing through
+the Website. To then penultimately follow through to the checkout
+and payment, while being notified of each step along the way.
 
-The Website also needs to allow it's superusers to
-create, edit and delete products to accurately detail and
-expand the Website's product portfolio. 
+The Website also needs to allow it's superusers to create, edit
+and delete products to accurately detail and expand the Website's
+product portfolio. 
 
 The final scope of the website needs to include contact information
-for users with 
+for users to send emails with any follow up purchase enquiries. 
+
+Communication options will be expanded further to a Q&A Forum that
+can be accessed by registered users.
 
 ### Structure
+
+The Website's aim, of an e-commerce Website which sells products, needs
+to be viusabley apparant upon enteting the Website. 
+
+
+
+
 
 ### Skeleton
 
