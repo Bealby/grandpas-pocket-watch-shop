@@ -16,7 +16,8 @@ one.
 
 Although a niche market the value of **Pocket Watches**,
 **Parts** and **Tools** can be highly sought after and
-highly valued.
+highly valued. (Further text: Intricate parts of watches.
+difficult to come by and find)
 
 The aim of this Website is to provide an outlet for
 **Pocket Watches**, **Parts** and **Tools**. To fill the gap
@@ -86,7 +87,7 @@ to be applied, with strong brands such as 'Amazon', 'Ebay' and
 'Etsy', being closely researched and conformed to accordingly.
 
 The **Navigation Bar** will be fixed at the top along with the
-**Logo**, **Search Bar**. **Product** headers will be displayed
+**Logo**, **Search Bar** stretched acorss the centre. **Product** headers will be displayed
 underneath and centered. **Icons** will be used for the
 **Login** and **Basket** features that will be positioned to the
 far right of the **Navigation Bar**. 
