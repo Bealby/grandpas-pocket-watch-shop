@@ -1,12 +1,7 @@
-h3{
-    color:green
+html {
+    height: 100%;
 }
 
-body{
-    background-color: black;
-}
-
-.nav-logo-link{
-    font-size:40px;
-    color:yellow;
+body {
+    height: calc(100vh);
 }
