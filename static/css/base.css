@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap:100,200,300,400,500,600,700,800|Lato:wght@100&display=swap:100,200,300,400,500,600,700,800');
+
+
+
 html {
     height: 100%;
 }
 
-body {
+body{
     height: calc(100vh);
+    font-family: 'Berkshire Swash', cursive;
+    color:rgb(0, 0, 0, 1);
+}
+
+.nav-logo-link{
+    color:rgb(0, 0, 0, 1);
+}
+
+#topnav{
+    background-color: #cccccc;
+    color:rgb(0, 0, 0, 1);
+}
+
+.fas{
+    color:rgb(0, 0, 0, 1);
 }
