@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap:100,200,300,400,500,600,700,800|Lato:wght@100&display=swap:100,200,300,400,500,600,700,800');
 
-
+/*-----BODY-----*/
 
 html {
     height: 100%;
@@ -9,15 +9,13 @@ html {
 body{
     height: calc(100vh);
     font-family: 'Berkshire Swash', cursive;
-    color:rgb(0, 0, 0, 1);
+    color:rgb(0, 0, 0, 1) !important;
 }
+
+/*-----NAVIGATION BAR-----*/
 
 #topnav{
     background-color: rgb(204, 204, 204, 1);
-    color:rgb(0, 0, 0, 1);
-}
-
-.fas{
     color:rgb(0, 0, 0, 1);
 }
 
@@ -29,26 +27,26 @@ body{
     font-size: 1.2rem;
 }
 
+/*-----FONT AWESOME ICONS-----*/
 
-/*
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+.fas{
+    color:rgb(0, 0, 0, 1);
 }
 
-.btn-black {
-    background: black;
-    color: white;
-}
+/*-----HOVER-----*/
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
-    color: white;
+    background-color:RGB(62, 134, 215, 1) !important;
 }
-*/
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+    color:RGB(62, 134, 215, 1) !important;
+}
+
+
+
+
