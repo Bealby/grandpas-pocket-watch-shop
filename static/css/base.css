@@ -45,13 +45,13 @@ body{
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background-color:RGB(62, 134, 215, 1) !important;
+    background-color:rgb(62, 134, 215, 1) !important;
 }
 
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
-    color:RGB(62, 134, 215, 1) !important;
+    color:rgb(62, 134, 215, 1) !important;
 }
 
 /*-----MEDIA QUERIES-----*/
@@ -64,6 +64,23 @@ body{
         padding-right:1rem;
     }
 }
+
+/* fixed top navbar only on medium and up
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+*/
+
 
 
 
