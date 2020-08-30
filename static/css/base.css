@@ -24,7 +24,9 @@ body{
 }
 
 .header-list-items{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    padding-left:0rem;
+    padding-right:0rem;
 }
 
 /*-----FONT AWESOME ICONS-----*/
@@ -52,6 +54,8 @@ body{
 @media (min-width: 1000px) {
     .header-list-items{
         font-size: 1.2rem;
+        padding-left:1rem;
+        padding-right:1rem;
     }
 }
 
