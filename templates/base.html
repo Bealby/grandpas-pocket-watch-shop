@@ -37,17 +37,17 @@
   <body>
   
     <header class="container-fluid fixed-top">
-    <div id="topnav" class="row d-none d-lg-flex">
+    <div id="topnav" class="row d-none d-md-flex">
 
     <!-- header -->
-            <div class="col-12 col-lg-3 my-auto py-3 text-left">
+            <div class="col-12 col-lg-4 my-auto py-3">
                 <a href="{% url 'home' %}" class="nav-link nav-logo-link">
-                    <h3>Granpa's Shop</h3>
+                    <img src="static/images/logo_1.png" alt="Grandpa's Pocket Watch Shop - Logo" class="logo">
                 </a>
             </div>
 
     <!-- Search Bar -->
-            <div class="col-12 col-md-4 col-lg-6 py-3 my-auto">
+            <div class="col-12 col-lg-4 py-3 my-auto">
                 <form method="GET" action="">
                     <div class="input-group w-100">
                         <input class="form-control border border-black rounded-15" type="text" name="q" placeholder="Search">
@@ -63,7 +63,7 @@
             </div>
 
     <!-- LIST ITEMS -->
-            <div class="col-12 col-lg-3 py-3 my-auto">
+            <div class="col-12 col-lg-4 py-3 my-auto">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
 
     <!-- Forum -->
@@ -82,7 +82,7 @@
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0">My Account</p>
+                                <p class="my-0">Account</p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">

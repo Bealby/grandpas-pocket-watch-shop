@@ -12,12 +12,8 @@ body{
     color:rgb(0, 0, 0, 1);
 }
 
-.nav-logo-link{
-    color:rgb(0, 0, 0, 1);
-}
-
 #topnav{
-    background-color: #cccccc;
+    background-color: rgb(204, 204, 204, 1);
     color:rgb(0, 0, 0, 1);
 }
 
