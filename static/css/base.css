@@ -25,6 +25,10 @@ body{
     color:rgb(0, 0, 0, 1);
 }
 
+.header-list-items{
+    font-size: 1,2rem;
+}
+
 
 /*
 .shop-now-button {
