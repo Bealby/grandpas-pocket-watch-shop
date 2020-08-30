@@ -49,8 +49,9 @@ body{
     color:RGB(62, 134, 215, 1) !important;
 }
 
+/*-----MEDIA QUERIES-----*/
 
-
+/*-----Reduce font size for header-list-items so that they are positioned and look better on smarter devices-----*/
 @media (min-width: 1000px) {
     .header-list-items{
         font-size: 1.2rem;
