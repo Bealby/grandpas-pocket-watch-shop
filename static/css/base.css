@@ -24,7 +24,7 @@ body{
 }
 
 .header-list-items{
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 /*-----FONT AWESOME ICONS-----*/
@@ -45,6 +45,14 @@ body{
 .nav-link:active,
 .nav-link:focus {
     color:RGB(62, 134, 215, 1) !important;
+}
+
+
+
+@media (min-width: 1000px) {
+    .header-list-items{
+        font-size: 1.2rem;
+    }
 }
 
 
