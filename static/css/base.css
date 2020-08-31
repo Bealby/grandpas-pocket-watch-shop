@@ -64,6 +64,7 @@ body{
 	text-align: center;
 	font-size: 0.8rem;
 	font-family: 'Roboto', sans-serif;
+    margin-top:1rem;
 }
 
 /*-----MEDIA QUERIES-----*/
@@ -90,6 +91,7 @@ body{
 @media (min-width: 767px) {
     #footer-copyright p{
 	    text-align: right !important;
+        margin-top:0rem;
     }
 }
 
