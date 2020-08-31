@@ -13,6 +13,10 @@ body{
     height: calc(100vh - 4.625rem);
 }
 
+.header-container{
+    margin-top:16rem;
+}
+
 /*-----NAVIGATION BAR-----*/
 
 #topnav{
