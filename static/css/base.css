@@ -10,6 +10,7 @@ body{
     height: calc(100vh);
     font-family: 'Berkshire Swash', cursive;
     color:rgb(0, 0, 0, 1) !important;
+    height: calc(100vh - 74px);
 }
 
 /*-----NAVIGATION BAR-----*/
