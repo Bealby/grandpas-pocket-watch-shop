@@ -1,0 +1,202 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "anvils",
+        "friendly_name": "Anvils"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "parts_trays",
+        "friendly_name": "Part Trays"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "hammers",
+        "friendly_name": "Hammers"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "screwdrivers",
+        "friendly_name": "Screwdrivers"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "soldering_tools",
+        "friendly_name": "Soldering Tools"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "pliers",
+        "friendly_name": "Pliers"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "calipers",
+        "friendly_name": "Calipers"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "barrel_bridges",
+        "friendly_name": "Barrel Bridges"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.category",
+      "fields": {
+        "name": "balance_arms",
+        "friendly_name": "Balance Arms"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "products.category",
+      "fields": {
+        "name": "balance_wheels",
+        "friendly_name": "Balance Wheels"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "products.category",
+      "fields": {
+        "name": "wheels",
+        "friendly_name": "Wheels"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "products.category",
+      "fields": {
+        "name": "barrel_drums",
+        "friendly_name": "Barrel Drums"
+      }
+    },
+    {
+      "pk": 13,
+      "model": "products.category",
+      "fields": {
+        "name": "fusee_cones",
+        "friendly_name": "Fusee Cones"
+      }
+    },
+    {
+      "pk": 14,
+      "model": "products.category",
+      "fields": {
+        "name": "dials",
+        "friendly_name": "Dials"
+      }
+    },
+    {
+      "pk": 15,
+      "model": "products.category",
+      "fields": {
+        "name": "t-bars",
+        "friendly_name": "T-Bars"
+      }
+    },
+    {
+      "pk": 16,
+      "model": "products.category",
+      "fields": {
+        "name": "bench_keys",
+        "friendly_name": "Bench Keys"
+      }
+    },
+    {
+      "pk": 17,
+      "model": "products.category",
+      "fields": {
+        "name": "bows",
+        "friendly_name": "Bows"
+      }
+    },
+    {
+      "pk": 18,
+      "model": "products.category",
+      "fields": {
+        "name": "pillar_plates",
+        "friendly_name": "Pillar Plates"
+      }
+    },
+    {
+      "pk": 19,
+      "model": "products.category",
+      "fields": {
+        "name": "springs",
+        "friendly_name": "Springs"
+      }
+    },
+    {
+      "pk": 20,
+      "model": "products.category",
+      "fields": {
+        "name": "chains",
+        "friendly_name": "Chains"
+      }
+    },
+    {
+      "pk": 21,
+      "model": "products.category",
+      "fields": {
+        "name": "cases",
+        "friendly_name": "Cases"
+      }
+    },
+    {
+      "pk": 22,
+      "model": "products.category",
+      "fields": {
+        "name": "elgan",
+        "friendly_name": "Elgan"
+      }
+    },
+    {
+      "pk": 23,
+      "model": "products.category",
+      "fields": {
+        "name": "rf_cowderoy_london",
+        "friendly_name": "R.F.Cowderoy London"
+      }
+    },
+    {
+      "pk": 24,
+      "model": "products.category",
+      "fields": {
+        "name": "ej_swiss",
+        "friendly_name": "E.J. Swiss"
+      }
+    },
+    {
+      "pk": 25,
+      "model": "products.category",
+      "fields": {
+        "name": "bench_blocks",
+        "friendly_name": "Bench Blocks"
+      }
+    }
+  ]

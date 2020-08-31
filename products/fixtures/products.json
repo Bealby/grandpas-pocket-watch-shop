@@ -1,0 +1,784 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT001001",
+        "name": "Precision Nose Pliers",
+        "description": "Silver precision nose pliers. Hallmark: 'Foreign'. Length = 9.5cm. Jaw Opening = 3cm",
+        "price": 5.99,
+        "category": 6,
+        "image": "20200814_123441.png"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT001002",
+        "name": "Double Horn Anvil Steel Block",
+        "description": "Double Horn Anvil Steel Block. For use in vice. Flattened top surface length = 9.6cm. Flattened top surface width = 2.5cm",
+        "price": 8.99,
+        "category": 1,
+        "image": "20200814_124121.png"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP001001",
+        "name": "T-Bar",
+        "description": "Gold plated T-Bar. Length = 3cm. Diameter = 0.3cm",
+        "price": 5.99,
+        "category": 15,
+        "image": "20200814_124304.png"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP001002",
+        "name": "T-Bar",
+        "description": "Gold plated T-Bar. Length = 4cm. Diameter = 0.4cm",
+        "price": 5.99,
+        "category": 15,
+        "image": "20200814_124324.png"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP001003",
+        "name": "T-Bar",
+        "description": "Silver plated T-Bar. Hallmark: 'Bear' Length = 4.3cm. Diameter = 0.3cm",
+        "price": 4.99,
+        "category": 15,
+        "image": "20200814_124356.png"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT002001",
+        "name": "Bench Block",
+        "description": "Wooden Bench Block. Length = 8cm. Width = 5.5cm",
+        "price": 3.99,
+        "category": 25,
+        "image": "20200814_124421.png"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT002002",
+        "name": "Bench Block",
+        "description": "Bench Block. Length = 9cm. Width = 3.3cm",
+        "price": 3.99,
+        "category": 25,
+        "image": "20200814_124802.png"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT002003",
+        "name": "Bench Block",
+        "description": "Bench Block. Length = 2.5cm. Width = 1.5cm",
+        "price": 2.99,
+        "category": 25,
+        "image": "20200814_124816.png"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT002004",
+        "name": "Bench Block",
+        "description": "Bench Block. Length = 2.5cm. Width = 2.5cm",
+        "price": 2.99,
+        "category": 25,
+        "image": "20200814_124825.png"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT003001",
+        "name": "Bench Keys",
+        "description": "Multi Bench Key. Size: 3,4,5,6,7,8",
+        "price": 8.99,
+        "category": 16,
+        "image": "20200814_124545.png"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT003002",
+        "name": "Bench Key",
+        "description": "Bench Key. Size: 9",
+        "price": 5.99,
+        "category": 16,
+        "image": "20200814_124557.png"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT003003",
+        "name": "Bench Key",
+        "description": "Bench Key. Size: 8",
+        "price": 5.99,
+        "category": 16,
+        "image": "20200814_124607.png"
+      }
+    },
+    {
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT003004",
+        "name": "Bench Key",
+        "description": "Bench Key. Size: 3",
+        "price": 5.99,
+        "category": 16,
+        "image": "20200814_124617.png"
+      }
+    },
+    {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT003005",
+        "name": "Bench Key",
+        "description": "Bench Key. Size: 8",
+        "price": 5.99,
+        "category": 16,
+        "image": "20200814_124627.png"
+      }
+    },
+    {
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT004001",
+        "name": "Soldering",
+        "description": "Precision Soldering Tool. Marking: 'English Made'. Length = 9.6cm",
+        "price": 6.99,
+        "category": 5,
+        "image": "20200814_124701.png"
+      }
+    },
+    {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT005001",
+        "name": "Hammer",
+        "description": "Precision Hammer. Flat Head = 1.1cm x 1.1cm. Handle Length = 13.3cm",
+        "price": 6.99,
+        "category": 3,
+        "image": "20200814_124908.png"
+      }
+    },
+    {
+      "pk": 17,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP002001",
+        "name": "Chain",
+        "description": "Silver Pocket Watch Chain. Length = 32.1cm",
+        "price": 10.99,
+        "category": 20,
+        "image": "20200814_125102.png"
+      }
+    },
+    {
+      "pk": 18,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP002002",
+        "name": "Chain",
+        "description": "Gold Pocket Watch Chain. Length = 16.5cm",
+        "price": 8.99,
+        "category": 20,
+        "image": "20200814_125133.png"
+      }
+    },
+    {
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT006001",
+        "name": "Parts Trays",
+        "description": "Set of three Plastic Parts Trays. Length = 6.5cm (Small), 8cm (Medium), 8.9cm (Large)",
+        "price": 5.99,
+        "category": 2,
+        "image": "20200814_125337.png"
+      }
+    },
+    {
+      "pk": 20,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT006002",
+        "name": "Parts Tray",
+        "description": "Gold Plated Metal Parts Tray. Diameter = 8.cm",
+        "price": 3.99,
+        "category": 2,
+        "image": "20200814_125347.png"
+      }
+    },
+    {
+      "pk": 21,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP003001",
+        "name": "Swingout Case",
+        "description": "R.O. Swiss Swingout Case. Diameter = 5cm",
+        "price": 30.99,
+        "category": 21,
+        "image": "20200814_125410.png"
+      }
+    },
+    {
+      "pk": 22,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP003002",
+        "name": "Display Case",
+        "description": "Swiss Dipslay Case. Diameter = 5cm",
+        "price": 10.99,
+        "category": 21,
+        "image": "20200814_125443.png"
+      }
+    },
+    {
+      "pk": 23,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP004001",
+        "name": "Balance Wheel",
+        "description": "Balance Wheel. Diameter = 1.7cm",
+        "price": 6.99,
+        "category": 10,
+        "image": "20200814_125628.png"
+      }
+    },
+    {
+      "pk": 24,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP004002",
+        "name": "Balance Wheel",
+        "description": "Balance Wheel. Diameter = 1.5cm",
+        "price": 5.99,
+        "category": 10,
+        "image": "20200814_125657.png"
+      }
+    },
+    {
+      "pk": 25,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP005001",
+        "name": "2nd Wheel",
+        "description": "2nd Wheel. Length = 3.1cm. Diameter = 2cm",
+        "price": 4.99,
+        "category": 11,
+        "image": "20200814_125707.png"
+      }
+    },
+    {
+      "pk": 26,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP005002",
+        "name": "2nd Wheel",
+        "description": "2nd Wheel. Length = 1.9cm. Diameter = 1.8cm",
+        "price": 4.99,
+        "category": 11,
+        "image": "20200814_125717.png"
+      }
+    },
+    {
+      "pk": 27,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP005003",
+        "name": "3rd Wheel",
+        "description": "3rd Wheel. Length = 2cm. Diameter = 1.8cm",
+        "price": 4.99,
+        "category": 11,
+        "image": "20200814_125730.png"
+      }
+    },
+    {
+      "pk": 28,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP005004",
+        "name": "3rd Wheel",
+        "description": "3rd Wheel. Length = 0.8cm. Diameter = 1.2cm",
+        "price": 4.99,
+        "category": 11,
+        "image": "20200814_125807.png"
+      }
+    },
+    {
+      "pk": 29,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP005005",
+        "name": "4th Wheel",
+        "description": "4th Wheel. Length = 1.2cm. Diameter = 1.2cm",
+        "price": 4.99,
+        "category": 11,
+        "image": "20200814_125850.png"
+      }
+    },
+    {
+      "pk": 30,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP005006",
+        "name": "4th Wheel",
+        "description": "4th Wheel. Length = 1.2cm. Diameter = 1.2cm",
+        "price": 4.99,
+        "category": 11,
+        "image": "20200814_125903.png"
+      }
+    },
+    {
+      "pk": 31,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP006001",
+        "name": "Spring",
+        "description": "Coiled Spring. Length = 45cm. Width = 0.1cm",
+        "price": 3.99,
+        "category": 19,
+        "image": "20200814_125941.png"
+      }
+    },
+    {
+      "pk": 32,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP006002",
+        "name": "Spring",
+        "description": "Coiled Spring. Length = 34cm. Width = 0.2cm",
+        "price": 3.99,
+        "category": 19,
+        "image": "20200814_125953.png"
+      }
+    },
+    {
+      "pk": 33,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP007001",
+        "name": "Bow",
+        "description": "Silver Bow. Marking: 'H.S'. Width = 1.8cm",
+        "price": 7.99,
+        "category": 17,
+        "image": "20200814_130018.png"
+      }
+    },
+    {
+      "pk": 34,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP007002",
+        "name": "Bow",
+        "description": "Silver Bow. Width = 1.7cm",
+        "price": 4.99,
+        "category": 17,
+        "image": "20200814_130024.png"
+      }
+    },
+    {
+      "pk": 35,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP007003",
+        "name": "Bow",
+        "description": "Silver Bow. Hallmark: 'Lion'. Width = 1.9cm",
+        "price": 3.99,
+        "category": 17,
+        "image": "20200814_130030.png"
+      }
+    },
+    {
+      "pk": 36,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP008001",
+        "name": "Fusee Cone",
+        "description": "Fusee Cone. Diameter = 1.9cm",
+        "price": 3.99,
+        "category": 13,
+        "image": "20200814_130059.png"
+      }
+    },
+    {
+      "pk": 37,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP008002",
+        "name": "Fusee Cone",
+        "description": "Fusee Cone. Diameter = 1.8cm",
+        "price": 3.99,
+        "category": 13,
+        "image": "20200814_130104.png"
+      }
+    },
+    {
+      "pk": 38,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP008003",
+        "name": "Fusee Cone",
+        "description": "Fusee Cone. Diameter = 1.8cm",
+        "price": 3.99,
+        "category": 13,
+        "image": "20200814_130110.png"
+      }
+    },
+    {
+      "pk": 39,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP009001",
+        "name": "Balance Arm",
+        "description": "Balance Arm. Length = 3cm",
+        "price": 6.99,
+        "category":9,
+        "image": "20200814_130134.png"
+      }
+    },
+    {
+      "pk": 40,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP009002",
+        "name": "Balance Arm",
+        "description": "Balance Arm. Length = 2.7cm",
+        "price": 5.99,
+        "category":9,
+        "image": "20200814_130145.png"
+      }
+    },
+    {
+      "pk": 41,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0010001",
+        "name": "Barrel Drum",
+        "description": "Barrel Drum. Length = 2cm",
+        "price": 5.99,
+        "category":12,
+        "image": "20200814_130215.png"
+      }
+    },
+    {
+      "pk": 42,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0010002",
+        "name": "Barrel Drum",
+        "description": "Barrel Drum. Hallmark: 'Leaf Pattern' Length = 2.1cm",
+        "price": 5.99,
+        "category":12,
+        "image": "20200814_130220.png"
+      }
+    },
+    {
+      "pk": 43,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT007001",
+        "name": "Screwdriver",
+        "description": "Gold Screwdriver. Length = 9.8cm. Head = 0.2cm",
+        "price": 5.99,
+        "category":4,
+        "image": "20200814_130346.png"
+      }
+    },
+    {
+      "pk": 44,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT007002",
+        "name": "Screwdriver",
+        "description": "Gold Screwdriver. Length = 8.5cm. Head = 0.1cm",
+        "price": 4.99,
+        "category":4,
+        "image": "20200814_130406.png"
+      }
+    },
+    {
+      "pk": 45,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT007003",
+        "name": "Screwdriver",
+        "description": "Gold Screwdriver. Length = 6.6cm. Head = 0.05cm",
+        "price": 3.99,
+        "category":4,
+        "image": "20200814_130424.png"
+      }
+    },
+    {
+      "pk": 46,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT007004",
+        "name": "Screwdriver",
+        "description": "Silver Screwdriver. Length = 7.3cm. Head = 0.1cm. Size = 6",
+        "price": 3.99,
+        "category":4,
+        "image": "20200814_130446.png"
+      }
+    },
+    {
+      "pk": 47,
+      "model": "products.product",
+      "fields": {
+        "sku": "TT007005",
+        "name": "Screwdriver",
+        "description": "Gold Screwdriver. Length = 9.7cm. Head = 0.1cm",
+        "price": 3.99,
+        "category":4,
+        "image": "20200814_130457.png"
+      }
+    },
+    {
+      "pk": 48,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0011001",
+        "name": "Pillar Plate",
+        "description": "Gold Pillar Plate. Marking: '67099'. '180'. Diameter = 4.7cm.",
+        "price": 5.99,
+        "category":18,
+        "image": "20200814_130632.png"
+      }
+    },
+    {
+      "pk": 49,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0011002",
+        "name": "Pillar Plate",
+        "description": "Gold Pillar Plate. Marking: '30712'. Diameter = 4.5cm.",
+        "price": 5.99,
+        "category":18,
+        "image": "20200814_130644.png"
+      }
+    },
+    {
+      "pk": 50,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0011003",
+        "name": "Pillar Plate",
+        "description": "Gold Pillar Plate. Marking: '60898'. Diameter = 4.4cm",
+        "price": 9.99,
+        "category":18,
+        "image": "20200814_130659.png"
+      }
+    },
+    {
+      "pk": 51,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0011004",
+        "name": "Pillar Plate",
+        "description": "Gold Pillar Plate. Marking: '30665'. Diameter = 4.3cm",
+        "price": 8.99,
+        "category":18,
+        "image": "20200814_130727.png"
+      }
+    },
+    {
+      "pk": 52,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0011005",
+        "name": "Pillar Plate",
+        "description": "Gold Pillar Plate. Diameter = 2.9cm",
+        "price": 6.99,
+        "category":18,
+        "image": "20200814_130842.png"
+      }
+    },
+    {
+      "pk": 53,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0011006",
+        "name": "Pillar Plate",
+        "description": "Gold Pillar Plate. Diameter = 3.8cm",
+        "price": 7.99,
+        "category":18,
+        "image": "20200814_130850.png"
+      }
+    },
+    {
+      "pk": 54,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0012001",
+        "name": "Barrel Bridge",
+        "description": "Gold Plated Barrel Bridge. Marking: 'F. R. Lineham'. Diameter = 4cm. Inner Diameter = 1.8cm",
+        "price": 20.99,
+        "category":8,
+        "image": "20200814_131021.png"
+      }
+    },
+    {
+      "pk": 55,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0012002",
+        "name": "Barrel Bridge",
+        "description": "Gold Plated Barrel Bridge. Marking: '67099'. Diameter = 4.2cm. Inner Diameter = 1.8cm",
+        "price": 15.99,
+        "category":8,
+        "image": "20200814_131026.png"
+      }
+    },
+    {
+      "pk": 56,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0012003",
+        "name": "Barrel Bridge",
+        "description": "Gold Plated Barrel Bridge. Marking: 'Foreign'. Hallkmark: 'Services Watch Co. Ltd'. Diameter = 4cm",
+        "price": 15.99,
+        "category":8,
+        "image": "20200814_131032.png"
+      }
+    },
+    {
+      "pk": 57,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0012004",
+        "name": "Barrel Bridge",
+        "description": "Gold Plated Barrel Bridge. Marking: 'Dreschew & Sons'. 'Kingston On Thames' . Length = 2.9cm",
+        "price": 20.99,
+        "category":8,
+        "image": "20200814_131039.png"
+      }
+    },
+    {
+      "pk": 58,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0012005",
+        "name": "Barrel Bridge",
+        "description": "Gold Plated Barrel Bridge. Marking: 'Newark'. '33398'. Length = 3cm",
+        "price": 18.99,
+        "category":8,
+        "image": "20200814_131050.png"
+      }
+    },
+    {
+      "pk": 59,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0012006",
+        "name": "Barrel Bridge",
+        "description": "Gold Plated Barrel Bridge. Hallmark: 'Leaf Pattern'. Length = 1.8cm",
+        "price": 11.99,
+        "category":8,
+        "image": "20200814_131057.png"
+      }
+    },
+    {
+      "pk": 60,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0013001",
+        "name": "Dial",
+        "description": "Roman Numeral Dial. Diameter 4.6cm",
+        "price": 14.99,
+        "category":14,
+        "image": "20200814_131314.png"
+      }
+    },
+    {
+      "pk": 61,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0013002",
+        "name": "Dial",
+        "description": "Roman Numeral Dial. Marking: '55598'. Diameter 4.5cm. Inner Diameter = 1.5cm",
+        "price": 14.99,
+        "category":14,
+        "image": "20200814_131340.png"
+      }
+    },
+    {
+      "pk": 62,
+      "model": "products.product",
+      "fields": {
+        "sku": "PP0014001",
+        "name": "Calipers",
+        "description": "Calipers. 0-14 Inch measurement gauage. Length = 13.8cm",
+        "price": 17.99,
+        "category":7,
+        "image": "20200814_131344.png"
+      }
+    },
+    {
+      "pk": 63,
+      "model": "products.product",
+      "fields": {
+        "sku": "WW001001",
+        "name": "Pocket Watch",
+        "description": "Pocket Watch. R. F. Cowdorey. London. Designed by James Beebe. Dated 1871. Hallmarks: 'London Markers'. Diamater 5cm. It good working condition.",
+        "price": 899.99,
+        "category":23,
+        "image": "20200815_153826.png"
+      }
+    },
+    {
+      "pk": 64,
+      "model": "products.product",
+      "fields": {
+        "sku": "WW001002",
+        "name": "Pocket Watch",
+        "description": "Pocket Watch. Elgin. U.S.A. 15 Jewels. Grade 365. Marking: '2099 5205'. Dated 1917. Engraving: 'Presented to Bro. J .Towers. Chairmen. No.10 Branch of the N.U.P.P.O. For services Rendered. 1919'",
+        "price": 799.99,
+        "category":22,
+        "image": "20200815_153842.png"
+      }
+    },
+    {
+      "pk": 65,
+      "model": "products.product",
+      "fields": {
+        "sku": "WW001003",
+        "name": "Pocket Watch",
+        "description": "Pocket Watch. E. J. Swiss. 0.935 Sterling Silver. Marking: '155 705'. Dated ca. 1880-1907",
+        "price": 799.99,
+        "category":24,
+        "image": "20200815_153852.png"
+      }
+    }
+  ]
+    
+    
