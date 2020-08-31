@@ -14,18 +14,18 @@
         <div class="col-10 offset-1">
             <div class="row">
                 {% for product in products %}
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="mb-5 pl-3 pr-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card border-0">
                         {% if product.image %}
                         <a href="">
                         <img class="card-img-top" src="{{ product.image.url }}" alt="{{ product.name }}" />
                         </a>
                         {% endif %}
-                        <div class="card-body">
-                            <h5 class="card-title">{{ product.name }}</h5>
-                        </div>
-                        <div class="card-footer text-left">
-                            <p class="text-left font-weight-bold">€{{ product.price }}</p>
+                        <div class="card-body text-left product-body">
+                            <p>Name<p>
+                            <p>{{ product.name }}</p>
+                            <p>Cost</p>
+                            <p>€{{ product.price }}</p>
                         </div>
                     </div>
                 </div>

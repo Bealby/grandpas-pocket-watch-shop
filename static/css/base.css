@@ -44,6 +44,20 @@ body{
     padding-right:0rem;
 }
 
+.product-body{
+    font-family: 'Lato', sans-serif;
+    color:rgb(0, 0, 0, 1) !important;
+    font-size: 1rem !important;
+    font-weight: 800;
+}
+
+.product-footer{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
 /*-----FONT AWESOME ICONS-----*/
 
 .fas{
