@@ -30,6 +30,7 @@ body{
 
 .nav-link{
         color:rgb(0, 0, 0, 1) !important;
+        font-size: 1.1rem;
 }
 
 .header-list-items{
