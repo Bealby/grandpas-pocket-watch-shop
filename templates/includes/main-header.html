@@ -1,17 +1,40 @@
+
+        <div id="topnav" class="row d-none d-md-flex">
+
     <!-- header -->
-    <div id="topnav" class="row">
-            <div class="col-4 d-none d-sm-block d-md-none d-block d-sm-none my-auto py-3">
+            <div class="col-12 col-lg-4 d-none d-lg-block d-xl-none d-none d-xl-block my-auto py-3">
                 <a href="{% url 'home' %}" class="nav-link nav-logo-link">
-                    <img src="static/images/logo_3.png" alt="Grandpa's Pocket Watch Shop - Logo" class="logo">
+                    <img src="static/images/logo_1.png" alt="Grandpa's Pocket Watch Shop - Logo" class="logo">
+                </a>
+            </div>
+            <div class="col-12 col-md-4 d-none d-md-block d-lg-none my-auto py-3">
+                <a href="{% url 'home' %}" class="nav-link nav-logo-link">
+                    <img src="static/images/logo_2.png" alt="Grandpa's Pocket Watch Shop - Logo" class="logo">
                 </a>
             </div>
 
+    <!-- Search Bar -->
+            <div class="col-12 col-md-4 col-lg-4 py-3 my-auto">
+                <form method="GET" action="">
+                    <div class="input-group w-100">
+                        <input class="form-control rounded-5" type="text" name="q" placeholder="Search">
+                        <div class="input-group-append">
+                            <button class="form-control btn btn-black border border-black rounded-5" type="submit">
+                                <span class="icon">
+                                    <i class="fas fa-search fa-lg"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
     <!-- LIST ITEMS -->
-            <div class="col-8 d-none d-sm-block d-md-none d-block d-sm-none py-3 my-auto header-list-items">
-                <ul class="list-inline list-unstyled text-right my-0">
+            <div class="col-12 col-md-4 col-lg-4 py-3 my-auto header-list-items">
+                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
 
     <!-- Forum -->
-                    <li class="list-inline-item mr-0">
+                    <li class="list-inline-item">
                         <a class="text-black nav-link" href="">
                             <div class="text-center">
                                 <div><i class="fas fa-comments fa-lg"></i></div>
@@ -22,7 +45,7 @@
     
 
     <!-- Account Login -->
-                    <li class="list-inline-item dropdown mr-0">
+                    <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-user fa-lg"></i></div>
@@ -60,27 +83,4 @@
                     </li>
                 </ul>
             </div>
-    </div>
-    <div id="botnav" class="row">
-            <nav class="col-sm-2 col-md-12 col-lg-12 col-xl-12 navbar navbar-expand-md navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                {% include 'includes/main-nav.html' %}
-            </nav>
-        <!-- Search Bar -->
-            <div class="col-10 py-3 d-sm-block d-md-none d-block d-sm-none my-auto">
-                <form method="GET" action="">
-                    <div class="input-group w-100">
-                        <input class="form-control rounded-5" type="text" name="q" placeholder="Search">
-                        <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-5" type="submit">
-                                <span class="icon">
-                                    <i class="fas fa-search fa-lg"></i>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-    </div>
+        </div>

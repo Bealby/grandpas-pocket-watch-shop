@@ -33,26 +33,28 @@
     {% endblock %}
 
     <title>Grandpa's Pocket Watch Shop {% block extra_title %}{% endblock %}</title>
-  </head>
-  <body>
+    </head>
+    <body>
   
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row d-none d-md-flex">
 
     <!-- header -->
-            <div class="col-12 col-lg-4 d-none d-lg-block d-xl-none d-none d-xl-block my-auto py-3">
-                <a href="{% url 'home' %}" class="nav-link nav-logo-link">
-                    <img src="static/images/logo_1.png" alt="Grandpa's Pocket Watch Shop - Logo" class="logo">
-                </a>
-            </div>
-            <div class="col-12 col-md-4 d-none d-md-block d-lg-none my-auto py-3">
-                <a href="{% url 'home' %}" class="nav-link nav-logo-link">
-                    <img src="static/images/logo_2.png" alt="Grandpa's Pocket Watch Shop - Logo" class="logo">
-                </a>
-            </div>
+    {% include 'includes/main-header.html' %}
 
-    <!-- Search Bar -->
-            <div class="col-12 col-md-4 col-lg-4 py-3 my-auto">
+    <!-- Mobile Header -->
+    {% include 'includes/mobile-header.html' %}
+
+    <!-- Main Nav -->
+    
+      <div id="botnav" class="row">
+            <nav class="col-sm-2 col-md-12 col-lg-12 col-xl-12 navbar navbar-expand-md navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/main-nav.html' %}
+            </nav>
+        <!-- Search Bar -->
+            <div class="col-sm-10 py-3 d-sm-block d-md-none d-block d-sm-none my-auto">
                 <form method="GET" action="">
                     <div class="input-group w-100">
                         <input class="form-control rounded-5" type="text" name="q" placeholder="Search">
@@ -66,64 +68,8 @@
                     </div>
                 </form>
             </div>
+    </div>
 
-    <!-- LIST ITEMS -->
-            <div class="col-12 col-md-4 col-lg-4 py-3 my-auto header-list-items">
-                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-
-    <!-- Forum -->
-                    <li class="list-inline-item">
-                        <a class="text-black nav-link" href="">
-                            <div class="text-center">
-                                <div><i class="fas fa-comments fa-lg"></i></div>
-                                <p class="my-0">Forum</p>
-                            </div>
-                        </a>
-                    </li>
-    
-
-    <!-- Account Login -->
-                    <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
-                                <div><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0">Account</p>
-                            </div>
-                        </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                            {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                    <a href="" class="dropdown-item">Product Management</a>
-                                {% endif %}
-                                <a href="" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                            {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                            {% endif %}
-                        </div>
-                    </li>
-
-    <!-- Basket -->
-                    <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
-                            <div class="text-center">
-                                <div><i class="fas fa-shopping-basket fa-lg"></i></div>
-                                <p class="my-0">
-                                    {% if grand_total %}
-                                        €{{ grand_total|floatformat:2 }}
-                                    {% else %}
-                                        €0.00
-                                    {% endif %}
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        {% include 'includes/mobile-top-header.html' %}
     
     </header>
 
