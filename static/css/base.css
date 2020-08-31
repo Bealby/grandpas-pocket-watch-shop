@@ -59,15 +59,12 @@ body{
     color:rgb(62, 134, 215, 1) !important;
 }
 
-.footer-copyright p{
+#footer-copyright p{
     margin-bottom:0rem !important;
 	text-align: center;
 	font-size: 0.8rem;
 	font-family: 'Roboto', sans-serif;
 }
-}
-
-
 
 /*-----MEDIA QUERIES-----*/
 
@@ -88,6 +85,15 @@ body{
         padding-right:1rem;
     }
 }
+
+/*-----Align footer centre for smaller devices. Push to right on larger devices. For a smarter look.-----*/
+@media (min-width: 767px) {
+    #footer-copyright p{
+	    text-align: right !important;
+    }
+}
+
+
 
 /* fixed top navbar only on medium and up
 @media (min-width: 992px) {
