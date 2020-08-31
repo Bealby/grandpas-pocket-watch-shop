@@ -1,22 +1,27 @@
-{% extends "base.html" %}
-{% load static %}
+{% extends "base.html" %} {% load static %} {% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %} {% block content %}
+<div class="container h-100">
+    <div class="row h-100 mx-auto">
+        <div class="col-12">
+            <h1 class="text-black text-center">
+                Start Shopping
+            </h1>
+        </div>
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
+        <div class="col-md-4">
+            <img src="static/images/watch.png" alt="Pocket Watch" />
+        </div>
+        <div class="col-md-4">
+            <img src="static/images/tools.png" alt="Pocket Watch Parts Illustration" />
+        </div>
+        <div class="col-md-4">
+            <img src="static/images/tools.png" alt="Pocket Watch Tools Illustration" />
         </div>
     </div>
-{% endblock %}
-
-{% block content %}
-    <div class="container h-100">
-        <div class="row h-100 mx-auto">
-            <div class="col-12">
-                <h1 class="text-black text-center">
-                    Start Shopping
-                </h1>
-            </div>
-        </div>
-    </div>
+</div>
 {% endblock %}
