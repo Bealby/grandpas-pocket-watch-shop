@@ -3,7 +3,7 @@ from .models import Product
 
 # Create your views here.
 
-def index(request):
+def all_products(request):
     # A view to return all products and search queries
 
     products = Product.objects.all
