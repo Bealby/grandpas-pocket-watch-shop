@@ -1,6 +1,4 @@
-{% extends "base.html" %} {% load static %}
-
-{% block page_header %}
+{% extends "base.html" %} {% load static %} {% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
@@ -9,58 +7,45 @@
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid h-100">
+<div class="container-fluid footer-container">
     <div class="row">
-        <div class="col-10 offset-1 mb-5">
-            <div class="col-12">
-                <h1 class="text-black text-center">
-                Product Details
-                </h1>
+        <div class="col-10 offset-1">
+            <div class="row pt-4 pb-5">
+                <div class="col-12">
+                    <h1 class="text-black text-center">Product Details</h1>
+                </div>
             </div>
             <div class="row">
-
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6" id="home-images">
                     <div class="card border-0">
                         {% if product.image %}
                         <a href="{{ product.image.url }}" target="_blank">
-                        <img class="card-img-top img-fluid" style="width: 30rem;" src="{{ product.image.url }}" alt="{{ product.name }}" />
+                            <img class="card-img-top img-fluid" id="image-cards" style="width: 30rem;" src="{{ product.image.url }}" alt="{{ product.name }}" />
                         </a>
                         {% endif %}
-                        <div class="card-body text-left product-body">
-                            <p>Description</p>
-                            <p>{{ product.description }}</p>
-                        </div>
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <div class="card border-0">
-                        <div class="card-body text-left product-body">
-                            <p>Name<p>
-                            <p>{{ product.name }}</p>
-                            <p>Cost</p>
-                            <p>€{{ product.price }}</p>
-                            <div>
-                            <a href="" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Add To Basket</a>
+                <div class="col-sm-12 col-md-6 col-lg-6" id="home-images">
+                        <div class="card border-0">
+                            <div class="card-body text-left product-body">
+                                <p>Name</p>
+                                <p>{{ product.name }}</p>
+                                <p>Description</p>
+                                <p>{{ product.description }}</p>
+                                <p>Cost</p>
+                                <p>€{{ product.price }}</p>
+                                <div>
+                                    <a href="" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Add To Basket</a>
+                                </div>
+                                <div>
+                                    <a href="">Keep Shopping</a>
+                                </div>
                             </div>
-                            <div>
-                            <a href="">Keep Shopping</a>
-                            <div>
                         </div>
-                    </div>
                 </div>
-                </div>
-
-
-
             </div>
-
-
         </div>
-
-
-
     </div>
 </div>
 {% endblock %}
