@@ -2,19 +2,18 @@
 
 /*-----BODY-----*/
 
-html {
-    height: 100%;
-}
-
 body{
-    height: calc(100vh);
     font-family: 'Berkshire Swash', cursive;
     color:rgb(0, 0, 0, 1) !important;
-    height: calc(100vh - 4.625rem);
 }
 
 .header-container{
     margin-top:16rem;
+}
+
+.footer-container
+{
+    margin-bottom:0rem;
 }
 
 /*-----NAVIGATION BAR-----*/
