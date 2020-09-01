@@ -23,7 +23,7 @@
                     <div class="card border-0">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
-                        <img class="card-img-top" style="width: 18rem;" src="{{ product.image.url }}" alt="{{ product.name }}" />
+                        <img class="card-img-top img-fluid" style="width: 18rem;" src="{{ product.image.url }}" alt="{{ product.name }}" />
                         </a>
                         {% endif %}
                         <div class="card-body text-left product-body">
