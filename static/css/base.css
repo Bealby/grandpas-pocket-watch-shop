@@ -13,7 +13,7 @@ body{
 
 .footer-container
 {
-    margin-bottom:0rem;
+    margin-bottom:30rem;
 }
 
 /*-----NAVIGATION BAR-----*/
@@ -54,7 +54,11 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+/*-----Images-----*/
 
+.home-images{
+    text-align: center;
+}
 
 
 /*-----FONT AWESOME ICONS-----*/
