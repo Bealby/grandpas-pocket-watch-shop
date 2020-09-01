@@ -9,21 +9,21 @@
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid">
+<div class="container-fluid footer-container">
     <div class="row">
         <div class="col-10 offset-1">
-        <div class="col-12">
-            <h1 class="text-black text-center">
-                Products
-            </h1>
-        </div>
+            <div class="row pt-4 pb-5">
+                <div class="col-12">
+                         <h1 class="text-black text-center">Products</h1>
+                </div>
+            </div>
             <div class="row">
                 {% for product in products %}
-                <div class="mb-5 pl-3 pr-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="mb-5 pl-3 pr-3 col-sm-12 col-md-6 col-lg-4 col-xl-3" id="home-images">
                     <div class="card border-0">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
-                        <img class="card-img-top img-fluid" style="width: 18rem;" src="{{ product.image.url }}" alt="{{ product.name }}" />
+                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}" />
                         </a>
                         {% endif %}
                         <div class="card-body text-left product-body">
