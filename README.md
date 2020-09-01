@@ -223,3 +223,10 @@ The following technologies were used in this project:
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework
    written in Python
 - [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
+
+
+
+Inspiration.
+
+Image Overlay Opacity feature
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
