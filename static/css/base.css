@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap:100,200,300,400,500,600,700,800|Lato:wght@100&display=swap:100,200,300,400,500,600,700,800|Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap:100,200,300,400,500,600,700,800|Lato:100,200,300,400,500,600,700,800|Roboto:100,200,300,400,500,600,700');
 
 /*-----BODY-----*/
 
@@ -43,14 +43,10 @@ body{
 }
 
 .product-body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color:rgb(0, 0, 0, 1) !important;
     font-size: 1rem !important;
-    font-weight: 800;
-}
-
-.product-footer{
-    font-family: 'Lato', sans-serif;
+    font-weight: 800 !important;
 }
 
 /*-----Images-----*/
@@ -65,7 +61,7 @@ body{
 
 .hover-overlay-text a{
     background-color: rgb(62, 134, 215, .9) !important;
-    font-family: 'Lato', cursive !important;
+    font-family: 'Roboto', sans-serif !important;
     color:rgb(0, 0, 0, 1) !important;
     font-weight:900 !important;
     font-size:1.2rem !important;
