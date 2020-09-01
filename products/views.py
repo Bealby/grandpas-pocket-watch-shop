@@ -8,7 +8,7 @@ from .models import Product
 def all_products(request):
     # A view to return all products and search queries
 
-    products = Product.objects.all
+    products = Product.objects.all()
     query = None
 
     if request.GET:
