@@ -28,17 +28,17 @@
                 <div class="col-sm-12 col-md-6 col-lg-6" id="home-images">
                         <div class="card border-0">
                             <div class="card-body text-left product-body">
-                                <p>Name</p>
+                                <p class="mb-1"><span style="font-weight: bold;">Name:</span</p>
                                 <p>{{ product.name }}</p>
-                                <p>Description</p>
+                                <p class="mb-1"><span style="font-weight: bold;">Description:</span</p>
                                 <p>{{ product.description }}</p>
-                                <p>Cost</p>
-                                <p>€{{ product.price }}</p>
-                                <div>
-                                    <a href="" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Add To Basket</a>
+                                <p class="mb-1"><span style="font-weight: bold;">Cost:</span</p>
+                                <p class="mb-3">€{{ product.price }}</p>
+                                <div class="mb-4">
+                                    <a href="" class="btn btn-default btn-lg">ADD TO BASKET</a>
                                 </div>
                                 <div>
-                                    <a href="">Keep Shopping</a>
+                                    <a class="keep-shopping" href="">Keep Shopping</a>
                                 </div>
                             </div>
                         </div>

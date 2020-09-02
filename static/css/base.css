@@ -46,7 +46,7 @@ body{
 
 .product-body{
     font-family: 'Roboto', sans-serif;
-    color:rgb(64, 64, 64, 1) !important;
+    color: !important;
     font-size: 1rem !important;
     font-weight: 300 !important;
 }
@@ -55,7 +55,7 @@ body{
 
 .blue-divider{
     width:50%;
-    border-top: 0.5rem solid rgb(111, 169, 255, 1);
+    border-top: 0.5rem solid rgb(111, 169, 255, 1) ;
     border-radius: 0.3rem;
 }
 
@@ -120,6 +120,15 @@ body{
   opacity: 1;
 }
 
+.keep-shopping{
+    color: rgb(64, 64, 64, 1);
+    text-decoration: underline;
+}
+
+.keep-shopping:hover{
+    color: rgb(64, 64, 64, 0.7);
+}
+
 /*-----FONT AWESOME ICONS-----*/
 
 .fas{
@@ -131,13 +140,24 @@ body{
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background-color:rgb(62, 134, 215, 1) !important;
+    background-color:rgb(111, 169, 255, 1) !important;
 }
 
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
-    color:rgb(62, 134, 215, 1) !important;
+    color:rgb(111, 169, 255, 1) !important;
+}
+
+.btn-default{
+    color:rgb(255, 255, 255, 1);
+    background-color:rgb(111, 169, 255, 1);
+}
+
+.btn-default:hover,
+.btn-default:focus{   
+    color:rgb(255, 255, 255, 1);
+    background-color:rgb(111, 169, 255, 0.7);
 }
 
 #footer-copyright p{
