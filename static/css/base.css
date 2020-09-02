@@ -76,7 +76,7 @@ body{
 .hover-overlay-text a{
     background-color: rgb(62, 134, 215, .9) !important;
     font-family: 'Roboto', sans-serif !important;
-    color:rgb(0, 0, 0, 1) !important;
+    color:rgb(255, 255, 255, 1) !important;
     font-weight:900 !important;
     font-size:1.2rem !important;
     padding:0.8rem 0.8rem 0.8rem 0.8rem !important;
