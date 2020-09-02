@@ -51,6 +51,14 @@ body{
     font-weight: 300 !important;
 }
 
+/*-----Blue Divider-----*/
+
+.blue-divider{
+    width:50%;
+    border-top: 0.5rem solid rgb(62, 134, 215, 1);
+    border-radius: 0.3rem;
+}
+
 /*-----Images-----*/
 
 #home-images{
