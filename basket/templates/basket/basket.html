@@ -16,8 +16,10 @@
             </div>
             <div class="row">
                 <div class="col">
-                    {% if bag_items %}
-                    <div class="ITEMS"></div>
+                    {% if basket_items %}
+                    <div>
+                    <p>{{ basket_items }}</p>
+                    </div>
                     {% else %}
                     <p class="col">Your bag is empty.</p>
                     {% endif %}
