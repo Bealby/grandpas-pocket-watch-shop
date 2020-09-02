@@ -4,9 +4,7 @@
         <div class="col"></div>
     </div>
 </div>
-{% endblock %}
-
-{% block content %}
+{% endblock %} {% block content %}
 <div class="container-fluid footer-container">
     <div class="row">
         <div class="col-10 offset-1">
@@ -14,17 +12,17 @@
                 <div class="col-12">
                     <h1 class="text-black text-center">Shopping Basket</h1>
                 </div>
-                      <hr class="blue-divider">
+                <hr class="blue-divider" />
             </div>
             <div class="row">
                 <div class="col">
-                {% if bag_items %}
-                    <div class="table-responsive rounded"></div>
-                {% else %}
-                    <p class="lead mb-5">Your bag is empty.</p>
-                {% endif %}
+                    {% if bag_items %}
+                    <div class="ITEMS"></div>
+                    {% else %}
+                    <p class="col">Your bag is empty.</p>
+                    {% endif %}
                 </div>
-            </div>   
+            </div>
         </div>
     </div>
 </div>
