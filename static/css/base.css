@@ -123,6 +123,7 @@ body{
 .keep-shopping{
     color: rgb(64, 64, 64, 1);
     text-decoration: underline;
+    font-weight:bold;
 }
 
 .keep-shopping:hover{
