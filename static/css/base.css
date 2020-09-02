@@ -27,13 +27,15 @@ body{
     color:rgb(0, 0, 0, 1);
 }
 
-.text-black{
-    color:rgb(0, 0, 0, 1) !important;
-}
-
 .custom-nav-links a{
         color:rgb(0, 0, 0, 1) !important;
         font-size: 0.9rem;
+}
+
+/*-----TEXT-----*/
+
+.text-black{
+    color:rgb(0, 0, 0, 1) !important;
 }
 
 .header-list-items{
@@ -44,9 +46,9 @@ body{
 
 .product-body{
     font-family: 'Roboto', sans-serif;
-    color:rgb(0, 0, 0, 1) !important;
+    color:rgb(64, 64, 64, 1) !important;
     font-size: 1rem !important;
-    font-weight: 800 !important;
+    font-weight: 300 !important;
 }
 
 /*-----Images-----*/
@@ -59,7 +61,7 @@ body{
     box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
 }
 
-.image-hover:hover{
+.product-hover:hover{
     opacity: 0.5;
 }
 
@@ -73,6 +75,9 @@ body{
     text-decoration:none;
 }
 
+.image-hover:hover{
+    opacity: 0.5;
+}
 
 /*-----Hover Overlay Feature-----*/
 
@@ -162,26 +167,3 @@ body{
         margin-top:0rem;
     }
 }
-
-
-
-
-/* fixed top navbar only on medium and up
-@media (min-width: 4.625rem) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-*/
-
-
-
-

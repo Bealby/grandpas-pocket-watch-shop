@@ -23,12 +23,13 @@
                     <div class="card border-0">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
-                        <img class="card-img-top img-fluid image-hover" id="image-cards" src="{{ product.image.url }}" alt="{{ product.name }}" />
+                        <img class="card-img-top img-fluid product-hover" id="image-cards" src="{{ product.image.url }}" alt="{{ product.name }}" />
                         </a>
                         {% endif %}
                         <div class="card-body text-left product-body">
-                            <p>Name:&nbsp;&nbsp;{{ product.name }}</p>
-                            <p>Cost:&nbsp;&nbsp;€{{ product.price }}</p>
+                            <p class="mb-1"><span style="font-weight: bold;">Name:</span>&nbsp;&nbsp;{{ product.name }}</p>
+                            <p class="mb-1"><span style="font-weight: bold;">Cost:</span>&nbsp;&nbsp;€{{ product.price }}</p>
+                            <p><span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span></p>
                         </div>
                     </div>
                 </div>
