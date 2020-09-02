@@ -146,6 +146,7 @@ Button Color
 - font-family: 'Rye', cursive;
 - font-family: 'Lato', sans-serif;
 dark grey for inne rtext
+softer colors for items. better on eye.
 
 **Icons**
 
