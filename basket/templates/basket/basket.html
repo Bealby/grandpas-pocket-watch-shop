@@ -17,34 +17,14 @@
                       <hr class="blue-divider">
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6" id="home-images">
-                    <div class="border-0">
-                        {% if product.image %}
-                            <img class="card-img-top img-fluid" id="image-cards" style="width: 30rem;" src="{{ product.image.url }}" alt="{{ product.name }}" />
-                        {% endif %}
-                    </div>
+                <div class="col">
+                {% if bag_items %}
+                    <div class="table-responsive rounded"></div>
+                {% else %}
+                    <p class="lead mb-5">Your bag is empty.</p>
+                {% endif %}
                 </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-6" id="home-images">
-                        <div class="card border-0">
-                            <div class="card-body text-left product-body">
-                                <p class="mb-1"><span style="font-weight: bold;">Name:</span</p>
-                                <p>{{ product.name }}</p>
-                                <p class="mb-1"><span style="font-weight: bold;">Description:</span</p>
-                                <p>{{ product.description }}</p>
-                                <p class="mb-1"><span style="font-weight: bold;">Cost:</span</p>
-                                <p class="mb-1">€{{ product.price }}</p>
-                                <p class="mb-3"><span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span></p>
-                                <div class="mb-4">
-                                    <a href="" class="btn btn-default btn-lg">ADD TO BASKET</a>
-                                </div>
-                                <div>
-                                    <a class="keep-shopping" href="">Keep Shopping</a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
+            </div>   
         </div>
     </div>
 </div>

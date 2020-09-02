@@ -34,7 +34,7 @@
                             <p class="mb-1">€{{ product.price }}</p>
                             <p><span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span></p>
 
-                            <form class="form" action="" method="POST">
+                            <form class="form" action="{% URL 'add_to_basket' product.id %}" method="POST">
                                 {% csrf_token %}
                                 <div class="form-row">
                                     <div class="col-12 mb-4">
