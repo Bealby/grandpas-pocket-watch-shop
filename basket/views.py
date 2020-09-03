@@ -39,15 +39,14 @@ def adjust_basket(request, item_id):
     request.session['basket'] = basket
     return redirect(reverse('view_basket'))
 
-
 def remove_from_basket(request, item_id):
     # Remove item from basket
     
     try:
-        bag = request.session.get('bag', {})
-        bag.pop(item_id)
+        basket = request.session.get('basket', {})
+        basket.pop(item_id)
 
-        request.session['bag'] = bag
+        request.session['basket'] = basket
         return HttpResponse(status=200)
 
     except Exception as e:
