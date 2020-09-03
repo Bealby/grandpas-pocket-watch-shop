@@ -55,6 +55,14 @@ body{
     font-family: 'Roboto', sans-serif;
     color: rgb(64, 64, 64, 1)!important;
     box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
+    padding-bottom:3rem;
+    padding-left:0rem;
+    padding-right:0rem;
+}
+
+.checkout-padding{
+    padding-top:4rem;
+    padding-left:0rem;
 }
 
 /*-----Blue Divider-----*/
@@ -202,5 +210,13 @@ body{
     #footer-copyright p{
 	    text-align: right !important;
         margin-top:0rem;
+    }
+}
+
+/*-----To increase padding-top for checkout card box for smaller devices. To allow for better spacing-----*/
+@media (min-width: 767px) {
+    .checkout-padding{
+        padding-top:0rem;
+        padding-left:3rem;
     }
 }

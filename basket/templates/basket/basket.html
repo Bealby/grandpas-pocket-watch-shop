@@ -45,41 +45,38 @@
                     </table>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-6 pb-5">
-                    <div class="card" id="checkout-body" style="width: 18rem;">
+                <div class="col-sm-12 col-md-6 col-lg-6 pb-5 checkout-padding">
+                    <div class="card img-fluid" id="checkout-body" style="width: 20rem;">
                         <div class="card-body">
                         <table>
                         <thead>
                             <tr>
-                                <th scope="col"><h4>Item(s) Total</h4></th>
-                                <th scope="col"><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ total|floatformat:2 }}</h4></th>
+                                <th scope="col"><h5><span style="font-weight: bold;">Item(s) Total:</span></h5></th>
+                                <th scope="col"><h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ total|floatformat:2 }}</span></h5></th>
                             </tr>
                         </thead>
                         <thead>
                             <tr>
-                                <th scope="col"><h4>Delivery</h3></th>
-                                <th scope="col"><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ delivery|floatformat:2 }}</h3></th>
+                                <th scope="col"><h5><span style="font-weight: bold;">Delivery:</span></h5></th>
+                                <th scope="col"><h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ delivery|floatformat:2 }}</span></h5></th>
                             </tr>
                         </thead>
                         <thead>
                             <tr>
-                                <th scope="col"><h4>Grand Total</h4></th>
-                                <th scope="col"><h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ grand_total|floatformat:2 }}</h4></th>
+                                <th scope="col"><h5><span style="font-weight: bold;">Grand Total:</span></h5></th>
+                                <th scope="col"><h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ grand_total|floatformat:2 }}</span></h5></th>
                             </tr>
                         </thead>
                         </table>
                         </div>
-                    
-                        <div class="card-body text-center">
                             <div class="col-12">
                             <a href="" class="btn btn-default btn-lg mb-4" role="button" aria-disabled="true">CHECKOUT</a>
                             </div>
                             <div class="col-12">
                             <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
                             </div>
-                        </div>
                     </div>
-                    </div>
+                </div>
                 {% else %}
                 <div>
                     <p class="col">Your bag is empty.</p>
