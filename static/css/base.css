@@ -44,11 +44,17 @@ body{
     padding-right:0rem;
 }
 
-.product-body{
+#product-body p, th{
     font-family: 'Roboto', sans-serif;
-    color: !important;
+    color: rgb(64, 64, 64, 1)!important;
     font-size: 1rem !important;
     font-weight: 300 !important;
+}
+
+#checkout-body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(64, 64, 64, 1)!important;
+    box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
 }
 
 /*-----Blue Divider-----*/
@@ -124,6 +130,7 @@ body{
     color: rgb(64, 64, 64, 1);
     text-decoration: underline;
     font-weight:bold;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .keep-shopping:hover{
@@ -153,6 +160,7 @@ body{
 .btn-default{
     color:rgb(255, 255, 255, 1);
     background-color:rgb(111, 169, 255, 1);
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .btn-default:hover,
