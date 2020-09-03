@@ -23,6 +23,7 @@
                             <tr>
                                 <th scope="col"></th>
                                 <th scope="col"><span style="font-weight: bold;">Product Name</span></th>
+                                <th scope="col"><span style="font-weight: bold;">Quantity</span></th>
                                 <th scope="col"><span style="font-weight: bold;">Price</span></th>
                             </tr>
                         </thead>
@@ -36,11 +37,27 @@
                                     <p class="mb-1">{{ item.product.name }}</p>
                                     <p><span style="font-size: 0.7rem;">SKU:&nbsp;{{ item.product.sku }}</span></p>
                                 </th>
+                                  <th>
+                                    <form class="form update-form" method="POST" action="{% url 'adjust_basket' item.item_id %}">
+                                            {% csrf_token %}
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input class="form-control form-control-sm qty_input" type="number"
+                                                        name="quantity" value="{{ item.quantity }}" min="1" max="99"
+                                                        data-item_id="{{ item.item_id }}"
+                                                        id="id_qty_{{ item.item_id }}">
+                                                </div>
+                                            </div>
+                                    </form>
+                                    <a class="update-link text-info"><small>Update</small></a>
+                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove</small></a>
+                                </th>
                                 <th>
                                     <p class="mb-1">€{{ item.product.price }}</p>
                                 </th>
                             </tr>
                         </tbody>
+                        
                         {% endfor %}
                     </table>
                 </div>
@@ -79,7 +96,7 @@
                 </div>
                 {% else %}
                 <div>
-                    <p class="col">Your bag is empty.</p>
+                    <p class="col">Your basket is empty.</p>
                 </div>
                 </div>
                     <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
@@ -89,4 +106,29 @@
         </div>
     </div>
 </div>
+{% endblock %}
+
+
+{% block postloadjs %}
+<script type="text/javascript">
+
+// Update quantity on click
+    $('.update-link').click(function(e) {
+        let form = $(this).prev('.update-form');
+        form.submit();
+    })
+
+// Remove item and reload on click
+    $('.remove-item').click(function(e) {
+        let csrfToken = "{{ csrf_token }}";
+        let itemId = $(this).attr('id').split('remove_')[1];
+        let url = `/basket/remove/${itemId}/`;
+        let data = {'csrfmiddlewaretoken': csrfToken};
+
+        $.post(url, data)
+         .done(function() {
+             location.reload();
+         });
+    })
+</script>
 {% endblock %}

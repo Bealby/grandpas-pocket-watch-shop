@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
 
 # Create your views here.
 
@@ -6,6 +6,7 @@ def view_basket(request):
 # A view to return the basket
 
     return render(request, 'basket/basket.html')
+
 
 def add_to_basket(request, item_id):
     # Add product to shopping basket
@@ -22,3 +23,32 @@ def add_to_basket(request, item_id):
     request.session['basket'] = basket
 
     return redirect(redirect_url)
+
+
+def adjust_basket(request, item_id):
+    # Adjust product to shopping basket
+
+    quantity = int(request.POST.get('quantity'))
+    basket = request.session.get('basket', {})
+
+    if quantity > 0:
+        basket[item_id] = quantity
+    else:
+        basket.pop[item_id] = quantity
+
+    request.session['basket'] = basket
+    return redirect(reverse('view_basket'))
+
+
+def remove_from_basket(request, item_id):
+    # Remove item from basket
+    
+    try:
+        bag = request.session.get('bag', {})
+        bag.pop(item_id)
+
+        request.session['bag'] = bag
+        return HttpResponse(status=200)
+
+    except Exception as e:
+        return HttpResponse(status=500)
