@@ -78,6 +78,7 @@ TEMPLATES = [
                 'django.template.context_processors.request', # Required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media', # media URL template tag to work if media file does not have an image
                 'basket.contexts.basket_contents',
             ],
             # To contain all the tags we want available in all our templates by default.
