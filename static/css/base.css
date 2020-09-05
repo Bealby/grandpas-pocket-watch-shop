@@ -65,11 +65,44 @@ body{
     padding-left:0rem;
 }
 
+/*-----Messages-----*/
+
+.toast-container{
+    position:fixed;
+    right:1.5rem;
+    top:8rem;
+    z-index: 99999999999;
+}
+
+.toast-success{
+    border:0.2rem solid rgb(40, 167, 69, 1);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(64, 64, 64, 1);
+}
+
+.toast-warning{
+    border:0.2rem solid rgb(220, 53, 69, 1);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(64, 64, 64, 1);
+}
+
+.toast-error{
+    border:0.2rem solid rgb(255, 193, 7, 1);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(64, 64, 64, 1);
+}
+
+.toast-info{
+    border:0.2rem solid rgb(23, 162, 184, 1);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(64, 64, 64, 1);
+}
+
 /*-----Blue Divider-----*/
 
 .blue-divider{
     width:50%;
-    border-top: 0.5rem solid rgb(111, 169, 255, 1) ;
+    border-top: 0.5rem solid rgb(111, 169, 255, 1);
     border-radius: 0.3rem;
 }
 
@@ -154,6 +187,10 @@ body{
 
 .fas{
     color:rgb(0, 0, 0, 1);
+}
+
+.fa-check-circle{
+    color:rgb(102, 204, 0, 1);
 }
 
 /*-----HOVER/ACTIVE/FOCUS-----*/

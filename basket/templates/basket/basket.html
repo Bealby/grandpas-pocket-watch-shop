@@ -109,7 +109,10 @@
 {% endblock %}
 
 
+
 {% block postloadjs %}
+<!-- blcok.super used to ensure not to override toast messages -->
+{{ block.super }}
 <script type="text/javascript">
 
 // Update quantity on click
