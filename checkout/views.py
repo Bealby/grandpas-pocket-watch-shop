@@ -17,8 +17,5 @@ def checkout(request):
         'order_form': order_form,
     } 
 
-    return render(request, tmeplate, context)  
-
-
-
+    return render(request, tmeplate, context)
 
