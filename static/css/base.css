@@ -45,11 +45,10 @@ body{
     font-family: 'Berkshire Swash', cursive;
 }
 
-#product-body p, th{
+.product-body p, th{
     font-family: 'Roboto', sans-serif;
-    color: rgb(64, 64, 64, 1)!important;
-    font-size: 1rem !important;
-    font-weight: 300 !important;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 #checkout-body{
