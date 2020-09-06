@@ -65,7 +65,7 @@ body{
     padding-left:0rem;
 }
 
-/*-----Messages-----*/
+/*-----MESSAGES-----*/
 
 .toast-container{
     position:fixed;
@@ -98,7 +98,7 @@ body{
     color: rgb(64, 64, 64, 1);
 }
 
-/*-----Blue Divider-----*/
+/*-----BLUE DIVIDER-----*/
 
 .blue-divider{
     width:50%;
@@ -106,7 +106,7 @@ body{
     border-radius: 0.3rem;
 }
 
-/*-----Images-----*/
+/*-----IMAGES-----*/
 
 #home-images{
     text-align: center;
@@ -115,6 +115,12 @@ body{
 #image-cards{
     box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
 }
+
+.image-hover:hover{
+    opacity: 0.5;
+}
+
+/*-----PRODUCT/ IMAGE HOVER FEATURES-----*/
 
 .product-hover:hover{
     opacity: 0.5;
@@ -130,11 +136,7 @@ body{
     text-decoration:none;
 }
 
-.image-hover:hover{
-    opacity: 0.5;
-}
-
-/*-----Hover Overlay Feature-----*/
+/*-----HOVER OVERLAY FEATURE - INDEX.HTML-----*/
 
 .hover-overlay {
   position: relative;
@@ -167,6 +169,8 @@ body{
   opacity: 1;
 }
 
+/*-----KEEP SHOPPING LINK-----*/
+
 .keep-shopping{
     color: rgb(64, 64, 64, 1);
     text-decoration: underline;
@@ -176,6 +180,20 @@ body{
 
 .keep-shopping:hover{
     color: rgb(64, 64, 64, 0.7);
+}
+
+/*-----BLUE DEFAULY LINK-----*/
+
+.btn-default{
+    color:rgb(255, 255, 255, 1);
+    background-color:rgb(111, 169, 255, 1);
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-default:hover,
+.btn-default:focus{   
+    color:rgb(255, 255, 255, 1);
+    background-color:rgb(111, 169, 255, 0.7);
 }
 
 .update_link,
@@ -207,17 +225,7 @@ body{
     color:rgb(111, 169, 255, 1) !important;
 }
 
-.btn-default{
-    color:rgb(255, 255, 255, 1);
-    background-color:rgb(111, 169, 255, 1);
-    font-family: 'Roboto', sans-serif !important;
-}
-
-.btn-default:hover,
-.btn-default:focus{   
-    color:rgb(255, 255, 255, 1);
-    background-color:rgb(111, 169, 255, 0.7);
-}
+/*-----FOOTER-----*/
 
 #footer-copyright p{
     margin-bottom:0rem !important;
