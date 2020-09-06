@@ -9,7 +9,6 @@
 </div>
 {% endblock %}
 
-
 {% block content %}
 <div class="container-fluid footer-container">
     <div class="row">
@@ -23,14 +22,14 @@
 
             <div class="row">
                 {% if basket_items %}
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-8 col-lg-8">
                     <table class="table product-body text-muted">
                         <thead>
                             <tr>
                                 <th scope="col"></th>
                                 <th scope="col"><span style="font-weight: bold;">Product Name</span></th>
                                 <th scope="col"><span style="font-weight: bold;">Quantity</span></th>
-                                <th scope="col"><span style="font-weight: bold;">Price</span></th>
+                                <th scope="col"><span style="font-weight: bold;">Item Price</span></th>
                             </tr>
                         </thead>
                         {% for item in basket_items %}
@@ -68,8 +67,8 @@
                     </table>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-6 pb-5 checkout-padding">
-                    <div class="card img-fluid" id="checkout-body" style="width: 20rem;">
+                <div class="col-sm-12 col-md-4 col-lg-4 pb-5 basket-padding">
+                    <div class="card img-fluid" id="basket-body" style="width: 20rem;">
                         <div class="card-body">
                         <table>
                         <thead>
@@ -104,7 +103,7 @@
                 <div>
                     <p class="col">Your basket is empty.</p>
                 </div>
-                </div>
+                <div>
                     <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
                 </div>
                 {% endif %}

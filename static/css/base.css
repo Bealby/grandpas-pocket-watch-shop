@@ -51,7 +51,7 @@ body{
     font-weight: 300;
 }
 
-#checkout-body{
+#basket-body{
     font-family: 'Roboto', sans-serif;
     color: rgb(64, 64, 64, 1)!important;
     box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
@@ -60,7 +60,7 @@ body{
     padding-right:0rem;
 }
 
-.checkout-padding{
+.basket-padding{
     padding-top:4rem;
     padding-left:0rem;
 }
