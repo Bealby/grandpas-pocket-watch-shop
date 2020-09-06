@@ -1,28 +1,28 @@
 /*
- *  Core logic/payment flow for this comes from Stripe documentations:
- *  https://stripe.com/docs/payments/accept-a-payment
- *  with minor modification and additions
- */
+    Core logic/payment flow for this comes from here:
+    https://stripe.com/docs/payments/accept-a-payment
+    CSS from here: 
+    https://stripe.com/docs/stripe-js
+*/
 
-let stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
-let clientSecret = $('#id_client_secret').text().slice(1, -1);
-let stripe = Stripe(stripePublicKey);
-let elements = stripe.elements();
-let style = {
+var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
+var clientSecret = $('#id_client_secret').text().slice(1, -1);
+var stripe = Stripe(stripePublicKey);
+var elements = stripe.elements();
+var style = {
     base: {
         color: '#000',
         fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
         fontSmoothing: 'antialiased',
         fontSize: '16px',
         '::placeholder': {
-            color: 'rgb(170, 183, 196)'
+            color: '#aab7c4'
         }
     },
-    /*changr colors????*/
     invalid: {
-        color: 'rgb(220,53,69)',
-        iconColor: 'rgb(220,53,69)'
+        color: '#dc3545',
+        iconColor: '#dc3545'
     }
 };
-let card = elements.create('card', {style: style});
+var card = elements.create('card', {style: style});
 card.mount('#card-element');

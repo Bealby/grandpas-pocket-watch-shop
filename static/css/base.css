@@ -2,9 +2,12 @@
 
 /*-----BODY-----*/
 
+html{
+    color:rgb(0, 0, 0, 1);
+}
+
 body{
-    font-family: 'Berkshire Swash', cursive;
-    color:rgb(0, 0, 0, 1) !important;
+
 }
 
 .header-container{
@@ -30,18 +33,16 @@ body{
 .custom-nav-links a{
         color:rgb(0, 0, 0, 1) !important;
         font-size: 0.9rem;
+        font-family: 'Berkshire Swash', cursive;
 }
 
 /*-----TEXT-----*/
-
-.text-black{
-    color:rgb(0, 0, 0, 1) !important;
-}
 
 .header-list-items{
     font-size: 0.9rem;
     padding-left:0rem;
     padding-right:0rem;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 #product-body p, th{
@@ -63,6 +64,10 @@ body{
 .checkout-padding{
     padding-top:4rem;
     padding-left:0rem;
+}
+
+.page-header{
+    font-family: 'Berkshire Swash', cursive;
 }
 
 /*-----MESSAGES-----*/
