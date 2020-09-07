@@ -2,6 +2,7 @@ from django.shortcuts import render, reverse
 from django.contrib import messages
 
 from .forms import OrderForm
+from basket.contexts import bag_contents
 
 
 def checkout(request):
