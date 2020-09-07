@@ -2,7 +2,7 @@
 from django.db.models.signals import post_save, post_delete
 from django.dispatch import receiver
 
-from .models import OrderLinItems
+from .models import OrderLineItem
 
 
 # Execute function when post signals are sent
