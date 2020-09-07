@@ -53,7 +53,7 @@ class OrderLineItem(models.Model):
 
     def save(self, *args, **kwargs):
     # Overide original save to set grand total and update order number
-        self.item_total = self.product.price * self.quantity
+        self.lineitem_total = self.product.price * self.quantity
         super().save(*args, **kwargs)
 
     def __str__(self):
