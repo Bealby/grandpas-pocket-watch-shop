@@ -25,3 +25,19 @@ let style = {
 };
 let card = elements.create('card', {style: style});
 card.mount('#card-element');
+
+// Handling of validation errors (card element)
+card.addEventListener('change', function (event) {
+    var errorDiv = document.getElementById('card-errors');
+    if (event.error) {
+        var html = `
+            <span class="icon" style="color: red;" role="alert">
+                <i class="fas fa-times"></i>
+            </span>
+            <span>${event.error.message}</span>
+        `;
+        $(errorDiv).html(html);
+    } else {
+        errorDiv.textContent = '';
+    }
+});

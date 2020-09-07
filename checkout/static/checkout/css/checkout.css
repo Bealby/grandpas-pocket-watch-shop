@@ -35,3 +35,8 @@
     position: relative;
     right: .5rem;
 }
+/*-----FONT AWESOME ICONS-----*/
+
+.fa-times{
+    color: rgb(220, 53, 69, 1);
+}
