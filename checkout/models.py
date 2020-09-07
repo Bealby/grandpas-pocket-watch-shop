@@ -14,12 +14,12 @@ class Order(models.Model):
     phone_number = models.CharField(max_length=20, null=False, blank=False)
     country = models.CharField(max_length=40, null=False, blank=False, default='')
     # Postcode not required as do not exist in every country
-    postcode = models.CharField(max_length=20, null=False, blank=False)
+    postcode = models.CharField(max_length=20, null=True, blank=False)
     town_or_city = models.CharField(max_length=40, null=False, blank=False)
-    street_address1 = models.CharField(max_length=80, null=False, blank=False)
+    street_address1 = models.CharField(max_length=80, null=True, blank=False)
     street_address2 = models.CharField(max_length=80, null=False, blank=False)
     # County not required as do not exist in every country
-    county = models.CharField(max_length=80, null=False, blank=False)
+    county = models.CharField(max_length=80, null=True, blank=False)
     date = models.DateTimeField(auto_now_add=True)
     delivery_cost = models.DecimalField(max_digits=6, decimal_places=2, null=False, default=0)
     order_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
