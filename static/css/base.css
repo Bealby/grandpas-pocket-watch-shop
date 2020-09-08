@@ -259,7 +259,7 @@ body{
 /*-----Reduce font size for header-list-items so that they are positioned smarter on smaller devices-----*/
 @media (min-width: 1000px) {
     .header-list-items{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         padding-left:1rem;
         padding-right:1rem;
     }
