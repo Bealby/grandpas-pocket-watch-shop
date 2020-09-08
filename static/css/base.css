@@ -116,6 +116,17 @@ body{
 
 /*-----BLUE DIVIDER-----*/
 
+.map-border {
+	border: 0.2rem solid;
+	color: rgb(111, 169, 255, 1);
+}
+
+.map {
+	height: 40rem;
+}
+
+/*-----BLUE DIVIDER-----*/
+
 .blue-divider{
     width:50%;
     border-top: 0.5rem solid rgb(111, 169, 255, 1);
