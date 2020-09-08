@@ -188,20 +188,30 @@ body{
   opacity: 1;
 }
 
-/*-----KEEP SHOPPING LINK-----*/
+/*-----HOVER/ACTIVE/FOCUS-----*/
 
-.keep-shopping{
-    color: rgb(64, 64, 64, 1);
-    text-decoration: underline;
-    font-weight:bold;
-    font-family: 'Roboto', sans-serif !important;
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background-color:rgb(111, 169, 255, 1) !important;
 }
 
-.keep-shopping:hover{
-    color: rgb(64, 64, 64, 0.7);
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+    color:rgb(111, 169, 255, 1) !important;
 }
 
-/*-----BLUE DEFAULY LINK-----*/
+.icon-links a{
+    color:black !important;
+}
+
+.icon-links a:hover{
+    color:rgb(111, 169, 255, 1) !important;
+}
+
+
+/*-----BLUE DEFAULT LINK-----*/
 
 .btn-default{
     color:rgb(255, 255, 255, 1);
@@ -220,6 +230,19 @@ body{
     cursor:pointer;
 }
 
+/*-----KEEP SHOPPING LINK-----*/
+
+.keep-shopping{
+    color: rgb(64, 64, 64, 1);
+    text-decoration: underline;
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.keep-shopping:hover{
+    color: rgb(64, 64, 64, 0.7);
+}
+
 /*-----FONT AWESOME ICONS-----*/
 
 .fas{
@@ -228,20 +251,6 @@ body{
 
 .fa-check-circle{
     color:rgb(102, 204, 0, 1);
-}
-
-/*-----HOVER/ACTIVE/FOCUS-----*/
-
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background-color:rgb(111, 169, 255, 1) !important;
-}
-
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus {
-    color:rgb(111, 169, 255, 1) !important;
 }
 
 /*-----FOOTER-----*/
