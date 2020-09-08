@@ -84,6 +84,11 @@ body{
     font-size: 1rem;
 }
 
+#icon-basket-font{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.2rem;
+}
+
 /*-----MESSAGES-----*/
 
 .toast-container{
@@ -202,6 +207,8 @@ body{
     color:rgb(111, 169, 255, 1) !important;
 }
 
+/*-----ICON HEADER LINKS-----*/
+
 .icon-links a{
     color:black !important;
 }
@@ -209,7 +216,6 @@ body{
 .icon-links a:hover{
     color:rgb(111, 169, 255, 1) !important;
 }
-
 
 /*-----BLUE DEFAULT LINK-----*/
 
