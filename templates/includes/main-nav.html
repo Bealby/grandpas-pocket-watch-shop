@@ -9,7 +9,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="pocket-watches-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pocket Watches
             </a>
-            <div class="dropdown-menu" aria-labelledby="pocket-watches-link">
+            <div class="dropdown-menu" id="dropdown-font" aria-labelledby="pocket-watches-link">
                 <a class="dropdown-item" href="{% url 'products' %}?category=ej_swiss,elgan,rf_cowderoy_london">All Pocket Watches</a>
                 <a class="dropdown-item" href="{% url 'products' %}?category=ej_swiss">E. J. Swiss</a>
                 <a class="dropdown-item" href="{% url 'products' %}?category=elgan">Elgan</a>
@@ -20,7 +20,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="parts-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Parts
             </a>
-            <div class="dropdown-menu" aria-labelledby="parts-link">
+            <div class="dropdown-menu" id="dropdown-font" aria-labelledby="parts-link">
                 <a class="dropdown-item" href="{% url 'products' %}?category=balance_arms, balance_wheels,barrel_bridges,barrel_drums,bench_keys,bows,cases,chains,dials,fusee_cones,pillar_plates,springs,t-bars,wheels">All Parts</a>
                 <a class="dropdown-item" href="{% url 'products' %}?category=balance_arms">Balance Arms</a>
                 <a class="dropdown-item" href="{% url 'products' %}?category=balance_wheels">Balance Wheels</a>
@@ -42,7 +42,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="tools-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Tools
             </a>
-            <div class="dropdown-menu" aria-labelledby="tools-link">
+            <div class="dropdown-menu text-muted" id="dropdown-font" aria-labelledby="tools-link">
                 <a class="dropdown-item" href="{% url 'products' %}?category=anvils,bench_blocks,calipers,hammers,parts_trays,pliers,screwdrivers,soldering_tools">All Tools</a>
                 <a class="dropdown-item" href="{% url 'products' %}?category=anvils">Anvils</a>
                 <a class="dropdown-item" href="{% url 'products' %}?category=bench_blocks">Bench Blocks</a>
