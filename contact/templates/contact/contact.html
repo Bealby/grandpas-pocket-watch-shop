@@ -21,6 +21,7 @@
             </div>
 
             <div class="row">
+            
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="col-10 offset-1 map map-border" id="map">
                     </div>
@@ -51,8 +52,10 @@
 </div>
 {% endblock %}
 
-{% block postloadjs %}
-{{ block.super }}
+{% block extra_js %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap">
+</script>
 <!-- Map -->
-<script src="{% static 'contact/js/map.js' %}"></script>
+<script src="{% static 'js/map.js' %}"></script>
 {% endblock %}

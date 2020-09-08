@@ -180,3 +180,5 @@ STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
+# Google Maps
+GOOGLE_MAP_API_KEY = os.environ.get('GOOGLE_MAP_KEY')
