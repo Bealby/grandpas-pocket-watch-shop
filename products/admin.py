@@ -1,7 +1,6 @@
 from django.contrib import admin
-from .models import Product, Category
+from .models import Product, Category, AppointmentType, PocketWatch
 
-# Register your models here.
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
@@ -21,3 +20,5 @@ class CategoryAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
+admin.site.register(AppointmentType)
+admin.site.register(PocketWatch)
