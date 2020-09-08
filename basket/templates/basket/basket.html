@@ -70,8 +70,8 @@
 
                 <div class="col-sm-12 col-md-12 col-lg-4 pb-5">
                     <div id="basket-body">
-                        <div class="pl-4 pr-4 pt-4 pb-4">
-                            <table class="mx-auto">
+                        <div class="col-12 pl-4 pr-4 pt-4 pb-4">
+                            <table class="img-fluid">
                                 <thead>
                                     <tr>
                                         <th scope="col">
@@ -102,13 +102,15 @@
                                         </th>
                                     </tr>
                                 </thead>
-                            </table>
-                        </div>
-                        <div class="col-12">
-                            <a href="{% url 'checkout' %}" class="btn btn-default btn-lg mb-4" role="button" aria-disabled="true">CHECKOUT</a>
-                        </div>
-                        <div class="col-12">
-                            <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
+                            </table>  
+                             <div class="row">
+                            <div class="col-12">
+                                <a href="{% url 'checkout' %}" class="btn btn-default btn-lg mb-4" role="button" aria-disabled="true">CHECKOUT</a>
+                            </div>
+                            <div class="col-12">
+                                <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
+                            </div>
+                        </div>             
                         </div>
                     </div>
                 </div>
