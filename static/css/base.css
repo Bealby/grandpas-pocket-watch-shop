@@ -58,6 +58,7 @@ body{
     padding-bottom:3rem;
     padding-left:0rem;
     padding-right:0rem;
+    border-radius: 1rem;
 }
 
 .order-body{
@@ -68,11 +69,6 @@ body{
     padding-left:0rem;
     padding-right:0rem;
     font-weight:bold;
-}
-
-.basket-padding{
-    padding-top:4rem;
-    padding-left:0rem;
 }
 
 .page-header{
@@ -285,13 +281,5 @@ body{
     #footer-copyright p{
 	    text-align: right !important;
         margin-top:0rem;
-    }
-}
-
-/*-----To increase padding-top for checkout card box for smaller devices. To allow for better spacing-----*/
-@media (min-width: 767px) {
-    .checkout-padding{
-        padding-top:0rem;
-        padding-left:3rem;
     }
 }
