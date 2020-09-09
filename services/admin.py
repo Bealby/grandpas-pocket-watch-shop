@@ -1,19 +1,20 @@
 from django.contrib import admin
-from .models import AppointmentType, PocketWatch
+from .models import AppointmentType, Appointment
 
 
 class AppointmentTypeAdmin(admin.ModelAdmin):
+    
     list_display = (
-        'friendly_name',
         'name',
     )
 
-class PocketWatchAdmin(admin.ModelAdmin):
+class AppointmentAdmin(admin.ModelAdmin):
+
     list_display = (
         'name',
         'model',
         'type',
-        'appointment',
+        'appointment_type',
         'date',
     )
 
@@ -21,4 +22,4 @@ class PocketWatchAdmin(admin.ModelAdmin):
 
 
 admin.site.register(AppointmentType, AppointmentTypeAdmin)
-admin.site.register(PocketWatch, PocketWatchAdmin)
+admin.site.register(Appointment, AppointmentAdmin)

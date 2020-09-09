@@ -28,7 +28,48 @@
                 
 
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    
+                    <form class="form" action="" method="POST">
+                                {% csrf_token %}
+                                <div class="form-row">
+                                    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+                                    <div class="col-12">
+                                        <input type="submit" class="btn btn-default btn-lg text-uppercase mt-5" value="Add to Basket" />
+                                    </div>
+                                    <div class="col-12">
+                                        <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
+                                    </div>
+                                    <input type="hidden" name="redirect_url" value="{{ request.path }}" />
+                                </div>
+                            </form>
                 </div>
             </div>
         </div>
