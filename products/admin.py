@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category, AppointmentType, PocketWatch
+from .models import Product, Category
 
 
 class ProductAdmin(admin.ModelAdmin):
@@ -18,7 +18,6 @@ class CategoryAdmin(admin.ModelAdmin):
         'name',
     )
 
+
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
-admin.site.register(AppointmentType)
-admin.site.register(PocketWatch)
