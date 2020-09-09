@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %} 
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid footer-container">
+    <div class="row">
+        <div class="col-10 offset-1">
+            <div class="row pt-4 pb-5">
+                <div class="col-12">
+                    <h1 class="page-header text-center">Services</h1>
+                </div>
+                <hr class="blue-divider" />
+            </div>
+
+            <div class="row">
+            
+                <div class="col-sm-12 col-md-6 col-lg-6">
+
+                </div>
+                
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap">
+</script>
+<!-- Map -->
+<script src="{% static 'js/map.js' %}"></script>
+{% endblock %}
