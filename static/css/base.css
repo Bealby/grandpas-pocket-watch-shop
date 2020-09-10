@@ -273,14 +273,16 @@ select option[value=""]{
 /*-----KEEP SHOPPING LINK-----*/
 
 .keep-shopping{
-    color: rgb(64, 64, 64, 1);
+    color: rgb(0, 0, 0, 1);
     text-decoration: underline;
     font-weight:bold;
     font-family: 'Roboto', sans-serif !important;
+    background:none;
 }
 
-.keep-shopping:hover{
-    color: rgb(64, 64, 64, 0.7);
+.keep-shopping:hover,{
+    color: rgb(0, 0, 0, 0.7) !important;
+    background:none;
 }
 
 /*-----FONT AWESOME ICONS-----*/
