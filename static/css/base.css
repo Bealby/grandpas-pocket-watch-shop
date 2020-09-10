@@ -234,7 +234,7 @@ body{
 .btn-black:hover,
 .btn-black:focus{   
     color:rgb(255, 255, 255, 1);
-    background-color:rgb(0, 0, 0, 0.7) !important;
+    background-color:rgb(0, 0, 0, 0.6) !important;
 }
 
 /*-----BLUE DEFAULT LINK-----*/
@@ -249,7 +249,7 @@ body{
 .btn-default:hover,
 .btn-default:focus{   
     color:rgb(255, 255, 255, 1) !important;
-    background-color:rgb(111, 169, 255, 0.7) !important;
+    background-color:rgb(111, 169, 255, 0.6) !important;
 }
 
 /*-----UPDATE/ REMOVE LINKS-----*/
@@ -302,7 +302,7 @@ select option[value=""]{
 }
 
 .allauth-button button:hover{
-    background:rgb(0,0,0,0.7) !important;
+    background:rgb(0,0,0,0.6) !important;
 }
 
 .allauth-home{
@@ -314,7 +314,7 @@ select option[value=""]{
 }
 
 .allauth-home:hover{
-    background:rgb(0,0,0,0.7) !important;
+    background:rgb(0,0,0,0.6) !important;
 }
 
 /*-----KEEP SHOPPING LINK-----*/
@@ -328,7 +328,7 @@ select option[value=""]{
 }
 
 .keep-shopping:hover{
-    color:rgb(170,183,196, 1) !important;
+    color:rgb(0, 0, 0, 0.6); !important;
     background:none;
 }
 
