@@ -6,10 +6,18 @@
 {% block head_title %}{% trans "Sign In" %}{% endblock %}
 
 {% block content %}
-
-<h1>{% trans "Sign In" %}</h1>
-
-{% get_providers as socialaccount_providers %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-10 offset-1">
+            <div class="row pt-4 pb-5">
+                <div class="col-12">
+                         <h1 class="page-header text-center">{% trans "Sign In" %}</h1>
+                </div>
+                <hr class="blue-divider" />
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    {% get_providers as socialaccount_providers %}
 
 {% if socialaccount_providers %}
 <p>{% blocktrans with site.name as site_name %}Please sign in with one
@@ -42,5 +50,13 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
   <a class="button secondaryAction" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
   <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>
 </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

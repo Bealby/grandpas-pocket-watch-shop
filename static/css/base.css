@@ -19,11 +19,21 @@ body{
     position: absolute;
     bottom: 0;
     width:100%;
+    height:5rem;
+}
+
+#wrap{
+    padding-bottom:5rem;
 }
 
 /*-----NAVIGATION BAR-----*/
 
 #topnav{
+    background-color: rgb(204, 204, 204, 1);
+    color:rgb(0, 0, 0, 1);
+}
+
+.footernav{
     background-color: rgb(204, 204, 204, 1);
     color:rgb(0, 0, 0, 1);
 }
@@ -213,6 +223,20 @@ body{
     color:rgb(111, 169, 255, 1) !important;
 }
 
+/*-----BLACK BUTTON LINK-----*/
+
+.btn-black{
+    color:rgb(255, 255, 255, 1);
+    background-color:rgb(0, 0, 0, 1);
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-black:hover,
+.btn-black:focus{   
+    color:rgb(255, 255, 255, 1);
+    background-color:rgb(0, 0, 0, 0.7) !important;
+}
+
 /*-----BLUE DEFAULT LINK-----*/
 
 .btn-default{
@@ -226,6 +250,8 @@ body{
     color:rgb(255, 255, 255, 1);
     background-color:rgb(111, 169, 255, 0.7);
 }
+
+/*-----UPDATE/ REMOVE LINKS-----*/
 
 .update_link,
 .remove_item{
@@ -265,6 +291,11 @@ select option[value=""]{
 
 .fa-check-circle{
     color:rgb(102, 204, 0, 1);
+}
+
+.fa-lock,
+.fa-search{
+    color:rgb(255, 255, 255, 1);
 }
 
 .fa-tools:hover,
