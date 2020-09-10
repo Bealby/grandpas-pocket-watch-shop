@@ -11,7 +11,7 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6 product-body">
+                <div class="col-6 offset-3 product-body">
                     {% if user.emailaddress_set.all %}
                     <p>{% trans 'The following e-mail addresses are associated with your account:' %}</p>
 
@@ -48,7 +48,7 @@
 
                     <form method="post" action="{% url 'account_email' %}" class="add_email">
                         {% csrf_token %} {{ form|crispy }}
-                        <button name="action_add" type="submit">{% trans "Add E-mail" %}</button>
+                        <button name="action_add" class="allauth-button" stype="submit">{% trans "Add E-mail" %}</button>
                     </form>
                 </div>
             </div>
