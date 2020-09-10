@@ -1,6 +1,11 @@
-{% extends "base.html" %} {% load static %} {% block extra_css %}
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
 <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}" />
-{% endblock %} {% block page_header %}
+{% endblock %} 
+
+{% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
@@ -9,7 +14,7 @@
 {% endblock %} 
 
 {% block content %}
-<div class="container-fluid footer-container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1">
             <div class="row pt-4 pb-5">
