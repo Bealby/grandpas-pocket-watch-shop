@@ -109,6 +109,7 @@ def checkout(request):
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
+
         #Prefill order information
         if request.user.is_authenticated:
             try:
@@ -129,7 +130,6 @@ def checkout(request):
         else:
             order_form = OrderForm()
 
-    order_form = OrderForm()
 
     if not stripe_public_key:
         messages.warning(request, 'Stripe public key is missing. Did you forget to set it in your environment?')
