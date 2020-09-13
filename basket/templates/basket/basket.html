@@ -17,7 +17,7 @@
 
             <div class="row">
                 {% if basket_items %}
-                <div class="col-sm-12 col-md-12 col-lg-7">
+                <div class="col-sm-12 col-md-12 col-lg-6">
                     <table class="table product-body text-muted">
                         <thead>
                             <tr>
@@ -67,44 +67,44 @@
                     </table>
                 </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-5 pb-5">
+                <div class="col-sm-12 col-md-12 col-lg-6 pb-5">
                     <div id="basket-body">
                         <div class="col-12 pl-4 pr-4 pt-4 pb-4">
-                            <table class="table-responsive">
+                            <table class="table-responsive mx-auto">
                                 <thead>
                                     <tr>
                                         <th scope="col">
-                                            <h5><span style="font-weight: bold;">Item(s) Total:</span></h5>
+                                            <h6><span style="font-weight: bold;">ITEM(S) TOTAL:</span></h6>
                                         </th>
                                         <th scope="col">
-                                            <h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ total|floatformat:2 }}</span></h5>
+                                            <h6><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ total|floatformat:2 }}</span></h6>
                                         </th>
                                     </tr>
                                 </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">
-                                            <h5><span style="font-weight: bold;">Delivery:</span></h5>
+                                            <h6><span style="font-weight: bold;">DELIVERY:</span></h6>
                                         </th>
                                         <th scope="col">
-                                            <h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ delivery|floatformat:2 }}</span></h5>
+                                            <h6><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ delivery|floatformat:2 }}</span></h6>
                                         </th>
                                     </tr>
                                 </thead>
                                 <thead>
                                     <tr>
                                         <th scope="col">
-                                            <h5><span style="font-weight: bold;">Grand Total:</span></h5>
+                                            <h6><span style="font-weight: bold;">GRAND TOTAL:</span></h6>
                                         </th>
                                         <th scope="col">
-                                            <h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ grand_total|floatformat:2 }}</span></h5>
+                                            <h6><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ grand_total|floatformat:2 }}</span></h6>
                                         </th>
                                     </tr>
                                 </thead>
                             </table>  
-                             <div class="row">
+                             <div class="row mt-4">
                             <div class="col-12">
-                                <a href="{% url 'checkout' %}" class="btn btn-default btn-lg mb-4" role="button" aria-disabled="true">CHECKOUT</a>
+                                <a href="{% url 'checkout' %}" class="btn btn-default btn-lg mb-4 w-100" role="button" aria-disabled="true">CHECKOUT</a>
                             </div>
                             <div class="col-12">
                                 <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
