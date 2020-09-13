@@ -76,7 +76,7 @@ body{
     padding-left:0rem;
     padding-right:0rem;
     border-radius: 1rem;
-    max-width:60%;
+    max-width:70%;
 }
 
 .order-body{
@@ -258,13 +258,6 @@ body{
     background-color:rgb(111, 169, 255, 0.6) !important;
 }
 
-/*-----UPDATE/ REMOVE LINKS-----*/
-
-.update_link,
-.remove_item{
-    cursor:pointer;
-}
-
 /*-----FORMS-----*/
 
 select,
@@ -384,6 +377,10 @@ select option[value=""]{
 .fa-user:hover,
 .fa-shopping-basket:hover{
     color:rgb(111, 169, 255, 1) !important;
+}
+
+.fa-trash-alt:hover{
+        color:rgb(220, 53, 69, 1) !important;
 }
 
 /*-----FOOTER-----*/
