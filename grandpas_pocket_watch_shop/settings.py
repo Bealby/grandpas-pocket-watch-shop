@@ -196,3 +196,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_HOST_PASSWORD = 'my gmail account password'
 # DEFAULT_FROM_EMAIL = 'my gmail account'
 # DEFAULT_TO_EMAIL = 'to email'
+
+

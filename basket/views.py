@@ -3,7 +3,6 @@ from django.contrib import messages
 
 from products.models import Product
 
-# Create your views here.
 
 def view_basket(request):
 # A view to return the basket
@@ -43,6 +42,7 @@ def adjust_basket(request, item_id):
 
     request.session['basket'] = basket
     return redirect(reverse('view_basket'))
+
 
 def remove_from_basket(request, item_id):
     # Remove item from basket
