@@ -1,16 +1,12 @@
 {% extends "base.html" %} {% load static %} {% block extra_css %}
 <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}" />
-{% endblock %}
-
-{% block page_header %}
+{% endblock %} {% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} 
-
-{% block content %}
+{% endblock %} {% block content %}
 <div class="container-fluid" id="wrap">
     <div class="row">
         <div class="col-10 offset-1">
@@ -23,7 +19,7 @@
 
             <div class="row">
                 {% if basket_items %}
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-12 col-lg-6">
                     <p class="text-muted">Order Summary ({{ product_count }})</p>
                     <table class="table product-body text-muted">
                         <thead>
@@ -56,7 +52,6 @@
                         </tbody>
                         {% endfor %}
                     </table>
-
                     <!--Table Bottom Divider-->
                     <table class="table">
                         <tbody>
@@ -65,69 +60,51 @@
                             </tr>
                         </tbody>
                     </table>
-
-                    <table class="ml-auto">
+                    <p class="text-muted">Order Grand Total</p>
+                    <table class="table checkout-body">
                         <thead>
                             <tr>
-                                <th scope="col">
-                                    <h5><span style="font-weight: bold;">Order(s) Total:</span></h5>
-                                </th>
-                                <th scope="col">
-                                    <h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ total|floatformat:2 }}</span></h5>
-                                </th>
+                                <th scope="col"></th>
+                                <th scope="col"><span style="font-weight: bold;">ITEM(S) TOTAL:</span></th>
+                                <th scope="col"><span style="font-weight: bold;">€{{ total|floatformat:2 }}</span></th>
+                                <th scope="col"></th>
                             </tr>
-                        </thead>
-                        <thead>
                             <tr>
-                                <th scope="col">
-                                    <h5><span style="font-weight: bold;">Delivery:</span></h5>
-                                </th>
-                                <th scope="col">
-                                    <h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ delivery|floatformat:2 }}</span></h5>
-                                </th>
+                                <th scope="col"></th>
+                                <th scope="col"><span style="font-weight: bold;">DELIVERY:</span></th>
+                                <th scope="col"><span style="font-weight: bold;">€{{ delivery|floatformat:2 }}</span></th>
+                                <th scope="col"></th>
                             </tr>
-                        </thead>
-                        <thead>
                             <tr>
-                                <th scope="col">
-                                    <h5><span style="font-weight: bold;">Grand Total:</span></h5>
-                                </th>
-                                <th scope="col">
-                                    <h5><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ grand_total|floatformat:2 }}</span></h5>
-                                </th>
+                                <th scope="col"></th>
+                                <th scope="col"><span style="font-weight: bold;">GRAND TOTAL:</span></th>
+                                <th scope="col"><span style="font-weight: bold;">€{{ grand_total|floatformat:2 }}</span></th>
+                                <th scope="col"></th>
                             </tr>
                         </thead>
                     </table>
                 </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-6 pb-5">
+                <div class="col-sm-12 col-md-12 col-lg-6">
                     <p class="text-muted">Please fill out the form below to complete your order</p>
                     <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                         {% csrf_token %}
                         <fieldset class="rounded px-3 mb-2">
-                            <legend class="px-2 w-auto">Details</legend>
-                            {{ order_form.full_name | as_crispy_field }}
-                            {{ order_form.email | as_crispy_field }}
+                            <legend class="fieldset-label small text-black px-2 w-auto">Details</legend>
+                            {{ order_form.full_name | as_crispy_field }} {{ order_form.email | as_crispy_field }}
                         </fieldset>
                         <fieldset class="rounded px-3 mb-5">
                             <legend class="fieldset-label small text-black px-2 w-auto">Delivery</legend>
-                            {{ order_form.phone_number | as_crispy_field }}
-                            {{ order_form.street_address1 | as_crispy_field }}
-                            {{ order_form.street_address2 | as_crispy_field }}
-                            {{ order_form.town_or_city | as_crispy_field }}
-                            {{ order_form.county | as_crispy_field }}
-                            {{ order_form.country | as_crispy_field }}
-                            {{ order_form.postcode | as_crispy_field }}
+                            {{ order_form.phone_number | as_crispy_field }} {{ order_form.street_address1 | as_crispy_field }} {{ order_form.street_address2 | as_crispy_field }} {{ order_form.town_or_city | as_crispy_field }}
+                            {{order_form.county | as_crispy_field }} {{ order_form.country | as_crispy_field }} {{ order_form.postcode | as_crispy_field }}
                             <div class="form-check form-check-inline float-right mr-0">
-                            {% if user.is_authenticated %}
-                            <label class="form-check-label" for="id-save-info">Save this delivery information to my profile</label>
-                                    <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info" checked>
-                            {% else %}
-                                    <label class="form-check-label" for="id-save-info">
-                                        <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or 
-                                        <a class="text-info" href="{% url 'account_login' %}">login</a> to save this information
-                                    </label>
-                            {% endif %}
+                                {% if user.is_authenticated %}
+                                <label class="form-check-label" for="id-save-info">Save this delivery information to my profile</label>
+                                <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info" checked />
+                                {% else %}
+                                <label class="form-check-label" for="id-save-info">
+                                    <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or <a class="text-info" href="{% url 'account_login' %}">login</a> to save this information
+                                </label>
+                                {% endif %}
                             </div>
                         </fieldset>
                         <fieldset class="px-3">
@@ -140,15 +117,13 @@
                             <input type="hidden" value="{{ client_secret }}" name="client_secret" />
                         </fieldset>
 
-                            <a href="{% url 'view_basket' %}" class="keep-shopping">Adjust Basket</a>
-</a>
-                            <button id="submit-button" class="btn btn-black rounded-0">
-                                <span class="font-weight-bold">Complete Order</span>
-                                <span class="icon">
-                                    <i class="fas fa-lock"></i>
-                                </span>
-                            </button>
-                        </div>
+                        <a href="{% url 'view_basket' %}" class="keep-shopping">Adjust Basket</a>
+                        <button id="submit-button" class="btn btn-black rounded-0">
+                            <span class="font-weight-bold">Complete Order</span>
+                            <span class="icon">
+                                <i class="fas fa-lock"></i>
+                            </span>
+                        </button>
                     </form>
                 </div>
                 {% else %}
@@ -163,17 +138,17 @@
         </div>
     </div>
 </div>
-    <div id="loading-overlay">
-        <h1 class="text-light logo-font loading-spinner">
-            <span class="icon">
-                <i class="fas fa-3x fa-sync-alt fa-spin"></i>
-            </span>
-        </h1>
-    </div>
+<div id="loading-overlay">
+    <h1 class="text-light logo-font loading-spinner">
+        <span class="icon">
+            <i class="fas fa-3x fa-sync-alt fa-spin"></i>
+        </span>
+    </h1>
+</div>
 {% endblock %} {% block postloadjs %} {{ block.super }}
 <!--Render javascript to allow for external file access-->
-{{ stripe_public_key|json_script:"id_stripe_public_key" }}
-{{ client_secret|json_script:"id_client_secret" }}
+{{ stripe_public_key|json_script:"id_stripe_public_key" }} {{ client_secret|json_script:"id_client_secret" }}
 <!-- Stripe -->
 <script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
 {% endblock %}
+
