@@ -68,14 +68,8 @@ body{
     padding-top: 2rem;
 }
 
-#basket-body{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(0, 0, 0, 1)!important;
-    box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
-    padding-bottom:3rem;
-    padding-left:0rem;
-    padding-right:0rem;
-    border-radius: 1rem;
+.checkout-body{
+    margin-top: 5rem;
 }
 
 .order-body{
@@ -431,10 +425,19 @@ select option[value=""]{
 @media (min-width: 767px) {
 #footer{
     height:5rem;
+    }
 }
 
 /*-----Increase height for footer for smaller devices to fit better on smaller devices at bpttom  -----*/
 @media (min-width: 767px) {
 #wrap{
     padding-bottom:5rem;
+    }
+}
+
+/*-----Margin top for better fitting of checkout total in asmaller devices -----*/
+@media (min-width: 991px) {
+.checkout-body{
+    margin-top: 0rem;
+    }
 }

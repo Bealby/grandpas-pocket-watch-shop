@@ -67,49 +67,38 @@
                     </table>
                 </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-4 offset-1 pb-5">
-                    <div id="basket-body">
-                        <div class="col-12 pl-4 pr-4 pt-4 pb-4">
-                            <table class="table-responsive mx-auto">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">
-                                            <h6><span style="font-weight: bold;">ITEM(S) TOTAL:</span></h6>
-                                        </th>
-                                        <th scope="col">
-                                            <h6><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ total|floatformat:2 }}</span></h6>
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <thead>
-                                    <tr>
-                                        <th scope="col">
-                                            <h6><span style="font-weight: bold;">DELIVERY:</span></h6>
-                                        </th>
-                                        <th scope="col">
-                                            <h6><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ delivery|floatformat:2 }}</span></h6>
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <thead>
-                                    <tr>
-                                        <th scope="col">
-                                            <h6><span style="font-weight: bold;">GRAND TOTAL:</span></h6>
-                                        </th>
-                                        <th scope="col">
-                                            <h6><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€{{ grand_total|floatformat:2 }}</span></h6>
-                                        </th>
-                                    </tr>
-                                </thead>
-                            </table>  
-                             <div class="row mt-4">
+                <div class="col-sm-12 col-md-12 col-lg-6 pl-5 pr-5">
+                    <table class="table checkout-body">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col"><span style="font-weight: bold;">ITEM(S) TOTAL:</span></th>
+                                <th scope="col"><span style="font-weight: bold;">€{{ total|floatformat:2 }}</span></th>
+                                <th scope="col"></th>
+                            </tr>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col"><span style="font-weight: bold;">DELIVERY:</span></th>
+                                <th scope="col"><span style="font-weight: bold;">€{{ delivery|floatformat:2 }}</span></th>
+                                <th scope="col"></th>
+                            </tr>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col"><span style="font-weight: bold;">GRAND TOTAL:</span></th>
+                                <th scope="col"><span style="font-weight: bold;">€{{ grand_total|floatformat:2 }}</span></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                    </table>
+
+                    <div class="col-12 pl-4 pr-4 pb-4">
+                        <div class="row mt-4">
                             <div class="col-12">
-                                <a href="{% url 'checkout' %}" class="btn btn-default btn-lg mb-4" role="button" aria-disabled="true">CHECKOUT</a>
+                                <a href="{% url 'checkout' %}" class="btn btn-black btn-lg mb-4 ml-4 pr-5 pl-5" role="button" aria-disabled="true">CHECKOUT</a>
                             </div>
                             <div class="col-12">
-                                <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
+                                <a class="keep-shopping ml-5" href="{% url 'products' %}">Keep Shopping</a>
                             </div>
-                        </div>             
                         </div>
                     </div>
                 </div>
