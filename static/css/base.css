@@ -64,6 +64,10 @@ body{
     font-weight: 300;
 }
 
+.product-card{
+    padding-top: 2rem;
+}
+
 #basket-body{
     font-family: 'Roboto', sans-serif;
     color: rgb(64, 64, 64, 1)!important;
@@ -244,6 +248,8 @@ body{
     background-color:rgb(111, 169, 255, 1) !important;
     font-family: 'Roboto', sans-serif !important;
     font-size: 1rem !important;
+    border:rgb(111, 169, 255, 1) !important;
+    border-radius: 1rem !important;
 }
 
 .btn-default:hover,
@@ -415,5 +421,12 @@ select option[value=""]{
     #footer-copyright p{
 	    text-align: right !important;
         margin-top:0rem;
+    }
+}
+
+/*-----Top margin increase for producct detail text to create space between text and image on smaller devices -----*/
+@media (min-width: 767px) {
+.product-card{
+    padding-top: 0rem;
     }
 }
