@@ -13,10 +13,6 @@ class OrderForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         # Inserted placeholders. Removed auto-generated lables and set auto focus for curser to start on Full Name field
-        """
-        Add placeholders and classes, remove auto-generated
-        labels and set autofocus on first field
-        """
         super().__init__(*args, **kwargs)
         placeholders = {
             # For better UI on webpage

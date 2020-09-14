@@ -26,6 +26,13 @@ body{
     padding-bottom:7rem;
 }
 
+/*-----forms-----*/
+.asteriskField {
+    display: none;
+}
+
+/*-----NAVIGATION BAR-----*/
+
 /*-----NAVIGATION BAR-----*/
 
 #topnav{

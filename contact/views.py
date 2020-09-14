@@ -13,11 +13,11 @@ def contact(request):
     else:
         contact_form = ContactForm(request.POST)
         if contact_form.is_valid():
-            from_email = contact_form.cleaned_data['from_email']
-            subject = contact_form.cleaned_data['subject']
+            name = contact_form.cleaned_data['name']
+            email = contact_form.cleaned_data['email']
             message = contact_form.cleaned_data['message']
             try:
-                send_mail(subject, message, from_email, ['grandpas-pocket-watch-shop@gmail.com'])
+                send_mail(name, email, message, ['grandpas-pocket-watch-shop@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
