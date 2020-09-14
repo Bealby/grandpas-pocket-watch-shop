@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 if os.path.exists('env.py'):
     import env
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -186,7 +187,7 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 GOOGLE_MAP_API_KEY = os.environ.get('GOOGLE_MAP_KEY')
 
 # Email
-DEFAULT_FROM_EMAIL = 'mgbealby@gmail.com'
+DEFAULT_FROM_EMAIL = 'grandpaspocketwatchshop@gmail.com'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # EMAIL_USE_TLS = True

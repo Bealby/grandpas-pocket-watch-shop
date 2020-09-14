@@ -7,27 +7,28 @@ from django.conf import settings
 from .forms import ContactForm
 
 
-def contactView(request):
+def contact(request):
     if request.method == 'GET':
-        form = ContactForm()
+        contact_form = ContactForm()
     else:
-        form = ContactForm(request.POST)
-        if form.is_valid():
-            subject = form.cleaned_data['subject']
-            from_email = form.cleaned_data['from_email']
-            message = form.cleaned_data['message']
+        contact_form = ContactForm(request.POST)
+        if contact_form.is_valid():
+            from_email = contact_form.cleaned_data['from_email']
+            subject = contact_form.cleaned_data['subject']
+            message = contact_form.cleaned_data['message']
             try:
-                send_mail(subject, message, from_email, ['admin@example.com'])
+                send_mail(subject, message, from_email, ['grandpas-pocket-watch-shop@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
 
     context = {
+        'form': contact_form,
         'api_key': settings.GOOGLE_MAP_API_KEY,
     }
 
-    return render(request, 'contact.html', {'form': form})
-    
+    return render(request, "contact.html", context)
 
-def successView(request):
+
+def success(request):
     return HttpResponse('Success! Thank you for your message.')
