@@ -132,7 +132,8 @@ body{
 }
 
 .map {
-	height: 40rem;
+    height: 20rem;
+    width: 45vh;
 }
 
 /*-----BLUE DIVIDER-----*/
@@ -376,6 +377,15 @@ select option[value=""]{
         color:rgb(220, 53, 69, 1) !important;
 }
 
+/*-----Contact-----*/
+
+.contact-form{
+    box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
+    border-radius:1rem;
+    padding: 3rem 3rem 3rem 3rem;
+    margin-top:3rem;
+}
+
 /*-----FOOTER-----*/
 
 #footer-copyright p{
@@ -439,5 +449,15 @@ select option[value=""]{
 @media (min-width: 991px) {
 .checkout-body{
     margin-top: 0rem;
+    }
+}
+
+/*-----Margin top for better fitting of contact form on smaller devices -----*/
+@media (min-width: 991px) {
+.contact-form{
+    box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
+    border-radius:1rem;
+    padding: 3rem 3rem 3rem 3rem;
+    margin-top:0rem;
     }
 }

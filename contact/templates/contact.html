@@ -1,15 +1,10 @@
-{% extends "base.html" %}
-{% load static %} 
-
-{% block page_header %}
+{% extends "base.html" %} {% load static %} {% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %}
-
-{% block content %}
+{% endblock %} {% block content %}
 <div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1">
@@ -21,32 +16,41 @@
             </div>
 
             <div class="row">
-            
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <div class="col-10 offset-1 map map-border" id="map">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div row="row">
+                        <div col="col-12">
+                            <h5 class="mb-3 text-center">Grampa's Pocket Watch Shop</h5>
+                            <p class="mb-0 text-center">105 Hampton Court Rd</p>
+                            <p class="mb-0 text-center">LONDON</p>
+                            <p class="mb-1 text-center">NG23 3NJ</p>
+                            <p class="mb-0 text-center"><span style="font-weight: bold;">Tel:&nbsp;&nbsp;</span>077 3986 6832</p>
+                            <p class="text-center mb-4"><span style="font-weight: bold;">Email:&nbsp;&nbsp;</span>grandpas-pocket-watch@gmail.com</p>
+                        </div>
+                        <div col="col-12">
+                            <div class="map map-border mx-auto" id="map"></div>
+                        </div>
                     </div>
                 </div>
-                
 
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <form method="post">
-                    {% csrf_token %}
-                    {{ form|crispy }}
-                    <div class="form-actions">
-                    <button type="submit">Send</button>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1 contact-form">
+                            <form method="post">
+                            {% csrf_token %} {{ form|crispy }}
+                                <div class="form-actions">
+                                <button type="submit" class="btn-default pl-4 pr-4">Send</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
-{% endblock %}
-
-{% block extra_js %}
+{% endblock %} {% block extra_js %}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-<script defer src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap">
-</script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap"></script>
 <!-- Map -->
 <script src="{% static 'js/map.js' %}"></script>
 {% endblock %}
