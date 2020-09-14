@@ -27,11 +27,10 @@ body{
 }
 
 /*-----forms-----*/
+
 .asteriskField {
     display: none;
 }
-
-/*-----NAVIGATION BAR-----*/
 
 /*-----NAVIGATION BAR-----*/
 
@@ -140,7 +139,7 @@ body{
 
 .map {
     height: 20rem;
-    width: 45vh;
+    width: 40vh;
 }
 
 #firstHeading{
@@ -478,5 +477,13 @@ select option[value=""]{
     border-radius:1rem;
     padding: 3rem 3rem 3rem 3rem;
     margin-top:0rem;
+    }
+}
+
+/*-----Reduce map width for better fitting on smaller devices" -----*/
+@media (min-width: 1360px) {
+.map {
+    height: 20rem;
+    width: 45vh;
     }
 }
