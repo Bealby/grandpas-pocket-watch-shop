@@ -223,7 +223,7 @@ body{
 }
 
 .hover-overlay:hover .hover-overlay-image {
-  opacity: 0.3;
+  opacity: 0;
 }
 
 .hover-overlay:hover .middle {
