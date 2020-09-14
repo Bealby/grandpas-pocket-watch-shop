@@ -197,6 +197,10 @@ body{
     text-decoration:none;
 }
 
+.hover-overlay-text:hover{
+    transform: scale(1.3) !important;
+}
+
 /*-----HOVER OVERLAY FEATURE - INDEX.HTML-----*/
 
 .hover-overlay {

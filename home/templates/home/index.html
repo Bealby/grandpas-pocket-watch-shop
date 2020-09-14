@@ -18,23 +18,40 @@
                 </div>
                 <hr class="blue-divider" />
             </div>
-            <div class="row pt-5">
-                <div class="col-md-4 hover-overlay" id="home-images">
+            <div class="row pt-md-5">
+                <div class="col-md-4 hover-overlay d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block" id="home-images">
                     <img src="{% static 'images/watches.png' %}" alt="Pocket Watch Illustration" class="img-fluid hover-overlay-image" id="image-cards">
                     <div class="middle">
-                        <div class="hover-overlay-text"><a href="{% url 'products' %}?category=ej_swiss,elgan,rf_cowderoy_london">WATCHES</a></div>
+                        <div class="hover-overlay-text"><a class="category" href="{% url 'products' %}?category=ej_swiss,elgan,rf_cowderoy_london">WATCHES</a></div>
                     </div>
                 </div>
-                <div class="col-md-4 hover-overlay" id="home-images">
+                <div class="col-md-4 hover-overlay d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block" id="home-images">
                     <img src="{% static 'images/parts.png' %}" alt="Parts Illustration" class="img-fluid hover-overlay-image" id="image-cards">
                     <div class="middle">
-                        <div class="hover-overlay-text"><a href="{% url 'products' %}?category=balance_arms, balance_wheels,barrel_bridges,barrel_drums,bench_keys,bows,cases,chains,dials,fusee_cones,pillar_plates,springs,t-bars,wheels">PARTS</a></div>
+                        <div class="hover-overlay-text"><a class="category" href="{% url 'products' %}?category=balance_arms, balance_wheels,barrel_bridges,barrel_drums,bench_keys,bows,cases,chains,dials,fusee_cones,pillar_plates,springs,t-bars,wheels">&nbsp;&nbsp;&nbsp;TOOLS&nbsp;&nbsp;&nbsp;</a></div>
                     </div>
                 </div>
-                <div class="col-md-4 hover-overlay" id="home-images">
+                <div class="col-md-4 hover-overlay d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block" id="home-images">
                     <img src="{% static 'images/tools.png' %}" alt="Tools Illustration" class="img-fluid hover-overlay-image" id="image-cards">
                     <div class="middle">
-                        <div class="hover-overlay-text"><a href="{% url 'products' %}?category=anvils,bench_blocks,calipers,hammers,parts_trays,pliers,screwdrivers,soldering_tools">TOOLS</a></div>
+                        <div class="hover-overlay-text"><a class="category" href="{% url 'products' %}?category=anvils,bench_blocks,calipers,hammers,parts_trays,pliers,screwdrivers,soldering_tools">&nbsp;&nbsp;&nbsp;PARTS&nbsp;&nbsp;&nbsp;</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-block d-sm-none d-none d-sm-block d-md-none">
+                    <div class="mb-5 text-center">
+                        <div class="hover-overlay-text"><a class="category" href="{% url 'products' %}?category=ej_swiss,elgan,rf_cowderoy_london">WATCHES</a></div>
+                    </div>
+                </div>
+                <div class="col-12 d-block d-sm-none d-none d-sm-block d-md-none">
+                    <div class="mb-5 text-center">
+                        <div class="hover-overlay-text"><a class="category" href="{% url 'products' %}?category=balance_arms, balance_wheels,barrel_bridges,barrel_drums,bench_keys,bows,cases,chains,dials,fusee_cones,pillar_plates,springs,t-bars,wheels">&nbsp;&nbsp;&nbsp;PARTS&nbsp;&nbsp;&nbsp;</a></div>
+                    </div>
+                </div>
+                <div class="col-12 d-block d-sm-none d-none d-sm-block d-md-none">
+                    <div class="mb-5 text-center">
+                        <div class="hover-overlay-text"><a class="category" href="{% url 'products' %}?category=anvils,bench_blocks,calipers,hammers,parts_trays,pliers,screwdrivers,soldering_tools">&nbsp;&nbsp;&nbsp;TOOLS&nbsp;&nbsp;&nbsp;</a></div>
                     </div>
                 </div>
             </div>
