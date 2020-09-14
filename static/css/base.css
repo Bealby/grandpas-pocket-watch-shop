@@ -13,7 +13,7 @@ body{
 }
 
 .header-container{
-    margin-top:16rem;
+    margin-top:12rem;
 }
 
 #footer{
@@ -490,5 +490,12 @@ select option[value=""]{
 .map {
     height: 20rem;
     width: 45vh;
+    }
+}
+
+/*-----Reduce head container margin-top to reduce white space between page header and navbar -----*/
+@media (min-width: 991px) {
+.header-container{
+    margin-top:16rem;
     }
 }
