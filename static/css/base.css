@@ -4,6 +4,7 @@
 
 html{
     color:rgb(0, 0, 0, 1);
+    font-family:'Roboto', sans-serif;
 }
 
 body{
@@ -52,7 +53,7 @@ body{
 .custom-nav-links a{
         color:rgb(0, 0, 0, 1) !important;
         font-size: 0.9rem;
-        font-family: 'Berkshire Swash', cursive;
+        font-family: 'Berkshire Swash', cursive !important;
 }
 
 /*-----TEXT-----*/
@@ -61,7 +62,7 @@ body{
     font-size: 0.9rem;
     padding-left:0rem;
     padding-right:0rem;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Berkshire Swash', cursive !important;
 }
 
 .product-body p, th{
@@ -89,7 +90,7 @@ body{
 }
 
 .page-header{
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Berkshire Swash', cursive !important;
 }
 
 #dropdown-font a{
@@ -143,7 +144,7 @@ body{
 }
 
 #firstHeading{
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Berkshire Swash', cursive !important;
     font-size:1rem;
     color: rgb(0, 0, 0, 1);
 }
@@ -175,6 +176,10 @@ body{
 .image-hover:hover{
     opacity: 0.5;
 }
+.grandpa-image{
+    box-shadow: 0rem 0rem 1.5rem 0rem rgb(0, 0, 0, 1);
+    border-radius: 1rem;
+}  
 
 /*-----PRODUCT/ IMAGE HOVER FEATURES-----*/
 
