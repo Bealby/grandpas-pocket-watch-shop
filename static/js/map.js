@@ -14,7 +14,7 @@ function initMap() {
     '<li><strong>Sunday:</strong>&nbsp;&nbsp;10:00-16:00</li></ul></span>';
   const infowindow = new google.maps.InfoWindow({
     content: contentString,
-    maxWidth: 400
+    Width: 600
   });
   const marker = new google.maps.Marker({
     position: uluru,
