@@ -281,6 +281,25 @@ body{
 .btn-default:focus{   
     color:rgb(255, 255, 255, 1) !important;
     background-color:rgb(111, 169, 255, 0.6) !important;
+    transform: scale(1.1) !important;
+}
+
+/*-----Info Button LINK-----*/
+
+.info-btn{
+    color:rgb(255, 255, 255, 1) !important;
+    background-color:rgb(0, 0, 0, 1) !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1rem !important;
+    border:rgb(0, 0, 0, 1) !important;
+    border-radius: 1rem !important;
+}
+
+.info-btn:hover,
+.info-btn:focus{   
+    color:rgb(255, 255, 255, 1) !important;
+    background-color:rgb(0, 0, 0, 0.6) !important;
+    transform: scale(1.1) !important;
 }
 
 /*-----FORMS-----*/
