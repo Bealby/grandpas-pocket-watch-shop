@@ -1,23 +1,17 @@
 function initMap() {
-  const uluru = { lat: -25.363, lng: 131.044 };
+  const uluru = { lat: 51.492914695, lng: -0.1215161806 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 14,
     center: uluru
   });
   const contentString =
-    '<div id="content">' +
-    '<div id="siteNotice">' +
-    "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Grandpas Pocket Watch Shop</h1>' +
-    '<div id="bodyContent">' +
-    "<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large " +
-    "sandstone rock formation in the southern part of the " +
-    "Heritage Site.</p>" +
-    '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
-    "https://en.wikipedia.org/w/index.php?title=Uluru</a> " +
-    "(last visited June 22, 2009).</p>" +
-    "</div>" +
-    "</div>";
+    '<div id="firstHeading">Grandpa"s Pocket Watch Shop</div><hr>' +
+    '<h2 id="secondHeading">Opening Times</h2>' +
+    '<ul><span style="color: #000;"><li><strong>Monday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
+    '<li><strong>Tuesday:</strong>&nbsp;&nbsp;09:30-17:30</li><li><strong>Wednesday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
+    '<li><strong>Thursday:</strong>&nbsp;&nbsp;09:30-17:30</li><li><strong>Friday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
+    '<li><strong>Saturday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
+    '<li><strong>Sunday:</strong>&nbsp;&nbsp;10:00-16:00</li></ul></span>';
   const infowindow = new google.maps.InfoWindow({
     content: contentString,
     maxWidth: 400
