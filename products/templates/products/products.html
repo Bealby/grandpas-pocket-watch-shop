@@ -28,7 +28,7 @@
                         </a>
                         {% endif %}
                         <div class="card-body text-left product-body text-muted mb-0">
-                            <p class="mb-1"><span style="font-weight: bold;">Name:</span>&nbsp;&nbsp;{{ product.name }}</p>
+                            <p class="mb-1"><span style="font-weight: bold;">Name:</span>&nbsp;&nbsp;{{ product.name }}&nbsp;&nbsp;<a class="btn info-btn btn-lg text-uppercase" href="{% url 'product_detail' product.id %}"><i class="fas fa-info"></i></a></p>
                             <p><span style="font-weight: bold;">Cost:</span>&nbsp;&nbsp;€{{ product.price }}</p>
                             <p class="mb-0"><span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span></p>
                         </div>
@@ -39,11 +39,8 @@
                                             <div class="input-group">
                                                 <input class="form-control" type="hidden" name="quantity" value="1" min="1" max="1" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}" />
                                             </div>
-                                    <div class="col-6 mb-2">
-                                        <input type="submit" class="btn btn-default btn-lg text-uppercase" value="Add to Basket" />
-                                    </div>
-                                    <div class="col-6 mb-2">
-                                       <a class="btn info-btn btn-lg text-uppercase" href="{% url 'product_detail' product.id %}">Info</a>
+                                    <div class="col-12 mb-2">
+                                        <input type="submit" class="btn btn-default btn-lg text-uppercase w-100" value="Add to Basket" />
                                     </div>
                                     <input type="hidden" name="redirect_url" value="{{ request.path }}" />
                                 </div>
