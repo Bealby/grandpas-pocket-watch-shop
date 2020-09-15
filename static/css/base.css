@@ -99,6 +99,30 @@ body{
     font-size: 1rem;
 }
 
+/*-----NUMBERS-----*/
+
+.basket-total-md{
+    color:rgb(111, 169, 255, 1);
+    font-family: 'Roboto', sans-serif !important;
+    font-size:1.2rem;
+    padding-right:0.4rem;
+    font-weight:bold;
+    text-align: center;
+}
+
+.basket-total-sm{
+    color:rgb(111, 169, 255, 1);
+    font-family: 'Roboto', sans-serif !important;
+    font-size:1rem;
+    padding-right:0.7rem;
+    font-weight:bold;
+    text-align: center;
+}
+
+.text-black{
+    color:rgb(0, 0, 0, 1) !important;
+}
+
 /*-----MESSAGES-----*/
 
 .toast-container{
@@ -423,8 +447,12 @@ select option[value=""]{
     color:rgb(111, 169, 255, 1) !important;
 }
 
+.fa-trash-alt{
+    color:rgb(0, 0, 0, 1);
+}
+
 .fa-trash-alt:hover{
-    color:rgb(220, 53, 69, 1) !important;
+    color:rgb(220, 53, 69, 1);
 }
 
 .fa-exclamation-triangle{
@@ -547,7 +575,7 @@ select option[value=""]{
     }
 }
 
-/*-----Reduce head container margin-top to reduce white space between page header and navbar -----*/
+/*-----Re postion toats on mobile devices to fit better under basket -----*/
 @media (min-width: 991px) {
 .toast-container{
     position:fixed;
@@ -556,3 +584,4 @@ select option[value=""]{
     z-index: 99999999999;
     }
 }
+
