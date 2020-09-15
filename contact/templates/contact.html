@@ -12,7 +12,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1">
-            <div class="row pt-4 pb-3">
+            <div class="row pt-4 pb-5">
                 <div class="col-12">
                     <h1 class="page-header text-center">Contact</h1>
                 </div>
@@ -44,7 +44,7 @@
                         <div class="col-lg-10 offset-lg-1 contact-form">
                             <form method="post">
                             {% csrf_token %} {{ form|crispy }}
-                                <div class="form-actions">
+                                <div class="form-actions text-center">
                                 <button type="submit" class="btn-default pl-4 pr-4">Send</button>
                                 </div>
                             </form>
