@@ -5,6 +5,7 @@ from .models import AppointmentType, Appointment
 class AppointmentTypeAdmin(admin.ModelAdmin):
     
     list_display = (
+        'friendly_name',
         'name',
     )
 
