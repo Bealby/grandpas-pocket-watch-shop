@@ -17,7 +17,7 @@
 
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                <form method="POST" action="" class="form mb-2" enctype="multipart/form-data">
+                <form method="POST" action="{% url 'services' %}" class="form mb-2" enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form | crispy }}
                     <div class="text-right">
@@ -30,74 +30,7 @@
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <form class="form" action="" method="POST">
-                        {% csrf_token %}
-                        <div class="form-row">
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <label class="input-group-text" for="inputGroupSelect01">Type</label>
-                                </div>
-                                <select class="custom-select" id="inputGroupSelect01">
-                                    <option selected>Choose...</option>
-                                    <option value="1">Repair</option>
-                                    <option value="2">Valuation</option>
-                                </select>
-                            </div>
-
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <label class="input-group-text" for="inputGroupSelect01">Model</label>
-                                </div>
-                                <select class="custom-select" id="inputGroupSelect01">
-                                    <option selected>Choose...</option>
-                                    <option value="1">Columbus</option>
-                                    <option value="1">Elgin</option>
-                                    <option value="3">Hampden</option>
-                                    <option value="4">Hamilton</option>
-                                    <option value="5">Illinois</option>
-                                    <option value="6">Ingersoll-Trenton</option>
-                                    <option value="7">New England</option>
-                                    <option value="8">New York Standard</option>
-                                    <option value="9">Rockford</option>
-                                    <option value="10">Seth Thomas</option>
-                                    <option value="11">South Bend</option>
-                                    <option value="12">Waltham</option>
-                                    <option value="13">Other American</option>
-                                    <option value="14">Other United Kingdom</option>
-                                    <option value="15">Other Swiss</option>
-                                    <option value="16">Other Italian</option>
-                                    <option value="17">Other</option>
-                                </select>
-                            </div>
-
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <label class="input-group-text" for="inputGroupSelect01">Type</label>
-                                </div>
-                                <select class="custom-select" id="inputGroupSelect01">
-                                    <option selected>Choose...</option>
-                                    <option value="1">Open Face Pocket Watch</option>
-                                    <option value="1">Full Hunter Pocket Watch</option>
-                                    <option value="3">Half Hunter Pocket Watch</option>
-                                    <option value="4">Double Hunter Pocket Watch/option> </option>
-                                    <option value="5">Double Half Hunter Pocket Watch</option>
-                                </select>
-                            </div>
-
-                            <div class="">
-                                <input type="date" class="form-control form-fields" id="catch_date" name="catch_date" />
-                            </div>
-
-                            <div class="col-6 offset-3">
-                                <input type="submit" class="btn btn-default btn-lg text-uppercase mt-5 col-12" value="Confirm Booking" />
-                            </div>
-
-                            <div class="col-12">
-                                <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
-                            </div>
-                            <input type="hidden" name="redirect_url" value="{{ request.path }}" />
-                        </div>
-                    </form>
+                
                 </div>
             </div>
         </div>
