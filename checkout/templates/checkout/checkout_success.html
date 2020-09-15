@@ -12,18 +12,18 @@
         <div class="col-10 offset-1">
             <div class="row pt-4 pb-5">
                 <div class="col-12">
-                    <h1 class="page-header text-center">Thank You</h1>
-                    <h1 class="page-header text-center">Your Order Has Been Placed</h1>
+                    <h1 class="page-header text-center pb-2">Thank You!</h1>
+                    <h4 class="page-header text-center">Your Order Has Been Placed</h4>
                 </div>
-                <hr class="blue-divider" />
+                <hr class="blue-divider mb-0" />
             </div>
 
             <div class="row">
-                <p>Your order information is below. A confirmation email will be sent to {{ order.email }}</p>
-                <div class="col-sm-12 col-md-9 col-lg-9 order-body pl-4 pr-4 pt-4 pb-4">
+                <p class="mx-auto pb-3">Your order information is below. A confirmation email will be sent to {{ order.email }}</p>
+                <div class="col-sm-12 col-md-9 col-lg-9 order-body pl-4 pr-4 pt-4 pb-4 mx-auto">
                     <div class="row">
                         <div class="col">
-                            <p class="text-muted small mb-2"><u>Order Info:</u></p>
+                            <p class="small mb-2"><span style="font-weight: bold;"><u>Order Info:</u><span></p>
                         </div>
                     </div>
 
@@ -31,8 +31,8 @@
                         <div class="col-12 col-md-4">
                             <p class="mb-0">Order Number</p>
                         </div>
-                        <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.order_number }}</p>
+                        <div class="col-12 col-md-8 overflow-auto-s">
+                            <p class="text-md-right mb-0 text-muted ">{{ order.order_number }}</p>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p class="text-muted small mb-2"><u>Order Details:</u></p>
+                            <p class="small mb-2 text-uppercase"><span style="font-weight: bold;"><u>Order Details:</u></span></p>
                         </div>
                     </div>
                     {% for item in order.lineitems.all %}
@@ -62,7 +62,7 @@
                     {% endfor %}
                     <div class="row">
                         <div class="col">
-                            <p class="text-muted small mb-2"><u>Delivering To:</u></p>
+                            <p class=" small mb-2 text-uppercase"><span style="font-weight: bold;"><u>Delivering To:</u></span></p>
                         </div>
                     </div>
                     <div class="row">
@@ -70,7 +70,7 @@
                             <p class="mb-0">Full Name</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.full_name }}</p>
+                            <p class="text-md-right mb-0 text-muted">{{ order.full_name }}</p>
                         </div>
                     </div>
                     <div class="row">
@@ -78,7 +78,7 @@
                             <p class="mb-0">Address 1</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right mb text-muted mb-0">{{ order.street_address1 }}</p>
+                            <p class="text-md-right mb mb-0 text-muted">{{ order.street_address1 }}</p>
                         </div>
                     </div>
                     <!---If no Sddress 2. Remove-->
@@ -88,7 +88,7 @@
                             <p class="mb-0">Address 2</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.street_address2 }}</p>
+                            <p class="text-md-right mb-0 text-muted">{{ order.street_address2 }}</p>
                         </div>
                     </div>
                     {% endif %}
@@ -97,7 +97,7 @@
                             <p class="mb-0">Town/ City</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.town_or_city }}</p>
+                            <p class="text-md-right mb-0 text-muted">{{ order.town_or_city }}</p>
                         </div>
                     </div>
                     <!---If no County. Remove-->
@@ -107,7 +107,7 @@
                             <p class="mb-0">County</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.county }}</p>
+                            <p class="text-md-right mb-0 text-muted">{{ order.county }}</p>
                         </div>
                     </div>
                     {% endif %}
@@ -118,7 +118,7 @@
                             <p class="mb-0">Postcode</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.postcode }}</p>
+                            <p class="text-md-right mb-0 text-muted">{{ order.postcode }}</p>
                         </div>
                     </div>
                     {% endif %}
@@ -127,7 +127,7 @@
                             <p class="mb-0">Country</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.country }}</p>
+                            <p class="text-md-right mb-0 text-muted">{{ order.country }}</p>
                         </div>
                     </div>
                     <div class="row">
@@ -135,12 +135,12 @@
                             <p class="mb-0">Phone Number</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right mb-4 text-muted mb-4">{{ order.phone_number }}</p>
+                            <p class="text-md-right mb-4 mb-4 text-muted">{{ order.phone_number }}</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p class="text-muted small mb-2"><u>Billing Info:</u></p>
+                            <p class="small mb-2 text-uppercase"><span style="font-weight: bold;"><u>Billing Info:</u></span></p>
                         </div>
                     </div>
 
@@ -149,7 +149,7 @@
                             <p class="mb-0">Order Total</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.order_total }}</p>
+                            <p class="text-md-right mb-0 text-muted">${{ order.order_total }}</p>
                         </div>
                     </div>
 
@@ -158,7 +158,7 @@
                             <p class="mb-0">Delivery Total</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right text-muted mb-0">{{ order.delivery_cost }}</p>
+                            <p class="text-md-right mb-0 text-muted">${{ order.delivery_cost }}</p>
                         </div>
                     </div>
                     <div class="row">
@@ -166,32 +166,18 @@
                             <p class="mb-0">Grand Total</p>
                         </div>
                         <div class="col-12 col-md-8">
-                            <p class="text-md-right mb-2 text-muted">{{ order.grand_total }}</p>
+                            <p class="text-md-right mb-2 text-muted">${{ order.grand_total }}</p>
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
 
-              <div class="col-12 col-lg-7 text-right">
-              {% if from_profile %}
-                    <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
-                        <span class="icon mr-2">
-                            <i class="fas fa-angle-left"></i>
-                        </span>
-                        <span class="text-uppercase">Back to Profile</span>
-                    </a>
+            <div class="col-12 text-center">
+                {% if from_profile %}
+                <a href="{% url 'profile' %}" class="btn btn-default btn-lg mt-4 text-uppercase"><i class="fas fa-angle-left fa-1x"></i>&nbsp;&nbsp;Back To My Profile</a>
                 {% else %}
-                    <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-black rounded-0 my-2">
-                        <span class="icon mr-2">
-                            <i class="fas fa-gifts"></i>
-                        </span>
-                        <span class="text-uppercase">Now check out the latest deals!</span>
-                    </a>
+                    <a href="{% url 'home' %}" class="btn btn-default btn-lg mt-4 text-uppercase"><i class="fas fa-angle-left fa-1x"></i>&nbsp;&nbsp;Back to Grandpa's Shop</a>
                 {% endif %}
-                </div>
-              <div class="row mt-3">
-                        <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
-                    </div>
             </div>
         </div>
     </div>
@@ -202,6 +188,6 @@
         <div class="col"></div>
     </div>
 </div>
-{% endblock %}
-{% endblock %}
+{% endblock %} {% endblock %}
+
 

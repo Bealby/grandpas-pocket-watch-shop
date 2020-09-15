@@ -1,6 +1,10 @@
 
 /*-----CSS from Stripe documentation-----*/
-
+ .overflow-auto-s
+  {
+    background: rgb(255, 255, 255, 1);
+    overflow: overlay;
+  }
 
 .StripeElement,
 .stripe-style-input {
