@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import AppointmentType, Appointment
+from .models import AppointmentType, WatchModel, WatchType, Appointment
 
 
 class AppointmentTypeAdmin(admin.ModelAdmin):
@@ -9,13 +9,30 @@ class AppointmentTypeAdmin(admin.ModelAdmin):
         'name',
     )
 
+
+class WatchModelAdmin(admin.ModelAdmin):
+    
+    list_display = (
+        'friendly_name',
+        'name',
+    )
+
+
+class WatchTypeAdmin(admin.ModelAdmin):
+    
+    list_display = (
+        'friendly_name',
+        'name',
+    )
+
+
 class AppointmentAdmin(admin.ModelAdmin):
 
     list_display = (
-        'name',
-        'model',
-        'type',
         'appointment_type',
+        'watch_model',
+        'watch_type',
+        'name',
         'date',
     )
 
@@ -23,4 +40,6 @@ class AppointmentAdmin(admin.ModelAdmin):
 
 
 admin.site.register(AppointmentType, AppointmentTypeAdmin)
+admin.site.register(WatchModel, WatchModelAdmin)
+admin.site.register(WatchType, WatchTypeAdmin)
 admin.site.register(Appointment, AppointmentAdmin)

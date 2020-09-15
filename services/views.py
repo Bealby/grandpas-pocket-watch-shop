@@ -1,17 +1,11 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.contrib import messages
-from django.db.models import Q
-from django.db.models.functions import Lower
+from django.shortcuts import render
 
-from .models import Appointment, AppointmentType
-from .forms import AppointmentForm
+# Create your views here.
 
+def services(request):
+# A view to return the index page
 
-def view_services(request):
-    form = AppointmentForm()
-    template = 'services/services.html'
-    context = {
-        'form': form,
-    }
+    return render(request, 'services/services.html')
 
-    return render(request, template, context)
+def success(request):
+    return HttpResponse('Success! Thank you for your message.')
