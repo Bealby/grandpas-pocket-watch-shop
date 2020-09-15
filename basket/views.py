@@ -19,7 +19,8 @@ def add_to_basket(request, item_id):
     basket = request.session.get('basket', {})
 
     if item_id in list(basket.keys()):
-        basket[item_id] += quantity
+        # To ensure only one unique product is added to basket.
+        messages.warning(request, f'{product.name} is already in your basket')
     else:
         basket[item_id] = quantity
         messages.success(request, f'Added {product.name} to your basket')

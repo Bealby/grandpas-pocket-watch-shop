@@ -38,7 +38,7 @@
                                     <p><span style="font-size: 0.7rem;">SKU:&nbsp;{{ item.product.sku }}</span></p>
                                 </th>
                                 <th>
-                                    <p class="mb-1">€{{ item.product.price }}</p>
+                                    <p class="mb-1">${{ item.product.price }}</p>
                                 </th>
                                 <th class="mt-0 pt-0">
                                     <form class="form update-form" method="POST" action="{% url 'adjust_basket' item.item_id %}">
