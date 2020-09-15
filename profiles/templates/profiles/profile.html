@@ -10,7 +10,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1">
-            <div class="row pt-4 pb-5">
+            <div class="row pt-4 pb-4">
                 <div class="col-12">
                     <h1 class="page-header text-center">My Profile</h1>
                 </div>
@@ -22,32 +22,37 @@
                     <p class="text-muted">Default Delivery Information</p>
                     <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
                         {% csrf_token %} {{ form|crispy }}
-                        <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
+                    <div class="col-12 pl-0 ml-0 pt-3">
+                        <button class="btn btn-black rounded-0 text-uppercase mb-1">Update Information</button>
+                    </div>
+                    <div class="col-12 pt-2 mb-5 pl-0">
+                        <a class="keep-shopping pl-0" href="{% url 'products' %}">Keep Shopping</a>
+                    </div>
                     </form>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <p>Order history</p>
-                    <div class="col-sm-12 col-md-9 col-lg-9 order-body pl-4 pr-4 pt-4 pb-4">
+                    <p class="text-muted">Order history</p>
+                    <div class="col-12 order-body">
                         <div class="order-history table-responsive">
                             <table class="table table-sm table-borderless">
                                 <thead>
                                     <tr>
-                                        <th>Order Number</th>
-                                        <th>Date</th>
-                                        <th>Items</th>
-                                        <th>Order Total</th>
+                                        <th class="small"><span style="font-weight: bold;">Order Number</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Date</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Items</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Order Total</span></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {% for order in orders %}
                                     <tr>
                                         <td>
-                                            <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
+                                            <a class="small" href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
                                                 {{ order.order_number|truncatechars:6 }}
                                             </a>
                                         </td>
-                                        <td>{{ order.date }}</td>
+                                        <td class="small">{{ order.date }}</td>
                                         <td>
                                             <ul class="list-unstyled">
                                                 {% for item in order.lineitems.all %}
@@ -57,14 +62,11 @@
                                                 {% endfor %}
                                             </ul>
                                         </td>
-                                        <td>${{ order.grand_total }}</td>
+                                        <td class="small">${{ order.grand_total }}</td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
                             </table>
-                        </div>
-                        <div class="row mt-3">
-                            <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +74,16 @@
         </div>
     </div>
 </div>
-{% endblock %} 
+
+{% block page_bottom %}
+<div class="container bottom-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% endblock %}
 
 {% block postloadjs %} {{ block.super }}
 <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>

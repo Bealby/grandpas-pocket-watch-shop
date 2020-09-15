@@ -88,10 +88,6 @@ body{
     font-family: 'Roboto', sans-serif;
     color: rgb(64, 64, 64, 1)!important;
     box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
-    padding-bottom:3rem;
-    padding-left:0rem;
-    padding-right:0rem;
-    font-weight:bold;
 }
 
 .page-header{
