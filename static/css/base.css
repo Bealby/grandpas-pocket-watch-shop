@@ -103,8 +103,8 @@ body{
 
 .toast-container{
     position:fixed;
-    right:1.5rem;
-    top:8rem;
+    right:1rem;
+    top:4.5rem;
     z-index: 99999999999;
 }
 
@@ -532,5 +532,15 @@ select option[value=""]{
 @media (min-width: 991px) {
 .header-container{
     margin-top:16rem;
+    }
+}
+
+/*-----Reduce head container margin-top to reduce white space between page header and navbar -----*/
+@media (min-width: 991px) {
+.toast-container{
+    position:fixed;
+    right:1.5rem;
+    top:6.4rem;
+    z-index: 99999999999;
     }
 }

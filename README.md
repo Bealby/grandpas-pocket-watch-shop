@@ -235,3 +235,5 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opac
 
 google map/contact inspiration https://mdbootstrap.com/docs/jquery/javascript/google-maps/
 django contact POST inspiration https://learndjango.com/tutorials/django-email-contact-form
+
+Toasts datsa-delay by 1000
