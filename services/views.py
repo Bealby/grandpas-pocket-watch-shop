@@ -11,25 +11,30 @@ from .forms import AppointmentForm
 
 
 def services(request):
-    if request.method == 'POST':
-        form = AppointmentForm(request.POST, request.FILES)
-        if form.is_valid():
-            form.save()
-            messages.success(request, 'Successfully added product!')
-            return redirect(reverse('services'))
-        else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+    if request.method == 'GET':
+        appointment_form = AppointmentForm()
     else:
-        form = AppointmentForm()
-        
-    template = 'services/services.html'
+        appointment_form = AppointmentForm(request.POST)
+        if appointment_form.is_valid():
+            appointment_form.save()
+            name = appointment_form.cleaned_data['name']
+            email = appointment_form.cleaned_data['email']
+            appointment_type = appointment_form.cleaned_data['appointment_type']
+            watch_model = appointment_form.cleaned_data['watch_model']
+            watch_type = appointment_form.cleaned_data['watch_type']
+            date = appointment_form.cleaned_data['date']
+            try:
+                send_mail(name, email, appointment_type, watch_model, watch_type, date, ['grandpas-pocket-watch-shop@gmail.com'])
+            except BadHeaderError:
+                return HttpResponse('Invalid header found.')
+            return redirect('success')
+
     context = {
-        'form': form,
+        'form': appointment_form,
     }
 
-    return render(request, template, context)
+    return render(request, "services/services.html", context)
 
 
 def success(request):
-    
     return HttpResponse('Success! Thank you for your message.')

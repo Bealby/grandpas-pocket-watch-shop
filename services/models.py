@@ -47,12 +47,12 @@ class WatchType(models.Model):
             
             
 class Appointment(models.Model):
-    name = models.CharField(max_length=254, null=True, blank=True)
-    email = models.EmailField(max_length=70, blank=True)
-    appointment_type = models.ForeignKey('AppointmentType', null=True, blank=True, on_delete=models.SET_NULL)
-    watch_model = models.ForeignKey('WatchModel', null=True, blank=True, on_delete=models.SET_NULL)
-    watch_type = models.ForeignKey('WatchType', null=True, blank=True, on_delete=models.SET_NULL)
-    date = models.DateField()
+    name = models.CharField(max_length=254)
+    email = models.EmailField(max_length=70)
+    appointment_type = models.ForeignKey('AppointmentType', null=True, on_delete=models.SET_NULL)
+    watch_model = models.ForeignKey('WatchModel', null=True, on_delete=models.SET_NULL)
+    watch_type = models.ForeignKey('WatchType', null=True, on_delete=models.SET_NULL)
+    date = models.DateTimeField()
 
     class Meta:
             verbose_name_plural = 'Appointments'
