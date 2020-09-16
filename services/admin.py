@@ -29,10 +29,11 @@ class WatchTypeAdmin(admin.ModelAdmin):
 class AppointmentAdmin(admin.ModelAdmin):
 
     list_display = (
+        'name',
+        'email',
         'appointment_type',
         'watch_model',
         'watch_type',
-        'name',
         'date',
     )
 

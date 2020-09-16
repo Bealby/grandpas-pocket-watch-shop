@@ -47,10 +47,11 @@ class WatchType(models.Model):
             
             
 class Appointment(models.Model):
+    name = models.CharField(max_length=254, null=True, blank=True)
+    email = models.EmailField(max_length=70, blank=True)
     appointment_type = models.ForeignKey('AppointmentType', null=True, blank=True, on_delete=models.SET_NULL)
     watch_model = models.ForeignKey('WatchModel', null=True, blank=True, on_delete=models.SET_NULL)
     watch_type = models.ForeignKey('WatchType', null=True, blank=True, on_delete=models.SET_NULL)
-    name = models.CharField(max_length=254, null=True, blank=True)
     date = models.DateField()
 
     class Meta:

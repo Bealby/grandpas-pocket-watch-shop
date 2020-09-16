@@ -37,3 +37,14 @@
     </div>
 </div>
 {% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script>
+  $(function () {
+    $("#id_date").datetimepicker({
+      format: 'd/m/Y H:i',
+    });
+  });
+</script>
+{% endblock %}
