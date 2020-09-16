@@ -1,6 +1,8 @@
-{{ order.full_name }}!
+Hello {{ order.full_name }}!
 
+Thank you for shopping at Grandpa's Pocket Watch Shop. We value your custom at our fami,y run business.
 
+Please find your confirmation and order informationbelow:
 
 Order Number: {{ order.order_number }}
 Order Date: {{ order.date }}
@@ -9,10 +11,13 @@ Order Total: ${{ order.order_total }}
 Delivery: ${{ order.delivery_cost }}
 Grand Total: ${{ order.grand_total }}
 
-o {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
+Your order will be shipped to:
 
- {{ order.phone_number }}.
+{{ order.street_address1 }}, {{ order.town_or_city }}, {{ order.country }}.
 
- at {{ contact_email }}.
+If you have any questions, feel free to contact us at {{ contact_email }}.
 
+Sincerely,
+
+Grandpa's Pocket Watch Shop
 

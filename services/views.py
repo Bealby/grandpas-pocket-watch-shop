@@ -24,7 +24,7 @@ def services(request):
             watch_type = appointment_form.cleaned_data['watch_type']
             date = appointment_form.cleaned_data['date']
             try:
-                send_mail(name, email, appointment_type, watch_model, watch_type, date, ['grandpas-pocket-watch-shop@gmail.com'])
+                send_mail('subject', 'message', 'from_email', 'recipient_list',)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
@@ -38,3 +38,6 @@ def services(request):
 
 def success(request):
     return HttpResponse('Success! Thank you for your message.')
+
+from django.core.mail import send_mail
+from django.template.loader import render_to_string
