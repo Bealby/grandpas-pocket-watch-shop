@@ -11,17 +11,17 @@ class AppointmentForm(forms.ModelForm):
         super().__init__(*args, **kwargs)
         placeholders = {
             'name': 'Full Name',
-            'email': 'Email Address',
-            'appointment_type': 'Appointment Type',
-            'watch_model': 'Watch Model',
-            'watch_type': 'Watch Type',
-            'date': 'Date',
+            'email': 'Email',
+            'appointment_type': 'Repair or Valuation?',
+            'watch_model': 'Which Model/ Brand?',
+            'watch_type': 'Casing/ Style?',
+            'date': 'Date/ Time?',
         }
 
         self.fields['name'].widget.attrs['autofocus'] = True
         for field in self.fields:
             if self.fields[field].required:
-                placeholder = f'{placeholders[field]} *'
+                placeholder = f'{placeholders[field]}'
             else:
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs['placeholder'] = placeholder
