@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'services',
     'profiles',
     'about',
+    'bootstrap_datepicker_plus',
 
 # Other
     'crispy_forms',

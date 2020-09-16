@@ -30,8 +30,8 @@
                             <p class="mb-0 text-center">Lambeth</p>
                             <p class="mb-0 text-center">LONDON</p>
                             <p class="mb-1 text-center">NG23 3NJ</p>
-                            <p class="mb-0 text-center"><span style="font-weight: bold;">Tel:&nbsp;&nbsp;</span>077 3986 6832</p>
-                            <p class="text-center mb-5"><span style="font-weight: bold;">Email:&nbsp;&nbsp;</span>grandpas-pocket-watch@gmail.com</p>
+                            <p class="mb-0 text-center"><span style="font-weight: bold;"><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;</span>077 3986 6832</p>
+                            <p class="text-center mb-5"><span style="font-weight: bold;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;</span>grandpas-pocket-watch@gmail.com</p>
                         </div>
                         <div col="col-12">
                             <div class="map map-border mx-auto" id="map"></div>
@@ -42,10 +42,11 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1 contact-form">
+                        <h3 class="text-uppercase text-center font-weight-bold pb-4">Get In Touch&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></h3>
                             <form method="post">
                             {% csrf_token %} {{ form|crispy }}
                                 <div class="form-actions text-center">
-                                <button type="submit" class="btn-default text-uppercase pl-4 pr-4">Send</button>
+                                <button type="submit" class="btn-default text-uppercase font-weight-bold pl-4 pr-4 pt-2 pb-2">Send&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </form>
                         </div>

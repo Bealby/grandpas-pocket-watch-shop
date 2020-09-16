@@ -3,6 +3,7 @@ import os
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core.mail import send_mail, BadHeaderError
+from django.template.loader import render_to_string
 from django.conf import settings
 from django.contrib import messages
 
@@ -24,7 +25,13 @@ def services(request):
             watch_type = appointment_form.cleaned_data['watch_type']
             date = appointment_form.cleaned_data['date']
             try:
-                send_mail('subject', 'message', 'from_email', 'recipient_list',)
+                cust_email = email
+                subject = render_to_string(
+                    'services/confirmation_emails/confirmation_email_subject.txt')
+                body = render_to_string(
+                    'services/confirmation_emails/confirmation_email_body.txt')
+
+                send_mail(subject, body, settings.DEFAULT_FROM_EMAIL, [cust_email])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')

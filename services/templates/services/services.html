@@ -40,13 +40,13 @@
 
 {% block postloadjs %}
 {{ block.super }}
-<script>
-  $(function () {
-    $("#id_date").datetimepicker({
-      format: 'Y-m-d H:i:00',
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker12').datetimepicker({
+            inline: true,
+            sideBySide: true,
+            format: 'DD.MM.YYYY' /*remove this line if you want to use time as well */
+        });
     });
-  });
 </script>
-
-
 {% endblock %}
