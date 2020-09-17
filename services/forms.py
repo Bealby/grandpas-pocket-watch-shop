@@ -6,7 +6,7 @@ class AppointmentForm(forms.ModelForm):
     class Meta:
         model = Appointment
         fields = ('name', 'email', 'appointment_type', 'watch_model', 'watch_type', 'date',)
-
+        
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         placeholders = {

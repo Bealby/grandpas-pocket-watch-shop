@@ -41,7 +41,7 @@ def services(request):
 
                 send_mail(subject, body, settings.DEFAULT_FROM_EMAIL, [cust_email])
             except BadHeaderError:
-                return HttpResponse('Invalid header found.')
+                messages.error(request, "Please ensure fields are filled out correctly")
             return redirect('success')
 
     context = {
@@ -52,7 +52,4 @@ def services(request):
 
 
 def success(request):
-    return HttpResponse('Success! Thank you for your message.')
-
-from django.core.mail import send_mail
-from django.template.loader import render_to_string
+    return render(request, "services/success.html")
