@@ -30,9 +30,9 @@ def services(request):
                 template_vars = {
                     'name': request.user.get_full_name(),
                     'email': email,
-                    'appointment_type': AppointmentType,
-                    'watch_model': WatchModel,
-                    'watch_type': WatchType,
+                    'appointment_type': appointment_type,
+                    'watch_model': watch_model,
+                    'watch_type': watch_type,
                     'date': date,
                 }
                 cust_email = email
