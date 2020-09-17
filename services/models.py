@@ -51,7 +51,7 @@ class Appointment(models.Model):
     appointment_type = models.ForeignKey('AppointmentType', null=True, on_delete=models.SET_NULL)
     watch_model = models.ForeignKey('WatchModel', null=True, on_delete=models.SET_NULL)
     watch_type = models.ForeignKey('WatchType', null=True, on_delete=models.SET_NULL)
-    date = models.DateTimeField()
+    date = models.DateTimeField(auto_now=True)
 
     class Meta:
             verbose_name_plural = 'Appointments'
