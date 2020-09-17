@@ -54,13 +54,13 @@
 $(function () {
         $('.datepicker').datetimepicker({
             locale: 'pt-br',
-            format: "YYYY-MM-DD HH:00",
+            format: "YYYY-MM-DD HH:mm",
             sideBySide: true,
-            enabledHours: [09],
+            enabledHours: [09,12],
             daysOfWeekDisabled: [0,6]
         });
-        $('.datepicker').data("DateTimePicker").minDate(moment().startOf('week'));
-        $('.datepicker').data("DateTimePicker").maxDate(moment().endOf('week'));
+        $('.datepicker').data("DateTimePicker").minDate(moment().startOf('year'));
+        $('.datepicker').data("DateTimePicker").maxDate(moment().endOf('year'));
     });
 </script>
 {% endblock %}
