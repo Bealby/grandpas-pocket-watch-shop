@@ -18,7 +18,4 @@ class AppointmentForm(forms.ModelForm):
         watch_types = WatchType.objects.all()
         friendly_names = [(c.id, c.get_friendly_name()) for c in watch_types]
         self.fields['watch_type'].choices = friendly_names
-
-    def __init__(self, *args, **kwargs):
-        super(AppointmentForm, self).__init__(*args, **kwargs)
         self.fields['date'].widget.attrs['class'] = 'datepicker'
