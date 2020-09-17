@@ -39,5 +39,5 @@ class AppointmentForm(forms.ModelForm):
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs['placeholder'] = placeholder
 
-        self.fields['date'].widget.attrs['class'] = 'datepicker'
+        # self.fields['date'].widget.attrs['class'] = 'datepicker'
 
