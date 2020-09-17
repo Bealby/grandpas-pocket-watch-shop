@@ -25,11 +25,19 @@ def services(request):
             watch_type = appointment_form.cleaned_data['watch_type']
             date = appointment_form.cleaned_data['date']
             try:
+                template_vars = {
+                    'name': request.user.get_full_name(),
+                    'email': email,
+                    'appointment_type': AppointmentType,
+                    'watch_model': WatchModel,
+                    'watch_type': WatchType,
+                    'date': date,
+                }
                 cust_email = email
                 subject = render_to_string(
-                    'services/confirmation_emails/confirmation_email_subject.txt')
+                    'services/confirmation_emails/confirmation_email_subject.txt', template_vars)
                 body = render_to_string(
-                    'services/confirmation_emails/confirmation_email_body.txt')
+                    'services/confirmation_emails/confirmation_email_body.txt', template_vars)
 
                 send_mail(subject, body, settings.DEFAULT_FROM_EMAIL, [cust_email])
             except BadHeaderError:

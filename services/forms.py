@@ -12,9 +12,9 @@ class AppointmentForm(forms.ModelForm):
         placeholders = {
             'name': 'Full Name',
             'email': 'Email',
-            'appointment_type': 'Repair or Valuation?',
-            'watch_model': 'Which Model/ Brand?',
-            'watch_type': 'Casing/ Style?',
+            'appointment_type': '',
+            'watch_model': '',
+            'watch_type': '',
             'date': 'Date/ Time?',
         }
 
@@ -27,4 +27,3 @@ class AppointmentForm(forms.ModelForm):
             self.fields[field].label = False
             self.fields[field].widget.attrs['placeholder'] = placeholder
         self.fields[field].widget.attrs['class'] = 'stripe-style-input'
-        self.fields[field].label = False
