@@ -237,3 +237,6 @@ google map/contact inspiration https://mdbootstrap.com/docs/jquery/javascript/go
 django contact POST inspiration https://learndjango.com/tutorials/django-email-contact-form
 
 Toasts datsa-delay by 1000
+
+javascript - date picker
+https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker

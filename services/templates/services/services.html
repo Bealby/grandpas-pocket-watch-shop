@@ -52,12 +52,15 @@
 {{ block.super }}
 <script type="text/javascript">
 $(function () {
-    $('.datepicker').datetimepicker(
-    {
-        format: 'YYYY-MM-DD HH:mm',
-        sideBySide: true
-    }
-    );
-});
+        $('.datepicker').datetimepicker({
+            locale: 'pt-br',
+            format: "YYYY-MM-DD HH:00",
+            sideBySide: true,
+            enabledHours: [09],
+            daysOfWeekDisabled: [0,6]
+        });
+        $('.datepicker').data("DateTimePicker").minDate(moment().startOf('week'));
+        $('.datepicker').data("DateTimePicker").maxDate(moment().endOf('week'));
+    });
 </script>
 {% endblock %}
