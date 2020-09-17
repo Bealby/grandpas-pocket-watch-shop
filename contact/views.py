@@ -5,7 +5,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 from django.conf import settings
 from .forms import ContactForm
-
+from django.template.loader import render_to_string
 
 def contact(request):
     if request.method == 'GET':
@@ -17,7 +17,12 @@ def contact(request):
             email = contact_form.cleaned_data['email']
             message = contact_form.cleaned_data['message']
             try:
-                send_mail(name, email, message, ['grandpas-pocket-watch-shop@gmail.com'])
+                subject = render_to_string(
+                    'contact/confirmation_emails/confirmation_email_subject.txt')
+                body = render_to_string(
+                    'contact/confirmation_emails/confirmation_email_body.txt')
+
+                send_mail(subject, body, email)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('success')
@@ -27,7 +32,7 @@ def contact(request):
         'api_key': settings.GOOGLE_MAP_API_KEY,
     }
 
-    return render(request, "contact.html", context)
+    return render(request, "contact/contact.html", context)
 
 
 def success(request):
