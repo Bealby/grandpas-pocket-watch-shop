@@ -2,6 +2,7 @@ import os
 
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
+from django.contrib.auth.decorators import login_required
 from django.core.mail import send_mail, BadHeaderError
 from django.template.loader import render_to_string
 from django.conf import settings
@@ -11,6 +12,7 @@ from .models import Appointment, AppointmentType, WatchModel, WatchType
 from .forms import AppointmentForm
 
 
+@login_required
 def services(request):
     if request.method == 'GET':
         appointment_form = AppointmentForm()
@@ -50,7 +52,7 @@ def services(request):
 
     return render(request, "services/services.html", context)
 
-
+@login_required
 def success(request):
 
     return render(request, "services/success.html")
