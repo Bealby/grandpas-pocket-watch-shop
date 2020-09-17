@@ -50,4 +50,14 @@
 
 {% block postloadjs %}
 {{ block.super }}
+<script type="text/javascript">
+$(function () {
+    $('.datepicker').datetimepicker(
+    {
+        format: 'YYYY-MM-DD HH:mm',
+        sideBySide: true
+    }
+    );
+});
+</script>
 {% endblock %}
