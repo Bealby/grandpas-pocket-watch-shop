@@ -1,14 +1,10 @@
-{% extends "base.html" %} {% load static %}
-
-{% block page_header %}
+{% extends "base.html" %} {% load static %} {% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %}
-
-{% block content %}
+{% endblock %} {% block content %}
 <div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1">
@@ -23,15 +19,19 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div row="row">
                         <div class="col-12 text-center">
-                            <img class="pb-2" src="{% static 'images/logo_3.png' %}" alt="Grandpa's Pocket Watch Shop - Logo">
+                            <img class="pb-2" src="{% static 'images/logo_3.png' %}" alt="Grandpa's Pocket Watch Shop - Logo" />
                         </div>
                         <div col="col-12">
                             <p class="mb-0 text-center">105 Hampton Court Rd</p>
                             <p class="mb-0 text-center">Lambeth</p>
                             <p class="mb-0 text-center">LONDON</p>
                             <p class="mb-1 text-center">NG23 3NJ</p>
-                            <p class="mb-0 text-center"><span style="font-weight: bold;"><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;</span>077 3986 6832</p>
-                            <p class="text-center mb-5"><span style="font-weight: bold;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;</span>grandpas-pocket-watch@gmail.com</p>
+                            <p class="mb-0 text-center">
+                                <span style="font-weight: bold;"><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;</span>077 3986 6832
+                            </p>
+                            <p class="text-center mb-5">
+                                <span style="font-weight: bold;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;</span>grandpas-pocket-watch@gmail.com
+                            </p>
                         </div>
                         <div col="col-12">
                             <div class="map map-border mx-auto" id="map"></div>
@@ -42,11 +42,11 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1 contact-form">
-                        <h3 class="text-uppercase text-center font-weight-bold pb-4">Get In Touch&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></h3>
+                            <h3 class="text-uppercase text-center font-weight-bold pb-4">Get In Touch&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></h3>
                             <form method="post">
-                            {% csrf_token %} {{ form|crispy }}
+                                {% csrf_token %} {{ form|crispy }}
                                 <div class="form-actions text-center">
-                                <button type="submit" class="btn-default text-uppercase font-weight-bold pl-4 pr-4 pt-2 pb-2">Send&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" class="btn-default text-uppercase font-weight-bold pl-4 pr-4 pt-2 pb-2">Send&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </form>
                         </div>
@@ -63,9 +63,7 @@
         <div class="col"></div>
     </div>
 </div>
-{% endblock %}
-
-{% endblock %} {% block extra_js %}
+{% endblock %} {% endblock %} {% block extra_js %}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script defer src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap"></script>
 <!-- Map -->

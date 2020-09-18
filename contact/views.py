@@ -7,6 +7,7 @@ from django.conf import settings
 from .forms import ContactForm
 from django.template.loader import render_to_string
 
+
 def contact(request):
     if request.method == 'GET':
         contact_form = ContactForm()
@@ -31,5 +32,5 @@ def contact(request):
 
 
 def contact_success(request):
-    
+
     return render(request, "contact/contact_success.html")
