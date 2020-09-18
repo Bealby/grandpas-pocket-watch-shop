@@ -25,7 +25,7 @@ def contact(request):
                 send_mail(subject, body, email)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
-            return redirect('success')
+            return redirect('contact_success')
 
     context = {
         'form': contact_form,
@@ -35,5 +35,6 @@ def contact(request):
     return render(request, "contact/contact.html", context)
 
 
-def success(request):
-    return HttpResponse('Success! Thank you for your message.')
+def contact_success(request):
+    
+    return render(request, "contact/contact_success.html")
