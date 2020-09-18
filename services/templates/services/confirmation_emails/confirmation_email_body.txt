@@ -9,6 +9,7 @@ Appointment: {{ appointment_type }}
 Pocket Watch Model: {{ watch_model }}
 Pocket Watch Type: {{ watch_type }}
 Appointment Time: {{ date }}
+Appointment Time: {{ time }}
 
 If you have any questions, feel free to contact us at grandpaspocketwatchshop@gmail.com.
 

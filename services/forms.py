@@ -31,7 +31,7 @@ class AppointmentForm(forms.ModelForm):
             'watch_model': '',
             'watch_type': '',
             'date': '',
-            'time': 'Time',
+            'time': '',
         }
 
         self.fields['name'].widget.attrs['autofocus'] = True

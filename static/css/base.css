@@ -475,12 +475,6 @@ select option[value=""]{
    color:rgb(255, 255, 255, 1) !important;
 }
 
-/*-----Date Picker-----*/
-
-.datepicker header {
-background-color: #616eff;
-}
-
 /*-----Contact-----*/
 
 .contact-form{

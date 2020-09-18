@@ -16,8 +16,11 @@
             </div>
 
             <div class="row">
-                <div class="col-8 offset-2">
-                    <p>An confirmation email has been sent to your {{ email }} {{ name }}</p>
+                <div class="col-8 offset-2 text-center">
+                    <p>A booking confirmation has been sent to your email!</p>
+                    <div class="col-12">
+                        <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
+                    </div>
                 </div>
             </div>
         </div>

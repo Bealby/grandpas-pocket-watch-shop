@@ -26,6 +26,7 @@ def services(request):
             watch_model = appointment_form.cleaned_data['watch_model']
             watch_type = appointment_form.cleaned_data['watch_type']
             date = appointment_form.cleaned_data['date']
+            time = appointment_form.cleaned_data['time']
             try:
                 template_vars = {
                     'name': request.user.get_full_name(),
@@ -34,6 +35,7 @@ def services(request):
                     'watch_model': watch_model,
                     'watch_type': watch_type,
                     'date': date,
+                    'time': time,
                 }
                 cust_email = email
                 subject = render_to_string(
@@ -44,7 +46,7 @@ def services(request):
                 send_mail(subject, body, settings.DEFAULT_FROM_EMAIL, [cust_email])
             except BadHeaderError:
                 messages.error(request, "Please ensure fields are filled out correctly")
-            return redirect('success')
+            return redirect('services_success')
 
     context = {
         'form': appointment_form,
@@ -53,6 +55,6 @@ def services(request):
     return render(request, "services/services.html", context)
 
 @login_required
-def success(request):
+def services_success(request):
 
-    return render(request, "services/success.html")
+    return render(request, "services/services_success.html")
