@@ -1,5 +1,5 @@
 from django import forms
-from .models import Appointment, AppointmentType, WatchModel, WatchType
+from .models import Appointment, AppointmentTime, AppointmentType, WatchModel, WatchType
 
 
 class AppointmentForm(forms.ModelForm):
@@ -22,13 +22,16 @@ class AppointmentForm(forms.ModelForm):
         friendly_names = [(c.id, c.get_friendly_name()) for c in watch_types]
         self.fields['watch_type'].choices = friendly_names
 
+        self.fields['date'].widget.attrs['class'] = 'datepicker'
+
         placeholders = {
             'name': 'Full Name',
             'email': 'Email',
             'appointment_type': '',
             'watch_model': '',
             'watch_type': '',
-            'date': 'Date/ Time?',
+            'date': '',
+            'time': 'Time',
         }
 
         self.fields['name'].widget.attrs['autofocus'] = True
@@ -38,6 +41,7 @@ class AppointmentForm(forms.ModelForm):
             else:
                 placeholder = placeholders[field]
             self.fields[field].widget.attrs['placeholder'] = placeholder
+        self.fields[field].widget.attrs['class'] = 'stripe-style-input'
 
-        # self.fields['date'].widget.attrs['class'] = 'datepicker'
+        self.fields['date'].widget.attrs['class'] = 'datepicker'
 

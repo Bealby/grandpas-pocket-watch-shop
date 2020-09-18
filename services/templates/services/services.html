@@ -54,9 +54,8 @@
 $(function () {
         $('.datepicker').datetimepicker({
             locale: 'pt-br',
-            format: "YYYY-MM-DD HH:00:00",
+            format: "YYYY-MM-DD",
             sideBySide: true,
-            enabledHours: [09,12],
             daysOfWeekDisabled: [0,6]
         });
         $('.datepicker').data("DateTimePicker").minDate(moment().startOf('year'));
