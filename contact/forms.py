@@ -24,4 +24,3 @@ class ContactForm(forms.Form):
                 placeholder = placeholders[field]
             self.fields[field].label = False
             self.fields[field].widget.attrs['placeholder'] = placeholder
-        self.fields[field].widget.attrs['class'] = 'stripe-style-input'

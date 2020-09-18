@@ -17,12 +17,7 @@ def contact(request):
             email = contact_form.cleaned_data['email']
             message = contact_form.cleaned_data['message']
             try:
-                subject = render_to_string(
-                    'contact/confirmation_emails/confirmation_email_subject.txt')
-                body = render_to_string(
-                    'contact/confirmation_emails/confirmation_email_body.txt')
-
-                send_mail(subject, body, email)
+                send_mail(name, message, email, [settings.DEFAULT_FROM_EMAIL])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('contact_success')
