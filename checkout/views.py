@@ -94,13 +94,14 @@ def checkout(request):
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
+            return redirect(reverse('products'))
 
     # If not valid
     else:
         basket = request.session.get('basket', {})
         # To prevent people from manually accessing the URL by typing /checkout
         if not basket:
-            message.error(request, "there's nothing in your "
+            messages.error(request, "there's nothing in your "
                                    "basket at the moment")
             return redirect(reverse('products'))
 
