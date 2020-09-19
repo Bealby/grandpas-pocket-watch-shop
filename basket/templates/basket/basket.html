@@ -115,11 +115,7 @@
         <div class="col"></div>
     </div>
 </div>
-{% endblock %}
-
-{% endblock %}
-
-{% block postloadjs %}
+{% endblock %} {% endblock %} {% block postloadjs %}
 <!-- blcok.super used to ensure not to override toast messages -->
 {{ block.super }}
 <script type="text/javascript">
@@ -130,9 +126,9 @@
     });
 
     // Remove item and reload on click
-    $('.remove-item').click(function (e) {
+    $(".remove-item").click(function (e) {
         let csrfToken = "{{ csrf_token }}";
-        let itemId = $(this).attr("id").split('remove_')[1];
+        let itemId = $(this).attr("id").split("remove_")[1];
         let url = `remove/${itemId}/`;
         let data = { csrfmiddlewaretoken: csrfToken };
 

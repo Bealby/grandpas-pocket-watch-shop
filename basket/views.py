@@ -1,12 +1,12 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, HttpResponse,  \
+    get_object_or_404
 from django.contrib import messages
 
 from products.models import Product
 
 
 def view_basket(request):
-# A view to return the basket
-
+    # A view to return the basket
     return render(request, 'basket/basket.html')
 
 
@@ -47,9 +47,8 @@ def adjust_basket(request, item_id):
 
 def remove_from_basket(request, item_id):
     # Remove item from basket
-    
     try:
-        product = get_object_or_404(Product, pk=item_id) 
+        product = get_object_or_404(Product, pk=item_id)
         basket = request.session.get('basket', {})
         basket.pop(item_id)
         messages.success(request, f'Removed {product.name} from your basket')
