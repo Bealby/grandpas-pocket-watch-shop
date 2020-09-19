@@ -23,7 +23,9 @@
                 <div class="col-sm-12 col-md-9 col-lg-9 order-body pl-4 pr-4 pt-4 pb-4 mx-auto">
                     <div class="row">
                         <div class="col">
-                            <p class="small mb-2"><span style="font-weight: bold;"><u>Order Info:</u><span></p>
+                            <p class="small mb-2">
+                                <span style="font-weight: bold;"><u>Order Info:</u></span>
+                            </p>
                         </div>
                     </div>
 
@@ -32,7 +34,7 @@
                             <p class="mb-0">Order Number</p>
                         </div>
                         <div class="col-12 col-md-8 overflow-auto-s">
-                            <p class="text-md-right mb-0 text-muted ">{{ order.order_number }}</p>
+                            <p class="text-md-right mb-0 text-muted">{{ order.order_number }}</p>
                         </div>
                     </div>
 
@@ -46,7 +48,9 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p class="small mb-2 text-uppercase"><span style="font-weight: bold;"><u>Order Details:</u></span></p>
+                            <p class="small mb-2 text-uppercase">
+                                <span style="font-weight: bold;"><u>Order Details:</u></span>
+                            </p>
                         </div>
                     </div>
                     {% for item in order.lineitems.all %}
@@ -62,7 +66,9 @@
                     {% endfor %}
                     <div class="row">
                         <div class="col">
-                            <p class=" small mb-2 text-uppercase"><span style="font-weight: bold;"><u>Delivering To:</u></span></p>
+                            <p class="small mb-2 text-uppercase">
+                                <span style="font-weight: bold;"><u>Delivering To:</u></span>
+                            </p>
                         </div>
                     </div>
                     <div class="row">
@@ -140,7 +146,9 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p class="small mb-2 text-uppercase"><span style="font-weight: bold;"><u>Billing Info:</u></span></p>
+                            <p class="small mb-2 text-uppercase">
+                                <span style="font-weight: bold;"><u>Billing Info:</u></span>
+                            </p>
                         </div>
                     </div>
 
@@ -176,7 +184,7 @@
                 {% if from_profile %}
                 <a href="{% url 'profile' %}" class="btn btn-default btn-lg mt-4 text-uppercase"><i class="fas fa-angle-left fa-1x"></i>&nbsp;&nbsp;Back To My Profile</a>
                 {% else %}
-                    <a href="{% url 'home' %}" class="btn btn-default btn-lg mt-4 text-uppercase"><i class="fas fa-angle-left fa-1x"></i>&nbsp;&nbsp;Back to Grandpa's Shop</a>
+                <a href="{% url 'home' %}" class="btn btn-default btn-lg mt-4 text-uppercase"><i class="fas fa-angle-left fa-1x"></i>&nbsp;&nbsp;Back to Grandpa's Shop</a>
                 {% endif %}
             </div>
         </div>
@@ -189,5 +197,3 @@
     </div>
 </div>
 {% endblock %} {% endblock %}
-
-

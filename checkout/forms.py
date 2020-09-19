@@ -4,7 +4,8 @@ from .models import Order
 
 class OrderForm(forms.ModelForm):
     class Meta:
-        # Telling Django which model it will be associated with and the fields to render. 
+        # Telling Django which model it will be associated with and
+        # the fields to render.
         model = Order
         fields = ('full_name', 'email', 'phone_number',
                   'street_address1', 'street_address2',
@@ -12,7 +13,8 @@ class OrderForm(forms.ModelForm):
                   'county',)
 
     def __init__(self, *args, **kwargs):
-        # Inserted placeholders. Removed auto-generated lables and set auto focus for curser to start on Full Name field
+        # Inserted placeholders. Removed auto-generated lables and set auto
+        # focus for curser to start on Full Name field
         super().__init__(*args, **kwargs)
         placeholders = {
             # For better UI on webpage
