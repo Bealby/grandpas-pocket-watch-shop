@@ -5,6 +5,7 @@ from .models import Product, Category
 
 # Create your views here.
 
+
 def all_products(request):
     # A view to return all products and search queries
 
@@ -23,9 +24,9 @@ def all_products(request):
             if not query:
                 messages.error(request, "Please enter search criteria!")
                 return redirect(reverse('products'))
-                
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+
+            queries = \
+                Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
     context = {
@@ -39,9 +40,8 @@ def all_products(request):
 
 def product_detail(request, product_id):
     # A view to show individual product details
-
     product = get_object_or_404(Product, pk=product_id)
-    
+
     context = {
         'product': product,
     }
