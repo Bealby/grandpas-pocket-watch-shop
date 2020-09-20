@@ -4,12 +4,14 @@ from .models import UserProfile
 
 class UserProfileForm(forms.ModelForm):
     class Meta:
-        # Telling Django which model it will be associated with and the fields to render. 
+        # Telling Django which model it will be associated with and the
+        # fields to render.
         model = UserProfile
         exclude = ('user',)
 
     def __init__(self, *args, **kwargs):
-        # Inserted placeholders. Removed auto-generated lables and set auto focus for curser to start on Full Name field
+        # Inserted placeholders. Removed auto-generated lables and set auto
+        # focus for curser to start on Full Name field
         # Add placeholders and classes, remove auto-generated
         # labels and set autofocus on first field
         super().__init__(*args, **kwargs)
@@ -32,5 +34,6 @@ class UserProfileForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'border-black round-0 profile-form-input'
+            self.fields[field].widget.attrs['class'] =  \
+                'border-black round-0 profile-form-input'
             self.fields[field].label = False
