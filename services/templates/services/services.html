@@ -18,56 +18,48 @@
 
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="row">
+                    <div class="row">
                         <div class="col-lg-10 offset-lg-1 contact-form">
-                        <h3 class="text-uppercase text-center font-weight-bold pb-4">Book an appointment</h3>
+                            <h3 class="text-uppercase text-center font-weight-bold pb-4">Book an appointment</h3>
                             <form method="post">
-                            {% csrf_token %} {{ form|crispy }}
+                                {% csrf_token %} {{ form|crispy }}
                                 <div class="form-actions text-center">
-                                <button type="submit" class="btn-default text-uppercase font-weight-bold pl-4 pr-4 pt-2 pb-2">Confirm Appointment&nbsp;&nbsp;<i class="fas fa-check-square"></i></button>
+                                    <button type="submit" class="btn-default text-uppercase font-weight-bold pl-4 pr-4 pt-2 pb-2">Confirm Appointment&nbsp;&nbsp;<i class="fas fa-check-square"></i></button>
                                 </div>
                             </form>
                         </div>
                     </div>
-                
-                
                 </div>
 
                 <div class="product-body col-sm-12 col-md-6 col-lg-6">
-                <div class="pl-5 pr-5">
-                <p>Jack Fairfield was born on the 27th July, 1915 in Windygates, Fife, Scotland. 
-                He was the eldest of four brothers; David, James, Frank and Norman; and sons of
-                Edward and Ada Elizabeth née Webster.</p>
-                </div>
-                <div class="text-center">
-                    <img src="{% static 'images/repairs-valuation.png' %}" class="" alt="Photo of man repairing and valuing">
-                </div>
+                    <div class="pl-5 pr-5">
+                        <p>Jack Fairfield was born on the 27th July, 1915 in Windygates, Fife, Scotland. He was the eldest of four brothers; David, James, Frank and Norman; and sons of Edward and Ada Elizabeth née Webster.</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="{% static 'images/repairs-valuation.png' %}" class="" alt="Photo of man repairing and valuing" />
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-{% endblock %}
-{% block page_bottom %}
+{% endblock %} {% block page_bottom %}
 <div class="container bottom-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %}
-
-{% block postloadjs %}
-{{ block.super }}
+{% endblock %} {% block postloadjs %} {{ block.super }}
 <script type="text/javascript">
-$(function () {
-        $('.datepicker').datetimepicker({
-            locale: 'pt-br',
+    $(function () {
+        $(".datepicker").datetimepicker({
+            locale: "pt-br",
             format: "YYYY-MM-DD",
             sideBySide: true,
-            daysOfWeekDisabled: [0,6]
+            daysOfWeekDisabled: [0, 6],
         });
-        $('.datepicker').data("DateTimePicker").minDate(moment().startOf('year'));
-        $('.datepicker').data("DateTimePicker").maxDate(moment().endOf('year'));
+        $(".datepicker").data("DateTimePicker").minDate(moment().startOf("year"));
+        $(".datepicker").data("DateTimePicker").maxDate(moment().endOf("year"));
     });
 </script>
 {% endblock %}

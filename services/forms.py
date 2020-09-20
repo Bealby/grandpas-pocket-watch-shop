@@ -1,17 +1,19 @@
 from django import forms
-from .models import Appointment, AppointmentTime, AppointmentType, WatchModel, WatchType
+from .models import Appointment, AppointmentTime, AppointmentType,  \
+    WatchModel, WatchType
 
 
 class AppointmentForm(forms.ModelForm):
     class Meta:
         model = Appointment
         fields = '__all__'
-    
+
     def __init__(self, *args, **kwargs):
 
         super().__init__(*args, **kwargs)
         appointment_types = AppointmentType.objects.all()
-        friendly_names = [(c.id, c.get_friendly_name()) for c in appointment_types]
+        friendly_names =  \
+            [(c.id, c.get_friendly_name()) for c in appointment_types]
         self.fields['appointment_type'].choices = friendly_names
 
         watch_models = WatchModel.objects.all()
@@ -44,4 +46,3 @@ class AppointmentForm(forms.ModelForm):
         self.fields[field].widget.attrs['class'] = 'stripe-style-input'
 
         self.fields['date'].widget.attrs['class'] = 'datepicker'
-

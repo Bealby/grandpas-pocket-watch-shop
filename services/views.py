@@ -22,7 +22,8 @@ def services(request):
             appointment_form.save()
             name = appointment_form.cleaned_data['name']
             email = appointment_form.cleaned_data['email']
-            appointment_type = appointment_form.cleaned_data['appointment_type']
+            appointment_type =  \
+                appointment_form.cleaned_data['appointment_type']
             watch_model = appointment_form.cleaned_data['watch_model']
             watch_type = appointment_form.cleaned_data['watch_type']
             date = appointment_form.cleaned_data['date']
@@ -38,14 +39,15 @@ def services(request):
                     'time': time,
                 }
                 cust_email = email
-                subject = render_to_string(
-                    'services/confirmation_emails/confirmation_email_subject.txt', template_vars)
-                body = render_to_string(
-                    'services/confirmation_emails/confirmation_email_body.txt', template_vars)
+                subject =  \
+                    render_to_string('services/confirmation_emails/confirmation_email_subject.txt', template_vars)
+                body = render_to_string('services/confirmation_emails/confirmation_email_body.txt', template_vars)
 
-                send_mail(subject, body, settings.DEFAULT_FROM_EMAIL, [cust_email])
+                send_mail(subject, body, settings.DEFAULT_FROM_EMAIL,
+                          [cust_email])
             except BadHeaderError:
-                messages.error(request, "Please ensure fields are filled out correctly")
+                messages.error(request, "Please ensure fields "
+                                        "are filled out correctly")
             return redirect('services_success')
 
     context = {
@@ -53,6 +55,7 @@ def services(request):
     }
 
     return render(request, "services/services.html", context)
+
 
 @login_required
 def services_success(request):

@@ -1,9 +1,10 @@
 from django.contrib import admin
-from .models import AppointmentType, WatchModel, WatchType, AppointmentTime, Appointment
+from .models import AppointmentType, WatchModel, WatchType, AppointmentTime,  \
+    Appointment
 
 
 class AppointmentTypeAdmin(admin.ModelAdmin):
-    
+
     list_display = (
         'friendly_name',
         'name',
@@ -11,14 +12,14 @@ class AppointmentTypeAdmin(admin.ModelAdmin):
 
 
 class AppointmentTimeAdmin(admin.ModelAdmin):
-    
+
     list_display = (
         'name',
     )
 
 
 class WatchModelAdmin(admin.ModelAdmin):
-    
+
     list_display = (
         'friendly_name',
         'name',
@@ -26,7 +27,7 @@ class WatchModelAdmin(admin.ModelAdmin):
 
 
 class WatchTypeAdmin(admin.ModelAdmin):
-    
+
     list_display = (
         'friendly_name',
         'name',
