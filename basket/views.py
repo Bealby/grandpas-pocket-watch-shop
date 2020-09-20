@@ -30,21 +30,6 @@ def add_to_basket(request, item_id):
     return redirect(redirect_url)
 
 
-def adjust_basket(request, item_id):
-    # Adjust product to shopping basket
-
-    quantity = int(request.POST.get('quantity'))
-    basket = request.session.get('basket', {})
-
-    if quantity > 0:
-        basket[item_id] = quantity
-    else:
-        basket.pop[item_id] = quantity
-
-    request.session['basket'] = basket
-    return redirect(reverse('view_basket'))
-
-
 def remove_from_basket(request, item_id):
     # Remove item from basket
     try:
