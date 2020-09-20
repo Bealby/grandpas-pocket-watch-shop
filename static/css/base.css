@@ -62,6 +62,15 @@ body{
 
 /*-----TEXT-----*/
 
+.service-header{
+    font-size:2rem;
+    padding-top:2rem;
+}
+
+.services-header-padding{
+    padding-bottom:0rem;
+    }
+
 .header-list-items{
     font-size: 0.9rem;
     padding-left:0rem;
@@ -156,7 +165,7 @@ body{
     color: rgb(64, 64, 64, 1);
 }
 
-/*-----BLUE DIVIDER-----*/
+/*-----Map-----*/
 
 .map-border {
 	border: 0.2rem solid;
@@ -598,3 +607,18 @@ select option[value=""]{
     }
 }
 
+/*-----Reduce header and increase padding on service.html for better viewing on mobile -----*/
+@media (min-width: 991px) {
+.service-header{
+    font-size:2.5rem;
+    padding-top:0rem;
+    padding-bottom:0rem;
+    }
+}
+
+/*-----Reduce header and increase padding on service.html for better viewing on mobile -----*/
+@media (min-width: 991px) {
+.services-header-padding{
+    padding-bottom:3rem;
+    }
+}
