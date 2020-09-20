@@ -240,3 +240,5 @@ Toasts datsa-delay by 1000
 
 javascript - date picker
 https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker
+
+blinking arrow : https://html-online.com/articles/blinking-text-css-animation/
