@@ -40,17 +40,17 @@ body{
 /*-----NAVIGATION BAR-----*/
 
 #topnav{
-    background-color: rgb(204, 204, 204, 1);
+    background-color: rgb(255, 255, 255, 1);
     color:rgb(0, 0, 0, 1);
 }
 
 .footernav{
-    background-color: rgb(204, 204, 204, 1);
+    background-color: rgb(186, 220, 192, 1);
     color:rgb(0, 0, 0, 1);
 }
 
 #botnav{
-    background-color: rgb(221, 221, 221, 1);
+    background-color: rgb(186, 220, 192, 1);
     color:rgb(0, 0, 0, 1);
 }
 
@@ -120,7 +120,7 @@ body{
 }
 
 .basket-total-sm{
-    color:rgb(111, 169, 255, 1);
+    color:rgb(220, 149, 35, 1);
     font-family: 'Roboto', sans-serif !important;
     font-size:1rem;
     padding-right:0.7rem;
@@ -169,7 +169,7 @@ body{
 
 .map-border {
 	border: 0.2rem solid;
-	color: rgb(111, 169, 255, 1);
+	color: rgb(220, 149, 35, 1);
 }
 
 .map {
@@ -193,7 +193,7 @@ body{
 
 .blue-divider{
     width:50%;
-    border-top: 0.5rem solid rgb(111, 169, 255, 1);
+    border-top: 0.5rem solid rgb(220, 149, 35, 1);
     border-radius: 0.3rem;
 }
 
@@ -222,7 +222,7 @@ body{
 }
 
 .hover-overlay-text a{
-    background-color: rgb(111, 169, 255, 1) !important;
+    background-color: rgb(220, 149, 35, 1) !important;
     font-family: 'Roboto', sans-serif !important;
     color:rgb(255, 255, 255, 1) !important;
     font-weight:900 !important;
@@ -241,11 +241,11 @@ body{
     animation:blinkingText 1.2s infinite;
 }
 @keyframes blinkingText{
-    0%{     color:rgb(111, 169, 255, 1);    }
-    49%{    color:rgb(111, 169, 255, 1); }
+    0%{     color: rgb(220, 149, 35, 1);    }
+    49%{    color: rgb(220, 149, 35, 1); }
     60%{    color: transparent; }
     99%{    color:transparent;  }
-    100%{   color:rgb(111, 169, 255, 1);    }
+    100%{   color: rgb(220, 149, 35, 1);    }
 }
 
 /*-----HOVER OVERLAY FEATURE - INDEX.HTML-----*/
@@ -286,13 +286,13 @@ body{
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background-color:rgb(111, 169, 255, 1) !important;
+    background-color: rgb(220, 149, 35, 0.6) !important;
 }
 
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
-    color:rgb(111, 169, 255, 1) !important;
+    color: rgb(220, 149, 35, 0.6) !important;
 }
 
 /*-----BLACK BUTTON LINK-----*/
@@ -313,17 +313,17 @@ body{
 
 .btn-default{
     color:rgb(255, 255, 255, 1) !important;
-    background-color:rgb(111, 169, 255, 1) !important;
+    background-color: rgb(220, 149, 35, 1) !important;
     font-family: 'Roboto', sans-serif !important;
     font-size: 1rem !important;
-    border:rgb(111, 169, 255, 1) !important;
+    border: rgb(220, 149, 35, 1) !important;
     border-radius: 1rem !important;
 }
 
 .btn-default:hover,
 .btn-default:focus{   
     color:rgb(255, 255, 255, 1) !important;
-    background-color:rgb(111, 169, 255, 0.6) !important;
+    background-color: rgb(220, 149, 35, 0.6) !important;
     transform: scale(1.1) !important;
 }
 
@@ -466,7 +466,7 @@ select option[value=""]{
 .fa-tools:hover,
 .fa-user:hover,
 .fa-shopping-basket:hover{
-    color:rgb(111, 169, 255, 1) !important;
+    color: rgb(220, 149, 35, 0.6) !important;
 }
 
 .fa-trash-alt{
