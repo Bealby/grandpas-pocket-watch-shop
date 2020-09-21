@@ -25,11 +25,10 @@
                         {% endif %}
                         <div class="card-body text-left product-body text-muted mb-0">
                             <p class="mb-1">
-                                <span style="font-weight: bold;">Name:</span>&nbsp;&nbsp;{{ product.name }}&nbsp;&nbsp;
-                                <a class="btn info-btn btn-lg text-uppercase" href="{% url 'product_detail' product.id %}"><i class="fas fa-info"></i></a>
+                                <span style="font-weight: bold;">Name:</span>&nbsp;&nbsp;{{ product.name }}
                             </p>
                             <p><span style="font-weight: bold;">Cost:</span>&nbsp;&nbsp;€{{ product.price }}</p>
-                            <p class="mb-0"><span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span></p>
+                            <p class="mb-0"><span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span>&nbsp;&nbsp;<a class="btn info-btn btn-lg text-uppercase" href="{% url 'product_detail' product.id %}"><i class="fas fa-info"></i></a></p>
                         </div>
                         <div class="col-12 mb-3">
                             <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
