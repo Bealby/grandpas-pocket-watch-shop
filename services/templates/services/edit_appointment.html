@@ -1,0 +1,114 @@
+{% extends "base.html" %} {% load static %} {% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %} {% block content %}
+<div class="container-fluid">
+    <div class="row mb-5">
+        <div class="col-10 offset-1">
+            <div class="services-header-padding pt-4">
+                <div class="col-12 service-header">
+                    <h1 class="page-header text-center">Edit Appointment</h1>
+                </div>
+                <hr class="blue-divider" />
+            </div>
+
+            <div class="row">
+                <div class="product-body col-sm-12 col-md-12 col-lg-6">
+                    <h3 class="page-header text-center mt-4 mb-5">For a Repair Or Valuation!</h3>
+                    <div class="row text-center">
+                        <div class="col-sm-12 col-md-6 col-lg-6 pb-3">
+                            <ul class="pl-0" style="list-style-type: none;">
+                                <li class="pb-2">
+                                    <h5>
+                                        <strong><u>Repair</u></strong>&nbsp;&nbsp;(includes)
+                                    </h5>
+                                </li>
+                                <li>
+                                    <p>Repair requirements</p>
+                                </li>
+                                <li>
+                                    <p>Cost Estimate</p>
+                                </li>
+                                <li>
+                                    <p>Non-commital repair</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <ul class="pl-0" style="list-style-type: none;">
+                                <li class="pb-2">
+                                    <h5>
+                                        <strong><u>Valuation</u></strong>&nbsp;&nbsp;(includes)
+                                    </h5>
+                                </li>
+                                <li>
+                                    <p>Certified Valuation</p>
+                                </li>
+                                <li>
+                                    <p>Information History</p>
+                                </li>
+                                <li>
+                                    <p>Cost:&nbsp;<strong><u>FREE</u></strong></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                            <img class="img-fluid" src="{% static 'images/repairs-valuation.png' %}" alt="Photo of man repairing and valuing" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="d-none d-lg-block d-xl-none d-none d-xl-block mx-auto">
+                            <h4 class="text-center">Book An Appointment <u>NOW</u></h4>
+                            <h4 class="text-center">
+                                <strong>09:00</strong> or <strong>12:00</strong> from <strong>Mon-Fri</strong>&nbsp;&nbsp;<span class="blinking"><i class="fas fa-lgx fa-angle-double-right"></i></span>
+                            </h4>
+                        </div>
+                        <div class="d-block d-sm-none d-none d-sm-block d-md-none d-none d-md-block d-lg-none mx-auto">
+                            <h4 class="text-center">Book An Appointment <u>NOW</u></h4>
+                            <h4 class="text-center pb-2"><strong>09:00</strong> or <strong>12:00</strong> from <strong>Mon-Fri</strong></h4>
+                            <p class="text-center"><span class="blinking"><i class="fas fa-3x fa-angle-double-down"></i></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1 contact-form">
+                            <h3 class="text-uppercase text-center font-weight-bold pb-4">Book an appointment</h3>
+                            <form method="post">
+                                {% csrf_token %} {{ form|crispy }}
+                                <div class="form-actions text-center">
+                                    <button type="submit" class="btn-default text-uppercase font-weight-bold pl-4 pr-4 pt-2 pb-2">Confirm Appointment&nbsp;&nbsp;<i class="fas fa-check-square"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} {% block page_bottom %}
+<div class="container bottom-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %} {% block postloadjs %} {{ block.super }}
+<script type="text/javascript">
+    $(function () {
+        $(".datepicker").datetimepicker({
+            locale: "pt-br",
+            format: "YYYY-MM-DD",
+            sideBySide: true,
+            daysOfWeekDisabled: [0, 6],
+        });
+        $(".datepicker").data("DateTimePicker").minDate(moment().startOf("year"));
+        $(".datepicker").data("DateTimePicker").maxDate(moment().endOf("year"));
+    });
+</script>
+{% endblock %}
