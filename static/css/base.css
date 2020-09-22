@@ -622,3 +622,10 @@ select option[value=""]{
     padding-bottom:3rem;
     }
 }
+
+/*----- -----*/
+@media (min-width: 991px) {
+.header-container{
+    margin-top:12rem;
+    }
+}
