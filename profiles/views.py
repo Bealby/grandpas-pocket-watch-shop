@@ -23,11 +23,13 @@ def profile(request):
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
+    appointments = profile.appointments.all()
 
     template = 'profiles/profile.html'
     context = {
         'form': form,
         'orders': orders,
+        'appointments': appointments,
         'on_profile_page': True
     }
 

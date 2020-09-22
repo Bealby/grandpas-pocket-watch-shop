@@ -1,5 +1,7 @@
 from django.db import models
 
+from profiles.models import UserProfile
+
 
 class AppointmentType(models.Model):
     class Meta:
@@ -61,6 +63,8 @@ class AppointmentTime(models.Model):
 
 class Appointment(models.Model):
     name = models.CharField(max_length=254)
+    user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
+                                     null=True, blank=True, related_name='appointments')
     email = models.EmailField(max_length=70)
     appointment_type = models.ForeignKey('AppointmentType', null=True,
                                          on_delete=models.SET_NULL)

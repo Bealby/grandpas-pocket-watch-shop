@@ -27,6 +27,7 @@ class AppointmentForm(forms.ModelForm):
         self.fields['date'].widget.attrs['class'] = 'datepicker'
 
         placeholders = {
+            'user_profile': 'Full Name',
             'name': 'Full Name',
             'email': 'Email',
             'appointment_type': '',

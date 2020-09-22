@@ -62,14 +62,3 @@ def services_success(request):
 
     return render(request, "services/services_success.html")
 
-
-@login_required
-def edit_appointment(request):
-    # Edit Appointment
-    form = AppointmentForm
-    template = 'services/edit_appointment.html'
-    context ={
-        'form': form,
-    }
-
-    return render (request, template, context)

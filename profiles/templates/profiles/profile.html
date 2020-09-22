@@ -69,6 +69,30 @@
                             </table>
                         </div>
                     </div>
+                    <p class="text-muted">Appointments</p>
+                    <div class="col-12 order-body">
+                        <div class="order-history table-responsive">
+                            <table class="table table-sm table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th class="small"><span style="font-weight: bold;">Appointment Type</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Watch Model</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Watch Type</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Date</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Time</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for appointment in appointments %}
+                                    <tr>
+                                        <td class="small">{{ appointment.date }}</td>
+                                        <td></td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
