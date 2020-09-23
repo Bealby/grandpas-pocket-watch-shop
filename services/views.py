@@ -70,7 +70,6 @@ def edit_appointment(request, appointment_id):
     if request.method == 'GET':
         form = AppointmentForm(initial={
             'name': appointment.name,
-            'user_profile': appointment.user_profile,
             'email': appointment.email,
             'appointment_type': appointment.appointment_type,
             'watch_model': appointment.watch_model,
