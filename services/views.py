@@ -8,7 +8,7 @@ from django.template.loader import render_to_string
 from django.conf import settings
 from django.contrib import messages
 
-from .models import Appointment, AppointmentType, WatchModel, WatchType
+from .models import Appointment, AppointmentType, WatchModel, WatchType, UserProfile
 from .forms import AppointmentForm
 
 
@@ -19,15 +19,18 @@ def services(request):
     else:
         form = AppointmentForm(request.POST)
         if form.is_valid():
+            user_profile = get_object_or_404(UserProfile, user=request.user)
+            form=form.save(commit=False)
+            form.user_profile=user_profile
             form.save()
-            name = form.cleaned_data['name']
-            email = form.cleaned_data['email']
+            name = request.POST.get('name')
+            email = request.POST.get('email')
             appointment_type =  \
-                form.cleaned_data['appointment_type']
-            watch_model = form.cleaned_data['watch_model']
-            watch_type = form.cleaned_data['watch_type']
-            date = form.cleaned_data['date']
-            time = form.cleaned_data['time']
+                request.POST.get('appointment_type')
+            watch_model = request.POST.get('watch_model')
+            watch_type = request.POST.get('watch_type')
+            date = request.POST.get('date')
+            time = request.POST.get('time')
             try:
                 template_vars = {
                     'name': request.user.get_full_name(),
