@@ -81,17 +81,19 @@
                                         <th class="small"><span style="font-weight: bold;">Date</span></th>
                                         <th class="small"><span style="font-weight: bold;">Time</span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {% for appointment in appointments %}
                                     <tr>
-                                        <td class="small">{{ appointment.appointment_type }}</td>
+                                        <td>{{ appointment.appointment_type }}</td>
                                         <td class="small">{{ appointment.watch_model }}</td>
                                         <td class="small">{{ appointment.watch_type }}</td>
                                         <td class="small">{{ appointment.date }}</td>
                                         <td class="small">{{ appointment.time }}</td>
-                                        <td class="small"><a href="">Edit</a></td>
+                                        <td><a class="text-danger" href="{% url 'edit_appointment' appointment.id %}">Edit</a></td>
+                                        <td><a class="text-danger" href="{% url 'delete_appointment' appointment.id %}">Delete</a></td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
