@@ -6,7 +6,9 @@ from .models import Appointment, AppointmentTime, AppointmentType,  \
 class AppointmentForm(forms.ModelForm):
     class Meta:
         model = Appointment
-        fields = '__all__'
+        fields = ('name', 'email', 'appointment_type',
+                  'watch_model', 'watch_type',
+                  'date', 'time',)
 
     def __init__(self, *args, **kwargs):
 
@@ -28,7 +30,6 @@ class AppointmentForm(forms.ModelForm):
 
         placeholders = {
             'name': 'Full Name',
-            'user_profile': 'User',
             'email': 'Email',
             'appointment_type': '',
             'watch_model': '',
