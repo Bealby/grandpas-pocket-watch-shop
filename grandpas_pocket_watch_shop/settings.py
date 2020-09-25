@@ -68,7 +68,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'grandpas-pocket-watch-shop.urls'
+ROOT_URLCONF = 'grandpas_pocket_watch_shop.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
