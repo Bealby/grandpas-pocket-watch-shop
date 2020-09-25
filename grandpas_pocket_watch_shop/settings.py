@@ -28,7 +28,7 @@ SECRET_KEY = '3u@)wt3g&44uk&+i&4ec@zq%a-#dei7x#i47f81m=d7wq5br_j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['grandpas-pocket-watch-shop.herokuapp.com', 'localhost']
 
 
 # Application definition
