@@ -226,7 +226,7 @@ The following technologies were used in this project:
    written in Python
 - [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
 
-
+- amazon Web Services
 
 Inspiration.
 
