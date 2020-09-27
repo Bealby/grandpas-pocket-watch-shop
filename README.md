@@ -132,14 +132,21 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 #### Color Scheme
 
 **Primary Colors:**
+- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 - Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
 - Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
-- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 
-male client base. light fresh feel. Not be too dominant. darker orange to complimebnt gree and to help .
+There will be a strong usage of white in the Website to allow for products to stand out take
+precident in catching the users eye, which is of vital importance in an ecommerce Website. Along with
+products being placed over a wehite background, the main header iwll also be of a white color
+that will subtkly display the Website's logo and help the icons features to be very apparant.
 
+A light fresh green will be used for the nav bar displaying product categoreis, drawinf the user to them and
+enticing them to click. A complimentry orange will be used ot help important featires such as headers
+and positive icons ot be clicked.
 
-Purple shade
+A suggested complimentry color for ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
+was a light purple which was felt did not suit the theme and feel of Pocket watches. 
 
 Font Colors
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
@@ -169,9 +176,13 @@ Toasts
 #### Typography
 
 - font-family: 'Roboto', sans-serif;
+
 ![Roboto Text](/documentation/readme/roboto.png/)
 
+
+
 - font-family: 'Berkshire Swash', cursive;
+
 ![Berkshire](/documentation/readme/nav-berkshire.png/)
 
 
