@@ -131,15 +131,32 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 **Color Scheme**
 
 Primary Colors:
-- Grey: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `#CCCCCC`
-- Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+) `#DDDDDD`
+- Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
+- Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
 
 Font Colors
-- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000`
-- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#FFFFFF`
+- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
+- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
+
 
 Button Color
-- Blue: ![#3e86d7](https://via.placeholder.com/15/3e86d7/000000?text=+) `#3E86D7`
+- Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
+- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
+- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
+
+Hover
+0.6)
+
+Body/ Input Fields
+- Grey: ![#404040](https://via.placeholder.com/15/404040/000000?text=+) `rgb(64, 64, 64, 1)`
+
+
+Toasts
+- Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) `rgb(92, 184, 92)`
+- Info: ![#5bc0de](https://via.placeholder.com/15/5bc0de/000000?text=+) `rgb(91, 192, 222)`
+- Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) `rgb(240, 173, 78)`
+- Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) `rgb(217, 83, 79)`
+
 
 **Typography**
 
