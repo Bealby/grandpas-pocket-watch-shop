@@ -150,6 +150,34 @@ softer colors for items. better on eye.
 
 **Icons**
 
+---
+
+## Features
+
+---
+
+The Main Web page consists of four separate sections; `Home`,
+`Catch Log` (embedded `Edit Catch Log`), `Add Catches` and `Contact`.
+
+### Navigation Bar
+
+#### Mobile
+![Mockup Generator](/documentation/readme/nav-mob.png/)
+
+#### Desktop
+![Mockup Generator](/documentation/readme/nav-desktop.png/)
+
+
+
+
+
+
+
+
+
+
+
+
 ## Technologies Used
 
 ---

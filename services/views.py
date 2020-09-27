@@ -23,17 +23,17 @@ def services(request):
             form=form.save(commit=False)
             form.user_profile=user_profile
             form.save()
-            name = request.POST.get('name')
-            email = request.POST.get('email')
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
             appointment_type =  \
-                request.POST.get('appointment_type')
-            watch_model = request.POST.get('watch_model')
-            watch_type = request.POST.get('watch_type')
-            date = request.POST.get('date')
-            time = request.POST.get('time')
+                form.cleaned_data['appointment_type']
+            watch_model = form.cleaned_data['watch_model']
+            watch_type = form.cleaned_data['watch_type']
+            date = form.cleaned_data['date']
+            time = form.cleaned_data['time']
             try:
                 template_vars = {
-                    'name': request.user.get_full_name(),
+                    'name': name,
                     'email': email,
                     'appointment_type': appointment_type,
                     'watch_model': watch_model,
