@@ -131,8 +131,8 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 **Color Scheme**
 
 Primary Colors:
-- Grey: ![#cccccc](https://via.placeholder.com/15/cccccc/000000?text=+) `#CCCCCC`
-- Light Grey: ![#dddddd](https://via.placeholder.com/15/dddddd/000000?text=+) `#DDDDDD`
+- Grey: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `#CCCCCC`
+- Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+) `#DDDDDD`
 
 Font Colors
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000`
@@ -162,7 +162,7 @@ The Main Web page consists of four separate sections; `Home`,
 ### Navigation Bar
 
 #### Mobile
-![Mockup Generator](/documentation/readme/nav-mob.png/)
+![Mockup Generator](/documentation/readme/nav-mobile.png/)
 
 #### Desktop
 ![Mockup Generator](/documentation/readme/nav-desktop.png/)
