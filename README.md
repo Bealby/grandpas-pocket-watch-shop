@@ -16,9 +16,9 @@ one.
 
 Although a niche market the value of **Pocket Watches**,
 **Parts** and **Tools** can be highly sought after and
-highly valued. However such intricate parts can be very
+highly valued. However, such intricate parts can be very
 difficult to come by and find, which is why a website is
-a perfect platform fill this gap in the market place.
+a perfect platform to fill this gap in the market place.
 
 The aim of this Website is to provide an outlet for
 **Pocket Watches**, **Parts** and **Tools**. To fill the gap
@@ -189,6 +189,20 @@ Toasts
 #### Icons
 Font Awesome
 
+**N.B.** It should be noted that through the design process
+of the Website there have been necessary changes to the wireframes created.
+The overall structure and layout of the Website reains the same
+but it was decided to change the colour theme of the
+website along with a feature change. Whi
+
+The original colour theme of contrasting greys was not satifactory to the
+overall feel of the Website, which createda very bland and dull user experience.
+This was replaced with a more engaging colour theme explained in the **Surface**
+section.
+
+The feature of a Forum was also changed as it was felt that a repair or valuation was
+a far more useful and beneficial feature for the shop in terms of extra business
+generated from such a feature. 
 ---
 
 ## Features
