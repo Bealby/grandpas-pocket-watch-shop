@@ -16,8 +16,9 @@ one.
 
 Although a niche market the value of **Pocket Watches**,
 **Parts** and **Tools** can be highly sought after and
-highly valued. (Further text: Intricate parts of watches.
-difficult to come by and find)
+highly valued. However such intricate parts can be very
+difficult to come by and find, which is why a website is
+a perfect platform fill this gap in the market place.
 
 The aim of this Website is to provide an outlet for
 **Pocket Watches**, **Parts** and **Tools**. To fill the gap
@@ -128,11 +129,17 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 ### Surface
 
-**Color Scheme**
+#### Color Scheme
 
-Primary Colors:
-- Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
+**Primary Colors:**
 - Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
+- Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
+- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
+
+male client base. light fresh feel. Not be too dominant. darker orange to complimebnt gree and to help .
+
+
+Purple shade
 
 Font Colors
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
@@ -149,7 +156,8 @@ Hover
 
 Body/ Input Fields
 - Grey: ![#404040](https://via.placeholder.com/15/404040/000000?text=+) `rgb(64, 64, 64, 1)`
-
+dark grey for inne rtext
+softer colors for items. better on eye.
 
 Toasts
 - Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) `rgb(92, 184, 92)`
@@ -158,14 +166,17 @@ Toasts
 - Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) `rgb(217, 83, 79)`
 
 
-**Typography**
+#### Typography
 
-- font-family: 'Rye', cursive;
-- font-family: 'Lato', sans-serif;
-dark grey for inne rtext
-softer colors for items. better on eye.
+- font-family: 'Roboto', sans-serif;
+![Roboto Text](/documentation/readme/roboto.png/)
 
-**Icons**
+- font-family: 'Berkshire Swash', cursive;
+![Berkshire](/documentation/readme/nav-berkshire.png/)
+
+
+#### Icons
+Font Awesome
 
 ---
 
@@ -179,10 +190,10 @@ The Main Web page consists of four separate sections; `Home`,
 ### Navigation Bar
 
 #### Mobile
-![Mockup Generator](/documentation/readme/nav-mobile.png/)
+![Nav-Mobile](/documentation/readme/nav-mobile.png/)
 
 #### Desktop
-![Mockup Generator](/documentation/readme/nav-desktop.png/)
+![Nav-Desktop](/documentation/readme/nav-desktop.png/)
 
 
 
