@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% load static %} {% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %} {% block content %}
+<div class="container-fluid">
+    <div class="row mb-5">
+        <div class="col-10 offset-1">
+            <div class="row pt-4 pb-5">
+                <div class="col-12">
+                    <h1 class="page-header text-center">Updated Appointment Confirmed!</h1>
+                </div>
+                <hr class="blue-divider" />
+            </div>
+
+            <div class="row">
+                <div class="col-8 offset-2 text-center">
+                    <p>A booking confirmation has been sent to your email!</p>
+                    <div class="col-12">
+                        <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} {% block page_bottom %}
+<div class="container bottom-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}

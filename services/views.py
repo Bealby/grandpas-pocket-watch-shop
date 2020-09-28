@@ -50,7 +50,7 @@ def services(request):
             except BadHeaderError:
                 messages.error(request, "Please ensure fields "
                                         "are filled out correctly")
-            return redirect('services_success')
+            return redirect('appointment_success')
 
     context = {
         'form': form,
@@ -60,15 +60,14 @@ def services(request):
 
 
 @login_required
-def services_success(request):
+def appointment_success(request):
 
-    return render(request, "services/services_success.html")
+    return render(request, "services/appointment_success.html")
 
 
 def edit_appointment(request, appointment_id):
     # Edit appointment
     appointment = get_object_or_404(Appointment, pk=appointment_id)
-    messages.info(request, f'You are editing an appointment for a Pocket Watch {appointment.appointment_type.name} booked for {appointment.date} at {appointment.time}')
     if request.method == 'GET':
         form = AppointmentForm(initial={
             'name': appointment.name,
@@ -104,14 +103,14 @@ def edit_appointment(request, appointment_id):
                 cust_email = email
                 subject =  \
                     render_to_string('services/confirmation_emails/confirmation_email_subject_edit.txt', template_vars)
-                body = render_to_string('services/confirmation_emails/confirmation_email_body.txt', template_vars)
+                body = render_to_string('services/confirmation_emails/confirmation_email_body_edit.txt', template_vars)
 
                 send_mail(subject, body, settings.DEFAULT_FROM_EMAIL,
                           [cust_email])
             except BadHeaderError:
                 messages.error(request, "Please ensure fields "
                                         "are filled out correctly")
-            return redirect('services_success')
+            return redirect('edit_appointment_success')
     
 
     template = 'services/edit_appointment.html'
@@ -120,3 +119,9 @@ def edit_appointment(request, appointment_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def edit_appointment_success(request):
+
+    return render(request, "services/edit_appointment_success.html")
