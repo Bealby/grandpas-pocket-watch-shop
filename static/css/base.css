@@ -141,7 +141,7 @@ body{
 .toast-container{
     position:fixed;
     right:1rem;
-    top:4.5rem;
+    top:4rem;
     z-index: 99999999999;
 }
 
@@ -336,7 +336,6 @@ body{
 .info-btn{
     color:rgb(255, 255, 255, 1) !important;
     background-color:rgb(0, 0, 0, 1) !important;
-    font-family: 'Roboto', sans-serif !important;
     font-size: 0.8rem !important;
     border:rgb(0, 0, 0, 1) !important;
     border-radius: 1rem !important;
@@ -459,7 +458,7 @@ select option[value=""]{
 }
 
 .fa-check-circle{
-    color:rgb(102, 204, 0, 1);
+    color:rgb(92, 184, 92);
 }
 
 .fa-lock,
@@ -486,11 +485,11 @@ select option[value=""]{
 }
 
 .fa-exclamation-triangle{
-    color: rgb(220, 53, 69, 1);
+    color: rgb(217, 83, 79, 1);
 }
 
-.fa-info{
- color: rgb(23, 162, 184, 1);
+.fa-info-circle{
+    color: red;
  }
 
 .fa-info{
@@ -498,7 +497,7 @@ select option[value=""]{
 }
 
 .fa-exclamation-circle{
-    color:rgb(255, 193, 7, 1);
+    color:rgb(240, 173, 78, 1);
 }
 
 .fa-angle-lef{
