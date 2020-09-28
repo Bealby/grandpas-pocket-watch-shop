@@ -64,10 +64,10 @@
                             <table class="table table-sm table-borderless d-none d-sm-block d-md-none d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
                                 <thead>
                                     <tr>
-                                        <th class="small"><span style="font-weight: bold;">Order Number</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Order</span></th>
                                         <th class="small"><span style="font-weight: bold;">Date</span></th>
                                         <th class="small"><span style="font-weight: bold;">Items</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Order Total</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Total</span></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -98,12 +98,40 @@
                     <p class="text-muted pt-4">Appointments</p>
                     <div class="col-12 order-body">
                         <div class="order-history table-responsive">
-                            <table class="table table-sm table-borderless">
+                            <!--Table renders on smaller devices only-->
+                            <table class="table table-sm table-borderless d-block d-sm-none">
                                 <thead>
                                     <tr>
-                                        <th class="small"><span style="font-weight: bold;">Appointment Type</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Watch Model</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Watch Type</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Date</span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span></th>
+                                        <th class="small"><span style="font-weight: bold;">Time</span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for appointment in appointments %}
+                                    <tr>
+                                        <td class="small">{{ appointment.date }}</td>
+                                        <td class="small"></td>
+                                        <td class="small"></td>
+                                        <td class="small"></td>
+                                        <td class="small">{{ appointment.time }}</td>
+                                        <td class="edit"><a href="{% url 'edit_appointment' appointment.id %}"><i class="fas fa-edit"></i></a></td>
+                                        <td><a class="text-danger" href="{% url 'delete_appointment' appointment.id %}"><i class="fas fa-trash-alt fas-sm"></i></a></td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                            <!--Table renders on larger devices only-->
+                            <table class="table table-sm table-borderless d-none d-sm-block d-md-none d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
+                                <thead>
+                                    <tr>
+                                        <th class="small"><span style="font-weight: bold;">Appointment</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Model</span></th>
+                                        <th class="small"><span style="font-weight: bold;">Type</span></th>
                                         <th class="small"><span style="font-weight: bold;">Date</span></th>
                                         <th class="small"><span style="font-weight: bold;">Time</span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>

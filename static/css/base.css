@@ -473,9 +473,12 @@ select option[value=""]{
 
 .fa-tools:hover,
 .fa-user:hover,
-.fa-shopping-basket:hover
-.fa-edit:hover{
+.fa-shopping-basket:hover{
     color: rgb(220, 149, 35, 0.6) !important;
+}
+
+.edit a:hover{
+    color: red !important;
 }
 
 .fa-trash-alt{
