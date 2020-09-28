@@ -34,21 +34,20 @@ view and purchase **Pocket Watches**, **Parts** and **Tools**.
 
 Users of this Website are a specific group of pocket
 watch enthusiasts who often have a high level of knowledge
-with particular pocket watch requirements. The Website
+with particular pocket watch requirements and needs. The Website
 therefore needs to be fully researched and accurately
 describe it's products.
 
 For most e-commerce Websites the aims of the user is to
 be able to quickly navigate to the product they require with
-ease and intuition, and with limited complications. Adding a
+ease, intuition, and limited complications. Adding a
 'Search' feature to the Website will increase users ability
 to find products in a quicker way.
 
 The Website needs to stand out from it's competitors by being
-rich in imagery and specific in product details. Creating a Forum
-for registered users to ask questions and share information, will
-draw users together and entice them to continue to return to the
-Website.
+rich in imagery and specific in product details. Creating a repair
+or valuation service for registered users only will increase user
+loyalty to the Website and encourage them to return.
 
 A mobile first approach will be instigated in the design
 to allow users to purchase easily and efficiently on smaller
@@ -64,8 +63,8 @@ Agile User Stories can be found
 ### Scope
 
 The Website needs to allow users to add products to their
-basket on a continues basis while shopping and perusing through
-the Website. For them to penultimately follow through to the checkout
+basket on a continuous basis while shopping and perusing through
+the Website. To penultimately follow through to the checkout
 and payment, while being notified of each step along the way.
 
 The Website also needs to allow it's 'superusers' to create, edit
@@ -74,7 +73,7 @@ Website's product portfolio.
 
 A contact information page to allow users to make enquiries
 regarding products and purchases will also be provided.
-Along with a Q&A Forum that registered users can use.
+Along with a repair and valuation service,
 
 ### Structure
 
@@ -90,17 +89,16 @@ to be applied, with strong brands such as 'Amazon', 'Ebay' and
 The **Navigation Bar** will be fixed at the top along with the
 **Logo**, **Search Bar** stretched acorss the centre. **Product** headers will be displayed
 underneath and centered. **Icons** will be used for the
-**Login** and **Basket** features that will be positioned to the
+**Login**, **Basket** and **Service** features that will be positioned to the
 far right of the **Navigation Bar**. 
 
-The main **Home** page will have a bold heading titled "Start 
-Shopping" with an arrow pointing downwards to three images of
-a 'Pocket Watch', 'Parts' and 'Tools'. These images should
-intuitiviely convey the Website's aim of selling these types of
-products. 
+The main **Home** page will have a bold heading titled "Choose a Category",
+with clickable icons/images for the three main categories of 'Pocket Watch',
+'Parts' and 'Tools'. These icons/ images should intuitiviely convey the
+Website's aim of selling these types of products. 
 
 The placement of imagery and icons, as well as the structure of the
-navigation bar and home page, should help horn and focus users
+navigation bar and home page, should help horn in and focus users
 intuition into buying. The key factor being that the simple,
 concise structure will not cause cognitive overload and
 distract the main aim of the Website. 
@@ -109,18 +107,19 @@ Throughout the Website a strong emphasis will be made on
 clear imagery of products, ensuring that product layout does
 not come across as congested. This will allow users to view and search
 products quickly and efficiently. Expedited their desire to
-add products to their basket and check out with comlete ease. 
+add products to their basket and checkout with liitle fuss. 
 
-Extra features such as links to `About`, `Contact` and `Q&A Forum`
+Extra features such as links to `About` and `Contact`
 will be displayed in the footer of the Web page. This limits the users
-attention to being drawn to other parts of the Website rather than
-shopping. 
+attention being drawn to other parts of the Website rather than
+shopping. An extra icon for `Basket` will also be displayed, providing
+the user plentiful opportunities to follow through with the transaction.
 
-Links to `About`, `Contact` and `Q&A Forum` will not however
-become obsolete as the longer the user is enagged in the
-Website the more likey their trust will grow. Leading users to
-naturally to search and find links to `About`, `Contact` and `Q&A Forum`
-as tried and tested results have proven in current e-coomerce Websites.
+Links to `About`, `Contact` will not however
+become obsolete for users navigating through the Website. The
+longer users are enagged in the
+Website the more likey their trust will grow, leading them to
+naturally search and find links to `About`, `Contact`.
 
 ### Skeleton
 
