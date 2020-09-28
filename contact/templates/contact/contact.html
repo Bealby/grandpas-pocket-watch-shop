@@ -42,7 +42,8 @@
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1 contact-form">
-                            <h3 class="text-uppercase text-center font-weight-bold pb-4">Get In Touch&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></h3>
+                            <h3 class="text-uppercase text-center font-weight-bold pb-4 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">Get In Touch&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></h3>
+                            <h4 class="text-uppercase text-center font-weight-bold pb-4 d-block d-sm-none d-none d-sm-block d-md-none">Get In Touch&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></h4>
                             <form method="post">
                                 {% csrf_token %} {{ form|crispy }}
                                 <div class="form-actions text-center">
