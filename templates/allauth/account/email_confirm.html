@@ -10,7 +10,7 @@
             </div>
 
             <div class="row">
-                <div class="col-6 offset-3 product-body">
+                <div class="mx-auto product-body">
                     {% if confirmation %} {% user_display confirmation.email_address.user as user_display %}
 
                     <p>{% blocktrans with confirmation.email_address.email as email %}Please confirm that <a href="mailto:{{ email }}">{{ email }}</a> is an e-mail address for user {{ user_display }}.{% endblocktrans %}</p>
