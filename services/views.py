@@ -68,7 +68,7 @@ def services_success(request):
 def edit_appointment(request, appointment_id):
     # Edit appointment
     appointment = get_object_or_404(Appointment, pk=appointment_id)
-    messages.info(request, f'You are editing {appointment.name}')
+    messages.info(request, f'You are editing an appointment for a Pocket Watch {appointment.appointment_type.name} booked for {appointment.date} at {appointment.time}')
     if request.method == 'GET':
         form = AppointmentForm(initial={
             'name': appointment.name,

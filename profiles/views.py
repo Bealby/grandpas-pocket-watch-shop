@@ -61,7 +61,6 @@ def edit_appointment(request):
     return redirect('edit_appointment')
 
 
-
 @login_required
 def delete_appointment(request, appointment_id):
     # Delete an appointment
