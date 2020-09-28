@@ -130,63 +130,82 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 #### Color Scheme
 
-**Primary Colors:**
+**Primary/ Secondary Colors:**
 - White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 - Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
 - Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
 
-There will be a strong usage of white in the Website to allow for products to stand out take
-precident in catching the users eye, which is of vital importance in an ecommerce Website. Along with
-products being placed over a wehite background, the main header iwll also be of a white color
-that will subtkly display the Website's logo and help the icons features to be very apparant.
+There will be a strong usage of white in the Website. Products will be displayed over a white background
+so that they take precident and catch the users eye.
 
-A light fresh green will be used for the nav bar displaying product categoreis, drawinf the user to them and
-enticing them to click. A complimentry orange will be used ot help important featires such as headers
-and positive icons ot be clicked.
+The main header will also have a white background that will help the logo and 
+icon features become more apparant and exude from the page.
 
-A suggested complimentry color for ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
-was a light purple which was felt did not suit the theme and feel of Pocket watches. 
+A light fresh green will then be used for the nav bar which will display the product categories.
+The subtle and less dominant shade of green will empahase the categries in a friendly, warm manner. 
+A complimentry orange will then be used to help draw out the important features such as the main headers
+and accumulative costs in basket icon.
 
-Font Colors
+A suggested complimentry color for
+![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
+was a light purple. It was decide ahainst this shade as it did not suit the theme,
+customer profile of pocket watches enthuisasts. 
+
+**Font Colors**
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
 - White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 
+Font will be mainly throughout the website as it's the most prominant colour agianst white and
+should not take away the simplisty or clarity of the website. 
 
-Button Color
+White font will be used against any colour which is not white to continue the clrity of read.
+
+
+**Button/ Link Color**
 - Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
 - White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 
-Hover
-0.6)
+Buttons/ Links that have positive actins will be of an oprange colour with white text.
+That helps the buttons/ links stand out and at the same time bring a soft approach for adding
+producst to user's basket and continuing toward checkout
 
-Body/ Input Fields
+**Buttons/ Links/ Icons Hover Affects**
+For most hover affects a slight oppacity of `0.6` will ber used that will subtkly change the
+tone of the button/ link and inform the user to click accoridnly. 
+
+Larger icons in the headers/ nav bar and footer will hover from balck to orange to main the
+primary/ secdondary colour theme of the wesbite. 
+
+**Body Text/ Input Fields**
 - Grey: ![#404040](https://via.placeholder.com/15/404040/000000?text=+) `rgb(64, 64, 64, 1)`
-dark grey for inne rtext
-softer colors for items. better on eye.
+For body text that provides description to products and order infomstion a light gret text will be used.
+This softer tone is easier on the eye for users and helps users read with ease the more detsiled information.
 
-Toasts
+
+**Toasts**
 - Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) `rgb(92, 184, 92)`
 - Info: ![#5bc0de](https://via.placeholder.com/15/5bc0de/000000?text=+) `rgb(91, 192, 222)`
 - Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) `rgb(240, 173, 78)`
 - Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) `rgb(217, 83, 79)`
 
+For toast infomration eindows the standard default coloiurs for warning, info. error and danger
+will be used to keep to tstandard practices. 
 
 #### Typography
 
-- font-family: 'Roboto', sans-serif;
+- font-family: 'Berkshire Swash', cursive;
+
+![Berkshire](/documentation/readme/berkshire.png/)
+
+Bershire font will br used fot eh main headers of the Website. This font really helps bring out the
+theme and feel of the Website that is of an oldfashioned nature of pocket waths
+
+-font-family:'Roboto', sans-serif;
 
 ![Roboto Text](/documentation/readme/roboto.png/)
 
-
-
-- font-family: 'Berkshire Swash', cursive;
-
-![Berkshire](/documentation/readme/nav-berkshire.png/)
-
-
-#### Icons
-Font Awesome
+The suitbale complitmentr font of Roboto will be sued for the main content of the Website. 
 
 **N.B.** It should be noted that through the design process
 of the Website there have been necessary changes to the wireframes created.
