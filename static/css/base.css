@@ -452,10 +452,6 @@ select option[value=""]{
 
 /*-----FONT AWESOME ICONS-----*/
 
-.edit a{
-    color:rgb(220, 149, 35, 1) !important;
-}
-
 .fa-tools, 
 .fa-user,
 .fa-shopping-basket{

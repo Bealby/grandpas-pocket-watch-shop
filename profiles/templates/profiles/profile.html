@@ -36,13 +36,13 @@
                     <div class="col-12 order-body">
                         <div class="order-history table-responsive">
                             <!--Table renders on smaller devices only-->
-                            <table class="table table-sm table-borderless d-block d-sm-none">
+                            <table class="table table-sm table-borderless d-block d-sm-none pt-2">
                                 <thead>
                                     <tr>
-                                        <th class="small"><span style="font-weight: bold;">Order Number</span></th>
-                                        <th class="small"><span style="font-weight: bold;"></span></th>
-                                        <th class="small"><span style="font-weight: bold;"></span></th>
-                                        <th class="small"><span style="font-weight: bold;">Order Total</span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Order Number</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span>&ensp;&ensp;&ensp;&ensp;</th>
+                                        <th class="small"><span style="font-weight: bold;"></span>&ensp;&ensp;&ensp;&ensp;</th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Order Total</u></span></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -55,19 +55,19 @@
                                         </td>
                                         <td></td>
                                         <td></td>
-                                        <td class="small">${{ order.grand_total }}</td>
+                                        <td class="small">€{{ order.grand_total }}</td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
                             </table>
                             <!--Table renders on larger devices only-->
-                            <table class="table table-sm table-borderless d-none d-sm-block d-md-none d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
+                            <table class="table table-sm table-borderless pt-2 d-none d-sm-block d-md-none d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
                                 <thead>
                                     <tr>
-                                        <th class="small"><span style="font-weight: bold;">Order</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Date</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Items</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Total</span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Order</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Date</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Items</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Total</u></span></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -99,14 +99,16 @@
                     <div class="col-12 order-body">
                         <div class="order-history table-responsive">
                             <!--Table renders on smaller devices only-->
-                            <table class="table table-sm table-borderless d-block d-sm-none">
+                            <table class="table pt-2 table-sm table-borderless d-block d-sm-none">
                                 <thead>
                                     <tr>
-                                        <th class="small"><span style="font-weight: bold;">Date</span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Date</u></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
-                                        <th class="small"><span style="font-weight: bold;">Time</span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Time</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span>&ensp;&ensp;&ensp;&ensp;</th>
+                                        <th class="small"><span style="font-weight: bold;"></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
                                     </tr>
@@ -119,21 +121,23 @@
                                         <td class="small"></td>
                                         <td class="small"></td>
                                         <td class="small">{{ appointment.time }}</td>
-                                        <td class="edit"><a href="{% url 'edit_appointment' appointment.id %}"><i class="fas fa-edit"></i></a></td>
+                                        <td class="small"></td>
+                                        <td><a href="{% url 'edit_appointment' appointment.id %}"><i class="fas fa-edit"></i></a></td>
+                                        <td class="small"></td>
                                         <td><a class="text-danger" href="{% url 'delete_appointment' appointment.id %}"><i class="fas fa-trash-alt fas-sm"></i></a></td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
                             </table>
                             <!--Table renders on larger devices only-->
-                            <table class="table table-sm table-borderless d-none d-sm-block d-md-none d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
+                            <table class="table table-sm pt-2 table-borderless d-none d-sm-block d-md-none d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
                                 <thead>
                                     <tr>
-                                        <th class="small"><span style="font-weight: bold;">Appointment</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Model</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Type</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Date</span></th>
-                                        <th class="small"><span style="font-weight: bold;">Time</span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Appointment</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Model</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Type</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Date</u></span></th>
+                                        <th class="small"><span style="font-weight: bold;"><u>Time</u></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
                                     </tr>
@@ -146,7 +150,7 @@
                                         <td class="small">{{ appointment.watch_type.friendly_name }}</td>
                                         <td class="small">{{ appointment.date }}</td>
                                         <td class="small">{{ appointment.time }}</td>
-                                        <td class="edit"><a href="{% url 'edit_appointment' appointment.id %}"><i class="fas fa-edit"></i></a></td>
+                                        <td><a href="{% url 'edit_appointment' appointment.id %}"><i class="fas fa-edit"></i></a></td>
                                         <td><a class="text-danger" href="{% url 'delete_appointment' appointment.id %}"><i class="fas fa-trash-alt fas-sm"></i></a></td>
                                     </tr>
                                     {% endfor %}
