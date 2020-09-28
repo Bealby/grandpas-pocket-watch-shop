@@ -1,1 +1,1 @@
-Appointment Confirmation for {{ name }}
+Updated Appointment Confirmation for {{ name }}

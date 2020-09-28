@@ -1,13 +1,13 @@
 Hello {{ name }}!
 
-Thank you for booking an appointment at Grandpa's Pocket Watch Shop. We value your custom at our family run business.
+Your updated appointment booking has been confirmed.
 
-Please find your confirmed appointment booking below:
+Please find your updated appointment booking below:
 
 Name: {{ name }}
-Appointment: {{ appointment_type }}
-Pocket Watch Model: {{ watch_model }}
-Pocket Watch Type: {{ watch_type }}
+Appointment: {{ appointment_type.friendly_name }}
+Pocket Watch Model: {{ watch_model.friendly_name }}
+Pocket Watch Type: {{ watch_type.friendly_name }}
 Appointment Time: {{ date }}
 Appointment Time: {{ time }}
 
