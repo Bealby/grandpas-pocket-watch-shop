@@ -140,6 +140,7 @@
                                         <th class="small"><span style="font-weight: bold;"><u>Time</u></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
                                         <th class="small"><span style="font-weight: bold;"></span></th>
+                                        <th class="small"><span style="font-weight: bold;"></span></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -150,6 +151,7 @@
                                         <td class="small">{{ appointment.watch_type.friendly_name }}</td>
                                         <td class="small">{{ appointment.date }}</td>
                                         <td class="small">{{ appointment.time }}</td>
+                                        <td></td>
                                         <td><a href="{% url 'edit_appointment' appointment.id %}"><i class="fas fa-edit"></i></a></td>
                                         <td><a class="text-danger" href="{% url 'delete_appointment' appointment.id %}"><i class="fas fa-trash-alt fas-sm"></i></a></td>
                                     </tr>
