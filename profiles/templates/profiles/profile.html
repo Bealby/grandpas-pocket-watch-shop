@@ -36,7 +36,7 @@
                     <div class="col-12 order-body">
                         <div class="order-history table-responsive">
                             <!--Table renders on smaller devices only-->
-                            <table class="table table-sm table-borderless d-block d-sm-none d-none d-sm-block d-md-none d-none d-md-block d-lg-none">
+                            <table class="table table-sm table-borderless d-block d-sm-none">
                                 <thead>
                                     <tr>
                                         <th class="small"><span style="font-weight: bold;">Order Number</span></th>
@@ -61,7 +61,7 @@
                                 </tbody>
                             </table>
                             <!--Table renders on larger devices only-->
-                            <table class="table table-sm table-borderless d-none d-lg-block d-xl-none d-none d-xl-block">
+                            <table class="table table-sm table-borderless d-none d-sm-block d-md-none d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
                                 <thead>
                                     <tr>
                                         <th class="small"><span style="font-weight: bold;">Order Number</span></th>
@@ -88,7 +88,7 @@
                                                 {% endfor %}
                                             </ul>
                                         </td>
-                                        <td class="small">${{ order.grand_total }}</td>
+                                        <td class="small">€{{ order.grand_total }}</td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
@@ -113,13 +113,13 @@
                                 <tbody>
                                     {% for appointment in appointments %}
                                     <tr>
-                                        <td>{{ appointment.appointment_type.friendly_name }}</td>
+                                        <td class="small">{{ appointment.appointment_type.friendly_name }}</td>
                                         <td class="small">{{ appointment.watch_model.friendly_name }}</td>
                                         <td class="small">{{ appointment.watch_type.friendly_name }}</td>
                                         <td class="small">{{ appointment.date }}</td>
                                         <td class="small">{{ appointment.time }}</td>
-                                        <td><a class="text-danger" href="{% url 'edit_appointment' appointment.id %}">Edit</a></td>
-                                        <td><a class="text-danger" href="{% url 'delete_appointment' appointment.id %}">Delete</a></td>
+                                        <td class="edit"><a href="{% url 'edit_appointment' appointment.id %}"><i class="fas fa-edit"></i></a></td>
+                                        <td><a class="text-danger" href="{% url 'delete_appointment' appointment.id %}"><i class="fas fa-trash-alt fas-sm"></i></a></td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>

@@ -452,6 +452,10 @@ select option[value=""]{
 
 /*-----FONT AWESOME ICONS-----*/
 
+.edit a{
+    color:rgb(220, 149, 35, 1) !important;
+}
+
 .fa-tools, 
 .fa-user,
 .fa-shopping-basket{
@@ -469,7 +473,8 @@ select option[value=""]{
 
 .fa-tools:hover,
 .fa-user:hover,
-.fa-shopping-basket:hover{
+.fa-shopping-basket:hover
+.fa-edit:hover{
     color: rgb(220, 149, 35, 0.6) !important;
 }
 
