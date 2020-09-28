@@ -80,11 +80,13 @@
                     </div>
                 </div>
                 {% else %}
-                <div>
-                    <p class="col">Your basket is empty.</p>
-                </div>
-                <div>
-                    <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
+                <div class="row mx-auto">
+                    <div>
+                        <p class="col">Your basket is empty.</p>
+                    </div>
+                    <div>
+                        <a class="keep-shopping" href="{% url 'products' %}">Keep Shopping</a>
+                    </div>
                 </div>
                 {% endif %}
             </div>
