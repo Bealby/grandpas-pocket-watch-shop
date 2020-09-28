@@ -201,7 +201,7 @@ will be used to keep to tstandard practices.
 Bershire font will br used fot eh main headers of the Website. This font really helps bring out the
 theme and feel of the Website that is of an oldfashioned nature of pocket waths
 
--font-family:'Roboto', sans-serif;
+- font-family:'Roboto', sans-serif;
 
 ![Roboto Text](/documentation/readme/roboto.png/)
 

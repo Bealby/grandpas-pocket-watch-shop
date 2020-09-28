@@ -87,9 +87,9 @@
                                 <tbody>
                                     {% for appointment in appointments %}
                                     <tr>
-                                        <td>{{ appointment.appointment_type }}</td>
-                                        <td class="small">{{ appointment.watch_model }}</td>
-                                        <td class="small">{{ appointment.watch_type }}</td>
+                                        <td>{{ appointment.appointment_type.friendly_name }}</td>
+                                        <td class="small">{{ appointment.watch_model.friendly_name }}</td>
+                                        <td class="small">{{ appointment.watch_type.friendly_name }}</td>
                                         <td class="small">{{ appointment.date }}</td>
                                         <td class="small">{{ appointment.time }}</td>
                                         <td><a class="text-danger" href="{% url 'edit_appointment' appointment.id %}">Edit</a></td>
