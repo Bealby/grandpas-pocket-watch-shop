@@ -135,52 +135,64 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 - Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
 - Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
 
-There will be a strong usage of white in the Website. Products will be displayed over a white background
-so that they take precident and catch the users eye.
+There will be a strong usage of white in the Website. Products will be
+displayed over a white background so that they take precident and catch
+the users eye.
 
-The main header will also have a white background that will help the logo and 
-icon features become more apparant and exude from the page.
+The main header will also have a white background that will help the logo
+and icon features become apparant and distinct. 
 
-A light fresh green will then be used for the nav bar which will display the product categories.
-The subtle and less dominant shade of green will empahase the categries in a friendly, warm manner. 
-A complimentry orange will then be used to help draw out the important features such as the main headers
-and accumulative costs in basket icon.
+A light fresh green will then be used for the Navbar which will display
+the product categories. This subtle and less dominant shade of green will
+empahase the categries in a friendly, warm manner.
+
+A complimentry orange will then be used to help draw out the important features
+of the Website such as the main headers and accumulative costs under the
+`basket` icon.
 
 A suggested complimentry color for
 ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
-was a light purple. It was decide ahainst this shade as it did not suit the theme,
-customer profile of pocket watches enthuisasts. 
+was a light purple. It was decided that this shade of purple did not suit
+the theme and user profile of the Website.
 
 **Font Colors**
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
 - White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 
-Font will be mainly throughout the website as it's the most prominant colour agianst white and
-should not take away the simplisty or clarity of the website. 
+Fonts will be mainly black throughout the website. Black is a prominant colour
+that will hold well with clarity against a background white.
 
-White font will be used against any colour which is not white to continue the clrity of read.
-
+White font will be used against non-white colours where appropriate,
+to continue the clarity of readibility.
 
 **Button/ Link Color**
 - Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
 - White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 
-Buttons/ Links that have positive actins will be of an oprange colour with white text.
-That helps the buttons/ links stand out and at the same time bring a soft approach for adding
-producst to user's basket and continuing toward checkout
+Buttons/ Links that have positive actions will be of an orange colour
+with white text. This will help the buttons/ links stand out and at
+the same time entice a soft approach for users to add products and
+move towards checkout
 
-**Buttons/ Links/ Icons Hover Affects**
-For most hover affects a slight oppacity of `0.6` will ber used that will subtkly change the
-tone of the button/ link and inform the user to click accoridnly. 
+**Buttons/ Links/ Icons/ Hover Affects**
+For most hover affects a slight oppacity of `0.6` will be used that
+will subtly change the tone of the button/ links and inform the user
+to click accordingly. 
 
-Larger icons in the headers/ nav bar and footer will hover from balck to orange to main the
-primary/ secdondary colour theme of the wesbite. 
+Larger icons in the Headers/ Navbar/ Footer will hover from a black
+colour to orange to continue with the main colour theme of the wesbite. 
+
+For **User Login**, **Checkout** and **Confirm Payment** Buttons/Links a
+black background with white text will be used to highlight the importance
+and seriousness of clicking the link.
 
 **Body Text/ Input Fields**
 - Grey: ![#404040](https://via.placeholder.com/15/404040/000000?text=+) `rgb(64, 64, 64, 1)`
-For body text that provides description to products and order infomstion a light gret text will be used.
-This softer tone is easier on the eye for users and helps users read with ease the more detsiled information.
+
+Body text that provides descriptions of products, as well as order
+information, will be of a light grey to provide a softer tone, which
+is easier on the eye.
 
 
 **Toasts**
@@ -189,8 +201,8 @@ This softer tone is easier on the eye for users and helps users read with ease t
 - Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) `rgb(240, 173, 78)`
 - Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) `rgb(217, 83, 79)`
 
-For toast infomration eindows the standard default coloiurs for warning, info. error and danger
-will be used to keep to tstandard practices. 
+For Toast info windows, colours conforming to standard pratices will be used,
+for `Warning`, `Info`. `Error` and `Danger` respectively.
 
 #### Typography
 
@@ -198,29 +210,33 @@ will be used to keep to tstandard practices.
 
 ![Berkshire](/documentation/readme/berkshire.png/)
 
-Bershire font will br used fot eh main headers of the Website. This font really helps bring out the
-theme and feel of the Website that is of an oldfashioned nature of pocket waths
+`Bershire` font will be used for the main headers of the Website.
+This font really helps bring out the theme and feel of the Website.
+Creating an oldfashioned feel appropriate for Pocket Watches.
 
 - font-family:'Roboto', sans-serif;
 
 ![Roboto Text](/documentation/readme/roboto.png/)
 
-The suitbale complitmentr font of Roboto will be sued for the main content of the Website. 
+The complitmentary font of `Roboto` will be used for the main
+content of the Website. 
 
 **N.B.** It should be noted that through the design process
-of the Website there have been necessary changes to the wireframes created.
-The overall structure and layout of the Website reains the same
-but it was decided to change the colour theme of the
-website along with a feature change. Whi
+there have been necessary changes made to the Website and
+therefore to the Wireframes. The overall structure and layout
+of the Website remains the same but it was decided to change
+the colour theme of the website along with an app change.
 
-The original colour theme of contrasting greys was not satifactory to the
-overall feel of the Website, which createda very bland and dull user experience.
-This was replaced with a more engaging colour theme explained in the **Surface**
-section.
+The original colour theme, of contrasting greys, was not satifactory
+to the overall feel of the Website. As it created a very bland and
+dull user interface. It was therefore replaced with a more engaging
+colour theme explained in the **Surface** section.
 
-The feature of a Forum was also changed as it was felt that a repair or valuation was
-a far more useful and beneficial feature for the shop in terms of extra business
-generated from such a feature. 
+The Forum app was also replaced with a Service app. It was felt
+that a 'Repair or Valuation' service booking form was more beneficial
+for both the user and owner, as it would potentially create extra
+business and profit for Granpa's Pocket Watch Shop. 
+
 ---
 
 ## Features
