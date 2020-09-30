@@ -78,7 +78,7 @@ Along with a repair and valuation service,
 ### Structure
 
 As an e-commerce enterprise that sells products, the
-Website needs to reflect this visably upon entering
+Website needs to reflect this visibly upon entering
 the Website, so that users know exactly why they are 'there', 
 and what they can immediately 'do'.
 
@@ -87,7 +87,7 @@ to be applied, with strong brands such as 'Amazon', 'Ebay' and
 'Etsy', being closely researched and conformed to accordingly.
 
 The **Navigation Bar** will be fixed at the top, with the
-**Logo** and **Search Bar** stretched acorss the centre.
+**Logo** and **Search Bar** stretched across the centre.
 **Product** headers will be displayed underneath and centered.
 **Icons** will be used for the **Login**, **Basket** and **Service**
 features that will be positioned to the
@@ -95,7 +95,7 @@ far right of the **Navigation Bar**.
 
 The main **Home** page will have a bold heading titled "Choose a Category",
 with clickable icons/images for the three main categories of 'Pocket Watch',
-'Parts' and 'Tools'. These icons/ images should intuitiviely convey the
+'Parts' and 'Tools'. These icons/ images should intuitively convey the
 Website's aim of selling these types of products. 
 
 The placement of imagery and icons, as well as the structure of the
@@ -108,7 +108,7 @@ Throughout the Website a strong emphasis will be made on
 clear imagery of products, ensuring that product layout does
 not come across as congested. This will allow users to view and search
 products quickly and efficiently. Expedited their desire to
-add products to their basket and checkout with liitle fuss. 
+add products to their basket and checkout with little fuss. 
 
 Extra features such as links to `About` and `Contact`
 will be displayed in the footer of the Web page. This limits the users
@@ -118,8 +118,8 @@ the users plentiful opportunities to follow through with the transaction.
 
 Links to `About`, `Contact` will not however
 become obsolete for users navigating through the Website. The
-longer users are enagged in the
-Website the more likey their trust will grow, leading them to
+longer users are engaged in the
+Website the more likely their trust will grow, leading them to
 naturally search and find links to `About`, `Contact`.
 
 ### Skeleton
@@ -137,7 +137,7 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 - Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
 
 There will be a strong usage of white in the Website. Products will be
-displayed over a white background so that they take precident and catch
+displayed over a white background so that they take precedent and catch
 the users eye.
 
 The main header will also have a white background that will help the logo
@@ -145,13 +145,13 @@ and icon features become apparant and distinct.
 
 A light fresh green will then be used for the Navbar which will display
 the product categories. This subtle and less dominant shade of green will
-empahase the categries in a friendly, warm manner.
+empathise the categories in a friendly, warm manner.
 
-A complimentry orange will then be used to help draw out the important features
+A complimentary orange will then be used to help draw out the important features
 of the Website such as the main headers and accumulative costs under the
 `basket` icon.
 
-A suggested complimentry color for
+A suggested complimentary colour for
 ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
 was a light purple. It was decided that this shade of purple did not suit
 the theme and user profile of the Website.
@@ -160,13 +160,13 @@ the theme and user profile of the Website.
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
 - White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 
-Fonts will be mainly black throughout the website. Black is a prominant colour
+Fonts will be mainly black throughout the website. Black is a prominent colour
 that will hold well with clarity against a background white.
 
 White font will be used against non-white colours where appropriate,
-to continue the clarity of readibility.
+to continue the clarity of readability.
 
-**Button/ Link Color**
+**Button/ Link Colour**
 - Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
 - Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
 - White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
@@ -177,12 +177,12 @@ the same time entice a soft approach for users to add products and
 move towards checkout
 
 **Buttons/ Links/ Icons/ Hover Affects**
-For most hover affects a slight oppacity of `0.6` will be used that
+For most hover affects a slight opacity of `0.6` will be used that
 will subtly change the tone of the button/ links and inform the user
 to click accordingly. 
 
 Larger icons in the Headers/ Navbar/ Footer will hover from a black
-colour to orange to continue with the main colour theme of the wesbite. 
+colour to orange to continue with the main colour theme of the Website. 
 
 For **User Login**, **Checkout** and **Confirm Payment** Buttons/Links will
 be black with white text and be used to highlight the importance
@@ -212,13 +212,13 @@ for `Warning`, `Info`. `Error` and `Danger` respectively.
 
 `Bershire Swash` font will be used for the main headers of the Website.
 This font really helps bring out the theme and feel of the Website.
-Creating an oldfashioned feel appropriate for Pocket Watches.
+Creating an old fashioned feel appropriate for Pocket Watches.
 
 - font-family:'Roboto', sans-serif;
 
 ![Roboto Text](/documentation/readme/roboto.png/)
 
-The complitmentary font of `Roboto` will be used for the main
+The complimentary font of `Roboto` will be used for the main
 content of the Website. 
 
 **N.B.** It should be noted that through the design process
@@ -227,7 +227,7 @@ therefore to the Wireframes. The overall structure and layout
 of the Website remains the same but it was decided to change
 the colour theme of the website along with an app change.
 
-The original colour theme, of contrasting greys, was not satifactory
+The original colour theme, of contrasting greys, was not satisfactory
 to the overall feel of the Website. As it created a very bland and
 dull user interface. It was therefore replaced with a more engaging
 colour theme explained in the **Surface** section.
@@ -235,7 +235,7 @@ colour theme explained in the **Surface** section.
 The Forum app was also replaced with a Service app. It was felt
 that a 'Repair or Valuation' service booking form was more beneficial
 for both the user and owner, as it would potentially create extra
-business and profit for Granpa's Pocket Watch Shop. 
+business and profit for Grandpa's Pocket Watch Shop. 
 
 ---
 
@@ -252,7 +252,7 @@ The Main Web page consists of four separate sections; `Home`,
 ![Nav-Mobile](/documentation/readme/nav-mobile.png/)
 
 For mobile devices the Navigation Bar/ Header will focus more on intuitive icons
-to click rather than text, to ensure a minalistic and non congestive look.
+to click rather than text, to ensure a minimalistic and non-congestive look.
 
 The main header will include the logo that is clickable to the 'Home' page,
 along with the three icons for 'Repair & Valuation', Profile and Basket. 
@@ -264,17 +264,17 @@ will catch the users eye throughout their Website experience.
 
 Under the main header a toggle icon will be displayed that once click will
 create a dropdown menu of all categories and types of products. A search
-bar will continuely be present and accessible for the user due to the large
+bar will continually be present and accessible for the user due to the large
 number of products available in the Website. The search function will search
 for the product name and in the product description. 
 
 #### Desktop
 ![Nav-Desktop](/documentation/readme/nav-desktop.png/)
 
-For larger devices the the features displayed and their
-functionality will mainly remin the same except that the
-catefory headings will be displyed and the search bar
-positioned in the main header nestled nbetween the logo
+For larger devices the features displayed and their
+functionality will mainly remain the same except that the
+category headings will be displayed and the search bar
+positioned in the main header nestled inbetween the logo
 and icons. 
 
 The main category headings will all be clickable and have
@@ -286,16 +286,16 @@ decrease in soze in smaller devices to ensure the desktop
 look is maintained until the Bootstrap
 Navbar collapse break point sets.
 
-the Naiviagtion/ and Main Header will be kept constand through out the Website
+The Naiviagtion/ and Main Header will be kept constant through out the Website
 that allow users to always feel grounded no matter which part of the Website they are
-navigaitng.
+navigating.
 
 ### Home Page
 
 #### Mobile
 ![Home Mobile](/documentation/readme/home-mb.png/)
 
-The home page for mobile devices will be kept simple and minamilistic to draw the user
+The home page for mobile devices will be kept simple and minimalistic to draw the user
 to the three main icons of categories to choose, steered towards
 by the header, 'Choose a Category'. The icons once hovered over will enlarge
 slightly and be intuitively clickable. 
@@ -303,9 +303,9 @@ slightly and be intuitively clickable.
 #### Desktop
 ![Nav-Desktop](/documentation/readme/home-dt.png/)
 
-The home page for larger devices will kep the same design as in for mobils, 
-but instead will have images of the categories that whne hover over disappear and display
-the ctegort name to click on. This extra feature brings a greater visbaoe
+The home page for larger devices will keep the same design as in for mobiles, 
+but instead will have images of the categories that when hover over disappear and display
+the category name to click on. This extra feature brings a greater visual
 experience fo rth esuer to interact with.
 
 ### Profile App
