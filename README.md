@@ -6,8 +6,8 @@ Pocket Watches can be traced back to the late 15th century
 in Italy, with manufacture spreading throughout the rest of
 Europe in the early part of the 16th century. They were
 the most common type of watch until around 1914 when wrist
-watches started to come into fashion. 
-    
+watches started to come into fashion.
+
 Although their professional usage in the modern environment
 has come to an end they still hold a lot of value and
 attraction for enthusiasts who enjoy both the pleasure of
@@ -51,7 +51,7 @@ loyalty to the Website and encourage them to return.
 
 A mobile first approach will be instigated in the design
 to allow users to purchase easily and efficiently on smaller
-devices. 
+devices.
 
 For this Website an 'Agile User Stories' list will
 continually be assessed and achieved to ensure the greatest
@@ -69,7 +69,7 @@ and payment, while being notified of each step along the way.
 
 The Website also needs to allow it's 'superusers' to create, edit
 and delete products to accurately maintain details and expand the
-Website's product portfolio. 
+Website's product portfolio.
 
 A contact information page to allow users to make enquiries
 regarding products and purchases will also be provided.
@@ -79,7 +79,7 @@ Along with a repair and valuation service,
 
 As an e-commerce enterprise that sells products, the
 Website needs to reflect this visibly upon entering
-the Website, so that users know exactly why they are 'there', 
+the Website, so that users know exactly why they are 'there',
 and what they can immediately 'do'.
 
 To achieve this goal, e-commerce design conventions need
@@ -91,24 +91,24 @@ The **Navigation Bar** will be fixed at the top, with the
 **Product** headers will be displayed underneath and centered.
 **Icons** will be used for the **Login**, **Basket** and **Service**
 features that will be positioned to the
-far right of the **Navigation Bar**. 
+far right of the **Navigation Bar**.
 
 The main **Home** page will have a bold heading titled "Choose a Category",
 with clickable icons/images for the three main categories of 'Pocket Watch',
 'Parts' and 'Tools'. These icons/ images should intuitively convey the
-Website's aim of selling these types of products. 
+Website's aim of selling these types of products.
 
 The placement of imagery and icons, as well as the structure of the
 navigation bar and home page, should help horn in and focus users
 intuition into buying. The key factor being that the simple,
 concise structure will not cause cognitive overload and
-distract the main aim of the Website. 
+distract the main aim of the Website.
 
-Throughout the Website a strong emphasis will be made on 
+Throughout the Website a strong emphasis will be made on
 clear imagery of products, ensuring that product layout does
 not come across as congested. This will allow users to view and search
 products quickly and efficiently. Expedited their desire to
-add products to their basket and checkout with little fuss. 
+add products to their basket and checkout with little fuss.
 
 Extra features such as links to `About` and `Contact`
 will be displayed in the footer of the Web page. This limits the users
@@ -132,44 +132,69 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 #### Color Scheme
 
 **Primary/ Secondary Colors:**
-- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
-- Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
-- Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
+
+- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
+
+`rgb(255, 255, 255, 1)`
+
+- Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+)
+
+`rgb(186, 220, 192, 1)`
+
+- Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+)
+
+`rgb(220, 149, 35, 1)`
 
 There will be a strong usage of white in the Website. Products will be
 displayed over a white background so that they take precedent and catch
 the users eye.
 
 The main header will also have a white background that will help the logo
-and icon features become apparant and distinct. 
+and icon features become apparant and distinct.
 
 A light fresh green will then be used for the Navbar which will display
 the product categories. This subtle and less dominant shade of green will
 empathise the categories in a friendly, warm manner.
 
-A complimentary orange will then be used to help draw out the important features
-of the Website such as the main headers and accumulative costs under the
-`basket` icon.
+A complimentary orange will then be used to help draw out the important
+features of the Website such as the main headers and accumulative costs
+under the `basket` icon.
 
 A suggested complimentary colour for
-![#badc98](https://via.placeholder.com/15/badc98/000000?text=+) `rgb(186, 220, 192, 1)`
-was a light purple. It was decided that this shade of purple did not suit
-the theme and user profile of the Website.
+![#badc98](https://via.placeholder.com/15/badc98/000000?text=+)
+`rgb(186, 220, 192, 1)` was a light purple. It was decided that
+this shade of purple did not suit the theme and user profile of
+the Website.
 
 **Font Colors**
-- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
-- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
 
-Fonts will be mainly black throughout the website. Black is a prominent colour
-that will hold well with clarity against a background white.
+- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
+
+`rgb(0, 0, 0, 1)`
+
+- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
+
+`rgb(255, 255, 255, 1)`
+
+Fonts will be mainly black throughout the website. Black is a prominent
+colour that will hold well with clarity against a background white.
 
 White font will be used against non-white colours where appropriate,
 to continue the clarity of readability.
 
 **Button/ Link Colour**
-- Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+) `rgb(220, 149, 35, 1)`
-- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `rgb(0, 0, 0, 1)`
-- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `rgb(255, 255, 255, 1)`
+
+- Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+)
+
+`rgb(220, 149, 35, 1)`
+
+- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
+
+`rgb(0, 0, 0, 1)`
+
+- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
+
+`rgb(255, 255, 255, 1)`
 
 Buttons/ Links that have positive actions will be of an orange colour
 with white text. This will help the buttons/ links stand out and at
@@ -179,27 +204,42 @@ move towards checkout
 **Buttons/ Links/ Icons/ Hover Affects**
 For most hover affects a slight opacity of `0.6` will be used that
 will subtly change the tone of the button/ links and inform the user
-to click accordingly. 
+to click accordingly.
 
 Larger icons in the Headers/ Navbar/ Footer will hover from a black
-colour to orange to continue with the main colour theme of the Website. 
+colour to orange to continue with the main colour theme of the Website.
 
-For **User Login**, **Checkout** and **Confirm Payment** Buttons/Links will
-be black with white text and be used to highlight the importance
+For **User Login**, **Checkout** and **Confirm Payment** Buttons/Links
+will be black with white text and be used to highlight the importance
 and seriousness of clicking the link.
 
 **Body Text/ Input Fields**
-- Grey: ![#404040](https://via.placeholder.com/15/404040/000000?text=+) `rgb(64, 64, 64, 1)`
+
+- Grey: ![#404040](https://via.placeholder.com/15/404040/000000?text=+)
+
+`rgb(64, 64, 64, 1)`
 
 Body text that provides descriptions of products, as well as order
 information, will be of a light grey to provide a softer tone, which
 is easier on the eye.
 
 **Toasts**
-- Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) `rgb(92, 184, 92)`
-- Info: ![#5bc0de](https://via.placeholder.com/15/5bc0de/000000?text=+) `rgb(91, 192, 222)`
-- Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) `rgb(240, 173, 78)`
-- Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) `rgb(217, 83, 79)`
+
+- Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+)
+
+`rgb(92, 184, 92)`
+
+- Info: ![#5bc0de](https://via.placeholder.com/15/5bc0de/000000?text=+)
+
+`rgb(91, 192, 222)`
+
+- Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+)
+
+`rgb(240, 173, 78)`
+
+- Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+)
+
+`rgb(217, 83, 79)`
 
 For Toast info windows, colours conforming to standard pratices will be used
 for `Warning`, `Info`. `Error` and `Danger` respectively.
@@ -210,16 +250,17 @@ for `Warning`, `Info`. `Error` and `Danger` respectively.
 
 ![Berkshire Swash](/documentation/readme/berkshire.png/)
 
-`Bershire Swash` font will be used for the main headers of the Website.
-This font really helps bring out the theme and feel of the Website.
-Creating an old fashioned feel appropriate for Pocket Watches.
+`Bershire Swash` font will be used for the main headers of the
+Website. This font really helps bring out the theme and feel of
+the Website. Creating an old fashioned feel appropriate for
+Pocket Watches.
 
 - font-family:'Roboto', sans-serif;
 
 ![Roboto Text](/documentation/readme/roboto.png/)
 
 The complimentary font of `Roboto` will be used for the main
-content of the Website. 
+content of the Website.
 
 **N.B.** It should be noted that through the design process
 there have been necessary changes made to the Website and
@@ -227,86 +268,97 @@ therefore to the Wireframes. The overall structure and layout
 of the Website remains the same but it was decided to change
 the colour theme of the website along with an app change.
 
-The original colour theme, of contrasting greys, was not satisfactory
-to the overall feel of the Website. As it created a very bland and
-dull user interface. It was therefore replaced with a more engaging
-colour theme explained in the **Surface** section.
+The original colour theme, of contrasting greys, was not
+satisfactory to the overall feel of the Website. As it created
+a very bland and dull user interface. It was therefore replaced
+with a more engaging colour theme explained in the **Surface**
+section.
 
-The Forum app was also replaced with a Service app. It was felt
-that a 'Repair or Valuation' service booking form was more beneficial
-for both the user and owner, as it would potentially create extra
-business and profit for Grandpa's Pocket Watch Shop. 
-
----
+The Forum app was also replaced with a Service app. It was
+felt that a 'Repair or Valuation' service booking form was
+more beneficial for both the user and owner, as it would
+potentially create extra business and profit for Grandpa's
+Pocket Watch Shop.
 
 ## Features
 
 ---
 
 The Main Web page consists of four separate sections; `Home`,
-`Catch Log` (embedded `Edit Catch Log`), `Add Catches` and `Contact`.
+`Catch Log` (embedded `Edit Catch Log`), `Add Catches` and
+`Contact`.
 
 ### Navigation Bar/ Main Header
 
 #### Mobile
+
 ![Nav-Mobile](/documentation/readme/nav-mobile.png/)
 
-For mobile devices the Navigation Bar/ Header will focus more on intuitive icons
-to click rather than text, to ensure a minimalistic and non-congestive look.
+For mobile devices the Navigation Bar/ Header will focus more
+on intuitive icons to click rather than text, to ensure a
+minimalistic and non-congestive look.
 
-The main header will include the logo that is clickable to the 'Home' page,
-along with the three icons for 'Repair & Valuation', Profile and Basket. 
-Each when hovered over will change colour to
-orange `rgb(220, 149, 35, 1)`.
-For the basket icon the total figure will be displayed and will change to
-orange `rgb(220, 149, 35, 1)` once products are added to the basket, which 
-will catch the users eye throughout their Website experience.
+The main header will include the logo that is clickable to the
+Home page, along with the three icons for 'Repair & Valuation',
+Profile and Basket. Each when hovered over will change colour to
+orange `rgb(220, 149, 35, 1)`. For the basket icon the total
+figure will be displayed and will change to orange
+`rgb(220, 149, 35, 1)` once products are added to the basket,
+which  will catch the users eye throughout their Website
+experience.
 
-Under the main header a toggle icon will be displayed that once click will
-create a dropdown menu of all categories and types of products. A search
-bar will continually be present and accessible for the user due to the large
-number of products available in the Website. The search function will search
-for the product name and in the product description. 
+Under the main header a toggle icon will be displayed that once
+click will create a dropdown menu of all categories and types of
+products. A search bar will continually be present and accessible
+for the user due to the large number of products available in the
+Website. The search function will search for the product name and
+in the product description.
 
 #### Desktop
+
 ![Nav-Desktop](/documentation/readme/nav-desktop.png/)
 
 For larger devices the features displayed and their
 functionality will mainly remain the same except that the
 category headings will be displayed and the search bar
 positioned in the main header nestled inbetween the logo
-and icons. 
+and icons.
 
 The main category headings will all be clickable and have
 a drop down menu attached to each that will display all
-product names available. 
+product names available.
 
 Media queries are set up for icons and headings to
 decrease in soze in smaller devices to ensure the desktop
 look is maintained until the Bootstrap
 Navbar collapse break point sets.
 
-The Naiviagtion/ and Main Header will be kept constant through out the Website
-that allow users to always feel grounded no matter which part of the Website they are
+The Naiviagtion/ and Main Header will be kept constant through
+out the Website that allow users to always feel grounded no
+matter which part of the Website they are
 navigating.
 
 ### Home Page
 
 #### Mobile
+
 ![Home Mobile](/documentation/readme/home-mb.png/)
 
-The home page for mobile devices will be kept simple and minimalistic to draw the user
-to the three main icons of categories to choose, steered towards
-by the header, 'Choose a Category'. The icons once hovered over will enlarge
-slightly and be intuitively clickable. 
+The home page for mobile devices will be kept simple and
+minimalistic to draw the user to the three main icons of
+categories to choose, steered towards by the header,
+'Choose a Category'. The icons once hovered over will enlarge
+slightly and be intuitively clickable.
 
 #### Desktop
+
 ![Nav-Desktop](/documentation/readme/home-dt.png/)
 
-The home page for larger devices will keep the same design as in for mobiles, 
-but instead will have images of the categories that when hover over disappear and display
-the category name to click on. This extra feature brings a greater visual
-experience fo rth esuer to interact with.
+The home page for larger devices will keep the same design
+as in for mobiles, but instead will have images of the
+categories that when hover over disappear and display
+the category name to click on. This extra feature brings
+a greater visual experience fo rth esuer to interact with.
 
 ### Profile App
 
@@ -322,17 +374,7 @@ experience fo rth esuer to interact with.
 
 ### About App
 
-
-
-
 Toast delay
-
-
-
-
-
-
-
 
 ## Technologies Used
 
@@ -395,10 +437,9 @@ The following technologies were used in this project:
    developing tool in Chrome to edit pages and diagnose problems
 - [Placeholder](https://placeholder.com/) - Used for placeholding of color schemes in README.md
 
-
 ### Frameworks
 
-- [DJANGO](https://www.djangoproject.com//) - A high-level Python Web framework that 
+- [DJANGO](https://www.djangoproject.com//) - A high-level Python Web framework that
   encourages rapid development and clean, pragmatic design
 - [BOOTSTRAP](https://getbootstrap.com/) - A framework for building responsive
    Websites where the powerful Grid system was used along with styling
