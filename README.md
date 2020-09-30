@@ -30,7 +30,7 @@ view and purchase **Pocket Watches**, **Parts** and **Tools**.
 
 ---
 
-![Mockup Generator](/documentation/readme/mockup_website.png/)
+![Mockup Generator](/documentation/readme/grandpas-pocket-watch-shop.png/)
 
 A live version of Website can be found
 [here](https://grandpas-pocket-watch-shop.herokuapp.com/)
@@ -357,6 +357,9 @@ categories that when hover over disappear and display
 the category name to click on. This extra feature brings
 a greater visual experience fo rth esuer to interact with.
 
+### About App
+
+
 ### Profile App
 
 ### Products App
@@ -369,7 +372,6 @@ a greater visual experience fo rth esuer to interact with.
 
 ### Contact App
 
-### About App
 
 Toast delay
 

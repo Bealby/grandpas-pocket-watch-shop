@@ -62,6 +62,10 @@ body{
 
 /*-----TEXT-----*/
 
+.about-text{
+    text-align: justify;
+}
+
 .home-padding{
     padding-bottom:3rem;
 }
@@ -649,5 +653,12 @@ select option[value=""]{
 @media (min-width: 991px) {
 .home-padding{
     padding-bottom:0rem;
+    }
+}
+
+/*-----Change from center to justify on smaller devices for better layout and viewing-----*/
+@media (min-width: 991px) {
+.about-text{
+    text-align: center;
     }
 }
