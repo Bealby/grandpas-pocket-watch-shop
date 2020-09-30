@@ -9,7 +9,7 @@ html{
 
 body{
     position: relative;
-    min-height:calc(100vh - 1.5rem);
+    min-height:calc(100vh - 9.5rem);
 }
 
 .header-container{
@@ -648,6 +648,6 @@ select option[value=""]{
 /*-----reduce header spacing on lg device in index.hmtl -----*/
 @media (min-width: 991px) {
 .home-padding{
-    padding-bottom:3rem;
+    padding-bottom:0rem;
     }
 }
