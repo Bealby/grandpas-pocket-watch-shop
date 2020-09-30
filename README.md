@@ -361,6 +361,14 @@ a greater visual experience fo rth esuer to interact with.
 
 ![Nav-Desktop](/documentation/readme/products.png/)
 
+### Basket App
+
+![Nav-Desktop](/documentation/readme/basket.png/)
+
+### Checkout App
+
+![Nav-Desktop](/documentation/readme/checkout.png/)
+
 ### About App
 
 The `About` page
@@ -368,14 +376,15 @@ The `About` page
 ### Profile App
 
 
-### Basket App
 
-### Checkout App
 
 ### Services App
 
 ### Contact App
 
+### Extra Features
+
+Only login/ conyact if registered
 
 Toast delay
 
