@@ -86,10 +86,11 @@ To achieve this goal, e-commerce design conventions need
 to be applied, with strong brands such as 'Amazon', 'Ebay' and
 'Etsy', being closely researched and conformed to accordingly.
 
-The **Navigation Bar** will be fixed at the top along with the
-**Logo**, **Search Bar** stretched acorss the centre. **Product** headers will be displayed
-underneath and centered. **Icons** will be used for the
-**Login**, **Basket** and **Service** features that will be positioned to the
+The **Navigation Bar** will be fixed at the top, with the
+**Logo** and **Search Bar** stretched acorss the centre.
+**Product** headers will be displayed underneath and centered.
+**Icons** will be used for the **Login**, **Basket** and **Service**
+features that will be positioned to the
 far right of the **Navigation Bar**. 
 
 The main **Home** page will have a bold heading titled "Choose a Category",
@@ -113,7 +114,7 @@ Extra features such as links to `About` and `Contact`
 will be displayed in the footer of the Web page. This limits the users
 attention being drawn to other parts of the Website rather than
 shopping. An extra icon for `Basket` will also be displayed, providing
-the user plentiful opportunities to follow through with the transaction.
+the users plentiful opportunities to follow through with the transaction.
 
 Links to `About`, `Contact` will not however
 become obsolete for users navigating through the Website. The
@@ -183,8 +184,8 @@ to click accordingly.
 Larger icons in the Headers/ Navbar/ Footer will hover from a black
 colour to orange to continue with the main colour theme of the wesbite. 
 
-For **User Login**, **Checkout** and **Confirm Payment** Buttons/Links a
-black background with white text will be used to highlight the importance
+For **User Login**, **Checkout** and **Confirm Payment** Buttons/Links will
+be black with white text and be used to highlight the importance
 and seriousness of clicking the link.
 
 **Body Text/ Input Fields**
@@ -194,23 +195,22 @@ Body text that provides descriptions of products, as well as order
 information, will be of a light grey to provide a softer tone, which
 is easier on the eye.
 
-
 **Toasts**
 - Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) `rgb(92, 184, 92)`
 - Info: ![#5bc0de](https://via.placeholder.com/15/5bc0de/000000?text=+) `rgb(91, 192, 222)`
 - Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) `rgb(240, 173, 78)`
 - Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) `rgb(217, 83, 79)`
 
-For Toast info windows, colours conforming to standard pratices will be used,
+For Toast info windows, colours conforming to standard pratices will be used
 for `Warning`, `Info`. `Error` and `Danger` respectively.
 
 #### Typography
 
 - font-family: 'Berkshire Swash', cursive;
 
-![Berkshire](/documentation/readme/berkshire.png/)
+![Berkshire Swash](/documentation/readme/berkshire.png/)
 
-`Bershire` font will be used for the main headers of the Website.
+`Bershire Swash` font will be used for the main headers of the Website.
 This font really helps bring out the theme and feel of the Website.
 Creating an oldfashioned feel appropriate for Pocket Watches.
 
@@ -246,14 +246,53 @@ business and profit for Granpa's Pocket Watch Shop.
 The Main Web page consists of four separate sections; `Home`,
 `Catch Log` (embedded `Edit Catch Log`), `Add Catches` and `Contact`.
 
-### Navigation Bar
+### Navigation Bar/ Main Header
 
 #### Mobile
 ![Nav-Mobile](/documentation/readme/nav-mobile.png/)
 
+For mobile devices the Navigation Bar/ Header will focus more on intuitive icons
+to click rather than text, to ensure a minalistic and non congestive look.
+
+The main header will include the logo that is clickable to the 'Home' page,
+along with the three icons for 'Repair & Valuation', Profile and Basket. 
+Each when hovered over will change colour to
+orange `rgb(220, 149, 35, 1)`.
+For the basket icon the total figure will be displayed and will change to
+orange `rgb(220, 149, 35, 1)` once products are added to the basket, which 
+will catch the users eye throughout their Website experience.
+
+Under the main header a toggle icon will be displayed that once click will
+create a dropdown menu of all categories and types of products. A search
+bar will continuely be present and accessible for the user due to the large
+number of products available in the Website. The search function will search
+for the product name and in the product description. 
+
 #### Desktop
 ![Nav-Desktop](/documentation/readme/nav-desktop.png/)
 
+For larger devices the the features displayed and their
+functionality will mainly remin the same except that the
+catefory headings will be displyed and the search bar
+positioned in the main header nestled nbetween the logo
+and icons. 
+
+The main category headings will all be clickable and have
+a drop down menu attached to each that will display all
+product names available. 
+
+Media queries are set up for icons and headings to
+decrease in soze in smaller devices to ensure the desktop
+look is maintained until the Bootstrap
+Navbar collapse break point sets.
+
+### Home Page
+
+#### Mobile
+![Home Mobile](/documentation/readme/home-mb.png/)
+
+#### Desktop
+![Nav-Desktop](/documentation/readme/home-dt.png/)
 
 
 Toast delay
