@@ -133,16 +133,13 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 **Primary/ Secondary Colors:**
 
-- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
-
+White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
 `rgb(255, 255, 255, 1)`
 
-- Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+)
-
+Green: ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+)
 `rgb(186, 220, 192, 1)`
 
-- Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+)
-
+Orange: ![#dc9523](https://via.placeholder.com/15/dc9523/000000?text=+)
 `rgb(220, 149, 35, 1)`
 
 There will be a strong usage of white in the Website. Products will be
@@ -168,12 +165,10 @@ the Website.
 
 **Font Colors**
 
-- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
-
+Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
 `rgb(0, 0, 0, 1)`
 
-- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
-
+White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
 `rgb(255, 255, 255, 1)`
 
 Fonts will be mainly black throughout the website. Black is a prominent
@@ -184,16 +179,13 @@ to continue the clarity of readability.
 
 **Button/ Link Colour**
 
-- Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+)
-
+Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+)
 `rgb(220, 149, 35, 1)`
 
-- Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
-
+Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
 `rgb(0, 0, 0, 1)`
 
-- White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
-
+White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
 `rgb(255, 255, 255, 1)`
 
 Buttons/ Links that have positive actions will be of an orange colour
@@ -225,20 +217,16 @@ is easier on the eye.
 
 **Toasts**
 
-- Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+)
-
+Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+)
 `rgb(92, 184, 92)`
 
-- Info: ![#5bc0de](https://via.placeholder.com/15/5bc0de/000000?text=+)
-
+Info: ![#5bc0de](https://via.placeholder.com/15/5bc0de/000000?text=+)
 `rgb(91, 192, 222)`
 
-- Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+)
-
+Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+)
 `rgb(240, 173, 78)`
 
-- Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+)
-
+Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+)
 `rgb(217, 83, 79)`
 
 For Toast info windows, colours conforming to standard pratices will be used
