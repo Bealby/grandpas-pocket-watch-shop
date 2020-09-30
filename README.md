@@ -26,7 +26,7 @@ in the market of a modern e-commerce Website that paves the way
 for a smooth, easy and friendly place for consumers to search,
 view and purchase **Pocket Watches**, **Parts** and **Tools**.
 
-## UX
+## DEMO
 
 ---
 
@@ -341,7 +341,7 @@ navigating.
 
 ![Home Mobile](/documentation/readme/home-mb.png/)
 
-The home page for mobile devices will be kept simple and
+The `Home` page for mobile devices will be kept simple and
 minimalistic to draw the user to the three main icons of
 categories to choose, steered towards by the header,
 'Choose a Category'. The icons once hovered over will enlarge
@@ -351,18 +351,22 @@ slightly and be intuitively clickable.
 
 ![Nav-Desktop](/documentation/readme/home-dt.png/)
 
-The home page for larger devices will keep the same design
+The `Home` page for larger devices will keep the same design
 as in for mobiles, but instead will have images of the
 categories that when hover over disappear and display
 the category name to click on. This extra feature brings
 a greater visual experience fo rth esuer to interact with.
 
+### Products App
+
+![Nav-Desktop](/documentation/readme/products.png/)
+
 ### About App
 
+The `About` page
 
 ### Profile App
 
-### Products App
 
 ### Basket App
 
