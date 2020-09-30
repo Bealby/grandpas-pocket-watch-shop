@@ -361,6 +361,38 @@ a greater visual experience fo rth esuer to interact with.
 
 ![Nav-Desktop](/documentation/readme/products.png/)
 
+The `Products` page will display products unfieid in size and
+distributed symetrically in 4 columns for large screens and
+decreasing to 3, 2 and 1 as screen sizes is reduced. This ensures
+the products are all clearly viewed and not erendered too small
+on any device screen size. 
+
+Each product will have their Name, Cost and Sku Number displayed
+underneath. A large orange button is then displayed with the text
+'ADD TO BASKET' which when hovered over will enlarge slightly and 
+turn a lighter colour of orange. 
+
+There are two features for the user to by pass the 'ADD TO BAKSET'
+and seek further detailed information on the product which can be
+naviagted to through clicking the Information icon or hovering over
+the image. 
+
+This in turn will redirect the user to the `Product Details` page
+that will diplay the product soley on it's own. With the product image
+being of a larger size and a more decriptive text provided. 
+
+A button for 'ADD TO BASKET' is displayed again with another link
+to enable the user to 'Keep Shopping'.
+
+The goal of the Website is always to encourage a purchase in a friendly
+manner but always provide the user to move on and continue their navigaiton
+through the Website.
+
+Once the 'ADD TO BASKET' is clicked an info window will pop up with
+a nitification of the product added. Users will be unable to add the same
+product twice to a basket and will be informed accordinoy if they do so.
+
+
 ### Basket App
 
 ![Nav-Desktop](/documentation/readme/basket.png/)
