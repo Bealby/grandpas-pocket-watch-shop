@@ -9,7 +9,7 @@ html{
 
 body{
     position: relative;
-    min-height:100vh;
+    min-height:calc(100vh - 1.5rem);
 }
 
 .header-container{
@@ -564,7 +564,7 @@ select option[value=""]{
     }
 }
 
-/*-----Increase height for footer for smaller devices to fit better on smaller devices at bpttom  -----*/
+/*-----Increase height for footer for smaller devices to fit better on smaller devices at bpttom checkout  -----*/
 @media (min-width: 767px) {
 #wrap{
     padding-bottom:5rem;
@@ -645,9 +645,9 @@ select option[value=""]{
     }
 }
 
-/*-----Reduce header padding for better display of home header to reduce spacing betweem header and images -----*/
+/*-----reduce header spacing on lg device in index.hmtl -----*/
 @media (min-width: 991px) {
 .home-padding{
-    padding-bottom:0rem;
+    padding-bottom:3rem;
     }
 }
