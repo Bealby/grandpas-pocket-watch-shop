@@ -30,6 +30,15 @@ view and purchase **Pocket Watches**, **Parts** and **Tools**.
 
 ---
 
+![Mockup Generator](/documentation/readme/mockup_website.png/)
+
+A live version of Website can be found
+[here](https://grandpas-pocket-watch-shop.herokuapp.com/)
+
+## UX
+
+---
+
 ### Strategy
 
 Users of this Website are a specific group of pocket
