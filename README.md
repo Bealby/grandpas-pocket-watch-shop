@@ -286,13 +286,43 @@ decrease in soze in smaller devices to ensure the desktop
 look is maintained until the Bootstrap
 Navbar collapse break point sets.
 
+the Naiviagtion/ and Main Header will be kept constand through out the Website
+that allow users to always feel grounded no matter which part of the Website they are
+navigaitng.
+
 ### Home Page
 
 #### Mobile
 ![Home Mobile](/documentation/readme/home-mb.png/)
 
+The home page for mobile devices will be kept simple and minamilistic to draw the user
+to the three main icons of categories to choose, steered towards
+by the header, 'Choose a Category'. The icons once hovered over will enlarge
+slightly and be intuitively clickable. 
+
 #### Desktop
 ![Nav-Desktop](/documentation/readme/home-dt.png/)
+
+The home page for larger devices will kep the same design as in for mobils, 
+but instead will have images of the categories that whne hover over disappear and display
+the ctegort name to click on. This extra feature brings a greater visbaoe
+experience fo rth esuer to interact with.
+
+### Profile App
+
+### Products App
+
+### Basket App
+
+### Checkout App
+
+### Services App
+
+### Contact App
+
+### About App
+
+
 
 
 Toast delay
