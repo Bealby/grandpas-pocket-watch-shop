@@ -529,14 +529,32 @@ viewing.
 
 ### Extra Features
 
+
+
 Only login/ conyact if registered
 
 Toast delay
 
-users non-users
 
-Stipe
-web hooks
+Stripe
+Then we'll use an elegant UI feature of stripe called elements
+to add a secure form element for collecting credit card information.
+
+So our form is being submitted and orders are successfully created in the database.
+But what happens if the users somehow intentionally or accidentally
+closes the browser window after the payment is confirmed but before the form is submitted.
+We would end up with a payment in stripe but no order in our database.
+What's more, if we were building a real store that needed to complete
+post order operations like fulfilment sending internal email notifications and so on
+none of that stuff would be triggered because the user never fully completed their order.
+This could result in a customer being charged and never receiving a confirmation email
+or even worse never receiving what they ordered.
+To prevent this situation we're going to build in some redundancy.
+Each time an event occurs on stripe such as a payment intent being created.
+A payment being completed and so on stripe sends out what's called a webhook we can listen for.
+Webhooks are like the signals django sends each time a model is saved or deleted.
+Except that they're sent securely from stripe to a URL we specify.
+
 
 ## Technologies Used
 
@@ -598,6 +616,11 @@ The following technologies were used in this project:
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
 - [Placeholder](https://placeholder.com/) - Used for placeholding of color schemes in README.md
+- Stripe/ Webhook handlers
+- Aws
+- Gmail
+- Maps Javascript API For API key and Javascript Map options
+- Date picker
 
 ### Frameworks
 
