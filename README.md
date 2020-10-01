@@ -172,7 +172,7 @@ A suggested complimentary colour for
 this shade of purple did not suit the theme and user profile of
 the Website.
 
-**Font Colors**
+- **Font Colors**
 
 Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
 `rgb(0, 0, 0, 1)`
@@ -186,7 +186,7 @@ colour that will hold well with clarity against a background white.
 White font will be used against non-white colours where appropriate,
 to continue the clarity of readability.
 
-**Button/ Link Colour**
+- **Button/ Link Colour**
 
 Orange: ![#DC9523](https://via.placeholder.com/15/dc9523/000000?text=+)
 `rgb(220, 149, 35, 1)`
@@ -214,7 +214,7 @@ For **User Login**, **Checkout** and **Confirm Payment** Buttons/Links
 will be black with white text and be used to highlight the importance
 and seriousness of clicking the link.
 
-**Body Text/ Input Fields**
+- **Body Text/ Input Fields**
 
 - Grey: ![#404040](https://via.placeholder.com/15/404040/000000?text=+)
 
@@ -224,7 +224,7 @@ Body text that provides descriptions of products, as well as order
 information, will be of a light grey to provide a softer tone, which
 is easier on the eye.
 
-**Toasts**
+- **Toasts**
 
 Warning: ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+)
 `rgb(92, 184, 92)`
@@ -298,14 +298,14 @@ colour to orange `rgb(220, 149, 35, 1)`.
 
 For the basket icon a total figure will be displayed directly
 underneath. When products are added to the basket the number
-will change from black to orange `rgb(220, 149, 35, 1)` 
+will change from black to orange `rgb(220, 149, 35, 1)`
 and show the accumulative sum of products(s) added. This is a
 subtle feature that will catch the users eye while they are
 shopping. and perhaps even encourage users to follow through
-with their transaction. 
+with their transaction.
 
 Under the main header a toggle icon will be displayed that once
-clicked will create a dropdown menu of all categories and the 
+clicked will create a dropdown menu of all categories and the
 products associated with them.
 
 A search bar will continually be present and accessible on
@@ -367,164 +367,199 @@ The `Products` page will display products unfieid in size and
 distributed symetrically in 4 columns for large screens and
 decreasing to 3, 2 and 1 as screen sizes is reduced. This ensures
 the products are all clearly viewed and not erendered too small
-on any device screen size. 
+on any device screen size.
 
-Each product will have their Name, Cost and Sku Number displayed
-underneath. A large orange button is then displayed with the text
-'ADD TO BASKET' which when hovered over will enlarge slightly and 
-turn a lighter colour of orange. 
+Each product will have their Name, Cost and Sku Number
+displayed underneath. A large orange button is then displayed
+with the text 'ADD TO BASKET' which when hovered over will
+enlarge slightly and turn a lighter colour of orange.
 
-There are two features for the user to by pass the 'ADD TO BAKSET'
-and seek further detailed information on the product which can be
-naviagted to through clicking the Information icon or hovering over
-the image. 
+There are two features for the user to by pass the
+'ADD TO BAKSET' and seek further detailed information on
+the product which can be naviagted to through clicking the
+Information icon or hovering over the image.
 
-This in turn will redirect the user to the `Product Details` page
-that will diplay the product soley on it's own. With the product image
-being of a larger size and a more decriptive text provided. 
+This in turn will redirect the user to the `Product Details`
+page that will diplay the product soley on it's own. With
+the product image being of a larger size and a more decriptive
+text provided.
 
-A button for 'ADD TO BASKET' is displayed again with another link
-to enable the user to 'Keep Shopping'.
+A button for 'ADD TO BASKET' is displayed again with another
+link to enable the user to 'Keep Shopping'.
 
-The goal of the Website is always to encourage a purchase in a friendly
-manner but always provide the user to move on and continue their navigaiton
-through the Website.
+The goal of the Website is always to encourage a purchase
+in a friendly manner but always provide the user to move on
+and continue their navigaiton through the Website.
 
-Once the 'ADD TO BASKET' is clicked an info window will pop up with
-a nitification of the product added. Users will be unable to add the same
-product twice to a basket and will be informed accordinoy if they do so.
+Once the 'ADD TO BASKET' is clicked an info window will pop
+up with a nitification of the product added. Users will be
+unable to add the same product twice to a basket and will be
+informed accordinoy if they do so.
 
 ### Basket App
 
 ![Basket](/documentation/readme/basket.png/)
 
-The `Basket` page will display an accumulative list of products added
-to basket that will include their photo, product name and sku number.
-Each product in the basket will have a delete icon attached which can
-be clicked and remove product, recalculating costs accordingly.
+The `Basket` page will display an accumulative list of
+products added to basket that will include their photo,
+product name and sku number. Each product in the basket
+will have a delete icon attached which can be clicked
+and remove product, recalculating costs accordingly.
 
-Item(s) total, delivery and total cost will be displayed in a 
-bold and clear font. The use will then have the option to click
-'CHECKOUT', which will take the colour of black with white font to
-hihglight it's importance. The user of course will have the option to
-click 'Keep Shopping, always providing the user with options.
+Item(s) total, delivery and total cost will be displayed
+in a bold and clear font. The use will then have the
+option to click 'CHECKOUT', which will take the colour
+of black with white font to hihglight it's importance.
+The user of course will have the option to click
+'Keep Shopping, always providing the user with options.
 
-For smaller devices the information will be displayed as a single
-column with products in basket being displayed first and then the
-costs and Checkout item.
+For smaller devices the information will be displayed
+as a single column with products in basket being displayed
+first and then the costs and Checkout item.
 
 ### Checkout App
 
 ![Checkout](/documentation/readme/checkout.png/)
 
-The `Checkout` page will have a simlar layout as the `Basket` page except
-the delete icon will not be available and there will be deliveyr information
+The `Checkout` page will have a simlar layout as the
+`Basket` page except the delete icon will not be
+available and there will be deliveyr information
 fields to fill out for payment.
- 
-Each field will have a placeholder text difining whihc asre rewuired
-and which are optional. For registered users fileds will autmatically
-prefilled if the user has updates thier profile. Eventual payment will not
-go through unless all rewuired fileds are completed. Error messages and toast
-will continally adbvise the user oif there are any issues with the form.
+
+Each field will have a placeholder text difining whihc
+asre rewuired and which are optional. For registered
+users fileds will autmatically prefilled if the user
+has updates thier profile. Eventual payment will not
+go through unless all rewuired fileds are completed.
+Error messages and toast will continally adbvise the
+user oif there are any issues with the form.
 the payment.
 
-A `COMPLETE ORDER` button is displayed along with a secure icon dislayed to
-highlight it's securty. If all infomraiton is completed correctly a spinner window of green, matching them of website 
-willl be shown and a toast info window dispklaying comnfirmed that order
-is confirmaed. The user will then be redirected to order success page that weill årovide
-all details in theeir order. An email will also be sent.
+A `COMPLETE ORDER` button is displayed along with a
+secure icon dislayed to highlight it's securty. If all
+infomraiton is completed correctly a spinner window of
+green, matching them of website willl be shown and a
+toast info window dispklaying comnfirmed that order
+is confirmaed. The user will then be redirected to
+order success page that weill årovide all details in
+theeir order. An email will also be sent.
 
-It should be noted that while on the `Checkout`page there is aleways anb 
-option for the user to 'Adjust' their basket.
+It should be noted that while on the `Checkout`page
+there is aleways anb  option for the user to 'Adjust'
+their basket.
 
 ### Services App
 
 ![Services](/documentation/readme/services.png/)
 
-The `Service` page can only be accessed as a registered user, by clicking on the 'Repair'
-icon symbol in  the main header of the Web page. 
+The `Service` page can only be accessed as a registered
+user, by clicking on the 'Repair' icon symbol in
+the main header of the Web page.
 
-The service page strts with a call-out-header of 'Visit Our Shop'
-followed by a sub header explaining the reasong of a reapir or valuation.
+The service page strts with a call-out-header of
+'Visit Our Shop' followed by a sub header explaining
+the reasong of a reapir or valuation.
 
-An exciting oportinituy for any user visting the Website. 
+An exciting oportinituy for any user visting the Website.
 
-Symbols are once cágain used to describe the type of serce, whether 
-it be a repir or valuation, and what each includes. 
+Symbols are once cágain used to describe the type of
+serce, whether  it be a repir or valuation, and what
+each includes.
 
-An image of a man fixing a watch brings the page to life and
-below a bold header stating theday and time with a flashing arrow
-ppojting to a booking a appointment form.
+An image of a man fixing a watch brings the page to
+life and below a bold header stating theday and time
+with a flashing arrow ppojting to a booking a
+appointment form.
 
-Al filds of the form are required and where possible dropdown choices
-are available allowing for less human typing errors and a greater ease for 
-users to fill out form. 
+Al filds of the form are required and where possible
+dropdown choices are available allowing for less human
+typing errors and a greater ease for
+users to fill out form.
 
-For the date a date picker calender pops up allowig for rhe user to 
-pick a date without habving to type a date manually which could
-lead to problem of date format etc. 
+For the date a date picker calender pops up allowig
+for rhe user to pick a date without habving to type
+a date manually which could
+lead to problem of date format etc.
 
-Once the form is filled out a bold button icon is displayed with icon
-symbols of booking request being displayed, making it clear for the user
+Once the form is filled out a bold button icon is
+displayed with icon symbols of booking request being
+displayed, making it clear for the user
 the action inf the button.
 
-Once clicked the user will ber redirected to a confimation booking page.
-Along wiht this anemail will be sent to the user confirming all their detailsof booking.
-An toast info window will also.
+Once clicked the user will ber redirected to a
+confimation booking page. Along wiht this anemail
+will be sent to the user confirming all their details
+of booking. An toast info window will also.
 
-The user is then clearly displayed a button icon 'BACK TO MY PROFILE' where theirbooking
+The user is then clearly displayed a button icon
+'BACK TO MY PROFILE' where theirbooking
 will be logged.
 
-For smaller devices the 2 columns will collapse into one column with call
-out heading and repair/ valuations info first and booking form after.
-
+For smaller devices the 2 columns will collapse
+into one column with call out heading and repair/
+valuations info first and booking form after.
 
 ### Contact App
 
 ![Contact](/documentation/readme/contact.png/)
 
-A `contact`page provides the user wiht the opportunity to get in contact 
-witht the owners with any order or genral enquiriy questions. The contact page also
-includes address, telephone and email detsils with an interactive map to inform usero 
-sof the locaiton of the shop. Opening details are providied i the pop up window
+A `contact`page provides the user wiht the opportunity
+to get in contact  witht the owners with any order or
+genral enquiriy questions. The contact page also includes
+address, telephone and email detsils with an interactive
+map to inform usero  sof the locaiton of the shop.
+Opening details are providied i the pop up window
 using the Google Maps API.
 
-The contact form itself has three reuired fields and a clear for the bold button to click to sending
-Icons are used thorugh the page for intuitive understaning
+The contact form itself has three reuired fields and a
+clear for the bold button to click to sending Icons are
+used thorugh the page for intuitive understaning
 
-Once an email is the use is redireted tot a success page and and toast pop up window  is displayedconfirming booking.
+Once an email is the use is redireted tot a success
+page and and toast pop up window  is displayed
+confirming booking.
 
-there is then a keepo shoping link for the user to carry on back to home page. 
+there is then a keepo shoping link for the user
+to carry on back to home page.
 
-For smaller devices the 2 coliumn layout will be reduced to 1 column with the contact details and map
+For smaller devices the 2 coliumn layout will be
+reduced to 1 column with the contact details and map
 first and the contact form displayed after.
 
 ### About App
 
 ![About](/documentation/readme/about.png/)
 
-An `About`page give the user of the Website some backgroiund infomraiton of the shop giving some 
-personal details and infomraiton on the shop that can give the user  sense of peronal connection to the
-shop and find out about it's credituals and history. 
+An `About`page give the user of the Website some
+backgroiund infomraiton of the shop giving some
+personal details and infomraiton on the shop that can
+give the user  sense of peronal connection to the
+shop and find out about it's credituals and history.
 
 ### Profile App
 
 ![Profile](/documentation/readme/profile.png/)
 
-The `My Profile` page is an important opart of the Websote for 
-authenticated users. Where they are able to view past orders and 
-current appointment bookings. Order can be clicked an viewed on separte pages
-as well as giving the users the oopporrunity to edit or delate appoitnments.
-'Edit' and 'delete' icons are used ot intuitively infomr the user the features
-available. 
+The `My Profile` page is an important opart of the
+Websote for  authenticated users. Where they are able
+to view past orders and  current appointment bookings.
+Order can be clicked an viewed on separte pages
+as well as giving the users the oopporrunity to edit
+or delate appoitnments. 'Edit' and 'delete' icons are
+used ot intuitively infomr the user the features
+available.
 
-Order and Appontments are displayed and at a certain number, rather than conf´gesting the
-page will become scrolling, to keep the pages layout and viewing non congested.
+Order and Appontments are displayed and at a certain
+number, rather than conf´gesting the page will become
+scrolling, to keep the pages layout and viewing non
+congested.
 
-There is also delivery infomration that can be filled out and saved for future orders 
-that will autmatically appear in Checkout
+There is also delivery infomration that can be filled
+out and saved for future orders that will autmatically
+appear in Checkout
 
-For smaller devices the order and appoijtnemtn  details reduce to a smaller amount of columns for better
+For smaller devices the order and appoijtnemtn details
+reduce to a smaller amount of columns for better
 viewing.
 
 ### Extra Features
@@ -533,27 +568,30 @@ Only login/ conyact if registered
 
 Toast delay
 
-
 Stripe
-Then we'll use an elegant UI feature of stripe called elements
-to add a secure form element for collecting credit card information.
+Then we'll use an elegant UI feature of stripe called
+elements to add a secure form element for collecting
+credit card information.
 
-So our form is being submitted and orders are successfully created in the database.
-But what happens if the users somehow intentionally or accidentally
-closes the browser window after the payment is confirmed but before the form is submitted.
-We would end up with a payment in stripe but no order in our database.
-What's more, if we were building a real store that needed to complete
-post order operations like fulfilment sending internal email notifications and so on
-none of that stuff would be triggered because the user never fully completed their order.
-This could result in a customer being charged and never receiving a confirmation email
-or even worse never receiving what they ordered.
-To prevent this situation we're going to build in some redundancy.
-Each time an event occurs on stripe such as a payment intent being created.
-A payment being completed and so on stripe sends out what's called a webhook we can listen for.
-Webhooks are like the signals django sends each time a model is saved or deleted.
-Except that they're sent securely from stripe to a URL we specify.
-
-
+So our form is being submitted and orders are successfully
+created in the database. But what happens if the users
+somehow intentionally or accidentally closes the browser
+window after the payment is confirmed but before the form
+is submitted. We would end up with a payment in stripe but
+no order in our database. What's more, if we were building
+a real store that needed to complete post order operations
+like fulfilment sending internal email notifications and
+so on none of that stuff would be triggered because the
+user never fully completed their order. This could result
+in a customer being charged and never receiving a confirmation
+email or even worse never receiving what they ordered.
+To prevent this situation we're going to build in some
+redundancy. Each time an event occurs on stripe such as a
+payment intent being created. A payment being completed and
+so on stripe sends out what's called a webhook we can listen
+for. Webhooks are like the signals django sends each time a
+model is saved or deleted. Except that they're sent securely
+from stripe to a URL we specify.
 
 ## Technologies Used
 
@@ -563,8 +601,8 @@ The following technologies were used in this project:
 
 ### IDE
 
-- [GitPod](https://gitpod.io/workspaces/) - A platform used for hard coding
-   of Website
+- [GitPod](https://gitpod.io/workspaces/) - A platform used for
+  hard coding of Website
 
 ### Hosting
 
@@ -580,8 +618,8 @@ The following technologies were used in this project:
 - [Python](https://www.python.org/) - A programming language that lets you work
    quickly and integrate systems more effectively.
 - [JavaScript](https://www.javascript.com/) - Used in collaboration with
-   Bootstrap to collapse Navigation Bar for small devices and Google Maps.
-   Also used for EmailJS.
+   Bootstrap to collapse Navigation Bar for small devices, Google Maps,
+   Date Picker and Stripe.
 
 ### Language Validators
 
@@ -591,49 +629,50 @@ The following technologies were used in this project:
    javascript
 - [Pep8 online](http://pep8online.com/) - Validator for Python code
 - [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
-    checks on README.md content
+   checks on README.md content
 
 ### Libraries
 
 - [Google Fonts](https://fonts.google.com/) - Programme used to import main
-   fonts in Website: **Playfair Display** and **Calligraffitti**
-- [Font Awesome](https://fontawesome.com/) - Programme used to import icons
-   for Footer in Website: **far-envelope** and **fas fa-phone**
+   fonts in Website
+- [Font Awesome](https://fontawesome.com/) - Programme used to import a multitude
+   of icons for the Website
 
 ### Tools
 
 - [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/) - Allowed
    preliminary designs to be drawn up of Website
-- [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
-- [Adobe Illustrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing
-  Stockholm
-- [Sweet Alert](https://sweetalert.js.org/) - Used for alerts in contact form
+- [Adobe Photoshop](https://www.adobe.com//) - Editing images on Website
+- [Adobe Illustrator](https://www.adobe.com//) - Creating images on Website
 - [Responsive Design](http://ami.responsivedesign.is/) - Free software
-    to generate Mockup of Website on different devices
+   to generate Mockup of Website on different devices
 - [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
     Helped to improve the quality of Website
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
-- [Placeholder](https://placeholder.com/) - Used for placeholding of color schemes in README.md
-- Stripe/ Webhook handlers
-- Aws
-- Gmail
-- Maps Javascript API For API key and Javascript Map options
-- Date picker
+- [Placeholder](https://placeholder.com/) - Used for placeholding of color
+   schemes in README.md
+- [Gmail](https://www.emailjs.com/) - Used to create email and confirmation
+   service for users
+- [Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview)
+   Used to create interactive Map in contact page
+- [Stripe/ Web Hook Handlers](https://stripe.com/en-gb-se) - Used for secure
+   payments and signals
+- [Amazon Web Service](https://aws.amazon.com/) - Used to store static files
+   and images
+- [Date Picker](https://bootstrap-datepicker.readthedocs.io/en/latest/) -
+   Used to display calender on appoinment form
 
 ### Frameworks
 
 - [DJANGO](https://www.djangoproject.com//) - A high-level Python Web framework that
   encourages rapid development and clean, pragmatic design
 - [BOOTSTRAP](https://getbootstrap.com/) - A framework for building responsive
-   Websites where the powerful Grid system was used along with styling
+   Websites
 - [jQuery](https://jquery.com/) - Used to implement Navigation Collapse feature
    JavaScript Plugin
 - [Popper](https://popper.js.org/) - Used to implement Navigation Collapse
    feature JavaScript Plugin
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework
-   written in Python
-- [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
 
 ## Credits
 
@@ -648,7 +687,7 @@ The following technologies were used in this project:
   and the features available. Grandpa's Pocket Watch Shop however
   was customised accordingly to fit the Website's aim as well as
   modified and extended to create new feaures and apps tailored
-  towards the Websites requirements. 
+  towards the Websites requirements.
 
 - The Image Overlay feature for the `Home` pages icons was inspired by
   [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity).
@@ -656,10 +695,8 @@ The following technologies were used in this project:
 - The contact form was guided by a tutorial at
   [Learn Django](https://learndjango.com/tutorials/django-email-contact-form).
 
-
-- The Date Picker used for the Services Appointment Form was inspired by a post at
+- Support to fix the Date Picker selecting only certain date periods was taken from
   [Stack Overflow](https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker)
-  , which helped in creating a suitable Date Picker for Crispy Forms in the Services App.
 
 - The blinking icon feature in the Services app was taken from an idea provided by
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
