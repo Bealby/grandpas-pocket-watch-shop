@@ -464,7 +464,8 @@ pick a date without habving to type a date manually which could
 lead to problem of date format etc. 
 
 Once the form is filled out a bold button icon is displayed with icon
-symbols of send being displayed, making it clear for the user action inf the button.
+symbols of booking request being displayed, making it clear for the user
+the action inf the button.
 
 Once clicked the user will ber redirected to a confimation booking page.
 Along wiht this anemail will be sent to the user confirming all their detailsof booking.
@@ -473,14 +474,37 @@ An toast info window will also.
 The user is then clearly displayed a button icon 'BACK TO MY PROFILE' where theirbooking
 will be logged.
 
+For smaller devices the 2 columns will collapse into one column with call
+out heading and repair/ valuations info first and booking form after.
+
 
 ### Contact App
 
 ![Contact](/documentation/readme/contact.png/)
 
+A `contact`page provides the user wiht the opportunity to get in contact 
+witht the owners with any order or genral enquiriy questions. The contact page also
+includes address, telephone and email detsils with an interactive map to inform usero 
+sof the locaiton of the shop. Opening details are providied i the pop up window
+using the Google Maps API.
+
+The contact form itself has three reuired fields and a clear for the bold button to click to sending
+Icons are used thorugh the page for intuitive understaning
+
+Once an email is the use is redireted tot a success page and and toast pop up window  is displayedconfirming booking.
+
+there is then a keepo shoping link for the user to carry on back to home page. 
+
+For smaller devices the 2 coliumn layout will be reduced to 1 column with the contact details and map
+first and the contact form displayed after.
+
 ### About App
 
 ![About](/documentation/readme/about.png/)
+
+An `About`page give the user of the Website some backgroiund infomraiton of the shop giving some 
+personal details and infomraiton on the shop that can give the user  sense of peronal connection to the
+shop and find out about it's credituals and history. 
 
 ### Profile App
 
@@ -492,6 +516,9 @@ Only login/ conyact if registered
 Toast delay
 
 users non-users
+
+Stipe
+web hooks
 
 ## Technologies Used
 

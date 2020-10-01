@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect
 from django.conf import settings
 from .forms import ContactForm
 from django.template.loader import render_to_string
+from django.contrib import messages
 
 
 def contact(request):
@@ -33,4 +34,5 @@ def contact(request):
 
 def contact_success(request):
 
+    messages.success(request, f'Email Sent!')
     return render(request, "contact/contact_success.html")
