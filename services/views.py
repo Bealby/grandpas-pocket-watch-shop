@@ -126,4 +126,5 @@ def edit_appointment(request, appointment_id):
 @login_required
 def edit_appointment_success(request):
 
+    messages.success(request, f'Updated Appointment Confirmed!')
     return render(request, "services/edit_appointment_success.html")

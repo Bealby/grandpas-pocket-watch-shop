@@ -508,6 +508,24 @@ shop and find out about it's credituals and history.
 
 ### Profile App
 
+![Profile](/documentation/readme/profile.png/)
+
+The `My Profile` page is an important opart of the Websote for 
+authenticated users. Where they are able to view past orders and 
+current appointment bookings. Order can be clicked an viewed on separte pages
+as well as giving the users the oopporrunity to edit or delate appoitnments.
+'Edit' and 'delete' icons are used ot intuitively infomr the user the features
+available. 
+
+Order and Appontments are displayed and at a certain number, rather than conf´gesting the
+page will become scrolling, to keep the pages layout and viewing non congested.
+
+There is also delivery infomration that can be filled out and saved for future orders 
+that will autmatically appear in Checkout
+
+For smaller devices the order and appoijtnemtn  details reduce to a smaller amount of columns for better
+viewing.
+
 
 ### Extra Features
 
