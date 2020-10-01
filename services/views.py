@@ -62,6 +62,7 @@ def services(request):
 @login_required
 def appointment_success(request):
 
+    messages.success(request, f'Appointment Confirmed!')
     return render(request, "services/appointment_success.html")
 
 

@@ -440,6 +440,40 @@ option for the user to 'Adjust' their basket.
 
 ![Services](/documentation/readme/services.png/)
 
+The `Service` page can only be accessed as a registered user, by clicking on the 'Repair'
+icon symbol in  the main header of the Web page. 
+
+The service page strts with a call-out-header of 'Visit Our Shop'
+followed by a sub header explaining the reasong of a reapir or valuation.
+
+An exciting oportinituy for any user visting the Website. 
+
+Symbols are once cágain used to describe the type of serce, whether 
+it be a repir or valuation, and what each includes. 
+
+An image of a man fixing a watch brings the page to life and
+below a bold header stating theday and time with a flashing arrow
+ppojting to a booking a appointment form.
+
+Al filds of the form are required and where possible dropdown choices
+are available allowing for less human typing errors and a greater ease for 
+users to fill out form. 
+
+For the date a date picker calender pops up allowig for rhe user to 
+pick a date without habving to type a date manually which could
+lead to problem of date format etc. 
+
+Once the form is filled out a bold button icon is displayed with icon
+symbols of send being displayed, making it clear for the user action inf the button.
+
+Once clicked the user will ber redirected to a confimation booking page.
+Along wiht this anemail will be sent to the user confirming all their detailsof booking.
+An toast info window will also.
+
+The user is then clearly displayed a button icon 'BACK TO MY PROFILE' where theirbooking
+will be logged.
+
+
 ### Contact App
 
 ![Contact](/documentation/readme/contact.png/)
