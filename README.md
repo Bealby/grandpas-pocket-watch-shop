@@ -394,7 +394,6 @@ Once the 'ADD TO BASKET' is clicked an info window will pop up with
 a nitification of the product added. Users will be unable to add the same
 product twice to a basket and will be informed accordinoy if they do so.
 
-
 ### Basket App
 
 ![Basket](/documentation/readme/basket.png/)
@@ -528,10 +527,7 @@ that will autmatically appear in Checkout
 For smaller devices the order and appoijtnemtn  details reduce to a smaller amount of columns for better
 viewing.
 
-
 ### Extra Features
-
-
 
 Only login/ conyact if registered
 
@@ -556,6 +552,7 @@ Each time an event occurs on stripe such as a payment intent being created.
 A payment being completed and so on stripe sends out what's called a webhook we can listen for.
 Webhooks are like the signals django sends each time a model is saved or deleted.
 Except that they're sent securely from stripe to a URL we specify.
+
 
 
 ## Technologies Used
@@ -638,19 +635,31 @@ The following technologies were used in this project:
    written in Python
 - [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
 
-- amazon Web Services
+## Credits
 
-Inspiration.
+---
 
-Image Overlay Opacity feature
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
+### Code
 
-google map/contact inspiration https://mdbootstrap.com/docs/jquery/javascript/google-maps/
-django contact POST inspiration https://learndjango.com/tutorials/django-email-contact-form
+- Grandpa's Pocket Watch Shop Website was influenced and inspired by the
+  Boutique Ado lessons tutored by @ckz8780 at
+  [code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
+  , especially concepts and frameworks behind e-commerse Websites
+  and the features available. Grandpa's Pocket Watch Shop however
+  was customised accordingly to fit the Website's aim as well as
+  modified and extended to create new feaures and apps tailored
+  towards the Websites requirements. 
 
-Toasts datsa-delay by 1000
+- The Image Overlay feature for the `Home` pages icons was inspired by
+  [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity).
 
-javascript - date picker
-https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker
+- The contact form was guided by a tutorial at
+  [Learn Django](https://learndjango.com/tutorials/django-email-contact-form).
 
-blinking arrow : https://html-online.com/articles/blinking-text-css-animation/
+
+- The Date Picker used for the Services Appointment Form was inspired by a post at
+  [Stack Overflow](https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker)
+  , which helped in creating a suitable Date Picker for Crispy Forms in the Services App.
+
+- The blinking icon feature in the Services app was taken from an idea provided by
+  [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
