@@ -281,13 +281,9 @@ Pocket Watch Shop.
 
 ---
 
-The Main Web page consists of four separate sections; `Home`,
-`Catch Log` (embedded `Edit Catch Log`), `Add Catches` and
-`Contact`.
-
 ### Navigation Bar/ Main Header
 
-#### Mobile
+- **Mobile**
 
 ![Nav-Mobile](/documentation/readme/nav-mobile.png/)
 
@@ -296,66 +292,72 @@ on intuitive icons to click rather than text, to ensure a
 minimalistic and non-congestive look.
 
 The main header will include the logo that is clickable to the
-Home page, along with the three icons for 'Repair & Valuation',
-Profile and Basket. Each when hovered over will change colour to
-orange `rgb(220, 149, 35, 1)`. For the basket icon the total
-figure will be displayed and will change to orange
-`rgb(220, 149, 35, 1)` once products are added to the basket,
-which  will catch the users eye throughout their Website
-experience.
+Home page, along with the three icons for `Repair & Valuation`,
+`Profile` and `Basket`. Each icon, when hovered over, will change
+colour to orange `rgb(220, 149, 35, 1)`.
+
+For the basket icon a total figure will be displayed directly
+underneath. When products are added to the basket the number
+will change from black to orange `rgb(220, 149, 35, 1)` 
+and show the accumulative sum of products(s) added. This is a
+subtle feature that will catch the users eye while they are
+shopping. and perhaps even encourage users to follow through
+with their transaction. 
 
 Under the main header a toggle icon will be displayed that once
-click will create a dropdown menu of all categories and types of
-products. A search bar will continually be present and accessible
-for the user due to the large number of products available in the
-Website. The search function will search for the product name and
-in the product description.
+clicked will create a dropdown menu of all categories and the 
+products associated with them.
 
-#### Desktop
+A search bar will continually be present and accessible on
+all devices to inform the user that due to the extensive number
+of products the searches function is available to help in the
+user experience. The search function will allow for searches
+in name fileds as well as in description fields.
+
+- **Desktop**
 
 ![Nav-Desktop](/documentation/readme/nav-desktop.png/)
 
 For larger devices the features displayed and their
 functionality will mainly remain the same except that the
-category headings will be displayed and the search bar
-positioned in the main header nestled inbetween the logo
-and icons.
+category names will be displayed - `Pocket Watches`, `Parts``
+and `Tools` - and when clicked a dropdown menu will display
+all products within that category.
 
-The main category headings will all be clickable and have
-a drop down menu attached to each that will display all
-product names available.
+The search bar will move to the main header and displayed
+centrally between the logo and icons.
 
 Media queries are set up for icons and headings to
-decrease in soze in smaller devices to ensure the desktop
-look is maintained until the Bootstrap
-Navbar collapse break point sets.
+decrease in size for smaller devices to ensure the desktop
+layout is maintained, until the Bootstrap Navbar Collapse
+kicks in for mobile devices.
 
-The Naiviagtion/ and Main Header will be kept constant through
-out the Website that allow users to always feel grounded no
-matter which part of the Website they are
-navigating.
+The Naiviagtion/ Main Header layout will remain constant
+throughout the navigation through the Website. Allowing
+the user to become familiar very quickly with the
+Website navigation.
 
 ### Home Page
 
-#### Mobile
+- **Mobile**
 
 ![Home Mobile](/documentation/readme/home-mb.png/)
 
 The `Home` page for mobile devices will be kept simple and
 minimalistic to draw the user to the three main icons of
-categories to choose, steered towards by the header,
-'Choose a Category'. The icons once hovered over will enlarge
-slightly and be intuitively clickable.
+categories to choose, steeredthat will be drawn to after
+reading page header, 'Choose a Category'. The icons once
+hovered over will enlarge and be intuitively clickable.
 
-#### Desktop
+- **Desktop**
 
 ![Home Desktop](/documentation/readme/home-dt.png/)
 
 The `Home` page for larger devices will keep the same design
-as in for mobiles, but instead will have images of the
-categories that when hover over disappear and display
-the category name to click on. This extra feature brings
-a greater visual experience fo rth esuer to interact with.
+format, but instead will have images of the categories, that
+when hovered over, will disappear and display the category
+name in its place. This extra feature brings a greater visual
+and interactive experience to the user.
 
 ### Products App
 
