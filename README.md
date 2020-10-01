@@ -593,6 +593,8 @@ for. Webhooks are like the signals django sends each time a
 model is saved or deleted. Except that they're sent securely
 from stripe to a URL we specify.
 
+### Features left to Implement
+
 ## Technologies Used
 
 ---

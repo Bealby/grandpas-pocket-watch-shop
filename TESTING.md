@@ -50,3 +50,38 @@ critcial but worth addressing at a later date:
   URL of a Website. It would be benefical to add these at a later date.
 
 ## Non-Automated Testing
+
+
+#### Desktop Browsers
+
+- Chrome: Website renders well on all screen sizes.
+- Safari: Website renders well on all screen sizes.
+- Firefox: Website renders well on all screen sizes.
+- Edge: Website renders well on all screen sizes.
+
+#### Mobile and Tablet Devices
+
+- The Website was tested on tablets and a variety of
+  mobiles, including iPhone and Samsung. The results were
+  satisfactory for all devices and continued to achieve the
+  UX and UI goals.
+
+#### User Testing
+
+- Family and friends were asked to use the finished Website to test
+  usability and comment on whether they felt it met their needs as
+  discussed in the Strategy section - [User Stories](#user-stories).
+  - iphone 8 - Chrome: Good
+  - iphone xs - Chrome: Good
+  - iphone xs - Safari: Good
+  - iphone 8 - Chrome: Good
+  - iphone 8 - Safari: Good
+  - iphone 8 - Chrome: Good
+  - iphone 11 - Safari: Good
+  - iphone 11 - Safari: Good
+  - Samsung 7 - Chrome: Good
+
+#### User Experience
+
+#### Fixes
+
