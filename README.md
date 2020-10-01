@@ -397,9 +397,44 @@ product twice to a basket and will be informed accordinoy if they do so.
 
 ![Nav-Desktop](/documentation/readme/basket.png/)
 
+The `Basket` page will display an accumulative list of products added
+to basket that will include their photo, product name and sku number.
+Each product in the basket will have a delete icon attached which can
+be clicked and remove product, recalculating costs accordingly.
+
+Item(s) total, delivery and total cost will be displayed in a 
+bold and clear font. The use will then have the option to click
+'CHECKOUT', which will take the colour of black with white font to
+hihglight it's importance. The user of course will have the option to
+click 'Keep Shopping, always providing the user with options.
+
+For smaller devices the information will be displayed as a single
+column with products in basket being displayed first and then the
+costs and Checkout item.
+
 ### Checkout App
 
 ![Nav-Desktop](/documentation/readme/checkout.png/)
+
+The `Checkout` page will have a simlar layout as the `Basket` page except
+the delete icon will not be available and there will be deliveyr information
+fields to fill out for payment.
+ 
+Each field will have a placeholder text difining whihc asre rewuired
+and which are optional. For registered users fileds will autmatically
+prefilled if the user has updates thier profile. Eventual payment will not
+go through unless all rewuired fileds are completed. Error messages and toast
+will continally adbvise the user oif there are any issues with the form.
+the payment.
+
+A `COMPLETE ORDER` button is displayed along with a secure icon dislayed to
+highlight it's securty. If all infomraiton is completed correctly a spinner window of green, matching them of website 
+willl be shown and a toast info window dispklaying comnfirmed that order
+is confirmaed. The user will then be redirected to order success page that weill årovide
+all details in theeir order. An email will also be sent.
+
+It should be noted that while on the `Checkout`page there is aleways anb 
+option for the user to 'Adjust' their basket.
 
 ### About App
 
@@ -419,6 +454,8 @@ The `About` page
 Only login/ conyact if registered
 
 Toast delay
+
+users non-users
 
 ## Technologies Used
 
