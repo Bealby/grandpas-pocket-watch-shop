@@ -349,7 +349,7 @@ slightly and be intuitively clickable.
 
 #### Desktop
 
-![Nav-Desktop](/documentation/readme/home-dt.png/)
+![Home Desktop](/documentation/readme/home-dt.png/)
 
 The `Home` page for larger devices will keep the same design
 as in for mobiles, but instead will have images of the
@@ -359,7 +359,7 @@ a greater visual experience fo rth esuer to interact with.
 
 ### Products App
 
-![Nav-Desktop](/documentation/readme/products.png/)
+![Products](/documentation/readme/products.png/)
 
 The `Products` page will display products unfieid in size and
 distributed symetrically in 4 columns for large screens and
@@ -395,7 +395,7 @@ product twice to a basket and will be informed accordinoy if they do so.
 
 ### Basket App
 
-![Nav-Desktop](/documentation/readme/basket.png/)
+![Basket](/documentation/readme/basket.png/)
 
 The `Basket` page will display an accumulative list of products added
 to basket that will include their photo, product name and sku number.
@@ -414,7 +414,7 @@ costs and Checkout item.
 
 ### Checkout App
 
-![Nav-Desktop](/documentation/readme/checkout.png/)
+![Checkout](/documentation/readme/checkout.png/)
 
 The `Checkout` page will have a simlar layout as the `Basket` page except
 the delete icon will not be available and there will be deliveyr information
@@ -436,18 +436,20 @@ all details in theeir order. An email will also be sent.
 It should be noted that while on the `Checkout`page there is aleways anb 
 option for the user to 'Adjust' their basket.
 
+### Services App
+
+![Services](/documentation/readme/services.png/)
+
+### Contact App
+
+![Contact](/documentation/readme/contact.png/)
+
 ### About App
 
-The `About` page
+![About](/documentation/readme/about.png/)
 
 ### Profile App
 
-
-
-
-### Services App
-
-### Contact App
 
 ### Extra Features
 
