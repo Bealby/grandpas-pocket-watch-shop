@@ -354,7 +354,7 @@ hovered over will enlarge and be intuitively clickable.
 ![Home Desktop](/documentation/readme/home-dt.png/)
 
 The `Home` page for larger devices will keep the same design
-format, but instead will have images of the categories, that
+format, but instead have images of the categories, that
 when hovered over, will disappear and display the category
 name in its place. This extra feature brings a greater visual
 and interactive experience to the user.
@@ -363,59 +363,69 @@ and interactive experience to the user.
 
 ![Products](/documentation/readme/products.png/)
 
-The `Products` page will display products unfieid in size and
-distributed symetrically in 4 columns for large screens and
-decreasing to 3, 2 and 1 as screen sizes is reduced. This ensures
-the products are all clearly viewed and not erendered too small
-on any device screen size.
+The `Products` page will display products unified in size and
+layed out symetrically in 4 columns for large screens and
+decreasing to 3, 2 and 1 column as the screen sizes reduce.
+This ensures the products are clearly viewed and not rendered
+too small on any device screen size.
 
-Each product will have their Name, Cost and Sku Number
-displayed underneath. A large orange button is then displayed
-with the text 'ADD TO BASKET' which when hovered over will
-enlarge slightly and turn a lighter colour of orange.
+Each product will have their 'Name', 'Cost' and 'Sku Number'
+displayed underneath. A large orange button, with the text
+'ADD TO BASKET' is viewable to the user and spans the length
+of the product image width. When hovered over the button
+enlarges slightly and turns a darker shade of orange. 
+This allows the user skip the option to seek further details
+of the product continue shopping.
 
-There are two features for the user to by pass the
-'ADD TO BAKSET' and seek further detailed information on
-the product which can be naviagted to through clicking the
-Information icon or hovering over the image.
+There are of course options for the user to seek more
+information on a product enabled through
+cicking on the information icon or hovering over the
+image itself, which in turn will redirect the user to
+the `Product Details` page. Here the product will be 
+displayed soley on it's own, with a larger image and
+more descriptive text.
 
-This in turn will redirect the user to the `Product Details`
-page that will diplay the product soley on it's own. With
-the product image being of a larger size and a more decriptive
-text provided.
+A button for 'ADD TO BASKET' is also displayed on the 
+`Product Details` page along with another
+link to enable the user to `Keep Shopping`.
 
-A button for 'ADD TO BASKET' is displayed again with another
-link to enable the user to 'Keep Shopping'.
+The goal of the Website is to always encourage a user
+to purchase products in a friendly manner yet provide
+alternative navigation options.
 
-The goal of the Website is always to encourage a purchase
-in a friendly manner but always provide the user to move on
-and continue their navigaiton through the Website.
-
-Once the 'ADD TO BASKET' is clicked an info window will pop
-up with a nitification of the product added. Users will be
-unable to add the same product twice to a basket and will be
-informed accordinoy if they do so.
+Once the 'ADD TO BASKET' button is clicked an info window
+will pop up with a notification of the product added. 
+Defensive design prevents the users from adding the 
+same product twice and will be notified accordingly 
+by a pop up window.
 
 ### Basket App
 
 ![Basket](/documentation/readme/basket.png/)
 
 The `Basket` page will display an accumulative list of
-products added to basket that will include their photo,
-product name and sku number. Each product in the basket
-will have a delete icon attached which can be clicked
-and remove product, recalculating costs accordingly.
+products added to the basket that will include their 'Image',
+'Product Name' and 'Sku Number'. Each product in the basket
+will have a delete icon along side it, that is black in colour
+and red when hovered over. The delete icon will remove the 
+product item from the basket and recalculate costs.
 
-Item(s) total, delivery and total cost will be displayed
-in a bold and clear font. The use will then have the
-option to click 'CHECKOUT', which will take the colour
-of black with white font to hihglight it's importance.
-The user of course will have the option to click
-'Keep Shopping, always providing the user with options.
+For desktop devices there will be a two column structure,
+the first showing a list of items in the basket and the second
+showing the 'Item(s)Total', 'Delivery' and 'Total Cost'. As the 
+basket list expands the second column of totals will remian
+viewable.
+
+Underneath the totals summary there will be a button to click to
+'CHECKOUT', which will take a background colour
+of black with white font to highlight it's importance.
+The user will also have the option to 'Keep Shopping',
+keeping to the trend of providing the user options.
 
 For smaller devices the information will be displayed
-as a single column with products in basket being displayed
-first and then the costs and Checkout item.
+as a single column with a list of products in basket
+being displayed first and then the 'Totals' and 'Checkout'
+icon after.
 
 ### Checkout App
 
@@ -423,87 +433,98 @@ first and then the costs and Checkout item.
 
 The `Checkout` page will have a simlar layout as the
 `Basket` page except the delete icon will not be
-available and there will be deliveyr information
+available and there will be delivery information
 fields to fill out for payment.
 
-Each field will have a placeholder text difining whihc
-asre rewuired and which are optional. For registered
-users fileds will autmatically prefilled if the user
-has updates thier profile. Eventual payment will not
-go through unless all rewuired fileds are completed.
-Error messages and toast will continally adbvise the
-user oif there are any issues with the form.
-the payment.
+For the payment form each field will have a placeholder
+text defining which inputs are required and which are
+optional with the use of an astrex. For registered users
+the fields will autmatically be prefilled if the user
+has updates thier profile.
 
-A `COMPLETE ORDER` button is displayed along with a
-secure icon dislayed to highlight it's securty. If all
-infomraiton is completed correctly a spinner window of
-green, matching them of website willl be shown and a
-toast info window dispklaying comnfirmed that order
-is confirmaed. The user will then be redirected to
-order success page that weill årovide all details in
-theeir order. An email will also be sent.
+Defensive design will prevent any form from being
+submitted and notifications will continally advise the
+user of any issues while completing the
+the payment form.
 
-It should be noted that while on the `Checkout`page
-there is aleways anb  option for the user to 'Adjust'
+A `COMPLETE ORDER` button is displayed at the end of the 
+payment form along with a secure icon dislayed to
+highlight it's securty. If all infomraiton is completed
+and the user confirms order, a spinner window of
+green, matching the colour theme of the website, will
+be displayed until the payment order goes through on
+Stripe. After which an info window will pop up
+comnfirming the order has gone through. The user
+will then be redirected to an order summary page
+that will provide all the details of their order.
+An email will also be sent to their email address
+confirming these details.
+
+It should be noted that while on the `Checkout` page
+there is an option and link for the user to `Adjust`
 their basket.
 
 ### Services App
 
 ![Services](/documentation/readme/services.png/)
 
-The `Service` page can only be accessed as a registered
-user, by clicking on the 'Repair' icon symbol in
-the main header of the Web page.
+The `Service` page can only be accessed if you are a
+registered user and non users will be advised to register
+before hand.
 
-The service page strts with a call-out-header of
-'Visit Our Shop' followed by a sub header explaining
-the reasong of a reapir or valuation.
+The `Service` will have a 2 column design for desktop and
+1 column for mobile.
 
-An exciting oportinituy for any user visting the Website.
+The main header of the page will invite the user to visit
+the shop, which will then be followed by the proposal for
+the user to have their Pocket Watch repaired or valued,
+which will be an exciting oportunity for any user visting
+the Website.
 
-Symbols are once cágain used to describe the type of
-serce, whether  it be a repir or valuation, and what
-each includes.
+Icons are used to describe the Repair or Valuation offers,
+under which details of the service provided will be shown.
 
 An image of a man fixing a watch brings the page to
-life and below a bold header stating theday and time
-with a flashing arrow ppojting to a booking a
-appointment form.
+life with a caption below stating the day and time
+appointments can be booked.
 
-Al filds of the form are required and where possible
-dropdown choices are available allowing for less human
-typing errors and a greater ease for
-users to fill out form.
+A flashing arrow pointing towards the appointment form
+will direct the user accordingly.
 
-For the date a date picker calender pops up allowig
-for rhe user to pick a date without habving to type
-a date manually which could
-lead to problem of date format etc.
+All fields of the form are required and necessary alerts
+will advise the user when fields are not filled in correctly. 
+Dropdown options are used where possible to make the form
+as easy to fill out as possible and also minimaises
+input errors.
 
-Once the form is filled out a bold button icon is
-displayed with icon symbols of booking request being
-displayed, making it clear for the user
-the action inf the button.
+For the date field a date picker calender pops up allowing
+for the user to pick a date without having to type
+a date manually. This also prevents field errors when dates
+can take different formats.
 
-Once clicked the user will ber redirected to a
-confimation booking page. Along wiht this anemail
-will be sent to the user confirming all their details
-of booking. An toast info window will also.
+A bold, 'CONFIRM APPOINTMENT' button is displayed at
+the bottom of the colour orange and once clicked the
+user will be redirected to a confimation booking page.
+A notification info window will also pop up confirming
+the appointment.
 
-The user is then clearly displayed a button icon
-'BACK TO MY PROFILE' where theirbooking
-will be logged.
+ALong with this an email of the appointment booking will
+be sent to the users email with all details provided. 
+
+On the confirmation booking page a 'BACK TO MY PROFILE'
+button will be displayed which will redirect them to their
+`My Profile` page informing the user of their appointment
+booking which they are able to remove or edit.
 
 For smaller devices the 2 columns will collapse
-into one column with call out heading and repair/
-valuations info first and booking form after.
+into one column with the appointment form positioned at
+the bottom.
 
 ### Contact App
 
 ![Contact](/documentation/readme/contact.png/)
 
-A `contact`page provides the user wiht the opportunity
+A `Contact`page provides the user wiht the opportunity
 to get in contact  witht the owners with any order or
 genral enquiriy questions. The contact page also includes
 address, telephone and email detsils with an interactive
@@ -561,6 +582,8 @@ appear in Checkout
 For smaller devices the order and appoijtnemtn details
 reduce to a smaller amount of columns for better
 viewing.
+
+Alluath
 
 ### Extra Features
 
