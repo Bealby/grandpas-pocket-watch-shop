@@ -287,55 +287,55 @@ Pocket Watch Shop.
 
 ![Nav-Mobile](/documentation/readme/nav-mobile.png/)
 
-For mobile devices the Navigation Bar/ Header will focus more
-on intuitive icons to click rather than text, to ensure a
-minimalistic and non-congestive look.
+- For mobile devices the Navigation Bar/ Header will focus more
+  on intuitive icons to click rather than text, to ensure a
+  minimalistic and non-congestive look.
 
-The main header will include the logo that is clickable to the
-Home page, along with the three icons for `Repair & Valuation`,
-`Profile` and `Basket`. Each icon, when hovered over, will change
-colour to orange `rgb(220, 149, 35, 1)`.
+- The main header will include the logo that is clickable to the
+  Home page, along with the three icons for `Repair & Valuation`,
+  `Profile` and `Basket`. Each icon, when hovered over, will change
+  colour to orange `rgb(220, 149, 35, 1)`.
 
-For the basket icon a total figure will be displayed directly
-underneath. When products are added to the basket the number
-will change from black to orange `rgb(220, 149, 35, 1)`
-and show the accumulative sum of products(s) added. This is a
-subtle feature that will catch the users eye while they are
-shopping. and perhaps even encourage users to follow through
-with their transaction.
+- For the basket icon a total figure will be displayed directly
+  underneath. When products are added to the basket the number
+  will change from black to orange `rgb(220, 149, 35, 1)`
+  and show the accumulative sum of products(s) added. This is a
+  subtle feature that will catch the users eye while they are
+  shopping. and perhaps even encourage users to follow through
+  with their transaction.
 
-Under the main header a toggle icon will be displayed that once
-clicked will create a dropdown menu of all categories and the
-products associated with them.
+- Under the main header a toggle icon will be displayed that once
+  clicked will create a dropdown menu of all categories and the
+  products associated with them.
 
-A search bar will continually be present and accessible on
-all devices to inform the user that due to the extensive number
-of products the searches function is available to help in the
-user experience. The search function will allow for searches
-in name fileds as well as in description fields.
+- A search bar will continually be present and accessible on
+  all devices to inform the user that due to the extensive number
+  of products the searches function is available to help in the
+  user experience. The search function will allow for searches
+  in name fileds as well as in description fields.
 
 - **Desktop**
 
 ![Nav-Desktop](/documentation/readme/nav-desktop.png/)
 
-For larger devices the features displayed and their
-functionality will mainly remain the same except that the
-category names will be displayed - `Pocket Watches`, `Parts``
-and `Tools` - and when clicked a dropdown menu will display
-all products within that category.
+- For larger devices the features displayed and their
+  functionality will mainly remain the same except that the
+  category names will be displayed - `Pocket Watches`, `Parts`
+  and `Tools` - and when clicked a dropdown menu will display
+  all products within that category.
 
-The search bar will move to the main header and displayed
-centrally between the logo and icons.
+- The search bar will move to the main header and displayed
+  centrally between the logo and icons.
 
-Media queries are set up for icons and headings to
-decrease in size for smaller devices to ensure the desktop
-layout is maintained, until the Bootstrap Navbar Collapse
-kicks in for mobile devices.
+- Media queries are set up for icons and headings to
+  decrease in size for smaller devices to ensure the desktop
+  layout is maintained, until the Bootstrap Navbar Collapse
+  kicks in for mobile devices.
 
-The Naiviagtion/ Main Header layout will remain constant
-throughout the navigation through the Website. Allowing
-the user to become familiar very quickly with the
-Website navigation.
+- The Naiviagtion/ Main Header layout will remain constant
+  throughout the navigation through the Website. Allowing
+  the user to become familiar very quickly with the
+  Website navigation.
 
 ### Home Page
 
@@ -343,209 +343,209 @@ Website navigation.
 
 ![Home Mobile](/documentation/readme/home-mb.png/)
 
-The `Home` page for mobile devices will be kept simple and
-minimalistic to draw the user to the three main icons of
-categories to choose, steeredthat will be drawn to after
-reading page header, 'Choose a Category'. The icons once
-hovered over will enlarge and be intuitively clickable.
+- The `Home` page for mobile devices will be kept simple and
+  minimalistic to draw the user to the three main icons of
+  categories to choose, steeredthat will be drawn to after
+  reading page header, 'Choose a Category'. The icons once
+  hovered over will enlarge and be intuitively clickable.
 
 - **Desktop**
 
 ![Home Desktop](/documentation/readme/home-dt.png/)
 
-The `Home` page for larger devices will keep the same design
-format, but instead have images of the categories, that
-when hovered over, will disappear and display the category
-name in its place. This extra feature brings a greater visual
-and interactive experience to the user.
+- The `Home` page for larger devices will keep the same design
+  format, but instead have images of the categories, that
+  when hovered over, will disappear and display the category
+  name in its place. This extra feature brings a greater visual
+  and interactive experience to the user.
 
 ### Products App
 
 ![Products](/documentation/readme/products.png/)
 
-The `Products` page will display products unified in size and
-layed out symetrically in 4 columns for large screens and
-decreasing to 3, 2 and 1 column as the screen sizes reduce.
-This ensures the products are clearly viewed and not rendered
-too small on any device screen size.
+- The `Products` page will display products unified in size and
+  layed out symetrically in 4 columns for large screens and
+  decreasing to 3, 2 and 1 column as the screen sizes reduce.
+  This ensures the products are clearly viewed and not rendered
+  too small on any device screen size.
 
-Each product will have their 'Name', 'Cost' and 'Sku Number'
-displayed underneath. A large orange button, with the text
-'ADD TO BASKET' is viewable to the user and spans the length
-of the product image width. When hovered over the button
-enlarges slightly and turns a darker shade of orange. 
-This allows the user skip the option to seek further details
-of the product continue shopping.
+- Each product will have their 'Name', 'Cost' and 'Sku Number'
+  displayed underneath. A large orange button, with the text
+  'ADD TO BASKET' is viewable to the user and spans the length
+  of the product image width. When hovered over the button
+  enlarges slightly and turns a darker shade of orange. 
+  This allows the user skip the option to seek further details
+  of the product continue shopping.
 
-There are of course options for the user to seek more
-information on a product enabled through
-cicking on the information icon or hovering over the
-image itself, which in turn will redirect the user to
-the `Product Details` page. Here the product will be 
-displayed soley on it's own, with a larger image and
-more descriptive text.
+- There are of course options for the user to seek more
+  information on a product enabled through
+  cicking on the information icon or hovering over the
+  image itself, which in turn will redirect the user to
+  the `Product Details` page. Here the product will be 
+  displayed soley on it's own, with a larger image and
+  more descriptive text.
 
-A button for 'ADD TO BASKET' is also displayed on the 
-`Product Details` page along with another
-link to enable the user to `Keep Shopping`.
+- A button for 'ADD TO BASKET' is also displayed on the 
+  `Product Details` page along with another
+  link to enable the user to `Keep Shopping`.
 
-The goal of the Website is to always encourage a user
-to purchase products in a friendly manner yet provide
-alternative navigation options.
+- The goal of the Website is to always encourage a user
+  to purchase products in a friendly manner yet provide
+  alternative navigation options.
 
-Once the 'ADD TO BASKET' button is clicked an info window
-will pop up with a notification of the product added. 
-Defensive design prevents the users from adding the 
-same product twice and will be notified accordingly 
-by a pop up window.
+- Once the 'ADD TO BASKET' button is clicked an info window
+  will pop up with a notification of the product added. 
+  Defensive design prevents the users from adding the 
+  same product twice and will be notified accordingly 
+  by a pop up window.
 
 ### Basket App
 
 ![Basket](/documentation/readme/basket.png/)
 
-The `Basket` page will display an accumulative list of
-products added to the basket that will include their 'Image',
-'Product Name' and 'Sku Number'. Each product in the basket
-will have a delete icon along side it, that is black in colour
-and red when hovered over. The delete icon will remove the 
-product item from the basket and recalculate costs.
+- The `Basket` page will display an accumulative list of
+  products added to the basket that will include their 'Image',
+  'Product Name' and 'Sku Number'. Each product in the basket
+  will have a delete icon along side it, that is black in colour
+  and red when hovered over. The delete icon will remove the 
+  product item from the basket and recalculate costs.
 
-For desktop devices there will be a two column structure,
-the first showing a list of items in the basket and the second
-showing the 'Item(s)Total', 'Delivery' and 'Total Cost'. As the 
-basket list expands the second column of totals will remian
-viewable.
+- For desktop devices there will be a two column structure,
+  the first showing a list of items in the basket and the second
+  showing the 'Item(s)Total', 'Delivery' and 'Total Cost'. As the 
+  basket list expands the second column of totals will remian
+  viewable.
 
-Underneath the totals summary there will be a button to click to
-'CHECKOUT', which will take a background colour
-of black with white font to highlight it's importance.
-The user will also have the option to 'Keep Shopping',
-keeping to the trend of providing the user options.
+-  Underneath the totals summary there will be a button to click to
+  'CHECKOUT', which will take a background colour
+  of black with white font to highlight it's importance.
+  The user will also have the option to 'Keep Shopping',
+  keeping to the trend of providing the user options.
 
-For smaller devices the information will be displayed
-as a single column with a list of products in basket
-being displayed first and then the 'Totals' and 'Checkout'
-icon after.
+- For smaller devices the information will be displayed
+  as a single column with a list of products in basket
+  being displayed first and then the 'Totals' and 'Checkout'
+  icon after.
 
 ### Checkout App
 
 ![Checkout](/documentation/readme/checkout.png/)
 
-The `Checkout` page will have a simlar layout as the
-`Basket` page except the delete icon will not be
-available and there will be delivery information
-fields to fill out for payment.
+- The `Checkout` page will have a simlar layout as the
+  `Basket` page except the delete icon will not be
+  available and there will be delivery information
+  fields to fill out for payment.
 
-For the payment form each field will have a placeholder
-text defining which inputs are required and which are
-optional with the use of an astrex. For registered users
-the fields will autmatically be prefilled if the user
-has updates thier profile.
+- For the payment form each field will have a placeholder
+  text defining which inputs are required and which are
+  optional with the use of an astrex. For registered users
+  the fields will autmatically be prefilled if the user
+  has updates thier profile.
 
-Defensive design will prevent any form from being
-submitted and notifications will continally advise the
-user of any issues while completing the
-the payment form.
+- Defensive design will prevent any form from being
+  submitted and notifications will continally advise the
+  user of any issues while completing the
+  the payment form.
 
-A `COMPLETE ORDER` button is displayed at the end of the 
-payment form along with a secure icon dislayed to
-highlight it's securty. If all infomraiton is completed
-and the user confirms order, a spinner window of
-green, matching the colour theme of the website, will
-be displayed until the payment order goes through on
-Stripe. After which an info window will pop up
-comnfirming the order has gone through. The user
-will then be redirected to an order summary page
-that will provide all the details of their order.
-An email will also be sent to their email address
-confirming these details.
+- A `COMPLETE ORDER` button is displayed at the end of the 
+  payment form along with a secure icon dislayed to
+  highlight it's securty. If all infomraiton is completed
+  and the user confirms order, a spinner window of
+  green, matching the colour theme of the website, will
+  be displayed until the payment order goes through on
+  Stripe. After which an info window will pop up
+  comnfirming the order has gone through. The user
+  will then be redirected to an order summary page
+  that will provide all the details of their order.
+  An email will also be sent to their email address
+  confirming these details.
 
-It should be noted that while on the `Checkout` page
-there is an option and link for the user to `Adjust`
-their basket.
+- It should be noted that while on the `Checkout` page
+  there is an option and link for the user to `Adjust`
+  their basket.
 
 ### Services App
 
 ![Services](/documentation/readme/services.png/)
 
-The `Service` page can only be accessed if you are a
-registered user and non users will be advised to register
-before hand.
+-  The `Service` page can only be accessed if you are a
+  registered user and non users will be advised to register
+  before hand.
 
-The `Service` will have a 2 column design for desktop and
-1 column for mobile.
+- The `Service` will have a 2 column design for desktop and 
+  1 column for mobile.
 
-The main header of the page will invite the user to visit
-the shop, which will then be followed by the proposal for
-the user to have their Pocket Watch repaired or valued,
-which will be an exciting oportunity for any user visting
-the Website.
+- The main header of the page will invite the user to visit
+  the shop, which will then be followed by the proposal for
+  the user to have their Pocket Watch repaired or valued,
+  which will be an exciting oportunity for any user visting
+  the Website.
 
-Icons are used to describe the Repair or Valuation offers,
-under which details of the service provided will be shown.
+- Icons are used to describe the Repair or Valuation offers,
+  under which details of the service provided will be shown.
 
-An image of a man fixing a watch brings the page to
-life with a caption below stating the day and time
-appointments can be booked.
+- An image of a man fixing a watch brings the page to
+  life with a caption below stating the day and time
+  appointments can be booked.
 
-A flashing arrow pointing towards the appointment form
-will direct the user accordingly.
+- A flashing arrow pointing towards the appointment form
+  will direct the user accordingly.
 
-All fields of the form are required and necessary alerts
-will advise the user when fields are not filled in correctly. 
-Dropdown options are used where possible to make the form
-as easy to fill out as possible and also minimaises
-input errors.
+- All fields of the form are required and necessary alerts
+  will advise the user when fields are not filled in correctly. 
+  Dropdown options are used where possible to make the form
+  as easy to fill out as possible and also minimaises
+  input errors.
 
-For the date field a date picker calender pops up allowing
-for the user to pick a date without having to type
-a date manually. This also prevents field errors when dates
-can take different formats.
+- For the date field a date picker calender pops up allowing
+  for the user to pick a date without having to type
+  a date manually. This also prevents field errors when dates
+  can take different formats.
 
-A bold, 'CONFIRM APPOINTMENT' button is displayed at
-the bottom of the colour orange and once clicked the
-user will be redirected to a confimation booking page.
-A notification info window will also pop up confirming
-the appointment.
+- A bold, 'CONFIRM APPOINTMENT' button is displayed at
+  the bottom of the colour orange and once clicked the
+  user will be redirected to a confimation booking page.
+  A notification info window will also pop up confirming
+  the appointment.
 
-ALong with this an email of the appointment booking will
-be sent to the users email with all details provided. 
+- Along with this an email of the appointment booking will
+  be sent to the users email with all details provided. 
 
-On the confirmation booking page a 'BACK TO MY PROFILE'
-button will be displayed which will redirect them to their
-`My Profile` page informing the user of their appointment
-booking which they are able to remove or edit.
+- On the confirmation booking page a 'BACK TO MY PROFILE'
+  button will be displayed which will redirect them to their
+  `My Profile` page informing the user of their appointment
+  booking which they are able to remove or edit.
 
-For smaller devices the 2 columns will collapse
-into one column with the appointment form positioned at
-the bottom.
+- For smaller devices the 2 columns will collapse
+  into one column with the appointment form positioned at
+  the bottom.
 
 ### Contact App
 
 ![Contact](/documentation/readme/contact.png/)
 
-A `Contact`page provides the user wiht the opportunity
-to get in contact  witht the owners with any order or
-genral enquiriy questions. The contact page also includes
-address, telephone and email detsils with an interactive
-map to inform usero  sof the locaiton of the shop.
-Opening details are providied i the pop up window
-using the Google Maps API.
+- A `Contact`page provides the user wiht the opportunity
+  to get in contact  witht the owners with any order or
+  genral enquiriy questions. The contact page also includes
+  address, telephone and email detsils with an interactive
+  map to inform usero  sof the locaiton of the shop.
+  Opening details are providied i the pop up window
+  using the Google Maps API.
 
-The contact form itself has three reuired fields and a
-clear for the bold button to click to sending Icons are
-used thorugh the page for intuitive understaning
+- The contact form itself has three reuired fields and a
+  clear for the bold button to click to sending Icons are
+  used thorugh the page for intuitive understaning
 
-Once an email is the use is redireted tot a success
-page and and toast pop up window  is displayed
-confirming booking.
+- Once an email is the use is redireted tot a success
+  page and and toast pop up window  is displayed
+  confirming booking.
 
-there is then a keepo shoping link for the user
-to carry on back to home page.
-
-For smaller devices the 2 coliumn layout will be
-reduced to 1 column with the contact details and map
-first and the contact form displayed after.
+- there is then a keepo shoping link for the user
+  to carry on back to home page.
+ 
+- For smaller devices the 2 coliumn layout will be
+  reduced to 1 column with the contact details and map
+  first and the contact form displayed after.
 
 ### About App
 
