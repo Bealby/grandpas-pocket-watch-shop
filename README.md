@@ -283,7 +283,7 @@ Pocket Watch Shop.
 
 ### Navigation Bar/ Main Header
 
-- **Mobile**
+**Mobile**
 
 ![Nav-Mobile](/documentation/readme/nav-mobile.png/)
 
@@ -314,7 +314,7 @@ Pocket Watch Shop.
   user experience. The search function will allow for searches
   in name fileds as well as in description fields.
 
-- **Desktop**
+**Desktop**
 
 ![Nav-Desktop](/documentation/readme/nav-desktop.png/)
 
@@ -339,7 +339,7 @@ Pocket Watch Shop.
 
 ### Home Page
 
-- **Mobile**
+**Mobile**
 
 ![Home Mobile](/documentation/readme/home-mb.png/)
 
@@ -349,7 +349,7 @@ Pocket Watch Shop.
   reading page header, 'Choose a Category'. The icons once
   hovered over will enlarge and be intuitively clickable.
 
-- **Desktop**
+**Desktop**
 
 ![Home Desktop](/documentation/readme/home-dt.png/)
 
@@ -524,77 +524,88 @@ Pocket Watch Shop.
 
 ![Contact](/documentation/readme/contact.png/)
 
-- A `Contact`page provides the user wiht the opportunity
-  to get in contact  witht the owners with any order or
-  genral enquiriy questions. The contact page also includes
-  address, telephone and email detsils with an interactive
-  map to inform usero  sof the locaiton of the shop.
-  Opening details are providied i the pop up window
-  using the Google Maps API.
+- A `Contact` page provides the user with the opportunity
+  to get in contact with the owners with any order or
+  general enquiriy questions.
+  
+- For the desktop the `Contact` page will have a 2 column
+  design. The first column will display the adsress, email
+  telephone information where icons are used appropriately. 
+  
+- Below this contact information there will be an interactive
+  map, set up through google that will provide a location along
+  with a pop up information window which will bring up the shop's
+  logo and opening and closing times.
 
-- The contact form itself has three reuired fields and a
-  clear for the bold button to click to sending Icons are
-  used thorugh the page for intuitive understaning
+- The contact form itself has three reqired fields and users will
+  be prompted for each field filled in incorrectly. Icons are used
+  in the contcat form to highlight send functionalities. 
 
-- Once an email is the use is redireted tot a success
-  page and and toast pop up window  is displayed
-  confirming booking.
+- Once an email is submitted the user is redirected to a success page
+  an info windows also confirm that the email is sent. 
 
-- there is then a keepo shoping link for the user
-  to carry on back to home page.
+- A 'Keep Shopping' link is also provided in the success page to enable
+  user to navigate away forom the contact page.
  
 - For smaller devices the 2 coliumn layout will be
   reduced to 1 column with the contact details and map
-  first and the contact form displayed after.
+  first and contact form displayed after.
 
 ### About App
 
 ![About](/documentation/readme/about.png/)
 
-An `About`page give the user of the Website some
-backgroiund infomraiton of the shop giving some
-personal details and infomraiton on the shop that can
-give the user  sense of peronal connection to the
-shop and find out about it's credituals and history.
+- An `About` page will give the user a little insight into
+  Grandpa's Pocket Watch Shop. Providing infomrmation on 
+  it's hisstory and giving the user a personal connection
+  to the Website.
 
 ### Profile App
 
 ![Profile](/documentation/readme/profile.png/)
 
-The `My Profile` page is an important opart of the
-Websote for  authenticated users. Where they are able
-to view past orders and  current appointment bookings.
-Order can be clicked an viewed on separte pages
-as well as giving the users the oopporrunity to edit
-or delate appoitnments. 'Edit' and 'delete' icons are
-used ot intuitively infomr the user the features
-available.
+- The `My Profile` page is an important part of the
+  Website for authenticated users. 
 
-Order and Appontments are displayed and at a certain
-number, rather than conf´gesting the page will become
-scrolling, to keep the pages layout and viewing non
-congested.
+- Here users are able to view past orders and up and
+  coming appointments booked. 
 
-There is also delivery infomration that can be filled
-out and saved for future orders that will autmatically
-appear in Checkout
+- Past order information can be viewed on a separate page
+  allow the user to double check any orders and to use to make
+  any enquiries if so required. 
 
-For smaller devices the order and appoijtnemtn details
-reduce to a smaller amount of columns for better
-viewing.
+- Appointments can be edited or removed with icons used for each
+  respectively. Removing an appointment a pop up email will be
+  displayed to confirm removal.
 
-Alluath
+- If a user decides to edit an appointment they will be redirected
+  an edit appointment page wherre previous details will be defaulted on
+  the form. Any changed made will then be confirmed and a new updared
+  appointment fomr sent to their emal.
+
+- Order and Appontments are displayed in the second column of
+  the page and at a certain break point of information the
+  info is contract to scrolling which prevents the page from becoming
+  to congested with order and appointment infomraiotn.
+
+- in the first column of the page delivery infomration is displayed
+  and when filled in can be used for pre fill infomation in the Checkout
+  form automatially. 
+
+- For smaller devices the order and appoitnement fields
+  reduce to a smaller amount of columns for better, non
+  congested viewing.
 
 ### Extra Features
 
-Only login/ conyact if registered
+- Only login/ conyact if registered
 
-Toast delay
+- Toast delay
 
-Stripe
-Then we'll use an elegant UI feature of stripe called
-elements to add a secure form element for collecting
-credit card information.
+- Stripe
+  Then we'll use an elegant UI feature of stripe called
+  elements to add a secure form element for collecting
+  credit card information.
 
 So our form is being submitted and orders are successfully
 created in the database. But what happens if the users
@@ -617,6 +628,8 @@ model is saved or deleted. Except that they're sent securely
 from stripe to a URL we specify.
 
 ### Features left to Implement
+
+?
 
 ## Technologies Used
 
