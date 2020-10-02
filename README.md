@@ -292,7 +292,7 @@ Pocket Watch Shop.
   minimalistic and non-congestive look.
 
 - The main header will include the logo that is clickable to the
-  Home page, along with the three icons for `Repair & Valuation`,
+  `Home` page, along with the three icons for `Repair & Valuation`,
   `Profile` and `Basket`. Each icon, when hovered over, will change
   colour to orange `rgb(220, 149, 35, 1)`.
 
@@ -309,9 +309,9 @@ Pocket Watch Shop.
   products associated with them.
 
 - A search bar will continually be present and accessible on
-  all devices to inform the user that due to the extensive number
-  of products the searches function is available to help in the
-  user experience. The search function will allow for searches
+  all device size screens to inform the user that there is support
+  in searching through the extensive number of products listed.
+  The search function will allow for searches
   in name fields as well as in description fields.
 
 **Desktop**
@@ -345,9 +345,9 @@ Pocket Watch Shop.
 
 - The `Home` page for mobile devices will be kept simple and
   minimalistic to draw the user to the three main icons of
-  categories to choose, that will be drawn to after
-  reading page header, 'Choose a Category'. The icons once
-  hovered over will enlarge and be intuitively clickable.
+  categories to choose, drawn to after reading page header,
+  'Choose a Category'. The icons once hovered over will enlarge
+  and be intuitively clickable.
 
 **Desktop**
 
@@ -374,8 +374,8 @@ Pocket Watch Shop.
   'ADD TO BASKET' is viewable to the user and spans the length
   of the product image width. When hovered over the button
   enlarges slightly and turns a darker shade of orange. 
-  This allows the user skip the option to seek further details
-  of the product continue shopping.
+  This allows the user to skip the option to seek further details
+  of the product if they prefer to quickly continue shopping.
 
 - There are of course options for the user to seek more
   information on a product enabled through
@@ -420,12 +420,12 @@ Pocket Watch Shop.
   'CHECKOUT', which will take a background colour
   of black with white font to highlight it's importance.
   The user will also have the option to 'Keep Shopping',
-  keeping to the trend of providing the user options.
+  providing the user alternative options.
 
 - For smaller devices the information will be displayed
-  as a single column with a list of products in basket
+  in a single column with the list of products in basket
   being displayed first and then the 'Totals' and 'Checkout'
-  icon after.
+  icons after.
 
 ### Checkout App
 
@@ -440,7 +440,7 @@ Pocket Watch Shop.
   text defining which inputs are required and which are
   optional with the use of an asterisk. For registered users
   the fields will automatically be prefilled if the user
-  has updates their profile.
+  has updated their profile.
 
 - Defensive design will prevent any form from being
   submitted and notifications will continually advise the
@@ -448,9 +448,9 @@ Pocket Watch Shop.
   the payment form.
 
 - A `COMPLETE ORDER` button is displayed at the end of the 
-  payment form along with a secure icon displayed to
-  highlight it's security. If all information is completed
-  and the user confirms order, a spinner window of
+  payment form along with a secure icon to
+  highlight it's security. If all information is completed,
+  and the user confirms the order, a spinner window of
   green, matching the colour theme of the website, will
   be displayed until the payment order goes through on
   Stripe. After which an info window will pop up
@@ -494,7 +494,7 @@ Pocket Watch Shop.
 - All fields of the form are required and necessary alerts
   will advise the user when fields are not filled in correctly. 
   Dropdown options are used where possible to make the form
-  as easy to fill out as possible and also minimises
+  as easy to fill out as possible and also minimise
   input errors.
 
 - For the date field a date picker calendar pops up allowing
@@ -514,7 +514,7 @@ Pocket Watch Shop.
 - On the confirmation booking page a 'BACK TO MY PROFILE'
   button will be displayed which will redirect them to their
   `My Profile` page informing the user of their appointment
-  booking which they are able to remove or edit.
+  bookings which they are able to remove or edit.
 
 - For smaller devices the 2 columns will collapse
   into one column with the appointment form positioned at
@@ -530,22 +530,23 @@ Pocket Watch Shop.
   
 - For the desktop the `Contact` page will have a 2 column
   design. The first column will display the address, email
-  telephone information where icons are used appropriately. 
+  telephone information. Icons are used for better UI. 
   
-- Below this contact information there will be an interactive
-  map, set up through google that will provide a location along
-  with a pop up information window which will bring up the shop's
-  logo and opening and closing times.
+- Below the contact information there will be an interactive
+  map, set up through google, that will provide the shop location
+  along with a pop up information window which will bring up the shop's
+  logo as well as opening and closing times.
 
 - The contact form itself has three required fields and users will
   be prompted for each field filled in incorrectly. Icons are used
-  in the contact form to highlight send functionalities. 
+  in the contact form to highlight the send functionalities for better
+  UI.
 
 - Once an email is submitted the user is redirected to a success page
-  an info windows also confirm that the email is sent. 
+  and an info window pops up to confirm that the email is sent. 
 
 - A 'Keep Shopping' link is also provided in the success page to enable
-  user to navigate away forum the contact page.
+  users to navigate away from the contact page.
  
 - For smaller devices the 2 column layout will be
   reduced to 1 column with the contact details and map
@@ -570,50 +571,54 @@ Pocket Watch Shop.
 - Here users are able to view past orders and up and
   coming appointments booked. 
 
-- Past order information can be viewed on a separate page
-  allow the user to double check any orders and to use to make
-  any enquiries if so required. 
+- Past order information can be viewed on a separate page to
+  allow the user to double check any details in an order and
+  make enquiries if so required. 
 
 - Appointments can be edited or removed with icons used for each
-  respectively. Removing an appointment a pop up email will be
-  displayed to confirm removal.
+  respectively. When an appointment booking is removed
+  a pop up notification will be displayed accordingly.
 
 - If a user decides to edit an appointment they will be redirected
-  an edit appointment page where previous details will be defaulted on
-  the form. Any changed made will then be confirmed and a new updated
+  to an edit appointment page where previous details will be defaulted on
+  the form. Any changes made will then be confirmed and a new updated
   appointment form sent to their email.
 
 - Order and Appointments are displayed in the second column of
-  the page and at a certain break point of information the
-  info is contracted to scrolling which prevents the page from becoming
-  to congested with order and appointment information.
+  the page and at a certain break point information turns
+  to a scrolling window which prevents the page from becoming
+  too congested with order and appointment information.
 
-- in the first column of the page delivery information is displayed
-  and when filled in can be used for pre fill information in the Checkout
-  form automatically. 
+- In the first column of the page the delivery information is
+  shown. Once these fields are filled in correctly they will be used
+  as default field content for the payment form. Reducing the users
+  work load. 
 
-- For smaller devices the order and appointment fields
-  reduce to a smaller amount of columns for better, non
-  congested viewing.
+- For smaller devices the order and appointment field information
+  is reduced to allow for better viewing on smaller devices.
 
 ### Extra Features
 
-- `Allauth` was used for the profile and accounts functionality. Which
-  includes features such as Login, Password Reset, for which all displayed
-  with consistent headers to Website. With icons that have black backgrounds
-  with white text. 
+- `Allauth` was used for the profile and accounts functionality, which
+  includes features such as Login, Password Reset. All `Alluath` pages 
+  will have a standard format of layout and font. With black icons and
+  white text.
 
-- Toast info windows are set up through out the Website to help notify
-  the user upon any successes, information, warnings and error. The info
-  toast windows are set with a 15000 delay time after which they will 
+- Toast info windows are set up throughout the Website to help notify
+  the user upon any successes, information, warnings and error messages.
+  The info toast windows are set with a 15000 time delay after which they will 
   disappear if not removed by the user manually.
 
 - `Stripe` functionality is used for the payment procedure which
-   adds secure form element for collecting credit card information.
+   adds a secure form element for collecting credit card information.
    `Webhooks` are also used to listen for any unprecedented, unusual
    behaviour which could affect the payment process. They will send
    out signals each time a model is saved or deleted, sent
-   securely from stripe to a URL.
+   securely from Stripe to a URL.
+
+- `Users` will be encouraged to registor on the Website to be able to save
+   delivery information, book appointments, and store confirmaiton
+   bookings on a personal profile page.
 
 ### Features left to Implement
 
