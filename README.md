@@ -732,3 +732,5 @@ The following technologies were used in this project:
 - The blinking icon feature in the Services app was taken from an idea provided by
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
 
+  - https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker
+
