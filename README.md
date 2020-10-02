@@ -138,9 +138,9 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 ### Surface
 
-#### Color Scheme
+#### Colour Scheme
 
-**Primary/ Secondary Colors:**
+**Primary/ Secondary Colours:**
 
 White: ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+)
 `rgb(255, 255, 255, 1)`
@@ -156,7 +156,7 @@ displayed over a white background so that they take precedent and catch
 the users eye.
 
 The main header will also have a white background that will help the logo
-and icon features become apparant and distinct.
+and icon features become apparent and distinct.
 
 A light fresh green will then be used for the Navbar which will display
 the product categories. This subtle and less dominant shade of green will
@@ -172,7 +172,7 @@ A suggested complimentary colour for
 this shade of purple did not suit the theme and user profile of
 the Website.
 
-- **Font Colors**
+- **Font Colours**
 
 Black: ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
 `rgb(0, 0, 0, 1)`
@@ -238,7 +238,7 @@ Error: ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+)
 Danger: ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+)
 `rgb(217, 83, 79)`
 
-For Toast info windows, colours conforming to standard pratices will be used
+For Toast info windows, colours conforming to standard practices will be used
 for `Warning`, `Info`. `Error` and `Danger` respectively.
 
 #### Typography
@@ -312,7 +312,7 @@ Pocket Watch Shop.
   all devices to inform the user that due to the extensive number
   of products the searches function is available to help in the
   user experience. The search function will allow for searches
-  in name fileds as well as in description fields.
+  in name fields as well as in description fields.
 
 **Desktop**
 
@@ -332,7 +332,7 @@ Pocket Watch Shop.
   layout is maintained, until the Bootstrap Navbar Collapse
   kicks in for mobile devices.
 
-- The Naiviagtion/ Main Header layout will remain constant
+- The Navigation/ Main Header layout will remain constant
   throughout the navigation through the Website. Allowing
   the user to become familiar very quickly with the
   Website navigation.
@@ -345,7 +345,7 @@ Pocket Watch Shop.
 
 - The `Home` page for mobile devices will be kept simple and
   minimalistic to draw the user to the three main icons of
-  categories to choose, steeredthat will be drawn to after
+  categories to choose, that will be drawn to after
   reading page header, 'Choose a Category'. The icons once
   hovered over will enlarge and be intuitively clickable.
 
@@ -364,7 +364,7 @@ Pocket Watch Shop.
 ![Products](/documentation/readme/products.png/)
 
 - The `Products` page will display products unified in size and
-  layed out symetrically in 4 columns for large screens and
+  laid out symmetrically in 4 columns for large screens and
   decreasing to 3, 2 and 1 column as the screen sizes reduce.
   This ensures the products are clearly viewed and not rendered
   too small on any device screen size.
@@ -379,10 +379,10 @@ Pocket Watch Shop.
 
 - There are of course options for the user to seek more
   information on a product enabled through
-  cicking on the information icon or hovering over the
+  clicking on the information icon or hovering over the
   image itself, which in turn will redirect the user to
   the `Product Details` page. Here the product will be 
-  displayed soley on it's own, with a larger image and
+  displayed solely on it's own, with a larger image and
   more descriptive text.
 
 - A button for 'ADD TO BASKET' is also displayed on the 
@@ -413,7 +413,7 @@ Pocket Watch Shop.
 - For desktop devices there will be a two column structure,
   the first showing a list of items in the basket and the second
   showing the 'Item(s)Total', 'Delivery' and 'Total Cost'. As the 
-  basket list expands the second column of totals will remian
+  basket list expands the second column of totals will remain
   viewable.
 
 -  Underneath the totals summary there will be a button to click to
@@ -431,30 +431,30 @@ Pocket Watch Shop.
 
 ![Checkout](/documentation/readme/checkout.png/)
 
-- The `Checkout` page will have a simlar layout as the
+- The `Checkout` page will have a similar layout as the
   `Basket` page except the delete icon will not be
   available and there will be delivery information
   fields to fill out for payment.
 
 - For the payment form each field will have a placeholder
   text defining which inputs are required and which are
-  optional with the use of an astrex. For registered users
-  the fields will autmatically be prefilled if the user
-  has updates thier profile.
+  optional with the use of an asterisk. For registered users
+  the fields will automatically be prefilled if the user
+  has updates their profile.
 
 - Defensive design will prevent any form from being
-  submitted and notifications will continally advise the
+  submitted and notifications will continually advise the
   user of any issues while completing the
   the payment form.
 
 - A `COMPLETE ORDER` button is displayed at the end of the 
-  payment form along with a secure icon dislayed to
-  highlight it's securty. If all infomraiton is completed
+  payment form along with a secure icon displayed to
+  highlight it's security. If all information is completed
   and the user confirms order, a spinner window of
   green, matching the colour theme of the website, will
   be displayed until the payment order goes through on
   Stripe. After which an info window will pop up
-  comnfirming the order has gone through. The user
+  confirming the order has gone through. The user
   will then be redirected to an order summary page
   that will provide all the details of their order.
   An email will also be sent to their email address
@@ -478,7 +478,7 @@ Pocket Watch Shop.
 - The main header of the page will invite the user to visit
   the shop, which will then be followed by the proposal for
   the user to have their Pocket Watch repaired or valued,
-  which will be an exciting oportunity for any user visting
+  which will be an exciting opportunity for any user visiting
   the Website.
 
 - Icons are used to describe the Repair or Valuation offers,
@@ -494,17 +494,17 @@ Pocket Watch Shop.
 - All fields of the form are required and necessary alerts
   will advise the user when fields are not filled in correctly. 
   Dropdown options are used where possible to make the form
-  as easy to fill out as possible and also minimaises
+  as easy to fill out as possible and also minimises
   input errors.
 
-- For the date field a date picker calender pops up allowing
+- For the date field a date picker calendar pops up allowing
   for the user to pick a date without having to type
   a date manually. This also prevents field errors when dates
   can take different formats.
 
 - A bold, 'CONFIRM APPOINTMENT' button is displayed at
   the bottom of the colour orange and once clicked the
-  user will be redirected to a confimation booking page.
+  user will be redirected to a confirmation booking page.
   A notification info window will also pop up confirming
   the appointment.
 
@@ -526,10 +526,10 @@ Pocket Watch Shop.
 
 - A `Contact` page provides the user with the opportunity
   to get in contact with the owners with any order or
-  general enquiriy questions.
+  general enquiry questions.
   
 - For the desktop the `Contact` page will have a 2 column
-  design. The first column will display the adsress, email
+  design. The first column will display the address, email
   telephone information where icons are used appropriately. 
   
 - Below this contact information there will be an interactive
@@ -537,17 +537,17 @@ Pocket Watch Shop.
   with a pop up information window which will bring up the shop's
   logo and opening and closing times.
 
-- The contact form itself has three reqired fields and users will
+- The contact form itself has three required fields and users will
   be prompted for each field filled in incorrectly. Icons are used
-  in the contcat form to highlight send functionalities. 
+  in the contact form to highlight send functionalities. 
 
 - Once an email is submitted the user is redirected to a success page
   an info windows also confirm that the email is sent. 
 
 - A 'Keep Shopping' link is also provided in the success page to enable
-  user to navigate away forom the contact page.
+  user to navigate away forum the contact page.
  
-- For smaller devices the 2 coliumn layout will be
+- For smaller devices the 2 column layout will be
   reduced to 1 column with the contact details and map
   first and contact form displayed after.
 
@@ -556,8 +556,8 @@ Pocket Watch Shop.
 ![About](/documentation/readme/about.png/)
 
 - An `About` page will give the user a little insight into
-  Grandpa's Pocket Watch Shop. Providing infomrmation on 
-  it's hisstory and giving the user a personal connection
+  Grandpa's Pocket Watch Shop. Providing information on 
+  it's history and giving the user a personal connection
   to the Website.
 
 ### Profile App
@@ -579,20 +579,20 @@ Pocket Watch Shop.
   displayed to confirm removal.
 
 - If a user decides to edit an appointment they will be redirected
-  an edit appointment page wherre previous details will be defaulted on
-  the form. Any changed made will then be confirmed and a new updared
-  appointment fomr sent to their emal.
+  an edit appointment page where previous details will be defaulted on
+  the form. Any changed made will then be confirmed and a new updated
+  appointment form sent to their email.
 
-- Order and Appontments are displayed in the second column of
+- Order and Appointments are displayed in the second column of
   the page and at a certain break point of information the
-  info is contract to scrolling which prevents the page from becoming
-  to congested with order and appointment infomraiotn.
+  info is contracted to scrolling which prevents the page from becoming
+  to congested with order and appointment information.
 
-- in the first column of the page delivery infomration is displayed
-  and when filled in can be used for pre fill infomation in the Checkout
-  form automatially. 
+- in the first column of the page delivery information is displayed
+  and when filled in can be used for pre fill information in the Checkout
+  form automatically. 
 
-- For smaller devices the order and appoitnement fields
+- For smaller devices the order and appointment fields
   reduce to a smaller amount of columns for better, non
   congested viewing.
 
@@ -600,7 +600,7 @@ Pocket Watch Shop.
 
 - `Allauth` was used for the profile and accounts functionality. Which
   includes features such as Login, Password Reset, for which all displayed
-  with consistant headers to Website. With icons that have black backgrounds
+  with consistent headers to Website. With icons that have black backgrounds
   with white text. 
 
 - Toast info windows are set up through out the Website to help notify
@@ -608,11 +608,11 @@ Pocket Watch Shop.
   toast windows are set with a 15000 delay time after which they will 
   disappear if not removed by the user manually.
 
-- `Stripe` functionality is used for the payment procedure which adds
-   secure form element for collecting credit card information.
-   `Webhooks` are also used to listen for any unprecidented,
-   unusual behaviour which could affect the payment process. 
-   They will send out signals each time a model is saved or deleted, sent
+- `Stripe` functionality is used for the payment procedure which
+   adds secure form element for collecting credit card information.
+   `Webhooks` are also used to listen for any unprecedented, unusual
+   behaviour which could affect the payment process. They will send
+   out signals each time a model is saved or deleted, sent
    securely from stripe to a URL.
 
 ### Features left to Implement
@@ -676,7 +676,7 @@ The following technologies were used in this project:
     Helped to improve the quality of Website
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
-- [Placeholder](https://placeholder.com/) - Used for placeholding of color
+- [Placeholder](https://placeholder.com/) - Used for placeholding of colour
    schemes in README.md
 - [Gmail](https://www.emailjs.com/) - Used to create email and confirmation
    service for users
@@ -687,7 +687,7 @@ The following technologies were used in this project:
 - [Amazon Web Service](https://aws.amazon.com/) - Used to store static files
    and images
 - [Date Picker](https://bootstrap-datepicker.readthedocs.io/en/latest/) -
-   Used to display calender on appoinment form
+   Used to display calendar on appointment form
 
 ### Frameworks
 
@@ -709,10 +709,10 @@ The following technologies were used in this project:
 - Grandpa's Pocket Watch Shop Website was influenced and inspired by the
   Boutique Ado lessons tutored by @ckz8780 at
   [code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
-  , especially concepts and frameworks behind e-commerse Websites
+  , especially concepts and frameworks behind e-commerce Websites
   and the features available. Grandpa's Pocket Watch Shop however
   was customised accordingly to fit the Website's aim as well as
-  modified and extended to create new feaures and apps tailored
+  modified and extended to create new features and apps tailored
   towards the Websites requirements.
 
 - The Image Overlay feature for the `Home` pages icons was inspired by
@@ -726,3 +726,4 @@ The following technologies were used in this project:
 
 - The blinking icon feature in the Services app was taken from an idea provided by
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
+
