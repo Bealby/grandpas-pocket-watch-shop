@@ -598,34 +598,22 @@ Pocket Watch Shop.
 
 ### Extra Features
 
-- Only login/ conyact if registered
+- `Allauth` was used for the profile and accounts functionality. Which
+  includes features such as Login, Password Reset, for which all displayed
+  with consistant headers to Website. With icons that have black backgrounds
+  with white text. 
 
-- Toast delay
+- Toast info windows are set up through out the Website to help notify
+  the user upon any successes, information, warnings and error. The info
+  toast windows are set with a 15000 delay time after which they will 
+  disappear if not removed by the user manually.
 
-- Stripe
-  Then we'll use an elegant UI feature of stripe called
-  elements to add a secure form element for collecting
-  credit card information.
-
-So our form is being submitted and orders are successfully
-created in the database. But what happens if the users
-somehow intentionally or accidentally closes the browser
-window after the payment is confirmed but before the form
-is submitted. We would end up with a payment in stripe but
-no order in our database. What's more, if we were building
-a real store that needed to complete post order operations
-like fulfilment sending internal email notifications and
-so on none of that stuff would be triggered because the
-user never fully completed their order. This could result
-in a customer being charged and never receiving a confirmation
-email or even worse never receiving what they ordered.
-To prevent this situation we're going to build in some
-redundancy. Each time an event occurs on stripe such as a
-payment intent being created. A payment being completed and
-so on stripe sends out what's called a webhook we can listen
-for. Webhooks are like the signals django sends each time a
-model is saved or deleted. Except that they're sent securely
-from stripe to a URL we specify.
+- `Stripe` functionality is used for the payment procedure which adds
+   secure form element for collecting credit card information.
+   `Webhooks` are also used to listen for any unprecidented,
+   unusual behaviour which could affect the payment process. 
+   They will send out signals each time a model is saved or deleted, sent
+   securely from stripe to a URL.
 
 ### Features left to Implement
 
