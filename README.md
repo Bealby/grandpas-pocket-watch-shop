@@ -2,8 +2,8 @@
 
 ---
 
-Pocket Watches can be traced back to the late 15th century
-in Italy, with manufacture spreading throughout the rest of
+Pocket Watches can be traced back to Italy in the late 15th
+century, with manufacture spreading throughout the rest of
 Europe in the early part of the 16th century. They were
 the most common type of watch until around 1914 when wrist
 watches started to come into fashion.
@@ -14,14 +14,14 @@ attraction for enthusiasts who enjoy both the pleasure of
 owning a pocket watch and fixing and refurbishing
 one.
 
-Although a niche market the value of **Pocket Watches**,
-**Parts** and **Tools** can be highly sought after and
+Although a niche market **Pocket Watches**,
+**Parts** and **Tools** are highly sought after and
 highly valued. However, such intricate parts can be very
 difficult to come by and find, which is why a website is
 a perfect platform to fill this gap in the market place.
 
 The aim of this Website is to provide an outlet for
-**Pocket Watches**, **Parts** and **Tools**. To fill the gap
+**Pocket Watches**, **Parts** and **Tools**, to fill the gap
 in the market of a modern e-commerce Website that paves the way
 for a smooth, easy and friendly place for consumers to search,
 view and purchase **Pocket Watches**, **Parts** and **Tools**.
@@ -44,18 +44,18 @@ A live version of Website can be found
 Users of this Website are a specific group of pocket
 watch enthusiasts who often have a high level of knowledge
 with particular pocket watch requirements and needs. The Website
-therefore needs to be fully researched and accurately
+therefore must be fully researched and accurately
 describe it's products.
 
-For most e-commerce Websites the aims of the user is to
-be able to quickly navigate to the product they require with
+Users of e-commerce Websites aim to be able to quickly
+navigate to the product they require with
 ease, intuition, and limited complications. Adding a
 'Search' feature to the Website will increase users ability
-to find products in a quicker way.
+to find products quickly.
 
 The Website needs to stand out from it's competitors by being
 rich in imagery and specific in product details. Creating a repair
-or valuation service for registered users only will increase user
+and valuation service for registered users only will increase user
 loyalty to the Website and encourage them to return.
 
 A mobile first approach will be instigated in the design
@@ -72,17 +72,19 @@ Agile User Stories can be found
 ### Scope
 
 The Website needs to allow users to add products to their
-basket on a continuous basis while shopping and perusing through
-the Website. To penultimately follow through to the checkout
-and payment, while being notified of each step along the way.
+basket on a continuous basis while shopping and browsing
+through the Website. As their last task needs to be to
+follow through to the checkout and payment, while being
+notified of each step along the way.
 
-The Website also needs to allow it's 'superusers' to create, edit
-and delete products to accurately maintain details and expand the
-Website's product portfolio.
+The Website also needs to allow it's 'superusers' to
+create, edit and delete products to accurately maintain
+details and expand the Website's product portfolio.
 
-A contact information page to allow users to make enquiries
-regarding products and purchases will also be provided.
-Along with a repair and valuation service,
+A contact information page allows users to report back
+any issues, particularly enquiries regarding products
+and purchases. The repair and valuation service
+will also be included.
 
 ### Structure
 
@@ -91,9 +93,9 @@ Website needs to reflect this visibly upon entering
 the Website, so that users know exactly why they are 'there',
 and what they can immediately 'do'.
 
-To achieve this goal, e-commerce design conventions need
-to be applied, with strong brands such as 'Amazon', 'Ebay' and
-'Etsy', being closely researched and conformed to accordingly.
+To achieve this goal, e-commerce design conventions used by
+strong brands such as 'Amazon', 'Ebay' and
+'Etsy', need to be applied. This was done.
 
 The **Navigation Bar** will be fixed at the top, with the
 **Logo** and **Search Bar** stretched across the centre.
@@ -108,15 +110,15 @@ with clickable icons/images for the three main categories of 'Pocket Watch',
 Website's aim of selling these types of products.
 
 The placement of imagery and icons, as well as the structure of the
-navigation bar and home page, should help horn in and focus users
-intuition into buying. The key factor being that the simple,
-concise structure will not cause cognitive overload and
+navigation bar and home page, should help hone in and focus users
+intuition into buying. The key factor to be aware of is that the simple,
+concise structure will avoid cognitive overload and
 distract the main aim of the Website.
 
 Throughout the Website a strong emphasis will be made on
 clear imagery of products, ensuring that product layout does
 not come across as congested. This will allow users to view and search
-products quickly and efficiently. Expedited their desire to
+products quickly and efficiently, and so expedite their desire to
 add products to their basket and checkout with little fuss.
 
 Extra features such as links to `About` and `Contact`
