@@ -85,3 +85,8 @@ critcial but worth addressing at a later date:
 
 #### Fixes
 
+Date Picker
+
+Crispy Forms loading in middle
+
+<body onLoad="window.scroll(0, 0)">

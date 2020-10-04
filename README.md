@@ -734,6 +734,8 @@ The following technologies were used in this project:
 - Support to fix the Date Picker selecting only certain date periods was taken from
   [Stack Overflow](https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker)
 
+  https://stackoverflow.com/questions/153759/jquery-datepicker-with-text-input-that-doesnt-allow-user-input#153804
+
 - The blinking icon feature in the Services app was taken from an idea provided by
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
 
