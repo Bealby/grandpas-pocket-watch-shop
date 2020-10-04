@@ -38,7 +38,7 @@
                                     <p><span style="font-size: 0.7rem;">SKU:&nbsp;{{ item.product.sku }}</span></p>
                                 </th>
                                 <th>
-                                    <p class="mb-1">€{{ item.product.price }}</p>
+                                    <p class="mb-1">£{{ item.product.price }}</p>
                                 </th>
                                 <th class="mt-0 pt-3">
                                     <a class="remove-item text-danger" id="remove_{{ item.item_id }}"><i class="fas fa-trash-alt fas-sm"></i></a>
@@ -55,15 +55,15 @@
                         <thead>
                             <tr>
                                 <th scope="col"><span style="font-weight: bold;">ITEM(S) TOTAL:</span></th>
-                                <th scope="col"><span style="font-weight: bold;">€{{ total|floatformat:2 }}</span></th>
+                                <th scope="col"><span style="font-weight: bold;">£{{ total|floatformat:2 }}</span></th>
                             </tr>
                             <tr>
                                 <th scope="col"><span style="font-weight: bold;">DELIVERY:</span></th>
-                                <th scope="col"><span style="font-weight: bold;">€{{ delivery|floatformat:2 }}</span></th>
+                                <th scope="col"><span style="font-weight: bold;">£{{ delivery|floatformat:2 }}</span></th>
                             </tr>
                             <tr>
                                 <th scope="col"><span style="font-weight: bold;">GRAND TOTAL:</span></th>
-                                <th scope="col"><span style="font-weight: bold;">€{{ grand_total|floatformat:2 }}</span></th>
+                                <th scope="col"><span style="font-weight: bold;">£{{ grand_total|floatformat:2 }}</span></th>
                             </tr>
                         </thead>
                     </table>
