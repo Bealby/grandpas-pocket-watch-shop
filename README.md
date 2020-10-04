@@ -344,18 +344,21 @@ Pocket Watch Shop.
 ![Home Mobile](/documentation/readme/home-mb.png/)
 
 - The `Home` page for mobile devices will be kept simple and
-  minimalistic to draw the user to the three main icons of
-  categories to choose, drawn to after reading page header,
-  'Choose a Category'. The icons once hovered over will enlarge
-  and be intuitively clickable.
+  minimalistic to draw the user to the three main chapters
+  of headers; `Watches`, `Parts`, `Tools` and `Services`. 
+  The icons, once hovered over, will enlarge slightly
+  and be intuitively clickable. It was chosen to title
+  the page 'Grandpa's Pocket Watch Shop' so that users
+  are informed of the specific nature of the type of 
+  watch.
 
 **Desktop**
 
 ![Home Desktop](/documentation/readme/home-dt.png/)
 
 - The `Home` page for larger devices will keep the same design
-  format, but instead have images of the categories, that
-  when hovered over, will disappear and display the category
+  format, but instead have images of the choices, that
+  when hovered over, will disappear and display the header
   name in its place. This extra feature brings a greater visual
   and interactive experience to the user.
 
