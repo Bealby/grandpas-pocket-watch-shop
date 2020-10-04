@@ -233,7 +233,7 @@ body{
     opacity: 0.5;
 }
 
-.hover-overlay-text{
+.hover-overlay-text a{
     background-color: rgb(220, 149, 35, 1) !important;
     font-family: 'Roboto', sans-serif !important;
     color:rgb(255, 255, 255, 1) !important;
@@ -264,7 +264,7 @@ body{
 
 .hover-overlay {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .hover-overlay-image {
