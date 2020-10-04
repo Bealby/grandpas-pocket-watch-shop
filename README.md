@@ -355,12 +355,12 @@ Pocket Watch Shop.
   products being sold, whihc are solely revolved around
   Pocket Watches.
   
-- A sub header, Choose a Category`, is then displayed to inform
-  the users of the categories available to explore.
+- A sub header, Choose a Category`, is then displayed to
+  inform the users of the categories available to explore.
 
 - The layout will be of for columns of images on one row
-  on dektop and medium devices, and be reduced to on column for 
-  mobile. 
+  on dektop and medium devices, and be reduced to on column
+  for mobile. 
 
 ### Products App
 
