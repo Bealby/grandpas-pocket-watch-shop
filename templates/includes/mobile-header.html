@@ -48,8 +48,8 @@
                     </li>
                 </ul>
                     <div class="{% if grand_total %} font-weight-bold{% else %}text-black{% endif %} float-right basket-total-sm small">
-                        {% if grand_total %}
-                        €{{ grand_total|floatformat:2 }}
+                        {% if total %}
+                        €{{ total|floatformat:2 }}
                         {% else %}
                         €0.00
                         {% endif %}
