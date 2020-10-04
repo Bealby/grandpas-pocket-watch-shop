@@ -70,10 +70,6 @@ body{
     text-align: justify;
 }
 
-.home-padding{
-    padding-bottom:3rem;
-}
-
 .service-header h1{
     font-size:2rem;
     padding-top:2rem;
@@ -667,13 +663,6 @@ select option[value=""]{
 .home-header h1{
     font-size:2.5rem;
     padding-top:0rem;
-    padding-bottom:0rem;
-    }
-}
-
-/*-----reduce header spacing on lg device in index.hmtl -----*/
-@media (min-width: 991px) {
-.home-padding{
     padding-bottom:0rem;
     }
 }
