@@ -237,6 +237,16 @@ body{
     opacity: 0.5;
 }
 
+.hover-overlay-text{
+    background-color: rgb(220, 149, 35, 1) !important;
+    font-family: 'Roboto', sans-serif !important;
+    color:rgb(255, 255, 255, 1) !important;
+    font-weight:900 !important;
+    font-size:1.2rem !important;
+    padding:0.8rem 1.8rem 0.8rem 1.8rem !important;
+    text-decoration:none;
+}
+
 .hover-overlay-text a{
     background-color: rgb(220, 149, 35, 1) !important;
     font-family: 'Roboto', sans-serif !important;
