@@ -9,7 +9,7 @@ html{
 
 body{
     position: relative;
-    min-height:calc(100vh - 7.5rem);
+    min-height:calc(100vh - 6.5rem);
 }
 
 .header-container{
