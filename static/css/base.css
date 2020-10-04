@@ -9,7 +9,7 @@ html{
 
 body{
     position: relative;
-    min-height:calc(100vh - 4.5rem);
+    min-height:calc(100vh);
 }
 
 .header-container{
@@ -30,6 +30,10 @@ body{
 #wrap{
     padding-bottom:7rem;
 }
+
+.index-margin-bottom{
+    margin-bottom: 2rem;
+    }
 
 /*-----forms-----*/
 
@@ -668,5 +672,12 @@ select option[value=""]{
 @media (min-width: 991px) {
 .about-text{
     text-align: center;
+    }
+}
+
+/*-----Increase bottom-margin for images in index.html for better spacing on mobile devices-----*/
+@media (min-width: 575px) {
+.index-margin-bottom{
+    margin-bottom: 0rem;
     }
 }
