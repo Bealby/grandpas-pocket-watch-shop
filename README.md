@@ -530,7 +530,7 @@ Pocket Watch Shop.
   `My Profile` page informing the user of their appointment
   bookings which they are able to remove or edit.
 
-- For smaller devices the 2 columns will collapse
+- For smaller devices the 2 columns layout will collapse
   into one column with the appointment form positioned at
   the bottom.
 
@@ -619,9 +619,10 @@ Pocket Watch Shop.
   white text.
 
   It should be encouraged for users to want register to the Website and
-  why they should. Due to this the sentence 'To book a Repair or 
-  Valuation please sign in/up" was added to the user login/put pages
-  in the prompt screens to help give users a reaosn.
+  users often want to know 'why' they should. Therefore when a user clicks on
+  the link to services they will be redirected to the Login in page, and
+  be greeted with the text 'To book a Repair or Valuation please sign
+  in/up', informing the user accordingly.
 
 - Toast info windows are set up throughout the Website to help notify
   the user upon any successes, information, warnings and error messages.

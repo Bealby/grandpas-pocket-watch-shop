@@ -2,11 +2,14 @@ import os
 
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
 from django.conf import settings
 from .forms import ContactForm
 from django.template.loader import render_to_string
 from django.contrib import messages
+
+from profiles.models import UserProfile
+from profiles.forms import UserProfileForm
 
 
 def contact(request):
@@ -15,7 +18,7 @@ def contact(request):
     else:
         contact_form = ContactForm(request.POST)
         if contact_form.is_valid():
-            name = contact_form.cleaned_data['name']
+            name = contact_form.cleaned_data['full_name']
             email = contact_form.cleaned_data['email']
             message = contact_form.cleaned_data['message']
             try:
@@ -23,6 +26,18 @@ def contact(request):
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('contact_success')
+        else:
+            if request.user.is_authenticated:
+                try:
+                    profile = UserProfile.objects.get(user=request.user)
+                    contact_form = ContactForm(initial={
+                    'full_name': profile.default_full_name,
+                    'email': profile.user.email,
+                    })
+                except UserProfile.DoesNotExist:
+                    contact_form = ContactForm()
+            else:
+                contact_form = ContactForm()
 
     context = {
         'form': contact_form,

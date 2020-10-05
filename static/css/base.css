@@ -323,7 +323,7 @@ body{
 
 
 .dropdown-menu:active{
-    background-color: rgb(220, 149, 35, 0.6) !important;
+    background:none;
 }
 
 /*-----BLACK BUTTON LINK-----*/
