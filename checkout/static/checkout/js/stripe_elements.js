@@ -13,7 +13,7 @@ let style = {
     base: {
         color: 'rgb(0, 0, 0, 1)',
         fontFamily: '"Roboto", sans-serif',
-        fontSize: '1.2rem',
+        fontSize: '19.2px',
         '::placeholder': {
             color: 'rgb(170, 186, 196)'
         }
