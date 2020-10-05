@@ -322,9 +322,9 @@ Pocket Watch Shop.
 
 - For larger devices the features displayed and their
   functionality will mainly remain the same except that the
-  category names will be displayed - `Pocket Watches`, `Parts`
-  and `Tools` - and when clicked a dropdown menu will display
-  all products within that category.
+  category names will be displayed - `Pocket Watches`, `Parts`, `Tools`
+  and `Services` - and when clicked a dropdown menu will display
+  all the categories accordingly.
 
 - The search bar will move to the main header and displayed
   centrally between the logo and icons.
