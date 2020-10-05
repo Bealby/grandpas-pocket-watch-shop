@@ -1,7 +1,7 @@
 /*
-    Core logic/payment flow for this comes from here:
+    Core logic/payment flow for this comes from:
     https://stripe.com/docs/payments/accept-a-payment
-    CSS from here: 
+    CSS from: 
     https://stripe.com/docs/stripe-js
 */
 
@@ -46,8 +46,9 @@ card.addEventListener('change', function (event) {
 let form = document.getElementById('payment-form');
 
 form.addEventListener('submit', function(ev) {
-    //When the user clicks the submit button the event listener prevents the form from submitting
-    // and instead disables the card element and triggers the loading overlay.
+    // When the user clicks the submit button the event listener
+    // prevents the form from submitting and instead disables
+    // the card element and triggers the loading overlay.
     ev.preventDefault();
     card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);
@@ -64,9 +65,10 @@ form.addEventListener('submit', function(ev) {
     };
     let url = '/checkout/cache_checkout_data/';
 
-    // Post data to to the View
+    // Post data to the View
     $.post(url, postData).done(function () {
-    // Include form data into the payment intent object so we can retrieve it once we receive the webhook.
+    // Include form data into the payment intent object so we can
+    // retrieve it once we receive the webhook.
         stripe.confirmCardPayment(clientSecret, {
             payment_method: {
                 card: card,
@@ -115,7 +117,7 @@ form.addEventListener('submit', function(ev) {
             }
         });
     }).fail(function () {
-        // just reload the page, the error will be in django messages
+        // Reload the page for any error messages in django
         location.reload();
     })
 });

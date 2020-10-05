@@ -73,7 +73,7 @@ Agile User Stories can be found
 
 The Website needs to allow users to add products to their
 basket on a continuous basis while shopping and browsing
-through the Website. As their last task needs to be to
+through the Website. Their last task requires them to
 follow through to the checkout and payment, while being
 notified of each step along the way.
 
@@ -110,10 +110,10 @@ with clickable icons/images for the three main categories of 'Pocket Watch',
 Website's aim of selling these types of products.
 
 The placement of imagery and icons, as well as the structure of the
-navigation bar and home page, should help hone in and focus users
-intuition into buying. The key factor to be aware of is that the simple,
-concise structure will avoid cognitive overload and
-distract the main aim of the Website.
+navigation bar and home page, should help focus users
+intuition into buying. The key factor to be aware of is
+that the simple, concise structure will avoid cognitive
+overload and distract the main aim of the Website.
 
 Throughout the Website a strong emphasis will be made on
 clear imagery of products, ensuring that product layout does

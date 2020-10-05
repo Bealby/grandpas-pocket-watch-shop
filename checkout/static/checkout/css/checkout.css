@@ -1,11 +1,5 @@
-
-/*-----CSS from Stripe documentation-----*/
- .overflow-auto-s
-  {
-    background: rgb(255, 255, 255, 1);
-    overflow: overlay;
-  }
-
+/*----- CSS from Stripe documentation -----*/
+ 
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
@@ -37,13 +31,13 @@
     position: relative;
     right: .5rem;
 }
-/*-----FONT AWESOME ICONS-----*/
+/*----- Font Awesome Icon Colour -----*/
 
 .fa-times{
     color: rgb(220, 53, 69, 1);
 }
 
-/*-----Loading Overlay Spinner-----*/
+/*----- Loading Overlay Spinner -----*/
 
 #loading-overlay {
 	display: none;
@@ -63,3 +57,10 @@
     margin: 0;
     height: 100%;
 }
+
+/*----- Overflow for Order Number in smaller devices -----*/
+ .overflow-auto-s
+  {
+    background: rgb(255, 255, 255, 1);
+    overflow-x: auto;
+  }
