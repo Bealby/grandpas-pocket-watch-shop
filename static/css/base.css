@@ -321,7 +321,10 @@ body{
     color: rgb(220, 149, 35, 0.6) !important;
 }
 
-.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
   color: white;
   text-decoration: none;
   outline: 0;

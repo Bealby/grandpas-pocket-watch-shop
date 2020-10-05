@@ -14,11 +14,21 @@ from profiles.forms import UserProfileForm
 
 def contact(request):
     if request.method == 'GET':
-        contact_form = ContactForm()
+            if request.user.is_authenticated:
+                try:
+                    profile = UserProfile.objects.get(user=request.user)
+                    contact_form = ContactForm(initial={
+                    'name': profile.default_full_name,
+                    'email': profile.user.email,
+                    })
+                except UserProfile.DoesNotExist:
+                    contact_form = ContactForm()
+            else:
+                contact_form = ContactForm()
     else:
         contact_form = ContactForm(request.POST)
         if contact_form.is_valid():
-            name = contact_form.cleaned_data['full_name']
+            name = contact_form.cleaned_data['name']
             email = contact_form.cleaned_data['email']
             message = contact_form.cleaned_data['message']
             try:
@@ -26,18 +36,6 @@ def contact(request):
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('contact_success')
-        else:
-            if request.user.is_authenticated:
-                try:
-                    profile = UserProfile.objects.get(user=request.user)
-                    contact_form = ContactForm(initial={
-                    'full_name': profile.default_full_name,
-                    'email': profile.user.email,
-                    })
-                except UserProfile.DoesNotExist:
-                    contact_form = ContactForm()
-            else:
-                contact_form = ContactForm()
 
     context = {
         'form': contact_form,
