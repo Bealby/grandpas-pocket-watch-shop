@@ -321,6 +321,12 @@ body{
     color: rgb(220, 149, 35, 0.6) !important;
 }
 
+.dropdown-nav-link a:hover,
+.dropdown-nav-link a:active,
+.dropdown-nav-link a:focus{
+    color: rgb(220, 149, 35, 0.6) !important;
+}
+
 /*-----BLACK BUTTON LINK-----*/
 
 .btn-black{
