@@ -380,7 +380,7 @@ select option{
 
 select:invalid,
 select option[value=""]{
-    color: rgb(0, 0, 0, 0.6) !important;
+    color: rgb(170, 186, 196, 1) !important;
 }
 
 /*-----Inputs-----*/
