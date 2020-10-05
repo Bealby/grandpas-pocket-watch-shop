@@ -618,6 +618,11 @@ Pocket Watch Shop.
   will have a standard format of layout and font. With black icons and
   white text.
 
+  It should be encouraged for users to want register to the Website and
+  why they should. Due to this the sentence 'To book a Repair or 
+  Valuation please sign in/up" was added to the user login/put pages
+  in the prompt screens to help give users a reaosn.
+
 - Toast info windows are set up throughout the Website to help notify
   the user upon any successes, information, warnings and error messages.
   The info toast windows are set with a 15000 time delay after which they will 
