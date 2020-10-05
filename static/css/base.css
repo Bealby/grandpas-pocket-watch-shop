@@ -535,7 +535,7 @@ select option[value=""]{
     box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
     border-radius:1rem;
     padding: 3rem 3rem 3rem 3rem;
-    margin-top:3rem;
+    margin-top:0rem;
 }
 
 /*-----FOOTER-----*/
@@ -610,7 +610,7 @@ select option[value=""]{
     box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
     border-radius:1rem;
     padding: 3rem 3rem 3rem 3rem;
-    margin-top:0rem;
+    margin-top:3rem;
     }
 }
 
