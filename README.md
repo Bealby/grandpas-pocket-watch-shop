@@ -507,6 +507,15 @@ Pocket Watch Shop.
   a date manually. This also prevents field errors when dates
   can take different formats.
 
+- Calendar Settings:
+    - No manual input by user
+    - No dates allowed prior to "today's" date
+    - Bookings can only be made 5 days in advance,
+      to allow the shop owner to prepare accordingly
+
+- Calendar settings allow for good defensive design and prevent users
+  inputting dates that are redudant for the shop owner.
+
 - A bold, 'CONFIRM APPOINTMENT' button is displayed at
   the bottom of the colour orange and once clicked the
   user will be redirected to a confirmation booking page.
@@ -731,10 +740,9 @@ The following technologies were used in this project:
 - The contact form was guided by a tutorial at
   [Learn Django](https://learndjango.com/tutorials/django-email-contact-form).
 
-- Support to fix the Date Picker selecting only certain date periods was taken from
+- Support to fix the Date Picker selecting only certain criteria was inspired from:
   [Stack Overflow](https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker)
-
-  https://stackoverflow.com/questions/153759/jquery-datepicker-with-text-input-that-doesnt-allow-user-input#153804
+  [Stack Overflow](  https://stackoverflow.com/questions/153759/jquery-datepicker-with-text-input-that-doesnt-allow-user-input#153804)
 
 - The blinking icon feature in the Services app was taken from an idea provided by
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
