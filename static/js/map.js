@@ -7,14 +7,14 @@ function initMap() {
   const contentString =
     '<div id="firstHeading">Grandpa"s Pocket Watch Shop</div><hr>' +
     '<h2 id="secondHeading">Opening Times</h2>' +
-    '<ul><span style="color: #000;"><li><strong>Monday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
-    '<li><strong>Tuesday:</strong>&nbsp;&nbsp;09:30-17:30</li><li><strong>Wednesday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
-    '<li><strong>Thursday:</strong>&nbsp;&nbsp;09:30-17:30</li><li><strong>Friday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
-    '<li><strong>Saturday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
-    '<li><strong>Sunday:</strong>&nbsp;&nbsp;10:00-16:00</li></ul></span>';
+    '<ul><span style="color: #000;"><li><strong>Monday:</strong>&nbsp;&nbsp;08:30-17:30</li>' +
+    '<li><strong>Tuesday:</strong>&nbsp;&nbsp;08:30-17:30</li><li><strong>Wednesday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
+    '<li><strong>Thursday:</strong>&nbsp;&nbsp;08:30-17:30</li><li><strong>Friday:</strong>&nbsp;&nbsp;09:30-17:30</li>' +
+    '<li><strong>Saturday:</strong>&nbsp;&nbsp;09:00-14:00</li>' +
+    '<li><strong>Sunday:</strong>&nbsp;&nbsp;09:00-14:00</li></ul></span>';
   const infowindow = new google.maps.InfoWindow({
     content: contentString,
-    Width: 600
+    Width: 650
   });
   const marker = new google.maps.Marker({
     position: uluru,
