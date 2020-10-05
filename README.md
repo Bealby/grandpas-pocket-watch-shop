@@ -110,8 +110,8 @@ with clickable icons/images for the three main categories of 'Pocket Watch',
 Website's aim of selling these types of products.
 
 The placement of imagery and icons, as well as the structure of the
-navigation bar and home page, should help focus users
-intuition into buying. The key factor to be aware of is
+navigation bar and home page, should help users
+intuitively focus into buying. The key factor to be aware of is
 that the simple, concise structure will avoid cognitive
 overload and distract the main aim of the Website.
 
