@@ -543,7 +543,7 @@ select option[value=""]{
 #footer-copyright p{
     margin-bottom:0rem !important;
 	text-align: center;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	font-family: 'Roboto', sans-serif;
     margin-top:1rem;
 }
