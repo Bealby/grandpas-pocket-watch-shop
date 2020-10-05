@@ -321,8 +321,8 @@ body{
     color: rgb(220, 149, 35, 0.6) !important;
 }
 
-.dropdown-nav-test:active{
-    color: rgb(220, 149, 35, 0.6) !important;
+a:active{
+    color: red !important;
 }
 
 /*-----BLACK BUTTON LINK-----*/
