@@ -390,7 +390,7 @@ select option[value=""]{
 }
 
 .product-body input::placeholder {
-    color: rgb(64, 64, 64, 1);
+    color: rgb(170, 186, 196, 1);
 }
 
 .product-body button,
