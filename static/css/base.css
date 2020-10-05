@@ -321,10 +321,9 @@ body{
     color: rgb(220, 149, 35, 0.6) !important;
 }
 
-.dropdown-menu > .active > a{
-    background-color: #16A170 !important;
-    color: #FFFFFF;
-    text-decoration: none;
+
+.dropdown-menu:active{
+    background-color: rgb(220, 149, 35, 0.6) !important;
 }
 
 /*-----BLACK BUTTON LINK-----*/
