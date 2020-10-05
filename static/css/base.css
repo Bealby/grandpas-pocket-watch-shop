@@ -323,7 +323,7 @@ body{
 
 
 .dropdown-menu:active{
-    background:none;
+    online:none;
 }
 
 /*-----BLACK BUTTON LINK-----*/

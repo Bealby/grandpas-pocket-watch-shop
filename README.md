@@ -486,6 +486,11 @@ Pocket Watch Shop.
   which will be an exciting opportunity for any user visiting
   the Website.
 
+- Grandpa's Pocket Watch Shop will provide a valuation for free
+  as in many situations the Pocket Watch will most often need
+  maintenance and repair and it is this indirect business which
+  will make the 'Free' valuation worthwhile.
+
 - Icons are used to describe the Repair or Valuation offers,
   under which details of the service provided will be shown.
 
@@ -642,7 +647,24 @@ Pocket Watch Shop.
 
 ### Features left to Implement
 
-?
+Below is a list of features I feel would be beneficial to
+add to the Website at a later date:
+
+**Frequently asked questions about Pocket Watches**
+
+**Introduce Discussion Forum**
+
+**Introduce a business development: “We buy Pocket Watches and associated spare parts”**
+
+**Introduce a business development: “Expand the site to sell clocks and wrist watches plus associated spares”**
+
+**Programme on-line Tutorials/Lectures on Pocket Watches: a paid for facility. This encourages “return customers”**
+
+**Invite Customers to write short Pocket Watch Interest Articles to attract/intice  core customers back to the site.**
+
+**Block out future Bank and Public Holidays so bookings cannot be taken.**
+
+**Include a currency conversion facilty linked to a live site.**
 
 ## Technologies Used
 
