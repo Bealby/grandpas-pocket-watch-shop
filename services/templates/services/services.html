@@ -1,10 +1,14 @@
-{% extends "base.html" %} {% load static %} {% block page_header %}
+{% extends "base.html" %} {% load static %}
+
+{% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} {% block content %}
+{% endblock %}
+
+{% block content %}
 <div class="container-fluid">
     <div class="row mb-5">
         <div class="col-10 offset-1">
@@ -14,11 +18,11 @@
                 </div>
                 <hr class="blue-divider" />
             </div>
-
             <div class="row">
                 <div class="product-body col-sm-12 col-md-12 col-lg-6">
-                    <h4 class="page-header text-center mt-4 mb-5">For a Repair Or Valuation!</h3>
+                    <h3 class="page-header text-center mt-4 mb-5">For a Repair Or Valuation!</h3>
                     <div class="row text-center">
+                        <!-- Repair or Valuation information -->
                         <div class="col-sm-12 col-md-6 col-lg-6 pb-3">
                             <ul class="pl-0" style="list-style-type: none;">
                                 <li class="pb-2">
@@ -61,6 +65,7 @@
                             <img class="img-fluid" src="{% static 'images/repairs-valuation.png' %}" alt="Photo of man repairing and valuing" />
                         </div>
                     </div>
+                    <!-- Booking an appointment image and information -->
                     <div class="row">
                         <div class="d-none d-lg-block d-xl-none d-none d-xl-block mx-auto">
                             <h4 class="text-center">Book an Appointment</h4>
@@ -71,10 +76,13 @@
                         <div class="d-block d-sm-none d-none d-sm-block d-md-none d-none d-md-block d-lg-none mx-auto">
                             <h5 class="text-center">Book an Appointment</h5>
                             <h5 class="text-center pb-2"><strong>09:00</strong> or <strong>12:00</strong> every day of the week!</h5>
-                            <p class="text-center mt-4"><span class="blinking"><i class="fas fa-3x fa-angle-double-down"></i></span></p>
+                            <p class="text-center mt-4">
+                                <span class="blinking"><i class="fas fa-3x fa-angle-double-down"></i></span>
+                            </p>
                         </div>
                     </div>
                 </div>
+                <!-- Booking form appointment -->
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1 contact-form">
@@ -92,23 +100,31 @@
         </div>
     </div>
 </div>
-{% endblock %} {% block page_bottom %}
+{% endblock %}
+
+{% block page_bottom %}
 <div class="container bottom-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
 {% endblock %}
+
+<!-- Javascript setting parameter in Date Picker -->
 {% block postloadjs %}
 {{ block.super }}
 <script type="text/javascript">
     $(function () {
-        $(".datepicker").keypress(function(event) {event.preventDefault();}).datetimepicker({
-            locale: "pt-br",
-            format: "YYYY-MM-DD",
-            sideBySide: true,
-        });
-        $(".datepicker").data("DateTimePicker").minDate(moment().startOf("day").add(5, 'd'));
+        $(".datepicker")
+            .keypress(function (event) {
+                event.preventDefault();
+            })
+            .datetimepicker({
+                locale: "pt-br",
+                format: "YYYY-MM-DD",
+                sideBySide: true,
+            });
+        $(".datepicker").data("DateTimePicker").minDate(moment().startOf("day").add(5, "d"));
     });
 </script>
 {% endblock %}

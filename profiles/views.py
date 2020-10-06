@@ -39,6 +39,7 @@ def profile(request):
 
 @login_required
 def order_history(request, order_number):
+    # Display the user's Order History.
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(request, (
@@ -57,7 +58,7 @@ def order_history(request, order_number):
 
 @login_required
 def edit_appointment(request):
-
+    # Display the user's past appointment form for editing.
     return redirect('edit_appointment')
 
 
@@ -68,4 +69,3 @@ def delete_appointment(request, appointment_id):
     appointment.delete()
     messages.success(request, 'Appointment deleted!')
     return redirect('profile')
-     

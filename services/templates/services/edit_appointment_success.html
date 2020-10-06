@@ -1,10 +1,14 @@
-{% extends "base.html" %} {% load static %} {% block page_header %}
+{% extends "base.html" %} {% load static %}
+
+{% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} {% block content %}
+{% endblock %}
+
+{% block content %}
 <div class="container-fluid">
     <div class="row mb-5">
         <div class="col-10 offset-1">
@@ -15,6 +19,7 @@
                 <hr class="blue-divider" />
             </div>
 
+            <!-- Updated booking confirmation message -->
             <div class="row">
                 <div class="mx-auto">
                     <p>A new booking confirmation has been sent to your email!</p>
@@ -26,7 +31,9 @@
         </div>
     </div>
 </div>
-{% endblock %} {% block page_bottom %}
+{% endblock %}
+
+{% block page_bottom %}
 <div class="container bottom-container">
     <div class="row">
         <div class="col"></div>
