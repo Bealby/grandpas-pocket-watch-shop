@@ -211,12 +211,12 @@ body{
 
 /*-----IMAGES-----*/
 
-#home-images{
-    text-align: center;
+.home-images{
+    text-align: center !important;
 }
 
-#image-cards{
-    box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1);
+.image-cards{
+    box-shadow: 0rem 0rem 0.5rem 0rem rgb(0, 0, 0, 1) !important;
 }
 
 .image-hover:hover{
