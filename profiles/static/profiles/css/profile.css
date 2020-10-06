@@ -1,24 +1,24 @@
-/*-----Max Hright for order-----*/
+/*-----Max Hright for order and appointment window-----*/
 
-/*----To fit order number on smaller devices*/
+/*----To fit order and appointment on smaller devices*/
 .order-history {
     max-height: 416px; /* height of profile form + submit button */
     overflow-y: auto;
 }
 
 #profile-update-form .form-control {
-    color: #000;
+    color: rgb(0,0,0,1);
 }
 
 #profile-update-form input::placeholder {
-    color: #aab7c4;
+    color: rgb(170, 186, 196, 1);
 }
 
 #id_default_country,
 #id_default_country option:not(:first-child) {
-    color: #000;
+    color:rgb(0,0,0,1);
 }
 
 #id_default_country option:first-child {
-    color: #aab7c4;
+    color: rgb(170, 186, 196, 1);
 }

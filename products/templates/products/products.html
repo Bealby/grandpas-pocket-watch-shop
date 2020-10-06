@@ -1,10 +1,14 @@
-{% extends "base.html" %} {% load static %} {% block page_header %}
+{% extends "base.html" %} {% load static %}
+
+{% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} {% block content %}
+{% endblock %}
+
+{% block content %}
 <div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1 mb-5">
@@ -15,6 +19,7 @@
                 <hr class="blue-divider" />
             </div>
             <div class="row">
+                <!-- Iterate through and display products -->
                 {% for product in products %}
                 <div class="mb-5 pl-3 pr-3 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto" id="home-images">
                     <div class="card border-0">
@@ -23,13 +28,21 @@
                             <img class="card-img-top img-fluid product-hover" id="image-cards" src="{{ product.image.url }}" alt="{{ product.name }}" />
                         </a>
                         {% endif %}
+
+                        <!-- Product Card Details -->
                         <div class="card-body text-left product-body text-muted mb-0">
                             <p class="mb-1">
                                 <span style="font-weight: bold;">Name:</span>&nbsp;&nbsp;{{ product.name }}
                             </p>
                             <p><span style="font-weight: bold;">Cost:</span>&nbsp;&nbsp;£{{ product.price }}</p>
-                            <p class="mb-0"><span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span>&nbsp;&nbsp;<a class="btn info-btn btn-lg text-uppercase" href="{% url 'product_detail' product.id %}"><i class="fas fa-info"></i></a></p>
+                            <p class="mb-0">
+                                <span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span>&nbsp;&nbsp;
+                                <!-- Product information icon -->
+                                <a class="btn info-btn btn-lg text-uppercase" href="{% url 'product_detail' product.id %}"><i class="fas fa-info"></i></a>
+                            </p>
                         </div>
+
+                        <!-- Product Add to Basket -->
                         <div class="col-12 mb-3">
                             <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
                                 {% csrf_token %}

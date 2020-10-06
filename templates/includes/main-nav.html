@@ -20,6 +20,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="parts-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Parts
             </a>
+            <!--category parameter to the products URL just like we're doing with q for search queries.--->
             <div class="nav-item dropdown-menu" id="dropdown-font" aria-labelledby="parts-link">
                 <a class="dropdown-item" href="{% url 'products' %}?category=balance_arms, balance_wheels,barrel_bridges,barrel_drums,bench_keys,bows,cases,chains,dials,fusee_cones,pillar_plates,springs,t-bars,wheels">All Parts</a>
                 <a class="dropdown-item" href="{% url 'products' %}?category=balance_arms">Balance Arms</a>

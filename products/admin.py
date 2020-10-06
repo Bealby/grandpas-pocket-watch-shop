@@ -3,6 +3,7 @@ from .models import Product, Category
 
 
 class ProductAdmin(admin.ModelAdmin):
+    # Displayed fields in Admin
     list_display = (
         'sku',
         'name',
@@ -10,6 +11,7 @@ class ProductAdmin(admin.ModelAdmin):
         'image',
     )
 
+    # Orders by latest sku
     ordering = ('sku',)
 
 
