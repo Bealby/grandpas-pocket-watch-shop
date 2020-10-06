@@ -1,6 +1,6 @@
 /*-----Max height for order and appointment window-----*/
 .order-history {
-    max-height: 208px; /* height of profile form + submit button */
+    max-height: 14.3125rem; /* height of profile form + submit button */
     overflow-y: auto;
 }
 

@@ -57,9 +57,3 @@
     margin: 0;
     height: 100%;
 }
-
-/*----- Overflow for Order Number in smaller devices -----*/
- .overflow-auto-s{
-    background: rgb(255, 255, 255, 1);
-    overflow-x: auto;
-  }
