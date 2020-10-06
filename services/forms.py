@@ -38,6 +38,10 @@ class AppointmentForm(forms.ModelForm):
             'time': '',
         }
 
+        # Add placeholders and classes.
+        # Remove auto-generated labels.
+        # Set autofocus on first field.
+        # Iterate through form fields and add a '*' to placeholder if required.
         self.fields['name'].widget.attrs['autofocus'] = True
         for field in self.fields:
             if self.fields[field].required:

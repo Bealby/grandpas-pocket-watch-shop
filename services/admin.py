@@ -4,7 +4,7 @@ from .models import AppointmentType, WatchModel, WatchType, AppointmentTime,  \
 
 
 class AppointmentTypeAdmin(admin.ModelAdmin):
-
+    # Displayed fields in Admin
     list_display = (
         'friendly_name',
         'name',
@@ -12,14 +12,14 @@ class AppointmentTypeAdmin(admin.ModelAdmin):
 
 
 class AppointmentTimeAdmin(admin.ModelAdmin):
-
+    # Displayed fields in Admin
     list_display = (
         'name',
     )
 
 
 class WatchModelAdmin(admin.ModelAdmin):
-
+    # Displayed fields in Admin
     list_display = (
         'friendly_name',
         'name',
@@ -27,7 +27,7 @@ class WatchModelAdmin(admin.ModelAdmin):
 
 
 class WatchTypeAdmin(admin.ModelAdmin):
-
+    # Displayed fields in Admin
     list_display = (
         'friendly_name',
         'name',
@@ -35,7 +35,7 @@ class WatchTypeAdmin(admin.ModelAdmin):
 
 
 class AppointmentAdmin(admin.ModelAdmin):
-
+    # Displayed fields in Admin
     list_display = (
         'name',
         'email',
@@ -45,7 +45,7 @@ class AppointmentAdmin(admin.ModelAdmin):
         'date',
         'time'
     )
-
+    # Orders by latest date
     ordering = ('date',)
 
 
@@ -54,3 +54,4 @@ admin.site.register(AppointmentTime, AppointmentTimeAdmin)
 admin.site.register(WatchModel, WatchModelAdmin)
 admin.site.register(WatchType, WatchTypeAdmin)
 admin.site.register(Appointment, AppointmentAdmin)
+
