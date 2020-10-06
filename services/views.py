@@ -15,14 +15,24 @@ from .forms import AppointmentForm
 @login_required
 def services(request):
     if request.method == 'GET':
-        form = AppointmentForm()
+        if request.user.is_authenticated:
+            try:
+                profile = UserProfile.objects.get(user=request.user)
+                appointment_form = AppointmentForm(initial={
+                'name': profile.default_full_name,
+                'email': profile.user.email,
+                })
+            except UserProfile.DoesNotExist:
+                appointment_form = AppointmentForm()
+        else:
+            appointment_form = AppointmentForm()
     else:
-        form = AppointmentForm(request.POST)
-        if form.is_valid():
+        appointment_form = AppointmentForm(request.POST)
+        if appointment_form.is_valid():
             user_profile = get_object_or_404(UserProfile, user=request.user)
-            form=form.save(commit=False)
-            form.user_profile=user_profile
-            form.save()
+            appointment_form=appointment_form.save(commit=False)
+            appointment_form.user_profile=user_profile
+            appointment_form.save()
             name = request.POST.get('name')
             email = request.POST.get('email')
             appointment_type = get_object_or_404(AppointmentType, pk=request.POST.get('appointment_type'))
@@ -53,7 +63,7 @@ def services(request):
             return redirect('appointment_success')
 
     context = {
-        'form': form,
+        'form': appointment_form,
     }
 
     return render(request, "services/services.html", context)
@@ -71,7 +81,7 @@ def edit_appointment(request, appointment_id):
     appointment = get_object_or_404(Appointment, pk=appointment_id)
     messages.info(request, f'You are editing an appointment for a Pocket Watch {appointment.appointment_type.name} booked for {appointment.date} at {appointment.time}')
     if request.method == 'GET':
-        form = AppointmentForm(initial={
+        appointment_form = AppointmentForm(initial={
             'name': appointment.name,
             'email': appointment.email,
             'appointment_type': appointment.appointment_type,
@@ -81,17 +91,17 @@ def edit_appointment(request, appointment_id):
             'time': appointment.time,
             })
     else:
-        form = AppointmentForm(request.POST, instance=appointment)
-        if  form.is_valid():
-            form.save()
-            name = form.cleaned_data['name']
-            email = form.cleaned_data['email']
+        appointment_form = AppointmentForm(request.POST, instance=appointment)
+        if  appointment_form.is_valid():
+            appointment_form.save()
+            name = appointment_form.cleaned_data['name']
+            email = appointment_form.cleaned_data['email']
             appointment_type =  \
-                form.cleaned_data['appointment_type']
-            watch_model = form.cleaned_data['watch_model']
-            watch_type = form.cleaned_data['watch_type']
-            date = form.cleaned_data['date']
-            time = form.cleaned_data['time']
+                appointment_form.cleaned_data['appointment_type']
+            watch_model = appointment_form.cleaned_data['watch_model']
+            watch_type = appointment_form.cleaned_data['watch_type']
+            date = appointment_form.cleaned_data['date']
+            time = appointment_form.cleaned_data['time']
             try:
                 template_vars = {
                     'name': request.user.get_full_name(),
@@ -117,7 +127,7 @@ def edit_appointment(request, appointment_id):
 
     template = 'services/edit_appointment.html'
     context = {
-        'form': form,
+        'form': appointment_form,
     }
 
     return render(request, template, context)

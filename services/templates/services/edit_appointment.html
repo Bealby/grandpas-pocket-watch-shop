@@ -38,17 +38,17 @@
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} {% block postloadjs %} {{ block.super }}
+{% endblock %} 
+{% block postloadjs %}
+{{ block.super }}
 <script type="text/javascript">
     $(function () {
-        $(".datepicker").datetimepicker({
+        $(".datepicker").keypress(function(event) {event.preventDefault();}).datetimepicker({
             locale: "pt-br",
             format: "YYYY-MM-DD",
             sideBySide: true,
-            daysOfWeekDisabled: [0, 6],
         });
-        $(".datepicker").data("DateTimePicker").minDate(moment().startOf("year"));
-        $(".datepicker").data("DateTimePicker").maxDate(moment().endOf("year"));
+        $(".datepicker").data("DateTimePicker").minDate(moment().startOf("day").add(5, 'd'));
     });
 </script>
 {% endblock %}

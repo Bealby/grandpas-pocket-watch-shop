@@ -98,7 +98,9 @@
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} {% block postloadjs %} {{ block.super }}
+{% endblock %}
+{% block postloadjs %}
+{{ block.super }}
 <script type="text/javascript">
     $(function () {
         $(".datepicker").keypress(function(event) {event.preventDefault();}).datetimepicker({
