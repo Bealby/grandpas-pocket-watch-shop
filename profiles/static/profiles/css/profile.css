@@ -1,8 +1,6 @@
-/*-----Max Hright for order and appointment window-----*/
-
-/*----To fit order and appointment on smaller devices*/
+/*-----Max height for order and appointment window-----*/
 .order-history {
-    max-height: 416px; /* height of profile form + submit button */
+    max-height: 208px; /* height of profile form + submit button */
     overflow-y: auto;
 }
 
