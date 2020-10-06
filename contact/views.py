@@ -1,8 +1,10 @@
 import os
 
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse
+)
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
 from django.conf import settings
 from .forms import ContactForm
 from django.template.loader import render_to_string
@@ -15,11 +17,12 @@ from profiles.forms import UserProfileForm
 def contact(request):
     if request.method == 'GET':
         if request.user.is_authenticated:
+            # Prefill form with registered users name/ email
             try:
                 profile = UserProfile.objects.get(user=request.user)
                 contact_form = ContactForm(initial={
-                'name': profile.default_full_name,
-                'email': profile.user.email,
+                    'name': profile.default_full_name,
+                    'email': profile.user.email,
                 })
             except UserProfile.DoesNotExist:
                 contact_form = ContactForm()
@@ -47,5 +50,6 @@ def contact(request):
 
 def contact_success(request):
 
+    # Success message and redirect to success page
     messages.success(request, f'Email Sent!')
     return render(request, "contact/contact_success.html")

@@ -6,9 +6,11 @@ class ContactForm(forms.Form):
     email = forms.EmailField(required=True)
     message = forms.CharField(widget=forms.Textarea, required=True)
 
+    # Fields in contact form
     class Meta:
         fields = ['name', 'email', 'message']
 
+    # Placeholders in contact form
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         placeholders = {

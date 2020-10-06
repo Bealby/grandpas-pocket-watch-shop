@@ -8,12 +8,12 @@ from .models import OrderLineItem
 # Execute function when post signals are sent
 @receiver(post_save, sender=OrderLineItem)
 def update_on_save(sender, instance, created, **kwargs):
-    # Update order total on lineitem update/ create
+    # Update order total on line item update/ create
     instance.order.update_total()
 
 
 # Execute function when save signals are sent
 @receiver(post_delete, sender=OrderLineItem)
 def update_on_delete(sender, instance, **kwargs):
-    # Update order total on lineitem delete
+    # Update order total on line item delete
     instance.order.update_total()

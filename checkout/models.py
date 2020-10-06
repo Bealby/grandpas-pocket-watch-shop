@@ -19,12 +19,13 @@ class Order(models.Model):
     email = models.CharField(max_length=254, null=False, blank=False)
     phone_number = models.CharField(max_length=20, null=False, blank=False)
     country = CountryField(blank_label='Country *', null=False, blank=False)
-    # Postcode not required as do not exist in every country
+    # Postcode not required as does not exist in every country
     postcode = models.CharField(max_length=20, null=True, blank=True)
     town_or_city = models.CharField(max_length=40, null=False, blank=False)
     street_address1 = models.CharField(max_length=80, null=True, blank=False)
+    # Street address 2 is not always applicable so not required
     street_address2 = models.CharField(max_length=80, null=True, blank=True)
-    # County not required as do not exist in every country
+    # County not required as does not exist in every country
     county = models.CharField(max_length=80, null=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)
     delivery_cost = models.DecimalField(max_digits=6, decimal_places=2,
@@ -38,20 +39,18 @@ class Order(models.Model):
                                   default='')
 
     def _generate_order_number(self):
-        # Generate unique order number using UUID
+        # Generates unique order number using UUID
         return uuid.uuid4().hex.upper()
 
     def update_total(self):
-        # Update grand total for each itme added including postage cost
-        self.order_total = \
-            self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
-        self.delivery_cost = \
-            self.order_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
+        # Updates grand total for each item added including the postage cost
+        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
+        self.delivery_cost = self.order_total * settings.STANDARD_DELIVERY_PERCENTAGE / 100
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
 
     def save(self, *args, **kwargs):
-        # Overide original save if no order number hasn't been set
+        # Overides original save if no order number has been set
         if not self.order_number:
             self.order_number = self._generate_order_number()
         super().save(*args, **kwargs)
@@ -72,7 +71,7 @@ class OrderLineItem(models.Model):
                                          editable=False)
 
     def save(self, *args, **kwargs):
-        # Overide original save to set grand total and update order number
+        # Overides original save to set grand total and update order number
         self.lineitem_total = self.product.price * self.quantity
         super().save(*args, **kwargs)
 

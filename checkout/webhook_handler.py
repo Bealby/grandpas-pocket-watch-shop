@@ -17,7 +17,7 @@ class StripeWH_Handler:
         self.request = request
 
     def _send_confirmation_email(self, order):
-        """Send the user a confirmation email"""
+        # Send confirmation email to user
         cust_email = order.email
         subject = render_to_string(
             'checkout/confirmation_emails/confirmation_email_subject.txt',
@@ -34,13 +34,13 @@ class StripeWH_Handler:
         )
 
     def handle_event(self, event):
-        # Handle a generic/unknown/unexpected webhook event
+        # Handling of a generic/unknown/unexpected webhook event
         return HttpResponse(
             content=f'Unhandled webhook received: {event["type"]}',
             status=200)
 
     def handle_payment_intent_succeeded(self, event):
-        # Handle the payment_intent.succeeded webhook from Stripe
+        # Handling the payment_intent.succeeded webhook from Stripe
         intent = event.data.object
         pid = intent.id
         basket = intent.metadata.basket
@@ -50,7 +50,7 @@ class StripeWH_Handler:
         shipping_details = intent.shipping
         grand_total = round(intent.charges.data[0].amount / 100, 2)
 
-        # Clean data in the shipping details
+        # Alow for clean data in the shipping details
         # Ensure the data is in the same form as what we want in our database.
         for field, value in shipping_details.address.items():
             if value == "":
@@ -59,7 +59,7 @@ class StripeWH_Handler:
         # Update profile information if save_info was checked
         profile = None
         username = intent.metadata.username
-        # If not anon try to get user profile
+        # If not try to get user profile
         if username != 'AnonymousUser':
             profile = UserProfile.objects.get(user__username=username)
             if save_info:
@@ -102,8 +102,8 @@ class StripeWH_Handler:
                 time.sleep(1)
         # If order is found...
         if order_exists:
-            # If we found the order in the database because it was
-            # already created by the form.
+            # If order found in the database as
+            # already created by the form, send email
             self._send_confirmation_email(order)
             return HttpResponse(
                 content=f'Webhook received: \
@@ -150,8 +150,8 @@ class StripeWH_Handler:
                 return HttpResponse(
                     content=f'Webhook received: {event["type"]} | ERROR: {e}',
                     status=500)
-        # If the order was created by the webhook handler I'll
-        # send the email at the bottom here
+        # If the order was created by the webhook handler
+        # email will be sent
         self._send_confirmation_email(order)
         return HttpResponse(
             content=f'Webhook received: \

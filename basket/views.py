@@ -19,7 +19,7 @@ def add_to_basket(request, item_id):
     redirect_url = request.POST.get('redirect_url')
     basket = request.session.get('basket', {})
 
-    # To ensure only one unique product is added to basket.
+    # To ensure only one unique product is added to basket
     if item_id in list(basket.keys()):
         messages.warning(request, f'{product.name} is already in your basket')
     else:

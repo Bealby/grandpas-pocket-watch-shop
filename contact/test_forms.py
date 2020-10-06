@@ -20,7 +20,7 @@ class TestContactForm(TestCase):
         self.assertFalse(form.is_valid())
         self.assertIn('message', form.errors.keys())
         self.assertEqual(form.errors['message'][0], 'This field is required.')
-    
+
     def test_fields_are_explicit_in_form_metaclass(self):
         form = ContactForm()
         self.assertEqual(form.Meta.fields, ['name', 'email', 'message'])

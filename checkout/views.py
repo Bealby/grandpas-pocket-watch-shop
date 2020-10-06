@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse
+)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -101,10 +103,10 @@ def checkout(request):
         # To prevent people from manually accessing the URL by typing /checkout
         if not basket:
             messages.error(request, "there's nothing in your "
-                                   "basket at the moment")
+                           "basket at the moment")
             return redirect(reverse('products'))
 
-        # To calcualte basket total for stripe
+        # To calculate basket total for stripe
         current_basket = basket_contents(request)
         total = current_basket['grand_total']
         stripe_total = round(total * 100)

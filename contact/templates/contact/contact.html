@@ -1,10 +1,14 @@
-{% extends "base.html" %} {% load static %} {% block page_header %}
+{% extends "base.html" %} {% load static %}
+
+{% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} {% block content %}
+{% endblock %}
+
+{% block content %}
 <div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1">
@@ -18,6 +22,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div row="row">
+                        <!-- Address information -->
                         <div class="col-12 text-center">
                             <img class="pb-2" src="{% static 'images/logo_3.png' %}" alt="Grandpa's Pocket Watch Shop - Logo" />
                         </div>
@@ -33,6 +38,7 @@
                                 <span style="font-weight: bold;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;</span>grandpaspocketwatchshop@gmail.com
                             </p>
                         </div>
+                        <!-- Google Maps displaying location of Shop along with info window of opening times  -->
                         <div col="col-12">
                             <div class="map map-border mx-auto" id="map"></div>
                         </div>
@@ -40,6 +46,7 @@
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-6">
+                    <!-- Contact Form  -->
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1 contact-form">
                             <h3 class="text-uppercase text-center font-weight-bold pb-4 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">Get In Touch&nbsp;&nbsp;<i class="fas fa-paper-plane"></i></h3>
@@ -64,7 +71,10 @@
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} {% endblock %} {% block extra_js %}
+{% endblock %}
+{% endblock %}
+
+{% block extra_js %}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script defer src="https://maps.googleapis.com/maps/api/js?key={{api_key}}&callback=initMap"></script>
 <!-- Map -->
