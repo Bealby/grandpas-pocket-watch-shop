@@ -321,16 +321,6 @@ body{
     color: rgb(220, 149, 35, 0.6) !important;
 }
 
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.dropdown-submenu:hover > a,
-.dropdown-submenu:focus > a {
-  color: white;
-  text-decoration: none;
-  outline: 0;
-  background-color: rgb(220, 149, 35, 0.6) !important;
-}
-
 /*-----BLACK BUTTON LINK-----*/
 
 .btn-black{
