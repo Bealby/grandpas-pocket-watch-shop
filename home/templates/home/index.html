@@ -1,10 +1,14 @@
-{% extends "base.html" %} {% load static %} {% block page_header %}
+{% extends "base.html" %} {% load static %}
+
+{% block page_header %}
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
     </div>
 </div>
-{% endblock %} {% block content %}
+{% endblock %}
+
+{% block content %}
 <div class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1">
@@ -19,6 +23,7 @@
                     <h3 class="text-center mt-4">Choose a Category</h3>
                 </div>
             </div>
+            <!-- Category icons with hover overlay affect-->
             <div class="row">
                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images">
                     <img src="{% static 'images/watches.png' %}" alt="Pocket Watch Illustration" class="img-fluid hover-overlay-image image-cards" />
