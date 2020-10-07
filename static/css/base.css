@@ -133,7 +133,7 @@ a.badge-icons > span.badge:hover{
 }
 
 .badge-pill{
-    border-radius:1rem;
+    border-radius:0.5rem !important;
 }
 
 /*-----Numbers-----*/
