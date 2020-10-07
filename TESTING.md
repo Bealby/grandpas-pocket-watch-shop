@@ -18,6 +18,18 @@
 [Markdownlint](https://github.com/Bealby/markdownlint) - Markdownlint was
 used to validate README.md file. 'Validation successful'
 
+[Validate Javascript](https://validatejavascript.com/) - Javascript
+files were uploaded in in the Validate Javascript. Overall there
+were no errors that needed to be changed and the javascript passed
+general standards.
+
+**Terminal** - `python3 -m flake8` in command line was used to highlight any
+issues within entire project. Majority of issues were fixed, except:
+
+- **Migration** issues
+- **Imports** unused in empty files or where it was necessary to include
+- **Lines** too long where it was not suitable to shorten
+
 [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
 A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
 on Mobile and Desktop to assess **Performance**, **Accessibility**,
@@ -29,11 +41,6 @@ on Mobile and Desktop to assess **Performance**, **Accessibility**,
 Chrome Developing Tools also analysed the Progressive Web App,
 which validate the aspects of a Progressive Web App. The results
 were satisfactory.
-
-[Validate Javascript](https://validatejavascript.com/) - Javascript
-files were uploaded in in the Validate Javascript. Overall there
-were no errors that needed to be changed and the javascript passed
-general standards.
 
 [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
 Navigating through the Website rendered two different types of errors, that are not

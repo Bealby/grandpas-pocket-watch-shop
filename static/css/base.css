@@ -373,6 +373,10 @@ select option[value=""]{
     color: rgb(170, 186, 196, 1) !important;
 }
 
+.asteriskField{
+    display:none;
+}
+
 /*-----Inputs-----*/
 
 .product-body label:not([for='id_remember']) {
