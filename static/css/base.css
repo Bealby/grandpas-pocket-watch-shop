@@ -623,13 +623,6 @@ select option[value=""]{
     }
 }
 
-/*-----Reduce head container margin-top to reduce white space between page header and navbar -----*/
-@media (min-width: 991px) {
-.header-container{
-    margin-top:16rem;
-    }
-}
-
 /*-----Adjust postion of toasts on mobile devices to fit better under basket -----*/
 @media (min-width: 991px) {
 .toast-container{
