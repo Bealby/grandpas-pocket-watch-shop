@@ -656,13 +656,6 @@ select option[value=""]{
     }
 }
 
-/*-----Margin top for all html pages to ensure content is viewable on mobile devices -----*/
-@media (min-width: 991px) {
-.header-container{
-    margin-top:12rem;
-    }
-}
-
 /*-----Padding Top/ Bottom on index.html for better viewing on mobile -----*/
 @media (min-width: 991px) {
 .home-header h1{
