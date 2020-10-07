@@ -16,8 +16,10 @@ from .forms import AppointmentForm
 
 
 @login_required
+# Appointment booking form
 def services(request):
     if request.method == 'GET':
+        # Registered user's detail prefilled for 'Name' and 'Email'
         if request.user.is_authenticated:
             try:
                 profile = UserProfile.objects.get(user=request.user)
@@ -47,6 +49,7 @@ def services(request):
             date = request.POST.get('date')
             time = get_object_or_404(AppointmentTime,
                                      pk=request.POST.get('time'))
+            # Variables to be used in email
             try:
                 template_vars = {
                     'name': name,
@@ -58,17 +61,19 @@ def services(request):
                     'time': time,
                 }
                 cust_email = email
+                # Email content
                 subject =  \
                     render_to_string('services/confirmation_emails/confirmation_email_subject.txt',
                                      template_vars)
                 body = render_to_string('services/confirmation_emails/confirmation_email_body.txt',
                                         template_vars)
-
+                # Send email
                 send_mail(subject, body, settings.DEFAULT_FROM_EMAIL,
                           [cust_email])
             except BadHeaderError:
                 messages.error(request, "Please ensure fields "
                                         "are filled out correctly")
+            # Appointment Success confirmation page rendered
             return redirect('appointment_success')
 
     context = {
@@ -79,15 +84,18 @@ def services(request):
 
 
 @login_required
+# Appointment success
 def appointment_success(request):
-
+    # Message for success of booking
     messages.success(request, f'Appointment Confirmed!')
     return render(request, "services/appointment_success.html")
 
 
+@login_required
+# Edit appointment
 def edit_appointment(request, appointment_id):
-    # Edit appointment
     appointment = get_object_or_404(Appointment, pk=appointment_id)
+    # Message to inform users of past booking being modified
     messages.info(request, f'You are editing an appointment for a Pocket \
                   Watch {appointment.appointment_type.name} booked for \
                   {appointment.date} at {appointment.time}')
@@ -103,6 +111,7 @@ def edit_appointment(request, appointment_id):
             })
     else:
         appointment_form = AppointmentForm(request.POST, instance=appointment)
+        # Prefilling of existing booking info
         if appointment_form.is_valid():
             appointment_form.save()
             name = appointment_form.cleaned_data['name']
@@ -113,6 +122,7 @@ def edit_appointment(request, appointment_id):
             watch_type = appointment_form.cleaned_data['watch_type']
             date = appointment_form.cleaned_data['date']
             time = appointment_form.cleaned_data['time']
+            # Variables to be used in email
             try:
                 template_vars = {
                     'name': request.user.get_full_name(),
@@ -124,11 +134,12 @@ def edit_appointment(request, appointment_id):
                     'time': time,
                 }
                 cust_email = email
+                # Email content
                 subject = render_to_string('services/confirmation_emails/confirmation_email_subject_edit.txt',
                                            template_vars)
                 body = render_to_string('services/confirmation_emails/confirmation_email_body_edit.txt',
                                         template_vars)
-
+                # Send email
                 send_mail(subject, body, settings.DEFAULT_FROM_EMAIL,
                           [cust_email])
             except BadHeaderError:
@@ -145,7 +156,8 @@ def edit_appointment(request, appointment_id):
 
 
 @login_required
+# Modified appointment success
 def edit_appointment_success(request):
-
+    # Message for success of modified booking
     messages.success(request, f'Updated Appointment Confirmed!')
     return render(request, "services/edit_appointment_success.html")
