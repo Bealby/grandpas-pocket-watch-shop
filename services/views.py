@@ -16,8 +16,8 @@ from .forms import AppointmentForm
 
 
 @login_required
-# Appointment booking form
 def services(request):
+    # Appointment booking form
     if request.method == 'GET':
         # Registered user's detail prefilled for 'Name' and 'Email'
         if request.user.is_authenticated:
@@ -84,16 +84,16 @@ def services(request):
 
 
 @login_required
-# Appointment success
 def appointment_success(request):
+    # Appointment success
     # Message for success of booking
     messages.success(request, f'Appointment Confirmed!')
     return render(request, "services/appointment_success.html")
 
 
 @login_required
-# Edit appointment
 def edit_appointment(request, appointment_id):
+    # Edit appointment
     appointment = get_object_or_404(Appointment, pk=appointment_id)
     # Message to inform users of past booking being modified
     messages.info(request, f'You are editing an appointment for a Pocket \
@@ -156,7 +156,6 @@ def edit_appointment(request, appointment_id):
 
 
 @login_required
-# Modified appointment success
 def edit_appointment_success(request):
     # Message for success of modified booking
     messages.success(request, f'Updated Appointment Confirmed!')
