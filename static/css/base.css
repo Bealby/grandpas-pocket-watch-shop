@@ -509,7 +509,7 @@ select option[value=""]{
 }
 
 .fa-exclamation-triangle{
-    color: rgb(217, 83, 79, 1);
+    color: rgb(240, 173, 78, 1);
 }
 
 .fa-info-circle{
@@ -521,7 +521,7 @@ select option[value=""]{
 }
 
 .fa-exclamation-circle{
-    color:rgb(240, 173, 78, 1);
+    color:rgb(217, 83, 79, 1);
 }
 
 .fa-angle-lef{

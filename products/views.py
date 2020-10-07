@@ -27,6 +27,9 @@ def all_products(request):
                 messages.error(request, "Please enter search criteria!")
                 return redirect(reverse('products'))
             # Name or Description contains a query, which are case insensitive
+            if not query:
+                messages.error(request, "Please enter search criteria!")
+                return redirect(reverse('products'))
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
