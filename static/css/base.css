@@ -125,9 +125,15 @@ body{
     font-size: 1rem;
 }
 
+/*-----Badge Icons-----*/
+
 a.badge-icons > span.badge:hover{
     background:rgb(220, 149, 35, 1) !important;
     color:rgb(255, 255, 255, 1) !important;
+}
+
+.badge-pill{
+    border-radius:1rem;
 }
 
 /*-----Numbers-----*/
