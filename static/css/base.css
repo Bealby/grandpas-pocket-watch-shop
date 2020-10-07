@@ -128,6 +128,9 @@ body{
 a.badge-icons > span.badge:hover{
     background:rgb(220, 149, 35, 1) !important;
     color:rgb(0, 0, 0, 1) !important;
+}
+
+.badge-icons{
     border-radius: 1rem !important;
     box-shadow: 0.4375 0.3125 0.3125 -0.1875 rgba(92,92,92,0.4), 0px 0.3125 0.625 rgba(92,92,92,0.6), 0.4375 0.3125 0.3125 -0.1875 rgba(92,92,92,0.4);
 }
