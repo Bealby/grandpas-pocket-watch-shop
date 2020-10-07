@@ -35,45 +35,37 @@ A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
 on Mobile and Desktop to assess **Performance**, **Accessibility**,
 **Best Practices**, **CEO** and **Progressive Web App**.
 
-- **Mobile:** An overall average of 92.75% was received.
-- **Desktop:** An overall average of 90.25% was received.
-
-Chrome Developing Tools also analysed the Progressive Web App,
-which validate the aspects of a Progressive Web App. The results
-were satisfactory.
+- **Mobile:** An overall average of ?% was received.
+- **Desktop:** An overall average of ?% was received.
 
 [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
-Navigating through the Website rendered two different types of errors, that are not
-critcial but worth addressing at a later date:
+?
 
-- `www-embed-player.js:453 GET https://googleads.g.doubleclick.net/pagead/id, net::ERR_BLOCKED_BY_CLIENT`
-   These errors relate to Adblock or browser safety extensions. Which
-   will not be addressed at this stage as such extensions can be
-   disabled buy the user.
 
-- `/favicon.ico:1 Failed to load resource:`
-  `the server responded with a status of 404 (NOT FOUND)`
-  Favicons are small 16x16 icon files that are displayed next to the
-  URL of a Website. It would be benefical to add these at a later date.
+test_forms.py
+test_views.py
 
 ## Non-Automated Testing
 
+### Main Header/ Navigation Bar
 
-#### Desktop Browsers
+-
+
+### Desktop Browsers
 
 - Chrome: Website renders well on all screen sizes.
 - Safari: Website renders well on all screen sizes.
 - Firefox: Website renders well on all screen sizes.
 - Edge: Website renders well on all screen sizes.
 
-#### Mobile and Tablet Devices
+### Mobile and Tablet Devices
 
 - The Website was tested on tablets and a variety of
   mobiles, including iPhone and Samsung. The results were
   satisfactory for all devices and continued to achieve the
   UX and UI goals.
 
-#### User Testing
+### User Testing
 
 - Family and friends were asked to use the finished Website to test
   usability and comment on whether they felt it met their needs as
@@ -88,9 +80,9 @@ critcial but worth addressing at a later date:
   - iphone 11 - Safari: Good
   - Samsung 7 - Chrome: Good
 
-#### User Experience
+### User Experience
 
-#### Fixes
+## Fixes
 
 Date Picker
 
