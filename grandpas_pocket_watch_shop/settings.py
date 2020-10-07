@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'profiles',
     'about',
 
-# Other
+    # Other
     'crispy_forms',
     'storages',
 ]
@@ -83,13 +83,17 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # Required by allauth
+                # Required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'django.template.context_processors.media', # media URL template tag to work if media file does not have an image
+                # media URL template tag to work if media file does
+                # not have an image.
+                'django.template.context_processors.media',
                 'basket.contexts.basket_contents',
             ],
-            # To contain all the tags we want available in all our templates by default.
+            # To contain all the tags we want available in all our
+            # templates by default.
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
                 'crispy_forms.templatetags.crispy_forms_field',

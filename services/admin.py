@@ -54,4 +54,3 @@ admin.site.register(AppointmentTime, AppointmentTimeAdmin)
 admin.site.register(WatchModel, WatchModelAdmin)
 admin.site.register(WatchType, WatchTypeAdmin)
 admin.site.register(Appointment, AppointmentAdmin)
-

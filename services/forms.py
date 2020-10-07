@@ -1,6 +1,7 @@
 from django import forms
-from .models import Appointment, AppointmentTime, AppointmentType,  \
-    WatchModel, WatchType
+from .models import (
+    Appointment, AppointmentTime, AppointmentType, WatchModel, WatchType
+)
 
 
 class AppointmentForm(forms.ModelForm):
