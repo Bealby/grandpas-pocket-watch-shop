@@ -161,13 +161,13 @@ body{
 }
 
 .toast-warning{
-    border:0.2rem solid rgb(217, 83, 79);
+    border:0.2rem solid rgb(240, 173, 78);
     font-family: 'Roboto', sans-serif;
     color: rgb(64, 64, 64, 1);
 }
 
 .toast-error{
-    border:0.2rem solid rgb(240, 173, 78);
+    border:0.2rem solid rgb(217, 83, 79);
     font-family: 'Roboto', sans-serif;
     color: rgb(64, 64, 64, 1);
 }
