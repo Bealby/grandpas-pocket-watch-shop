@@ -8,7 +8,10 @@ from django.template.loader import render_to_string
 from django.conf import settings
 from django.contrib import messages
 
-from .models import Appointment, AppointmentType, WatchModel, WatchType, AppointmentTime, UserProfile
+from .models import (
+    Appointment, AppointmentType, WatchModel, WatchType,
+    AppointmentTime, UserProfile
+)
 from .forms import AppointmentForm
 
 
@@ -19,8 +22,8 @@ def services(request):
             try:
                 profile = UserProfile.objects.get(user=request.user)
                 appointment_form = AppointmentForm(initial={
-                'name': profile.default_full_name,
-                'email': profile.user.email,
+                    'name': profile.default_full_name,
+                    'email': profile.user.email,
                 })
             except UserProfile.DoesNotExist:
                 appointment_form = AppointmentForm()
@@ -30,16 +33,20 @@ def services(request):
         appointment_form = AppointmentForm(request.POST)
         if appointment_form.is_valid():
             user_profile = get_object_or_404(UserProfile, user=request.user)
-            appointment_form=appointment_form.save(commit=False)
-            appointment_form.user_profile=user_profile
+            appointment_form = appointment_form.save(commit=False)
+            appointment_form.user_profile = user_profile
             appointment_form.save()
             name = request.POST.get('name')
             email = request.POST.get('email')
-            appointment_type = get_object_or_404(AppointmentType, pk=request.POST.get('appointment_type'))
-            watch_model = get_object_or_404(WatchModel, pk=request.POST.get('watch_model'))
-            watch_type = get_object_or_404(WatchType, pk=request.POST.get('watch_type'))
+            appointment_type = get_object_or_404(AppointmentType,
+                                                 pk=request.POST.get('appointment_type'))
+            watch_model = get_object_or_404(WatchModel,
+                                            pk=request.POST.get('watch_model'))
+            watch_type = get_object_or_404(WatchType,
+                                           pk=request.POST.get('watch_type'))
             date = request.POST.get('date')
-            time = get_object_or_404(AppointmentTime, pk=request.POST.get('time'))
+            time = get_object_or_404(AppointmentTime,
+                                     pk=request.POST.get('time'))
             try:
                 template_vars = {
                     'name': name,
@@ -52,8 +59,10 @@ def services(request):
                 }
                 cust_email = email
                 subject =  \
-                    render_to_string('services/confirmation_emails/confirmation_email_subject.txt', template_vars)
-                body = render_to_string('services/confirmation_emails/confirmation_email_body.txt', template_vars)
+                    render_to_string('services/confirmation_emails/confirmation_email_subject.txt',
+                                     template_vars)
+                body = render_to_string('services/confirmation_emails/confirmation_email_body.txt',
+                                        template_vars)
 
                 send_mail(subject, body, settings.DEFAULT_FROM_EMAIL,
                           [cust_email])
@@ -79,7 +88,9 @@ def appointment_success(request):
 def edit_appointment(request, appointment_id):
     # Edit appointment
     appointment = get_object_or_404(Appointment, pk=appointment_id)
-    messages.info(request, f'You are editing an appointment for a Pocket Watch {appointment.appointment_type.name} booked for {appointment.date} at {appointment.time}')
+    messages.info(request, f'You are editing an appointment for a Pocket \
+                  Watch {appointment.appointment_type.name} booked for \
+                  {appointment.date} at {appointment.time}')
     if request.method == 'GET':
         appointment_form = AppointmentForm(initial={
             'name': appointment.name,
@@ -92,7 +103,7 @@ def edit_appointment(request, appointment_id):
             })
     else:
         appointment_form = AppointmentForm(request.POST, instance=appointment)
-        if  appointment_form.is_valid():
+        if appointment_form.is_valid():
             appointment_form.save()
             name = appointment_form.cleaned_data['name']
             email = appointment_form.cleaned_data['email']
@@ -113,17 +124,17 @@ def edit_appointment(request, appointment_id):
                     'time': time,
                 }
                 cust_email = email
-                subject =  \
-                    render_to_string('services/confirmation_emails/confirmation_email_subject_edit.txt', template_vars)
-                body = render_to_string('services/confirmation_emails/confirmation_email_body_edit.txt', template_vars)
+                subject = render_to_string('services/confirmation_emails/confirmation_email_subject_edit.txt',
+                                           template_vars)
+                body = render_to_string('services/confirmation_emails/confirmation_email_body_edit.txt',
+                                        template_vars)
 
                 send_mail(subject, body, settings.DEFAULT_FROM_EMAIL,
                           [cust_email])
             except BadHeaderError:
                 messages.error(request, "Please ensure fields "
-                                        "are filled out correctly")
+                               "are filled out correctly")
             return redirect('edit_appointment_success')
-    
 
     template = 'services/edit_appointment.html'
     context = {

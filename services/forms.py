@@ -5,11 +5,13 @@ from .models import Appointment, AppointmentTime, AppointmentType,  \
 
 class AppointmentForm(forms.ModelForm):
     class Meta:
+        # Fileds to be included in Appointment Booking form
         model = Appointment
         fields = ('name', 'email', 'appointment_type',
                   'watch_model', 'watch_type',
                   'date', 'time',)
 
+    # Friendly names to be used in form
     def __init__(self, *args, **kwargs):
 
         super().__init__(*args, **kwargs)
@@ -26,8 +28,9 @@ class AppointmentForm(forms.ModelForm):
         friendly_names = [(c.id, c.get_friendly_name()) for c in watch_types]
         self.fields['watch_type'].choices = friendly_names
 
+        # Date Picker Calendar for booking form
         self.fields['date'].widget.attrs['class'] = 'datepicker'
-
+        # Placeholders for fields
         placeholders = {
             'name': 'Full Name',
             'email': 'Email',
@@ -41,7 +44,6 @@ class AppointmentForm(forms.ModelForm):
         # Add placeholders and classes.
         # Remove auto-generated labels.
         # Set autofocus on first field.
-        # Iterate through form fields and add a '*' to placeholder if required.
         self.fields['name'].widget.attrs['autofocus'] = True
         for field in self.fields:
             if self.fields[field].required:

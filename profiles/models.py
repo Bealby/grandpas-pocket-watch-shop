@@ -9,7 +9,8 @@ from django_countries.fields import CountryField
 class UserProfile(models.Model):
 
     # A user profile model for maintaining default
-    # delivery information and order history.
+    # delivery information, order history, and prefilling of
+    # contact and appointment forms.
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     default_full_name = models.CharField(max_length=50, null=True, blank=True)
     default_street_address1 = models.CharField(max_length=80, null=True,
