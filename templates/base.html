@@ -3,22 +3,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
         {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-        {% endblock %} {% block extra_meta %} {% endblock %} {% block corecss %}
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        {% endblock %}
+        
+        {% block corecss %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
         <!-- Date/ Time Picker -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css" integrity="sha512-63+XcK3ZAZFBhAVZ4irKWe9eorFG0qYsy2CaM5Z+F3kUn76ukznN0cp4SArgItSbDFD1RrrWgVMBY9C/2ZoURA==" crossorigin="anonymous" />
         <!-- Static CSS -->
-        <!-- Favicon -->
         <link rel="stylesheet" href="{% static 'css/base.css' %}" />
-        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'icons/favicon.icoapple-touch-icon.png' %}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'icons/favicon-16x16.png' %}">
-        <link rel="manifest" href="{% static 'icons/site.webmanifest' %}">
-        {% endblock %} 
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'icons/favicon.icoapple-touch-icon.png' %}" />
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'icons/favicon-16x16.png' %}" />
+        <link rel="manifest" href="{% static 'icons/site.webmanifest' %}" />
+        {% endblock %}
         
         {% block extra_css %}
         {% endblock %}
@@ -26,9 +28,10 @@
         {% block corejs %}
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <!-- Bootstrap -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
-        
+
         <!-- Date/ Time Picker -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.28.0/moment.min.js" integrity="sha512-Q1f3TS3vSt1jQ8AwP2OuenztnLU6LwxgyyYOG1jgMW/cbEMHps/3wjvnl1P3WTrF3chJUWEoxDUEjMxDV8pujg==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js" integrity="sha512-GDey37RZAxFkpFeJorEUwNoIbkTwsyC736KNSYucu1WJWFK9qTdzYub8ATxktr6Dwke7nbFaioypzbDOQykoRg==" crossorigin="anonymous"></script>
@@ -40,8 +43,11 @@
         {% endblock %}
 
         <title>Grandpa's Pocket Watch Shop {% block extra_title %}{% endblock %}</title>
+
     </head>
+
     <body onLoad="window.scroll(0, 0)">
+
         <header class="container-fluid fixed-top">
             <!-- header -->
             {% include 'includes/main-header.html' %}
@@ -50,7 +56,6 @@
             {% include 'includes/mobile-header.html' %}
 
             <!-- Main Nav -->
-
             <div id="botnav" class="row">
                 <nav class="col-md-12 col-lg-12 col-xl-12 navbar navbar-expand-md navbar-light">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,6 +82,7 @@
             </div>
         </header>
 
+        <!-- Toast Messages -->
         {% if messages %}
         <div class="toast-container">
             {% for message in messages %}
@@ -93,14 +99,14 @@
                 {% endwith %}
             {% endfor %}
         </div>
-        {% endif %} 
+        {% endif %}
         
         {% block page_header %}
         {% endblock %}
         
         {% block content %}
         {% endblock %}
-
+        
         {% block page_bottom %}
         {% endblock %}
 
