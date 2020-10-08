@@ -54,7 +54,30 @@ if more resource time was available.
 
 ### Main Header/ Navigation Bar
 
-- 
+- Ensure main header, for desktop devices, has the 'Logo' far left;
+  'Search Bar' center; and icons for 'Repair', 'Profile' and 'Basket',
+  postioned far right respectively.
+- Ensure for smaller devices 'Logo' decreases in size; 'Search Bar'
+  is removed; and that all respective icons decrease in size.
+- Ensure that clicking on the 'Logo' you are returned to the
+  `Home` page.
+- Navigate through Website rigorously, ensuring 'Logo', when clicked,
+  takes you back to the `Home` page.
+- Ensure 'Repair' icon, when clicked, requires you to 'Register' if not
+  already.
+- Ensure 'Repair' icon, when clicked, takes you to the `Services` page
+  when you are registered.
+- Ensure 'Profile' icon, when clicked, dropsdown a menu to 'Register'
+  or 'Sign' in.
+- Ensure 'Repair' icon, when clicked, takes you to the 'Register' or
+  'Login' page.
+- Ensure 'Basket' icon, when clicked, takes you to the 'Basket' page.
+- Ensure number under 'Basket' icon, is `0` and color `rgb(220, 149, 35, 1)`.
+- Ensure number under 'Basket' icon, accumulates the total each time a
+  'Product' is added.
+- Ensure all three icons turn from `rgb(220, 149, 35, 1)` to
+  `rgb(220, 149, 35, 0.6)` when hover over.
+- All above tests should be carried on mobile withn same results.
 
 ### Desktop Browsers
 
