@@ -52,7 +52,7 @@ if more resource time was available.
 
 ## Non-Automated Testing
 
-### Main Header/ Navigation Bar
+### Main Header
 
 - Ensure main header, for desktop devices, has the 'Logo' far left;
   'Search Bar' center; and icons for 'Repair', 'Profile' and 'Basket',
@@ -74,10 +74,19 @@ if more resource time was available.
 - Ensure 'Basket' icon, when clicked, takes you to the 'Basket' page.
 - Ensure number under 'Basket' icon, is `0` and color `rgb(220, 149, 35, 1)`.
 - Ensure number under 'Basket' icon, accumulates the total each time a
-  'Product' is added.
+  'Product' is added and displays number accordingly.
+- When search icon is click with empty field user is redirected to `Products``
+  page and error message is displayed.
+- Ensure search function works and searches ar emade in 'Product' details
+  and 'Product' description.
+- Test various product category searches.
 - Ensure all three icons turn from `rgb(220, 149, 35, 1)` to
   `rgb(220, 149, 35, 0.6)` when hover over.
-- All above tests should be carried on mobile withn same results.
+- All above tests should be carried on mobile devices with same results.
+
+### Navigation Bar
+
+- All above tests should be carried on mobile devices with same results.
 
 ### Desktop Browsers
 
