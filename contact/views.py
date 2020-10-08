@@ -34,8 +34,9 @@ def contact(request):
             name = contact_form.cleaned_data['name']
             email = contact_form.cleaned_data['email']
             message = contact_form.cleaned_data['message']
+            # Message sent providing Name, Email, and Message
             try:
-                send_mail(name, message, email, [settings.DEFAULT_FROM_EMAIL])
+                send_mail(f"{name}, <{email}>", message, email, [settings.DEFAULT_FROM_EMAIL])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('contact_success')
