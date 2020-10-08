@@ -23,15 +23,31 @@
                     <h3 class="text-center mt-4">Choose a Category</h3>
                 </div>
             </div>
-            <!-- Category icons with hover overlay affect-->
+            <!-- Category icons with hover overlay affect only for medium screens and larger-->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images">
+                <!-- Display for medium to larger screens-->
+                <div class="col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
                     <img src="{% static 'images/watches.png' %}" alt="Pocket Watch Illustration" class="img-fluid hover-overlay-image image-cards" />
                     <div class="middle">
-                        <div class="hover-overlay-text"><a class="category" href="{% url 'products' %}?category=ej_swiss,elgan,rf_cowderoy_london">WATCHES</a></div>
+                        <div class="hover-overlay-text">
+                            <a class="category" href="{% url 'products' %}?category=ej_swiss,elgan,rf_cowderoy_london">
+                                WATCHES
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images">
+                <!-- Display for smaller screens-->
+                <div class="col-12 d-block d-sm-none d-none d-sm-block d-md-none">
+                    <div>
+                        <div class="hover-overlay-text text-center">
+                            <a class="category" href="{% url 'products' %}?category=ej_swiss,elgan,rf_cowderoy_london">
+                                WATCHES
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Display for medium to larger screens-->
+                <div class="col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
                     <img src="{% static 'images/parts.png' %}" alt="Parts Illustration" class="img-fluid hover-overlay-image image-cards" />
                     <div class="middle">
                         <div class="hover-overlay-text">
@@ -41,18 +57,50 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images">
-                    <img src="{% static 'images/tools.png' %}" alt="Tools Illustration" class="img-fluid hover-overlay-image image-cards" />
-                    <div class="middle">
-                        <div class="hover-overlay-text">
-                            <a class="category" href="{% url 'products' %}?category=anvils,bench_blocks,calipers,hammers,parts_trays,pliers,screwdrivers,soldering_tools">&nbsp;&nbsp;&nbsp;TOOLS&nbsp;&nbsp;&nbsp;</a>
+                <!-- Display for smaller screens-->
+                <div class="col-12 d-block d-sm-none d-none d-sm-block d-md-none mt-5">
+                    <div>
+                        <div class="hover-overlay-text text-center">
+                            <a class="category" href="{% url 'products' %}?category=balance_arms, balance_wheels,barrel_bridges,barrel_drums,bench_keys,bows,cases,chains,dials,fusee_cones,pillar_plates,springs,t-bars,wheels">
+                                &nbsp;&nbsp;&nbsp;PARTS&nbsp;&nbsp;&nbsp;
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images">
+                <!-- Display for medium to larger screens-->
+                <div class="col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
+                    <img src="{% static 'images/tools.png' %}" alt="Tools Illustration" class="img-fluid hover-overlay-image image-cards" />
+                    <div class="middle">
+                        <div class="hover-overlay-text">
+                            <a class="category" href="{% url 'products' %}?category=anvils,bench_blocks,calipers,hammers,parts_trays,pliers,screwdrivers,soldering_tools">
+                                &nbsp;&nbsp;&nbsp;TOOLS&nbsp;&nbsp;&nbsp;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Display for smaller screens-->
+                <div class="col-12 d-block d-sm-none d-none d-sm-block d-md-none mt-5">
+                    <div>
+                        <div class="hover-overlay-text text-center">
+                            <a class="category" href="{% url 'products' %}?category=anvils,bench_blocks,calipers,hammers,parts_trays,pliers,screwdrivers,soldering_tools">
+                                &nbsp;&nbsp;&nbsp;TOOLS&nbsp;&nbsp;&nbsp;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Display for medium to larger screens-->
+                <div class="col-md-3 col-lg-3 index-margin-bottom hover-overlay home-images d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
                     <img src="{% static 'images/services.png' %}" alt="Services Illustration" class="img-fluid hover-overlay-image image-cards" />
                     <div class="middle">
                         <div class="hover-overlay-text-a">
+                            <a class="category" href="{% url 'services' %}">&nbsp;&nbsp;&nbsp;SERVICES&nbsp;&nbsp;&nbsp;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Display for smaller screens-->
+                <div class="col-12 d-block d-sm-none d-none d-sm-block d-md-none mt-5">
+                    <div>
+                        <div class="hover-overlay-text-a text-center">
                             <a class="category" href="{% url 'services' %}">&nbsp;&nbsp;&nbsp;SERVICES&nbsp;&nbsp;&nbsp;</a>
                         </div>
                     </div>
