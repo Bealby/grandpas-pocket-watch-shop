@@ -681,7 +681,7 @@ select option[value=""]{
 }
 
 /*-----Increase bottom-margin for images in index.html for better spacing on mobile devices-----*/
-@media (min-width: 575px) {
+@media (min-width: 767px) {
 .index-margin-bottom{
     margin-bottom: 0rem;
     }
