@@ -695,6 +695,8 @@ add to the Website at a later date:
 
 **Greater search criteria. Order canceliation feature**
 
+**Various cards. Other options. Paypal. Delivery pay ment adrees**
+
 ## Technologies Used
 
 ---
