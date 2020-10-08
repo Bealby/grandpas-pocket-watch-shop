@@ -265,7 +265,7 @@ a.badge-icons > span.badge:hover{
 
 /*-----PRODUCTS.html - Page-Top-Feature-----*/
 
-.btt-button {
+.page-top-button {
     height: 42px;
     width: 42px;
     position: fixed;
@@ -273,9 +273,9 @@ a.badge-icons > span.badge:hover{
     right: 10px;
 }
 
-.btt-link{
+.page-top-link{
     cursor: pointer;
-    text-decoration:none;
+    text-decoration:none !important;
 }
 
 /*-----SERVICES.html - Blinking Arrow feature-----*/
