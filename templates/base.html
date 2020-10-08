@@ -22,6 +22,7 @@
         <link rel="manifest" href="{% static 'icons/site.webmanifest' %}" />
         {% endblock %}
         
+        <!-- If extra css is required -->
         {% block extra_css %}
         {% endblock %}
         
@@ -101,12 +102,14 @@
         </div>
         {% endif %}
         
+        <!-- To ensure body of page is viewable underneath Navbar -->
         {% block page_header %}
         {% endblock %}
         
         {% block content %}
         {% endblock %}
         
+        <!-- To ensure body of page is viewable above Footer -->
         {% block page_bottom %}
         {% endblock %}
 
