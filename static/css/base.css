@@ -160,7 +160,7 @@ a.badge-icons > span.badge:hover{
 
 .toast-container{
     position:fixed;
-    right:0.8rem;
+    right:0.6rem;
     top:4rem;
     z-index: 99999999999;
 }
