@@ -616,7 +616,8 @@ UX for the Website.
 
 - Past order information can be viewed on a separate page to
   allow the user to double check any details in an order and
-  make enquiries if so required. 
+  make enquiries if so required. A `overflow` css command was
+  used for order numbers to be displayed on mobile devices.
 
 - Appointments can be edited or removed with icons used for each
   respectively. When an appointment booking is removed
@@ -627,15 +628,17 @@ UX for the Website.
   the form. Any changes made will then be confirmed and a new updated
   appointment form sent to their email.
 
-- Order and Appointments are displayed in the second column of
-  the page and at a certain break point information turns
-  to a scrolling window which prevents the page from becoming
-  too congested with order and appointment information.
-
 - In the first column of the page the delivery information is
   shown. Once these fields are filled in correctly they will be used
-  as default field content for the payment form. Reducing the users
-  work load. 
+  as default field content for the payment, contact and service
+  forms. Reducing the users work load and providing a good UX.
+
+- Order and Appointments are displayed in the second column of
+  the page. A `overflow` css command is used for both the
+  `Order History` and `Appointments` list, so that each, after a
+  certian amount of orders and appoitnments, turn to a scrolling
+  view which evenly align with the `Delivery` and `Keep Shopping`
+  height.
 
 - For smaller devices the order and appointment field information
   is reduced to allow for better viewing on smaller devices.
