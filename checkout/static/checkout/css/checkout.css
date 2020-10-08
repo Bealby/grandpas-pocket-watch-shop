@@ -25,6 +25,7 @@
 
 .stripe-style-input::placeholder {
     color: rgb(170, 183, 196, 1);
+    border-color: rgb(0,0,0,1);
 }
 
 .fieldset-label {
