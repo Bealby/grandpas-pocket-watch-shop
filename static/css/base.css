@@ -495,7 +495,7 @@ select option[value=""]{
     font-weight:bold;
     font-family: 'Roboto', sans-serif !important;
     background:none !important;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 .read-more:hover{
