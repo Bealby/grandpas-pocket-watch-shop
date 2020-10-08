@@ -403,6 +403,11 @@ UX for the Website.
   `Product Details` page along with another
   link to enable the user to `Keep Shopping`.
 
+- When a user on the `Products` page clicks the `ADD to BASKET`
+  icon the user is redirected to page they are on so that they
+  are not thrown back to the `All Products` page and made to
+  navigate through Website again to find their location.
+
 - The goal of the Website is to always encourage a user
   to purchase products in a friendly manner yet provide
   alternative navigation options.

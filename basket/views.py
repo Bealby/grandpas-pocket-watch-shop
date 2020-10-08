@@ -1,6 +1,8 @@
 from django.shortcuts import (
     render, redirect, HttpResponse, get_object_or_404
 )
+
+from django.http import HttpResponseRedirect
 from django.contrib import messages
 
 from products.models import Product
@@ -27,8 +29,8 @@ def add_to_basket(request, item_id):
         messages.success(request, f'Added {product.name} to your basket')
 
     request.session['basket'] = basket
-
-    return redirect(redirect_url)
+    # Redirect user to previous page
+    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
 
 def remove_from_basket(request, item_id):
