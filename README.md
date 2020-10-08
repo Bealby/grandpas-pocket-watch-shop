@@ -281,6 +281,15 @@ Pocket Watch Shop.
 
 ## Features
 
+Much of the layout of the Website used the Bootstrap Grid
+System of containers, rows and columns; styled by css. This
+allowed the Website to be clearly structured and for the
+content to be responsive.
+
+Extra feature used from Bootstrap included features such as
+`Cards`, `Badges`, `Tables` which are helped in the UI and
+UX for the Website.
+
 ---
 
 ### Navigation Bar/ Main Header
@@ -398,6 +407,11 @@ Pocket Watch Shop.
   to purchase products in a friendly manner yet provide
   alternative navigation options.
 
+- A `Bootstrap Badge` functionality is set to help the user
+  identify which products are listed on the page. These 
+  badge upon hover will turn orange and change from black
+  to white text.
+
 - Once the 'ADD TO BASKET' button is clicked an info window
   will pop up with a notification of the product added. 
   Defensive design prevents the users from adding the 
@@ -486,10 +500,17 @@ Pocket Watch Shop.
   which will be an exciting opportunity for any user visiting
   the Website.
 
+- Grandpa's Pocket Watch Shop will evaluate customers Pocket
+  Watches and provide an estimate of costs. It is important to
+  add a non-commital repair clause as it could otherwise
+  put customers off coming in.
+
 - Grandpa's Pocket Watch Shop will provide a valuation for free
   as in many situations the Pocket Watch will most often need
   maintenance and repair and it is this indirect business which
-  will make the 'Free' valuation worthwhile.
+  will make the 'Free' valuation worthwhile. A cost of a
+  'Certified Valuation' or 'Documented History' of the Pocket
+  Watch will also create business.
 
 - Icons are used to describe the Repair or Valuation offers,
   under which details of the service provided will be shown.
@@ -549,7 +570,8 @@ Pocket Watch Shop.
   
 - For the desktop the `Contact` page will have a 2 column
   design. The first column will display the address, email
-  telephone information. Icons are used for better UI. 
+  telephone information and Map, with icons used for better UI.
+  the second column will display the `Contact` form.
   
 - Below the contact information there will be an interactive
   map, set up through google, that will provide the shop location
@@ -561,8 +583,10 @@ Pocket Watch Shop.
   in the contact form to highlight the send functionalities for better
   UI.
 
-- Once an email is submitted the user is redirected to a success page
-  and an info window pops up to confirm that the email is sent. 
+- Once an email is submitted the user is redirected to a success
+  page and an info window pops up to confirm that the email is sent. 
+  An email will be recieved by the owner which will include the user's
+  `Full Name` and `Email` in order for the owner to respond.
 
 - A 'Keep Shopping' link is also provided in the success page to enable
   users to navigate away from the contact page.
@@ -665,6 +689,8 @@ add to the Website at a later date:
 **Block out future Bank and Public Holidays so bookings cannot be taken.**
 
 **Include a currency conversion facilty linked to a live site.**
+
+**Greater search criteria. Order canceliation feature**
 
 ## Technologies Used
 
