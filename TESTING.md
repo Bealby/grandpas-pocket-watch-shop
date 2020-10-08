@@ -41,14 +41,14 @@ on Mobile and Desktop to assess **Performance**, **Accessibility**,
 [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
 ?
 
-**Unit Tests** Django comes with a test suite of `Unit Tests` that all use the testing
-infrastructure that ships with Django for testing applications.
+[Unit Tests](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/)
+Django comes with a test suite of `Unit Tests` that all use the
+testing infrastructure that ships with Django for testing applications.
 
-A variaty of standard unit tests were carried for
-test_forms.py and test_views.py. However a more expansive test program, which
-would incude tests on models, would be beneficial and should be carried out
-if more resource time was available.  
-
+A variaty of standard unit tests were carried for test_forms.py
+and test_views.py. However a more expansive test program, which
+would incude tests on models, would be beneficial and should be
+carried out if more resource time was available.  
 
 ## Non-Automated Testing
 
