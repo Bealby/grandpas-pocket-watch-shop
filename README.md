@@ -397,7 +397,7 @@ UX for the Website.
 
 - There are of course options for the user to seek more
   information on a product enabled through
-  clicking on the information icon or hovering over the
+  clicking on the `READ ME` information icon or hovering over the
   image itself, which in turn will redirect the user to
   the `Product Details` page. Here the product will be 
   displayed solely on it's own, with a larger image and
