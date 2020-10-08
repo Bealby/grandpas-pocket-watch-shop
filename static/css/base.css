@@ -275,6 +275,7 @@ a.badge-icons > span.badge:hover{
 
 .page-top-link{
     cursor: pointer;
+    text-decoration:none;
 }
 
 /*-----SERVICES.html - Blinking Arrow feature-----*/

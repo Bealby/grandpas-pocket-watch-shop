@@ -408,6 +408,11 @@ UX for the Website.
   are not thrown back to the `All Products` page and made to
   navigate through Website again to find their location.
 
+- With the vast number of products on the page a upwards facing
+  chevron will be postioned at the bottom right of the screen
+  for users to click whihc will scroll them back up to the top
+  of the page
+
 - The goal of the Website is to always encourage a user
   to purchase products in a friendly manner yet provide
   alternative navigation options.
