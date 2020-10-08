@@ -358,6 +358,10 @@ UX for the Website.
   are links that once clicked will navigate the user to the
   relevant pages accordingly.
 
+- For smaller devices images are removed and just the
+  text icons are left for better UI and UX on mobile
+  devices.
+
 - The image feature brings a greater visual
   and interactive experience to the user.
   
@@ -411,7 +415,7 @@ UX for the Website.
 - With the vast number of products on the page a upwards facing
   chevron will be postioned at the bottom right of the screen
   for users to click whihc will scroll them back up to the top
-  of the page
+  of the page.
 
 - The goal of the Website is to always encourage a user
   to purchase products in a friendly manner yet provide

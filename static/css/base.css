@@ -487,6 +487,22 @@ select option[value=""]{
     background:none;
 }
 
+/*-----Read More Link-----*/
+
+.read-more{
+    color: rgb(0, 0, 0, 1);
+    text-decoration: underline;
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif !important;
+    background:none !important;
+    font-size: 0.7rem;
+}
+
+.read-more:hover{
+    color:rgb(0, 0, 0, 0.6) !important;
+    background:none;
+}
+
 /*-----Font Awesome Icons-----*/
 
 .fa-tools, 
@@ -539,7 +555,7 @@ select option[value=""]{
  }
 
 .fa-info{
-    color:rgb(255, 255, 255, 1);
+    color:rgb(0, 0, 0, 1) !important;
 }
 
 .fa-exclamation-circle{

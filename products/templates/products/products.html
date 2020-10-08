@@ -46,7 +46,7 @@
                             <p class="mb-0">
                                 <span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span>&nbsp;&nbsp;
                                 <!-- Product information icon -->
-                                <a class="btn info-btn btn-lg text-uppercase" href="{% url 'product_detail' product.id %}"><i class="fas fa-info"></i></a>
+                                <a class="read-more" href="{% url 'product_detail' product.id %}"><i class="fas fa-info"></i>&nbsp;&nbsp;Read More</a>
                             </p>
                         </div>
 
@@ -90,7 +90,6 @@
 {% endblock %}
 
 {% block extra_js %}
-{{ block.super }}
 <!-- Scroll to Top -->
-<script src="{% static 'js/scroll.js' %}"></script>
+<script src="{% static 'products/js/scroll.js' %}"></script>
 {% endblock %}
