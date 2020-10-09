@@ -505,6 +505,18 @@ select option[value=""]{
 
 /*-----Font Awesome Icons-----*/
 
+.fa-clock{
+    color:rgb(255, 255, 255, 1);
+}
+
+.fa-screwdriver{
+    color:rgb(255, 255, 255, 1);
+}
+
+#fa-tools-white{
+    color:rgb(255, 255, 255, 1);
+}
+
 .fa-tools, 
 .fa-user,
 .fa-shopping-basket{

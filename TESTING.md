@@ -105,6 +105,8 @@ carried out if more resource time was available.
   positioned to the right of the toggle hamburger menu.
 - For mobile devices ensure test are carried out again as above.
 
+### ### Home (Index) Page
+
 ### Desktop Browsers
 
 - Chrome: Website renders well on all screen sizes.
