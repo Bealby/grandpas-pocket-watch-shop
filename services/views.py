@@ -125,7 +125,7 @@ def edit_appointment(request, appointment_id):
             # Variables to be used in email
             try:
                 template_vars = {
-                    'name': request.user.get_full_name(),
+                    'name': name,
                     'email': email,
                     'appointment_type': appointment_type,
                     'watch_model': watch_model,
