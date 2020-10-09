@@ -358,8 +358,8 @@ UX for the Website.
   are links that once clicked will navigate the user to the
   relevant pages accordingly.
 
-- For smaller devices images are removed and just the
-  text icons are left for better UI and UX on mobile
+- For smaller devices images are removed and replaced with
+  icons for better UI and UX on mobile
   devices.
 
 - The image feature brings a greater visual
