@@ -578,9 +578,9 @@ UX for the Website.
 
 ![Contact](/documentation/readme/contact.png/)
 
-- A `Contact` page provides the user with the opportunity
-  to get in contact with the owners with any order or
-  general enquiry questions.
+- A `Contact` page provides the users and non-users
+  the opportunity to get in contact with the owners
+  with any order or general enquiry questions.
   
 - For the desktop the `Contact` page will have a 2 column
   design. The first column will display the address, email

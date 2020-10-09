@@ -1,4 +1,4 @@
-Hello {{ name }}!
+Hello {{ full_name }}!
 
 Your updated appointment booking has been confirmed.
 
