@@ -29,7 +29,7 @@
             <div class="row">
                 <!-- Iterate through and display products -->
                 {% for product in products %}
-                <div class="mb-5 pl-3 pr-3 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto" id="home-images">
+                <div class="mb-3 pl-3 pr-3 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto" id="home-images">
                     <div class="card border-0">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">

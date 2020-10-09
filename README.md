@@ -711,6 +711,8 @@ add to the Website at a later date:
 
 **Various cards. Other options. Paypal. Delivery pay ment adrees**
 
+**Twitter**
+
 ## Technologies Used
 
 ---
