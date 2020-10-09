@@ -80,13 +80,30 @@ carried out if more resource time was available.
 - Ensure search function works and searches ar emade in 'Product' details
   and 'Product' description.
 - Test various product category searches.
-- Ensure all three icons turn from `rgb(220, 149, 35, 1)` to
+- Ensure all three icons turn from orange (`rgb(220, 149, 35, 1)`) to
   `rgb(220, 149, 35, 0.6)` when hover over.
 - All above tests should be carried on mobile devices with same results.
 
 ### Navigation Bar
 
-- All above tests should be carried on mobile devices with same results.
+- Links `All Products`, `Pocket Watches`, `Parts`, `Tools` and
+  `Services`should be displayed in Navigation Bar.
+- Ensure headers in naviagation bar have font `Bershire Swash`.
+- All Navigation links should, when hovered over, turn orange 
+  (`rgb(220, 149, 35, 1)`).
+- Each link when clicked should display a dropdown menu of relevant
+  option assigned to `Pocket Watches`, `Parts`, `Tools` and
+  `Services`. Except for `All Products` which should genrate a page of
+  all products.
+- Ensure items in dopdown menu have font `Roboto`.
+- Click through each dropdown menu items and ensure correct page loads
+  up when itme is clicked.
+- As screen decreases to a medium size, ensure fonts decrease in size
+- For mobile screen sizes ensure Navigation links collapse to a toggle
+  menu hamburger icon that is positioned to the far left. 
+- For mobile screen sizes ensure search bar drops down to Navigation Bar,
+  positioned to the right of the toggle hamburger menu.
+- For mobile devices ensure test are carried out again as above.
 
 ### Desktop Browsers
 

@@ -654,8 +654,10 @@ UX for the Website.
   view which evenly align with the `Delivery` and `Keep Shopping`
   height.
 
-- For smaller devices the order and appointment field information
-  is reduced to allow for better viewing on smaller devices.
+- For smaller devices the Order and Appointment table fields
+  are reduced to `Order Number`and `Order Total` for
+  **Order History** and `Date` and `Time` for **Appointments**
+  to allow for a less congested viewing on smaller devices.
 
 ### Extra Features
 
