@@ -33,13 +33,20 @@ issues within entire project. Majority of issues were fixed, except:
 [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
 A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
 on Mobile and Desktop to assess **Performance**, **Accessibility**,
-**Best Practices**, **CEO** and **Progressive Web App**.
+**Best Practices**, **CEO** and **Progressive Web App**. 
 
-- **Mobile:** An overall average of ?% was received.
-- **Desktop:** An overall average of ?% was received.
+Overall the results were satifactory with no critical issue that needed to
+be addressed.
+
+- **Mobile:** An overall average of 85% was received.
+- **Desktop:** An overall average of 79% was received.
+
+The Lighthouse Audit also analysed the Progressive Web App, which validates
+the aspects of a Progressive Web App. The results were satisfactory.
 
 [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
-?
+Throughout the Website buidling process console errors were continually assessed
+and fixed accordingly. Currently there are no errors when navigating through the Website.
 
 [Unit Tests](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/)
 Django comes with a test suite of `Unit Tests` that all use the
