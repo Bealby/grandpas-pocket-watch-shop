@@ -4,7 +4,7 @@
       "model": "products.product",
       "fields": {
         "sku": "TT001001",
-        "name": "Precision Nose Pliers",
+        "name": "Nose Pliers",
         "description": "Silver precision nose pliers. Hallmark: 'Foreign'. Length = 9.5cm. Jaw Opening = 3cm",
         "price": 5.99,
         "category": 6,
@@ -16,7 +16,7 @@
       "model": "products.product",
       "fields": {
         "sku": "TT001002",
-        "name": "Double Horn Anvil Steel Block",
+        "name": "Anvil Steel Block",
         "description": "Double Horn Anvil Steel Block. For use in vice. Flattened top surface length = 9.6cm. Flattened top surface width = 2.5cm",
         "price": 8.99,
         "category": 1,
@@ -749,7 +749,7 @@
       "fields": {
         "sku": "WW001001",
         "name": "Pocket Watch",
-        "description": "Pocket Watch. R. F. Cowdorey. London. Designed by James Beebe. Dated 1871. Hallmarks: 'London Markers'. Diamater 5cm. It good working condition.",
+        "description": "Pocket Watch. R. F. Cowdorey. London. Designed by James Beebe. Dated 1871. Hallmarks: 'London Markers'. Diamater 5cm. In good working condition.",
         "price": 899.99,
         "category":23,
         "image": "20200815_153826.png"
