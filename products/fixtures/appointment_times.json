@@ -1,0 +1,16 @@
+[
+    {
+      "pk": 1,
+      "model": "services.appointment_time",
+      "fields": {
+        "name": "09:00"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "services.appointment_time",
+      "fields": {
+        "name": "12:00"
+      }
+    }
+  ]

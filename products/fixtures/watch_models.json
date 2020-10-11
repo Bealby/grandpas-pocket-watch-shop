@@ -1,0 +1,138 @@
+[
+    {
+      "pk": 1,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "columbus",
+        "friendly_name": "Columbus"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "elgin",
+        "friendly_name": "Elgin"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "hampden",
+        "friendly_name": "Hampden"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "howard",
+        "friendly_name": "Howard"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "illinois",
+        "friendly_name": "Illinois"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "ingersoll_trenton",
+        "friendly_name": "Ingersoll Trenton"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "new_england",
+        "friendly_name": "New England"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "new_york_standard",
+        "friendly_name": "New York Standard"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "rockford",
+        "friendly_name": "Rockford"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "seth_thomas",
+        "friendly_name": "Seth Thomas"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "south_bend",
+        "friendly_name": "South Bend"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "waltham",
+        "friendly_name": "Waltham"
+      }
+    },
+    {
+      "pk": 13,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "other_american",
+        "friendly_name": "Other American"
+      }
+    },
+    {
+      "pk": 14,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "other_italian",
+        "friendly_name": "Other Italian"
+      }
+    },
+    {
+      "pk": 15,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "other_swiss",
+        "friendly_name": "Other Swiss"
+      }
+    },
+    {
+      "pk": 16,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "other_united_kingdom",
+        "friendly_name": "Other United Kingdom"
+      }
+    },
+    {
+      "pk": 17,
+      "model": "services.watch_model",
+      "fields": {
+        "name": "other",
+        "friendly_name": "Other"
+      }
+    }
+  ]

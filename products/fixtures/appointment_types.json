@@ -1,0 +1,18 @@
+[
+    {
+      "pk": 1,
+      "model": "services.appointment_type",
+      "fields": {
+        "name": "valuation",
+        "friendly_name": "Valuation"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "services.appointment_type",
+      "fields": {
+        "name": "repair",
+        "friendly_name": "Repair"
+      }
+    }
+  ]

@@ -1,0 +1,42 @@
+[
+    {
+      "pk": 1,
+      "model": "services.watch_type",
+      "fields": {
+        "name": "double_half_hunter_pocket_watch",
+        "friendly_name": "Double Half Hunter Pocket Watch"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "services.watch_type",
+      "fields": {
+        "name": "double_hunter_pocket_watch",
+        "friendly_name": "Double Hunter Pocket Watch"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "services.watch_type",
+      "fields": {
+        "name": "half_hunter_pocket_watch",
+        "friendly_name": "Half Hunter Pocket Watch"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "services.watch_type",
+      "fields": {
+        "name": "full_hunter_pocket_watch",
+        "friendly_name": "Full Hunter Pocket Watch"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "services.watch_type",
+      "fields": {
+        "name": "open_face_pocket_watch",
+        "friendly_name": "Open Face Pocket Watch"
+      }
+    }
+  ]
