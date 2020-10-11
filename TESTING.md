@@ -395,12 +395,19 @@ carried out if more resource time was available.
 
 ## Fixes
 
+- For Web pages with `Crispy-Forms` it was found that when loading
+  the Web page on mobile devices the page load to the section of
+  the Crispy Form rather than top of the page.
+
+  To fix this the onload command, `<body onLoad="window.scroll(0, 0)">`,
+  was used in the `Body` of base.html to ensure all pages loading to
+  section at top of page.
+
 Date Picker
 
-Crispy Forms loading in middle
 
-<body onLoad="window.scroll(0, 0)">
 
 env.py file
+
 
 Unfixed
