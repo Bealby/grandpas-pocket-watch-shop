@@ -403,11 +403,21 @@ carried out if more resource time was available.
   was used in the `Body` of base.html to ensure all pages loading to
   section at top of page.
 
-Date Picker
+- It was important to have a `Date Picker` for the services form so
+  that a user can pick a date and time with a calendar that is formated
+  with specific date options.
 
+  Calibrating a `Date Picker` with good UI and UX became an issue with
+  UI of the Date Picker being very un user friendly with the time aspect
+  needing to be chosen as well as the date.
 
+  It was therefore decided to create a separate model for 'Time'
+  with the two options of 09:00 and 12:00. Allowing for a better
+  user experience for the user when picking a date.
 
-env.py file
-
-
-Unfixed
+- While commiting chnages there was an error which caused the env.py
+  with Stripe and Google Map secret keys being exposed in the commits
+  in GitHub. 
+  
+  Due to this all secret keys were updated and the old secret keys
+  being made rendundant.env.py file.
