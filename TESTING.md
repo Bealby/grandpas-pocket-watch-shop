@@ -261,7 +261,82 @@ carried out if more resource time was available.
 - For smaller devices there should be a 1 row, 1 column layout with basket list
   of items first and basket total summary second.
 
-### Checkout App
+### Checkout App (Stripe/ Webhooks/ Signals)
+
+- Main title `Checkout` should be font
+  `Bershire Swash` and centered.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+
+
+
+
+- For mobile devices ensure simalar tests above are carried
+  out.
+
+**Layout**
+
+### Profile
+
+- Main title `Checkout` should be font
+  `Bershire Swash` and centered.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+
+
+
+
+- For mobile devices ensure simalar tests above are carried
+  out.
+
+  **Layout**
+
+### Services
+
+- Main title `Checkout` should be font
+  `Bershire Swash` and centered.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+
+
+
+
+- For mobile devices ensure simalar tests above are carried
+  out.
+
+  **Layout**
+
+### Contact
+
+- Main title `Checkout` should be font
+  `Bershire Swash` and centered.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+
+
+
+
+- For mobile devices ensure simalar tests above are carried
+  out.
+
+  **Layout**
+
+### About
+
+- Main title `Checkout` should be font
+  `Bershire Swash` and centered.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+
+
+
+
+- For mobile devices ensure simalar tests above are carried
+  out.
+
+**Layout**
+
+### Footer
 
 - Main title `Checkout` should be font
   `Bershire Swash` and centered.
@@ -275,9 +350,8 @@ carried out if more resource time was available.
   out.
 
 
+
 **Layout**
-
-
 
 ### Desktop Browsers
 
@@ -288,20 +362,16 @@ carried out if more resource time was available.
 
 ### Mobile and Tablet Devices
 
-- The Website was tested on tablets and a variety of
-  mobiles, including iPhone and Samsung. The results were
+- The Website was tested on 
+  mobiles, . The results were
   satisfactory for all devices and continued to achieve the
-  UX and UI goals.
+  UX and UI goals. Chrome Developing tools
 
 ### User Testing
 
-Edit Delete my profile save etc
-
-Agile link
-
 - Family and friends were asked to use the finished Website to test
   usability and comment on whether they felt it met their needs as
-  discussed in the Strategy section - [User Stories](#user-stories).
+  discussed in the Strategy section 
   - iphone 8 - Chrome: Good
   - iphone xs - Chrome: Good
   - iphone xs - Safari: Good
@@ -313,6 +383,8 @@ Agile link
   - Samsung 7 - Chrome: Good
 
 ### User Experience
+
+[User Stories](#user-stories).
 
 ## Fixes
 

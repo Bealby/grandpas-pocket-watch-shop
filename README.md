@@ -507,6 +507,8 @@ UX for the Website.
 
 ![Services](/documentation/readme/services.png/)
 
+CRUD functionality
+
 -  The `Service` page can only be accessed if you are a
   registered user and non users will be advised to register
   before hand.
