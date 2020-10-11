@@ -54,11 +54,6 @@ carried out if more resource time was available.
 
 ### Main Header
 
-- Ensure main header, for desktop devices, has the 'Logo' far left;
-  'Search Bar' center; and icons for 'Repair', 'Profile' and 'Basket',
-  postioned far right respectively.
-- Ensure for smaller devices 'Logo' decreases in size; 'Search Bar'
-  is removed; and that all respective icons decrease in size.
 - Ensure that clicking on the 'Logo' you are returned to the
   `Home` page.
 - Navigate through Website rigorously, ensuring 'Logo', when clicked,
@@ -84,6 +79,14 @@ carried out if more resource time was available.
   `rgb(220, 149, 35, 0.6)` when hover over.
 - All above tests should be carried on mobile devices with same results.
 
+**Layout**
+
+- Ensure main header, for desktop devices, has the 'Logo' far left;
+  'Search Bar' center; and icons for 'Repair', 'Profile' and 'Basket',
+  postioned far right respectively.
+- Ensure for smaller devices 'Logo' decreases in size; 'Search Bar'
+  is removed; and that all respective icons decrease in size.
+
 ### Navigation Bar
 
 - `All Products`, `Pocket Watches`, `Parts`, `Tools` and
@@ -99,21 +102,122 @@ carried out if more resource time was available.
   stands alone and display all products when clicked.
 - Ensure items in dopdown menu have font `Roboto`.
 - Click through each dropdown menu item and ensure correct page loads
-  up when iem is clicked.
-- As the screen decreases to a medium size, ensure fonts decrease in size
+  up when item is clicked.
+- For mobile devices ensure simalar tests above are carried
+  out.
+
+**Layout**
+
+- As the screen decreases to a medium size, ensure link fonts
+  decrease in size.
 - For mobile screen sizes, ensure Navigation links collapse to a toggle
   menu hamburger icon that is positioned to the far left. 
 - For mobile screen sizes ensure search bar drops down to Navigation Bar,
   positioned to the right of the toggle hamburger menu.
-- For mobile devices ensure simalar tests above are carried
-  out.
 
-### ### Home (Index) Page
+### Home (Index) Page
 
 - Main title `Grandpa's Pocket Watch Shop` should be font
-  `Bershire Swash`.
-- Sub heading `Choose a Category` should be font `Roboto`.
-  
+  `Bershire Swash` and centred.
+- Ensure orange horiztonal divider is shown underneath main header
+- Sub heading `Choose a Category` should be font `Roboto`
+  and centred.
+- Ensure there are 4 images with icon/ text links underneath
+  for `Watches`, `Parts`, `Tools`, and `Services`.
+- Ensure all images can be hovered/ clicked and directed to relevant
+  page.
+- Ensure all images fade in opacity when hovered over.
+- Ensure all icon/ text links can be hovered/ clicked and navigate
+  to correct page.
+  page.
+- Ensure all icon/ text links increase in size when hovered over.
+- Enusure for each icon text link that a `Font Awesome` icon is
+  positioned to the right. 
+
+**Layout**
+
+- For large screen sizes there should be 4 images along with their
+  icon text links underneath on the same row in 4 columns.
+- For medium screen sizes there should be 2 images along with their
+  icon text links underneath, in a 2 row, 2 column layout.
+- For small screen sizes there should be no images just icon
+  text links.
+- For small screen sizes there should be a 1 row, 1 column layout
+  for all icon text links.
+- For smaller devices the main title `Grandpa's Pocket Watch Shop`
+  should decrease in font size and remain centered.
+
+### Products App
+
+**Product Page**
+
+- Main title `Products` should be font
+  `Bershire Swash` and centred.
+- Ensure orange horiztonal divider is shown underneath main header
+- Ensure product images are consistant in size
+- Ensure underneath all product images there is `Name`, `Price`
+  `Sku` headings with relevant content in a lighter shade of grey.
+- Ensure for each product card there is a `Read More`next to `Sku`
+  number and a `Add to Basket` button that stretches width of product
+  underneath.
+- Ensure that the image, when hovered over, changes in opacity and when 
+  clicked directs you to ´Product Details` page.
+- Ensure that the `Read More`, when hovered over, changes in opacity and when 
+  clicked directs you to `Product Details` page.
+- Ensure that the `Add to Basket` button, when clicked chnages in opacity
+  and adds product to the `Basket`.
+- Ensure number changes in `Basket`to account for new product.
+- Enusure pop up window is displayed when a product is added to the 
+  basket.
+- Ensure that if a product is already in the basket, that if a user tries
+  to add the product again, a pop up window will inform user that product
+  is already in basket. 
+- Ensure when product is added to `Basket` the user is redirected to current
+  page.
+- Ensure products are always centred, whether there is 4, 3, 2 or 1 column
+  of images. 
+- For categories, `Pocket Watches`, `Parts` and `Tools` ensure that
+  `Badges`are displayed that inform user of products in selected options.
+
+**Layout**
+
+- For larger devices image cards should have a 1 row, 4 column layout.
+- As screen devices decrease in size product cards should display 1 row,
+  3 column layout; 1 row, 2 column layout; and lastly 1 row, 1 column layout
+  for mobile.
+
+**Product Detail Page**
+
+- Main title `Products Details` should be font
+  `Bershire Swash` and centred.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Ensure when product is added to `Basket` the user is redirected to current
+  page.
+- Descriptive text should be font `Roboto`.
+- Ensure that there is a `Kepp Shopping` link and an `Add to Basket`
+  button shown under product description.
+- Ensure that the `Keep shopping` link, when hovered over, changes in opacity
+  and when clicked directs you to `All Products` page.
+- Ensure that the `Add to Basket` button, when clicked chnages in opacity
+  and adds product to the `Basket`.
+- Enusure pop up window is displayed when a product is added to the 
+  basket.
+- Ensure that if a product is already in the basket, that if a user tries
+  to add the product again, a pop up window will inform user that product
+  is already in basket. 
+
+**Layout**
+- For larger devices there should be a 1 row, 2 column layout, of firstly
+  an image and secondly text.
+- For mobile devices there should be a 1 row, 1 column layout. Image and then
+  text respectively.
+
+### Basket App
+
+
+**Layout**
+
+
 
 ### Desktop Browsers
 
