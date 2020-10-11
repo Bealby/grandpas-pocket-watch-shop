@@ -132,7 +132,9 @@ carried out if more resource time was available.
   page.
 - Ensure all icon/ text links increase in size when hovered over.
 - Enusure for each icon text link that a `Font Awesome` icon is
-  positioned to the right. 
+  positioned to the right.
+- For mobile devices ensure simalar tests above are carried
+  out.
 
 **Layout**
 
@@ -153,6 +155,7 @@ carried out if more resource time was available.
 
 - Main title `Products` should be font
   `Bershire Swash` and centred.
+- Descriptive text should be font `Roboto`.
 - Ensure orange horiztonal divider is shown underneath main header
 - Ensure product images are consistant in size
 - Ensure underneath all product images there is `Name`, `Price`
@@ -178,6 +181,8 @@ carried out if more resource time was available.
   of images. 
 - For categories, `Pocket Watches`, `Parts` and `Tools` ensure that
   `Badges`are displayed that inform user of products in selected options.
+- For mobile devices ensure simalar tests above are carried
+  out.
 
 **Layout**
 
@@ -194,7 +199,7 @@ carried out if more resource time was available.
 - Ensure when product is added to `Basket` the user is redirected to current
   page.
 - Descriptive text should be font `Roboto`.
-- Ensure that there is a `Kepp Shopping` link and an `Add to Basket`
+- Ensure that there is a `Keep Shopping` link and an `Add to Basket`
   button shown under product description.
 - Ensure that the `Keep shopping` link, when hovered over, changes in opacity
   and when clicked directs you to `All Products` page.
@@ -205,6 +210,8 @@ carried out if more resource time was available.
 - Ensure that if a product is already in the basket, that if a user tries
   to add the product again, a pop up window will inform user that product
   is already in basket. 
+- For mobile devices ensure simalar tests above are carried
+  out.
 
 **Layout**
 - For larger devices there should be a 1 row, 2 column layout, of firstly
@@ -213,6 +220,59 @@ carried out if more resource time was available.
   text respectively.
 
 ### Basket App
+
+- Main title `Shopping Basket` should be font
+  `Bershire Swash` and centred.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+- For Desktop there should be a 1 row, 2 column structure. First column
+  a table thats list all items in basket, and in the second column a basket
+  total summary.
+- The first column shoul dhave table headers of `Product Name` and
+  `Item Price`.
+- Under the table headers each item in basket should show an image, 
+  product name and sku number.
+- Font should be of a light grey colour.
+- Next to each table line item there should be a delete icon. Which should
+  be black in colour and when hovered over turn red.
+- If delete icon is clicked the item from the basket should be removed and
+  a pop up message confirming removal should appear. 
+- Ensure that when basket is empty a page only displays a message
+  'Your basket is empty' and a 'Keep Shopping'.
+- In the second column there should show a summary of costs, of `Item(s) Total`,
+  `Delivery`and `Grand Total`.
+- Each summary header should show relevant costs and be adjusted when
+  items are deleted from the basket.
+- Deliveyr charge should always be 10% of item(s) total.
+- Ensure that there is a `Checkout` link and `Keep Shopping` link underneath
+  the summary of costs.
+- Ensure that the `Checkout` button has white text over a black backgrouud.
+- Ensure that the `Checkout` button, when clicked changes in opacity
+  directs user to `Checkout´page.
+- Ensure that the `Keep shopping` link, when hovered over, changes in opacity
+  and when clicked directs you to `All Products` page.
+- Flood the 'Basket` with products and ensure product items and their
+  totals are correct and look clean as a list on page.
+- For mobile devices ensure simalar tests above are carried
+  out.
+
+**Layout**
+
+- For smaller devices there should be a 1 row, 1 column layout with basket list
+  of items first and basket total summary second.
+
+### Checkout App
+
+- Main title `Checkout` should be font
+  `Bershire Swash` and centered.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+
+
+
+
+- For mobile devices ensure simalar tests above are carried
+  out.
 
 
 **Layout**
@@ -257,3 +317,5 @@ Date Picker
 Crispy Forms loading in middle
 
 <body onLoad="window.scroll(0, 0)">
+
+env.py file
