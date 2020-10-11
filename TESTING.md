@@ -395,3 +395,5 @@ Crispy Forms loading in middle
 <body onLoad="window.scroll(0, 0)">
 
 env.py file
+
+Unfixed

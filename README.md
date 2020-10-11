@@ -819,9 +819,6 @@ The following technologies were used in this project:
   modified and extended to create new features and apps tailored
   towards the Websites requirements.
 
-- The Image Overlay feature for the `Home` pages icons was inspired by
-  [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity).
-
 - The contact form was guided by a tutorial at
   [Learn Django](https://learndjango.com/tutorials/django-email-contact-form).
 
@@ -833,7 +830,3 @@ The following technologies were used in this project:
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
 
   - https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker
-
-there's nothing in your basket at the moment
-
-javascript calenar
