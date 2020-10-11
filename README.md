@@ -352,14 +352,15 @@ UX for the Website.
 
 ![Home Desktop](/documentation/readme/home-dt.png/)
 
-- The `Home` page will display 4 images of categories that
-  when hovered over will display the category names `Watches`,
-  `Parts`, `Tools` and `Services` respectively. All of which
-  are links that once clicked will navigate the user to the
-  relevant pages accordingly.
+- The `Home` page will display 4 images of categories with
+  text icons,`Watches`, `Parts`, `Tools` and `Services` respectively. 
+  Both the images and text icons can be hovered over and when clicked
+  directed to the rlevant links accordingly.
 
-- For smaller devices images are removed and replaced with
-  icons for better UI and UX on mobile
+- For large devices layout will invole one 1 row of category
+  images; for medium 2 rows and for smaller devices images
+  are removed and replaced with icons for better UI and UX
+  on mobile
   devices.
 
 - The image feature brings a greater visual
