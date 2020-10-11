@@ -70,10 +70,10 @@ carried out if more resource time was available.
 - Ensure number under 'Basket' icon, is `0` and color `rgb(220, 149, 35, 1)`.
 - Ensure number under 'Basket' icon, accumulates the total each time a
   'Product' is added and displays number accordingly.
-- When search icon is click with empty field user is redirected to `Products``
+- When search icon is click with empty field user is redirected to `Products`
   page and error message is displayed.
-- Ensure search function works and searches ar emade in 'Product' details
-  and 'Product' description.
+- Ensure search function work with searches made in 'Product' details
+  and 'Product' description 
 - Test various product category searches.
 - Ensure all three icons turn from orange (`rgb(220, 149, 35, 1)`) to
   `rgb(220, 149, 35, 0.6)` when hover over.
@@ -294,6 +294,10 @@ carried out if more resource time was available.
   UX and UI goals.
 
 ### User Testing
+
+Edit Delete my profile save etc
+
+Agile link
 
 - Family and friends were asked to use the finished Website to test
   usability and comment on whether they felt it met their needs as

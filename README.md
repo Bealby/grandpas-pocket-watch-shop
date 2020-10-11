@@ -279,6 +279,11 @@ more beneficial for both the user and owner, as it would
 potentially create extra business and profit for Grandpa's
 Pocket Watch Shop.
 
+To allow for super users to Add/ Edit/ Remove products directly
+from the Website was also not instigated as this is not appropriate
+and could be a securuty risk. Instead Add/ Edit, Remove can only be
+carried out in Admin.
+
 ## Features
 
 Much of the layout of the Website used the Bootstrap Grid
