@@ -23,11 +23,16 @@ body{
     padding-top:6rem;
 }
 
-/*-----INDEX.html - Spacing of image icons for smaller devices-----*/
+/*-----INDEX.html - Spacing of image icons for smaller/ medium devices-----*/
 
 .index-margin-bottom{
     margin-bottom: 2rem;
     }
+
+.icon-margin-bottom{
+    margin-bottom: 2rem;
+    }
+
 
 /*-----Navigation Bar-----*/
 
@@ -676,6 +681,13 @@ select option[value=""]{
 /*-----Increase bottom-margin for images in index.html for better spacing on mobile devices-----*/
 @media (min-width: 767px) {
 .index-margin-bottom{
+    margin-bottom: 0rem;
+    }
+}
+
+/*-----Increase bottom-margin for icons in medium devices for better spacing between image and icons-----*/
+@media (min-width: 1199px) {
+.icon-margin-bottom{
     margin-bottom: 0rem;
     }
 }
