@@ -86,26 +86,34 @@ carried out if more resource time was available.
 
 ### Navigation Bar
 
-- Links `All Products`, `Pocket Watches`, `Parts`, `Tools` and
-  `Services`should be displayed in Navigation Bar.
+- `All Products`, `Pocket Watches`, `Parts`, `Tools` and
+  `Services` links should be displayed in Navigation Bar.
 - Ensure headers in naviagation bar have font `Bershire Swash`.
+- The Navigation bar should be centered in Medium and higher
+  devices.
 - All Navigation links should, when hovered over, turn orange 
   (`rgb(220, 149, 35, 1)`).
 - Each link when clicked should display a dropdown menu of relevant
-  option assigned to `Pocket Watches`, `Parts`, `Tools` and
-  `Services`. Except for `All Products` which should genrate a page of
-  all products.
+  items assigned to `Pocket Watches`, `Parts`, `Tools` and
+  `Services` respectively. Except for `All Products` which
+  stands alone and display all products when clicked.
 - Ensure items in dopdown menu have font `Roboto`.
-- Click through each dropdown menu items and ensure correct page loads
-  up when itme is clicked.
-- As screen decreases to a medium size, ensure fonts decrease in size
-- For mobile screen sizes ensure Navigation links collapse to a toggle
+- Click through each dropdown menu item and ensure correct page loads
+  up when iem is clicked.
+- As the screen decreases to a medium size, ensure fonts decrease in size
+- For mobile screen sizes, ensure Navigation links collapse to a toggle
   menu hamburger icon that is positioned to the far left. 
 - For mobile screen sizes ensure search bar drops down to Navigation Bar,
   positioned to the right of the toggle hamburger menu.
-- For mobile devices ensure test are carried out again as above.
+- For mobile devices ensure simalar tests above are carried
+  out.
 
 ### ### Home (Index) Page
+
+- Main title `Grandpa's Pocket Watch Shop` should be font
+  `Bershire Swash`.
+- Sub heading `Choose a Category` should be font `Roboto`.
+  
 
 ### Desktop Browsers
 
