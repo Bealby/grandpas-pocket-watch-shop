@@ -411,10 +411,14 @@ a separate page
 - Ensure each required field display error messgae when not filled in
 - Complete form details, and each time leave a required filled empty
   and try and `UPDATE INFORMATIN`. An error messages should be displayed
-  each time informing user field which is missing. 
+  each time informing user the field which is missing infomration.
 - Fill in all fields correctly and 'UPDATE INFORMATIN`
-- Ensure form details saved are used as default information for
-  Payment Details, Contact and Services.
+- Ensure profile form details saved are used as default information for
+  Payment Details.
+- Ensure profile form details saved are used as default information for
+  nme and email for `Contact` and `Servkces`form.
+- Repeat different changges in Profile information and ensure cnages are
+  updared accodinkg6 in forms for `Checkout`, `Contact` and `Services` 
 - For mobile devices ensure simalar tests above are carried
   out.
 
@@ -439,7 +443,6 @@ a separate page
 
 
 
-
 - For mobile devices ensure simalar tests above are carried
   out.
 
@@ -447,7 +450,7 @@ a separate page
 
 ### Contact
 
-- Main title `Checkout` should be font
+- Main title `Contact` should be font
   `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
