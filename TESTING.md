@@ -354,23 +354,81 @@ carried out if more resource time was available.
   with field headers on the left and details on the right for larger devices
   that are tabulated in 1 column for mobile devices.
 - Ensure order number condenses to a scrolling feature for mobile devices.
+- For mobile devices ensure simalar tests above are carried
+  out.
  
 ### Profile
 
-- Main title `Checkout` should be font
+- Main title `Profile` should be font
   `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
-
-
-
-
+- `Default Delivery Information` should include profile field information
+- Under profile field informatio there should be a `Update Informaiton`
+  icon and a `Keep Shopping` link.
+- `Update Informaiton` icon should be of white font over a black backgorund,
+   which when hovered over changes opacity
+- `Keep Shopping` link should be of black font and underlineds,
+   which when hovered over changes opacity
+- `Order Summary` information should contain headers `Order`, `Date`, `Items`
+   and `Total`.
+-  Under each heading should be correct 'Order' information.
+-  Order number under `Order` heading should be contracted to 6 charators.
+- Order number should be clickable and open up the confirmation detail in 
+a separate page
+- When oder number is clicked a pop up infomraiton window should appear
+  with a message that this is a past order.
+- ensure past order details are correct
+- At the bottom of the past order confirmation there should be an icon
+  `BACK TO MY PROFILE`, that is orange in color and with white font, and
+  when hovered over chnages opacity.
+- `Appointments` information should contain headers `Appointment`,
+  `Model`, `Type`, `Date` and `Time`.
+-  There also should be 2 icons for 'Edit' and Delete'
+-  Under each heading should be correct 'Appointment' information.
+- The 'Delete' icon when hovered over should turn red
+- when the 'Delete' icon is clicked the appointment should be removed
+- A mesage confirming delete of appoontment should appear
+- Whe the 'Edit' icon is hover over it shold chnage in opacity
+- when the 'Edit' icon is clicked a new page should open with prefilled
+  information from previous booked appoitment. 
+- At bottom of appointment form there should be a `UPDATE APPOINTMENT``
+  icon with white font against an orange background.
+- Edit detils in appointment form and click ÙPDATE APPOINTMENT'. A confirmation
+  page should open up with confirmaiton of updated appointment
+- Ensure message pops up with confirmation of updates appointment
+- Enusre email with updated appointment information id recvioved.
+- In `My Profile´Ensure appointment is visable and check to see if updated derails
+  are correct.
+- Flood the `My Profile`page with order and appoitnemntand ensure max height kicks information
+  and is display evenig oin page at level with delivery informaiton.
 - For mobile devices ensure simalar tests above are carried
   out.
 
-**Form**
+**Default Delivery Information Form**
+
+- Ensure all fields have correct placeholder information.
+- Ensure each required field display error messgae when not filled in
+- Complete form details, and each time leave a required filled empty
+  and try and `UPDATE INFORMATIN`. An error messages should be displayed
+  each time informing user field which is missing. 
+- Fill in all fields correctly and 'UPDATE INFORMATIN`
+- Ensure form details saved are used as default information for
+  Payment Details, Contact and Services.
+- For mobile devices ensure simalar tests above are carried
+  out.
 
 **Layout**
+
+- The `Profile`page should be split into 2 columns. The first column should
+  have the `Default Delivery Information` and the second column including the
+  `Order History` and `Appointments`.
+- For Mobile devices there should only be 1 column in order of
+  `Default Delivery Information`, `Order History` and `Appointments`.
+- For mobile devices the `Order History` should only incoude the headers
+  `Order Number` and `Total`
+- For mobile devices the `Order History` should only incoude the headers
+  `Date` and `Time`, as well as 'Edit' and `Delete' icons
 
 ### Services
 
@@ -430,7 +488,18 @@ carried out if more resource time was available.
 - For mobile devices ensure simalar tests above are carried
   out.
 
+### Allauth
 
+- Main title `Checkout` should be font
+  `Berkshire Swash` and centered.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+
+
+
+
+- For mobile devices ensure simalar tests above are carried
+  out.
 
 **Layout**
 
