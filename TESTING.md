@@ -562,7 +562,7 @@
 
 #### Register Users
 
-- Main title `Visit our Shop` should be font
+- Main title `Visit our Shop` should be font in
   `Berkshire Swash` and centered.
 - Ensure orange horizontal divider is shown underneath
   main header.
@@ -570,17 +570,17 @@
 - Ensure header `For a Repair or Valuation!` is
   centered with font `Berkshire Swash`.
 - Under header there should be 2 columns with 2 icons
-  for `Repair` and `Valuation``
+  for `Repair` and `Valuation`.
 - Under each icons ensure details of services for each
   is correct
 - Ensure image is directly underneath and responsive
 - Underneath image ensure `Book an Appointment` header
   has a flashing orange double chevron pointing to the
-  right of the Service appointment form
-- ensure Appointment Form includes all correct fields
-  and has a `CONFIRM APPOINTMENT` button with small
-  'tick 'box' icon.
-- Ensure `CONFIRM APPOINTMENT` button has white font
+  right towards the Service Appointment form.
+- Ensure Appointment Form includes all correct fields
+  and has a `CONFIRM APPOINTMENT` link with a small
+  'tick' box icon.
+- Ensure `CONFIRM APPOINTMENT` link has white font
   with orange background and when hovered over changes
   opacity.
 - For mobile devices ensure similar tests above are
@@ -590,52 +590,54 @@
 
 - Ensure the `Name` and `Email` fields are prefilled
   with registered users details.
-- ensure dropdown options for `Appointment Type`,
+- Ensure dropdown options for `Appointment Type`,
   `Watch Model`, `Watch Type` and `Time` are correct
   and show all options.
-- Ensure Date field display current date only.
-- For `Date` field ensure user cannot type a date
+- Ensure Date field displays current date only.
+- For `Date` field ensure users cannot type a date
   manually. 
-- For `Date` field ensure user cannot select a date
-  within 5 days of current date in Date Picker.
-- Ensure Date picker month can be selected
-- Ensure Date picker year can be selected.
-- Ensure all field are mandatory
+- For `Date` field ensure users cannot select a date
+  within 5 days of current date in calendar.
+- Ensure calendar month can be selected.
+- Ensure calendar year can be selected.
+- Ensure all field are mandatory.
 - Test required fields by leaving blank while other
   fields are inputted and try to confirm appointment.
 - Ensure error messages appear for user when fields
   are missing or not filled in correctly.
-- Fill all fields of form and click confirm appointment,
-  and ensure new page is opened up to confirm appointment
-  is booked.
 - Ensure `Email` cannot be filled out without correct
   `@` sign and `.com`.
+- Fill all fields of form and click confirm 
+  appointment, and ensure new page is opened up to
+  confirm appointment is booked.
 - Ensure pop up window displays message appointment
   is booked. 
 - Ensure email is sent to user with correct appointment
   booking details.
-- Ensure `BACK TO GRANDPA's SHOP` icon is displayed
+- Ensure `BACK TO GRANDPA's SHOP` link is displayed
   under confirmation success page.
-- Ensure `BACK TO GRANDPA's SHOP` icon has white font
+- Ensure `BACK TO GRANDPA's SHOP` link has white font
   against a black background and when hovered over
   changes opacity.
 - Ensure `BACK TO GRANDPA's SHOP` directs user back to
-  home
-- For mobile devices ensure similar tests above are carried
-  out.
+  `Home`
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Layout**
-- The `Services` page should have a 2 column structure for
-  deskto and a 1 column structure for mobile.
-- For Desktop the first column should display the detail for
-  the appointment and the second column the appointment form.
-- For mobile the appointment details will be displayed first
-  and then appointment form
-- Underneath image ensure `Book an Appointment` header has a
-  flashing orange double chevron pointing downwards towards
-  Service appointment form
-- Ensure main title `Visit our Shop` reduces in size for smaller
-  devices
+- The `Services` page should have a 2 column structure
+  for desktop and a 1 column structure for mobile.
+- For Desktop the first column should display the detail
+  for the appointment and the second column the
+  appointment form.
+- For mobile screen sizes the appointment details
+  will be displayed first and then the appointment
+  form.
+- Underneath the image ensure `Book an Appointment`
+  header has a flashing orange double chevron pointing
+  downwards towards the appointment form.
+- Ensure main title `Visit our Shop` reduces in size for
+  smaller devices.
 
 ### Contact
 
@@ -643,58 +645,65 @@
 
 - Main title `Contact` should be font
   `Berkshire Swash` and centered.
-- Ensure orange horizontal divider is shown underneath main header.
+- Ensure orange horizontal divider is shown underneath
+  main header.
 - Descriptive text should be font `Roboto`.
-- Ensure address details are correct
-- Ensure logo is displayed with address details Underneath
-- Ensue icons are shown for phone number and email 
-- Ensure Google Maps is rendered on page
-- Ensure Google Maps has a marker displayed of correct location
-- Ensure Google Maps marker, up click opens up info window
-- Ensure info window displays logo and correct opening times.
-- Ensure Contact form renders on page
-- Ensure contact form has the header `GET IN TOUCH` along with
-  icon. 
-- Ensure contact form has three fields with correct placeholder
-  names.
-- Ensure `SEND´ icon is displayed at bottom of form with icon.
-- Ensure send icon has white font over an orange background
-  and when hovered over changed opacity.
-- For mobile devices ensure similar tests above are carried
-  out.
-- For mobile devices ensure similar tests above are carried
-  out.
+- Ensure address details are correct.
+- Ensure logo is displayed with address details
+  underneath.
+- Ensure icons are shown for phone number and email.
+- Ensure Google Map is rendered on page
+- Ensure Google Map has a marker displayed of correct
+  location.
+- Ensure Google Map marker, upon click, opens up info
+  window.
+- Ensure info window displays logo and correct opening
+  times.
+- Ensure Contact form renders on page.
+- Ensure contact form has the header `GET IN TOUCH`
+  along with icon. 
+- Ensure contact form has three fields with correct
+  placeholder names.
+- Ensure `SEND´ link is displayed at bottom of form
+  with icon.
+- Ensure send icon has white font over an orange
+  background and when hovered over changes opacity.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Contact Form**
 
-- Ensure the `Name` and `Email` fields are prefilled with
-  registered users details.
-- Test required fields by leaving blank while other fields
-  are inputted and try to send.
-- Ensure `Email` cannot be filled out without correct `@` sign and
-  `.com`.
-- Ensure error messages appear for user when fields are missing
-  or not filled in correctly.
-- Fill in contact form and click send. Users should then be
-  redirected to confirmation email page.
-- Ensure pop-up windows appears with message confirming email section
-- Check that email has been received
-- Ensure `Keep Shopping` link is displayed under confirmation
-  success page.
-- Ensure `Keep Shopping` link has black font and is underlined,
-  and when hovered over changes opacity.
-- Ensure `Keep Shopping` directs user back to product page
-- For mobile devices ensure similar tests above are carried
-  out.
+- Ensure the `Name` and `Email` fields are prefilled
+  with registered users details.
+- Test required fields by leaving blank while other
+  fields are inputted and try to send.
+- Ensure `Email` cannot be filled out without correct
+  `@` sign and `.com`.
+- Ensure error messages appear for user when fields
+  are missing or not filled in correctly.
+- Fill in contact form and click send. Users should
+  then be redirected to a confirmation email page.
+- Ensure pop-up windows appears with message confirming
+  email sent.
+- Check that email has been sent.
+- Ensure `Keep Shopping` link is displayed under
+  confirmation success page.
+- Ensure `Keep Shopping` link has black font and is
+  underlined, and when hovered over changes opacity.
+- Ensure `Keep Shopping` navigates user back to
+  `Product` page
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Layout**
 
-- The `Contact` page should have a 2 column structure for desktop
-    and a 1 column structure for mobile.
-- For Desktop the first column should display address and map content and then
-  the second column the contact form.
-- For mobile the address and map will be displayed first and then 
-  contact form
+- The `Contact` page should have a 2 column structure
+  for desktop and a 1 column structure for mobile.
+- For Desktop the first column should display address
+  and map content and then the second column the contact
+  form.
+- For mobile the address and map will be displayed first
+  and then ther contact form
 
 ### About
 
@@ -702,10 +711,11 @@
 
 - Main title `About` should be font
   `Berkshire Swash` and centered.
-- Ensure orange horizontal divider is shown underneath main header.
+- Ensure orange horizontal divider is shown underneath
+  main header.
 - Descriptive text should be font `Roboto`.
-- Ensure image is centred on page
-- Ensure content is centred on page
+- Ensure image is centered on page.
+- Ensure content is centered on page.
 - For smaller screen sizes text should be justified.
 
 ### Footer
@@ -713,63 +723,72 @@
 #### Register & Non Registered Users
 
 - Ensure `Basket` icon, `About Us`, `Contact` links are
-  displayed on the left of `Footer`.
-- Ensure `Copyright` is displayed right on `Footer``
-- Ensure `Footer` background colour is `rgb(186, 220, 192, 1)`
-- Ensure `Basket` icon, `About Us`, `Contact` upon hover
-  and click navigate use to correct pages.
-- Ensure links change from black to Orange `rgb(220, 149, 35, 0.6)``
-  when hovered over.¨
-- Ensure on mobile screen sizes `Basket` icon, `About Us`, `Contact`
-  are centred in one row. While `Copyright` text is centred in
-  row underneath
-- For mobile devices ensure similar tests above are carried
-  out.
+  displayed on the left in `Footer`.
+- Ensure `Copyright` is displayed on right in `Footer`
+- Ensure `Footer` background colour is
+  `rgb(186, 220, 192, 1)`.
+- Ensure `Basket` icon, `About Us`, `Contact`, when 
+  clicked navigate the user to the correct page.
+- Ensure links change from black to Orange
+  (`rgb(220, 149, 35, 0.6)`) when hovered over.
+- Ensure on mobile screen sizes `Basket` icon,
+  `About Us`, `Contact` are centred in one row.
+  While `Copyright` text is centered in row underneath.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 ### Allauth - (User Authentication)
 
-- Ensure that the standard format for authentication pages
-  have a main header font `Berkshire Swash` and centered.
-- Ensure that the standard format for authentication pages
-  have a orange horizontal divider underneath main header.
+- Ensure that the standard format for authentication
+  pages have a main header font `Berkshire Swash` and
+  centered.
+- Ensure that the standard format for authentication
+  pages have a orange horizontal divider underneath
+  main header.
 - Descriptive text should be font `Roboto`.
-- Ensure that ´Primary` buttons are of white text with 
-  black background, that when hovered over change opacity.
+- Ensure that ´Primary` buttons are of white text
+  with black background, that when hovered over change
+  opacity.
 - Ensure that ´secondary` links are of black text and
   underlined and when hovered over change opacity.
 - Text should be centered on all screen sizes.
-- Users while logged in on Website can click profile to
-  `Signout` and be redirected to `Sign Out` page .
-- Ensure when user click `Sign Out´ that you are directed back
-  `Home` page and a pop up message confirms you have signed out. 
-- Ensure registered user can sign in with correct details
-  and that pop up window confirms the user is signed in.
-- Ensure that registered user, when typing is user details
+- Users while logged in on Website can click profile
+  to `Signout` and be redirected to `Sign Out` page .
+- Ensure when user click `Sign Out´ that you are
+  directed back `Home` page and a pop up message
+  confirms you have signed out. 
+- Ensure registered user can sign in with correct
+  details and that pop up window confirms the user is
+  signed in.
+- Ensure that registered user, when typing is user
+  details
   and password is notified if details are incorrect
-- Type incorrect user name but correct password. User should be
-  informed of error message
-- Type incorrect password but correct user name. User should be
-  informed of error message
-- Check `Forgot Password` functionality and ensure new password is sent to 
-  email and can be received and confirmed by user.
-- Type a password already used when asked to input new password. Error message
-  with guiding info should appear. 
+- Type incorrect user name but correct password. User
+  should be informed of error message
+- Type incorrect password but correct user name. User
+  should be informed of error message
+- Check `Forgot Password` functionality and ensure new
+  password is sent to email and can be received and
+  confirmed by user.
+- Type a password already used when asked to input new
+  password. Error message with guiding info should appear. 
 - Ensure that new user can register in `Sign Up` form.
-- As a potential new user type inconsistent email address. Error message
-  with guiding info should appear. 
+- As a potential new user type inconsistent email address.
+  Error message with guiding info should appear. 
 - Type in a user name that already exist. Error message
   with guiding info should appear. 
 - Type a short and easy password. Error message
   with guiding info should appear. 
-- Type a password already
-- As a potential new user type inconsistent passwords. Error message
-  with guiding info should appear. 
-- For mobile devices ensure similar tests above are carried
-  out.
+- Type a password already.
+- As a potential new user type inconsistent passwords.
+  Error message with guiding info should appear. 
+- For mobile devices ensure similar tests above are
+  carried out.
 
 ### Toasts
 
-- Ensure all toast message windows correctly appear for all error signals with correct message.
+- Ensure all toast message windows correctly appear
+  for all error signals with correct message.
 - Ensure window is viewable for only a data-delay=10000.
 - Ensure Toast window can be manually closed.
 
