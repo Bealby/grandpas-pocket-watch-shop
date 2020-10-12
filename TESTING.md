@@ -61,6 +61,8 @@ carried out if more resource time was available.
 
 ### Main Header
 
+## Register & Non Registered Users
+
 - Ensure that clicking on the 'Logo' you are returned to the
   `Home` page.
 - Navigate through Website rigorously, ensuring 'Logo', when clicked,
@@ -96,6 +98,8 @@ carried out if more resource time was available.
 
 ### Navigation Bar
 
+## Register & Non Registered Users
+
 - `All Products`, `Pocket Watches`, `Parts`, `Tools` and
   `Services` links should be displayed in Navigation Bar.
 - Ensure headers in naviagation bar have font `Bershire Swash`.
@@ -123,6 +127,8 @@ carried out if more resource time was available.
   positioned to the right of the toggle hamburger menu.
 
 ### Home (Index) Page
+
+## Register & Non Registered Users
 
 - Main title `Grandpa's Pocket Watch Shop` should be font
   `Berkshire Swash` and centred.
@@ -157,6 +163,8 @@ carried out if more resource time was available.
   should decrease in font size and remain centered.
 
 ### Products App
+
+## Register & Non Registered Users
 
 **Product Page**
 
@@ -228,6 +236,8 @@ carried out if more resource time was available.
 
 ### Basket App
 
+## Register & Non Registered Users
+
 - Main title `Shopping Basket` should be font
   `Berkshire Swash` and centred.
 - Ensure orange horiztonal divider is shown underneath main header.
@@ -271,6 +281,8 @@ carried out if more resource time was available.
 
 ### Checkout App (Stripe/ Webhooks/ Signals)
 
+## Register & Non Registered Users
+
 - Main title `Checkout` should be font
   `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
@@ -313,7 +325,8 @@ carried out if more resource time was available.
 - Ensure `Email` can not be filled out wiht out correct `@` sign and
   `.com`.
 - Type incorrect payment details and ensure red error message appears
-- Fill in all fields correctly and process payment. 
+- Fill in all fields correctly and process payment using card number
+  `4242 4242 4242 4242 4242 4242 424` 
 - Ensure there is a `Spinning Wheel` over a green background when
   payment is being processed. 
 - Once payment is processed ensure user is redirected to a
@@ -339,7 +352,7 @@ carried out if more resource time was available.
   Order should still get placed.
 - When clicking `Complete Payment`, during load spinning, close page.
   Order should still get placed.
-- For each `Complete Payment` access Stripe and it's Webhok events and
+- For each `Complete Payment` access Stripe and it's Webhook events and
   ensure all payment Intents are successfull.
 - For mobile devices ensure simalar tests above are carried
   out.
@@ -358,6 +371,8 @@ carried out if more resource time was available.
   out.
  
 ### Profile
+
+## Register Users
 
 - Main title `Profile` should be font
   `Berkshire Swash` and centered.
@@ -422,6 +437,9 @@ a separate page
 - For mobile devices ensure simalar tests above are carried
   out.
 
+**Edit Appointment Form**
+- Please refer to test run in ´Services´ App tesrt ...link???
+
 **Layout**
 
 - The `Profile`page should be split into 2 columns. The first column should
@@ -436,17 +454,47 @@ a separate page
 
 ### Services
 
-- Main title `Checkout` should be font
+## Register Users
+
+- Main title `Visit our Shop` should be font
   `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
-
-
-
+- Ensure header `For a Repair or Valuation!` is centered with
+  font `Berkshire Swash`.
+- Under header there should be 2 columns with 2 icons for
+  `Repair` and `Valuation``
+- Under each icons ensure details of services for each is correct
+- Ensure image is directly underneath and responsive
+- Underneath image ensure `Book an Appointment` header has a flashing
+  orange double chevron pointing to the right of the Service appointment form
+- ensure Appointment Form includes all correct fields and has a
+  `CONFIRM APPOINTMENT` button with small 'tick 'box' icon.
+- Ensure `CONFIRM APPOINTMENT` button has white font with orange
+  background and when hovered over chnages opacity.
 - For mobile devices ensure simalar tests above are carried
   out.
 
-  **Layout**
+**Book an Appointment Form**
+
+- Enusre the `Name` and Email`fields are prefilled with
+  registered users details.
+- ensure dropdown options for `Appointment Type`, `Watch Model`
+  `Watch Type` and `Time` are correct and show all opions.
+- Ensure Date field display current date only
+- For `Date` field try and type
+
+
+
+**Layout**
+- The `Services` page should have a 2 column structure for desktop
+    and a 1 column srtructure for mobile.
+- For Desktop the first column should displkay the detail for the appoitnment 
+  and the second column the appointment form.
+- For mobile the appoinmemtn detils will be displayed forst and then appointment
+  form
+- Underneath image ensure `Book an Appointment` header has a flashing
+  orange double chevron pointing pojnting downwards towardse Service appointment form
 
 ### Contact
 
