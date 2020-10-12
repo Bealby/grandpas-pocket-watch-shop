@@ -108,7 +108,7 @@
   `(rgb(220, 149, 35, 0.6)` when hovered over.
 - All above tests should be carried on mobile devices.
 
-#### Layout
+#### Main Header Layout
 
 - Ensure main header, for desktop devices, has the
   'Logo' far left; 'Search Bar' center; and icons
@@ -140,7 +140,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-#### Layout
+#### Navigation Bar Layout
 
 - As the screen decreases to a medium size, ensure
   link fonts decrease in size.
@@ -175,7 +175,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-#### Layout
+#### Home Layout
 
 - For large screen sizes there should be 4 images
   along with their icon text links underneath on the
@@ -233,7 +233,7 @@
 - For mobile devices ensure similar tests above are carried
   out.
 
-#### Layout
+#### Products Layout
 
 - For larger devices image cards should have a 1 row,
   4 column layout.
@@ -267,7 +267,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-#### Layout
+#### Product Degtail Layout
 
 - For larger devices there should be a 1 row, 2 column
   layout, of firstly an image and secondly text.
@@ -321,7 +321,7 @@
 - For mobile devices ensure similar tests above are carried
   out.
 
-#### Layout
+#### Basket Layout
 
 - For smaller devices there should be a 1 column layout
   with basket list of items first and basket total summary
@@ -419,7 +419,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-#### Layout
+#### Checkout Layout
 
 - Ensure Checkout App has a 1 row, 2 column layout
   that decreases to 1 column on mobile devices, with
@@ -529,7 +529,7 @@
   the - [Book an Appointment Form](#services) for
   Services
 
-#### Layout
+#### Profile Layout
 
 - The `Profile` page should be split into 2 columns.
   The first column should have the
@@ -612,7 +612,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-#### Layout
+#### Services Layout
 
 - The `Services` page should have a 2 column structure
   for desktop and a 1 column structure for mobile.
@@ -682,7 +682,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-#### Layout
+#### Contact Layout
 
 - The `Contact` page should have a 2 column structure
   for desktop and a 1 column structure for mobile.
