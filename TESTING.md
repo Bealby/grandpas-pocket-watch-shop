@@ -133,6 +133,8 @@
   would include tests on `models.py`, if resource
   time would allow it.
 
+[Go to top](#contents)
+
 ## Non-Automated Testing
 
 ### Main Header
@@ -181,6 +183,8 @@
   size; 'Search Bar' is removed; and that all
   respective icons decrease in size.
 
+[Go to top](#contents)
+
 ### Navigation Bar
 
 (Registered & Non Registered Users)
@@ -215,6 +219,8 @@
 - For mobile screen sizes ensure search bar drops
   down to Navigation Bar, positioned to the right
   of the toggle hamburger menu.
+
+[Go to top](#contents)
 
 ### Home Page
 
@@ -257,6 +263,8 @@
 - For smaller devices the main title
   `Grandpa's Pocket Watch Shop` should decrease in
   font size and remain centered.
+
+[Go to top](#contents)
 
 ### Products App
 
@@ -343,6 +351,8 @@
 - For mobile devices there should be a 1 column layout.
   Image and then text respectively.
 
+[Go to top](#contents)
+
 ### Basket App
 
 (Register & Non Registered Users)
@@ -397,6 +407,8 @@
 - For smaller devices there should be a 1 column layout
   with basket list of items first and basket total summary
   second.
+
+[Go to top](#contents)
 
 ### Checkout App
 
@@ -506,6 +518,8 @@
   for mobile devices.
 - For mobile devices ensure similar tests above are carried
   out.
+
+[Go to top](#contents)
 
 ### Profile App
 
@@ -620,6 +634,8 @@
   include the headers `Date` and `Time`, as well as
   the 'Edit' and `Delete' icons
 
+[Go to top](#contents)
+
 ### Services App
 
 (Registered Users)
@@ -705,6 +721,8 @@
 - Ensure main title `Visit our Shop` reduces in size for
   smaller devices.
 
+[Go to top](#contents)
+
 ### Contact App
 
 (Registered & Non Registered Users)
@@ -771,6 +789,8 @@
 - For mobile the address and map will be displayed first
   and then ther contact form
 
+[Go to top](#contents)
+
 ### About App
 
 (Registered & Non Registered Users)
@@ -783,6 +803,8 @@
 - Ensure image is centered on page.
 - Ensure content is centered on page.
 - For smaller screen sizes text should be justified.
+
+[Go to top](#contents)
 
 ### Footer
 
@@ -802,6 +824,8 @@
   While `Copyright` text is centered in row underneath.
 - For mobile devices ensure similar tests above are
   carried out.
+
+[Go to top](#contents)
 
 ### Allauth
 
@@ -851,6 +875,8 @@
   Error message with guiding info should appear.
 - For mobile devices ensure similar tests above are
   carried out.
+
+[Go to top](#contents)
 
 ### Toasts
 
@@ -904,6 +930,8 @@
 
 [Agile User Stories](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
+[Go to top](#contents)
+
 ## Fixes
 
 - For Web pages with `Crispy-Forms` it was found that when loading
@@ -934,3 +962,5 @@
   being made rendundant.env.py file.
 
 ## Not Fixed
+
+[Go to top](#contents)
