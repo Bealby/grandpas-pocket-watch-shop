@@ -36,7 +36,11 @@
                         <tbody>
                             <tr>
                                 <th scope="row">
+                                    {% if item.product.image %}
                                     <img class="card-img-top img-fluid" id="image-cards" style="width: 10rem;" src="{{ item.product.image.url }}" alt="{{ product.name }}" />
+                                    {% else %}
+                                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" />
+                                    {% endif %}
                                 </th>
                                 <th scope="row">
                                     <p class="mb-1">{{ item.product.name }}</p>

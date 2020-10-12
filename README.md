@@ -648,7 +648,7 @@ CRUD functionality
 - If a user decides to edit an appointment they will be redirected
   to an edit appointment page where previous details will be defaulted on
   the form. Any changes made will then be confirmed and a new updated
-  appointment form sent to their email.
+  appointment form sent to their email. CRUD
 
 - In the first column of the page the delivery information is
   shown. Once these fields are filled in correctly they will be used
