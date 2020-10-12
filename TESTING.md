@@ -549,9 +549,9 @@
   `Default Delivery Information` and the second column
   including the `Order History` and `Appointments`
   details.
-- For Mobile devices there should only be 1 column with 
-  `Default Delivery Information` first, then `Order History`
-  and `Appointments`.
+- For Mobile devices there should only be 1 column
+  with  `Default Delivery Information` first,
+  then `Order History` and `Appointments`.
 - For mobile devices the `Order History` should only
   include the headers `Order Number` and `Total`.
 - For mobile devices the `Order History` should only
@@ -806,7 +806,7 @@ Helped test defensive design and allauth app
 
 ### User Experience
 
-[User Stories](#user-stories).
+[Agile User Stories](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
 ## Fixes
 
