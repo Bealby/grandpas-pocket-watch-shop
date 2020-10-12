@@ -477,7 +477,7 @@ a separate page
 
 **Book an Appointment Form**
 
-- Enusre the `Name` and Email`fields are prefilled with
+- Enusre the `Name` and `Email` fields are prefilled with
   registered users details.
 - ensure dropdown options for `Appointment Type`, `Watch Model`
   `Watch Type` and `Time` are correct and show all opions.
@@ -494,6 +494,8 @@ a separate page
   or not filled in correctly.
 - Fill all fields of form and click confirm appointment, and ensure
   new page is opened up to confirm appointment is booked.
+- Ensure `Email` can not be filled out wiht out correct `@` sign and
+  `.com`.
 - Ensure pop up window displays message appointment is booked. 
 - Ensure email is sent to user with correct appoingment booking 
   details.
@@ -502,6 +504,8 @@ a separate page
 - Ensure `BACK TO GRANDPA's SHOP` icon has white font against a 
   black background and when hovered over changes opacity.
 - Ensure `BACK TO GRANDPA's SHOP` directs user back to home
+- For mobile devices ensure simalar tests above are carried
+  out.
 
 **Layout**
 - The `Services` page should have a 2 column structure for desktop
@@ -521,29 +525,60 @@ a separate page
   `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
-
-
-
-
+- Ensure addess details are correct
+- Ensure logo is dispalyed with address detils Underneath
+- Ensufe icons are shown for phone number and email 
+- Enusre Google Maps is rendered on page
+- Enusre Google Maps has a marker displayed of correct location
+- Enusre Google Maps marker, up click opens up info window
+- Ensure info window displays logo and correct opening times.
+- Ensure Contact form renders on page
+- Ensure contact form has the header `GET IN TOUCH`along with
+  icon. 
+- Ensure contact form has three fields with corrext placeholder
+  names.
+- Ensure `SEND´ icon is displayed at bottom of form with icon.
+- Ensure send icon has white font font over a orange backgorund
+  and when hovered over changed opacity.
+- For mobile devices ensure simalar tests above are carried
+  out.
 - For mobile devices ensure simalar tests above are carried
   out.
 
-  **Layout**
+**Contact Form**
 
-### About
-
-- Main title `Checkout` should be font
-  `Berkshire Swash` and centered.
-- Ensure orange horiztonal divider is shown underneath main header.
-- Descriptive text should be font `Roboto`.
-
-
-
-
+- Enusre the `Name` and `Email` fields are prefilled with
+  registered users details.
+- Test required fields by leaving blank while other fields
+  are inputted and try to send.
+- Ensure `Email` can not be filled out wiht out correct `@` sign and
+  `.com`.
+- Ensure error messages appear for user when fields are missing
+  or not filled in correctly.
+- Fill in contact form and click send. Users should then be
+  redirected to confirmation email page.
+- Ensure pop up windows appears with mesage confirming email section
+- Check that email has been recvioved
+- Ensure `Keep Shopping` link is displayed under confirmation
+  success page.
+- Ensure `Keep Shopping` link has black font and is underlined,
+  and when hovered over changes opacity.
+- Ensure `Keep Shopping` directs user back to product page
 - For mobile devices ensure simalar tests above are carried
   out.
 
 **Layout**
+
+- The `Contact` page should have a 2 column structure for desktop
+    and a 1 column srtructure for mobile.
+- For Desktop the first column should display address and map content and then
+  the second column the contct form.
+- For mobile the address and map will be displayed first and then 
+  contact form
+
+### About
+
+
 
 ### Footer
 
@@ -572,6 +607,9 @@ a separate page
   out.
 
 **Layout**
+
+
+Toasts
 
 ### Desktop Browsers
 
