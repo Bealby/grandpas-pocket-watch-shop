@@ -27,6 +27,7 @@
                 <hr class="blue-divider" />
             </div>
             <div class="row">
+                {% if products %}
                 <!-- Iterate through and display products -->
                 {% for product in products %}
                 <div class="mb-3 pl-3 pr-3 col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto" id="home-images">
@@ -68,6 +69,18 @@
                     </div>
                 </div>
                 {% endfor %}
+                <!-- If no products found inform user -->
+                {% else %}
+                <div class="col-10 offset-1 text-center pt-0 mt-0">
+                    <div class="mb-4">
+                        <i class="far fa-frown-open fa-2x"></i>
+                    </div>
+                    <div>
+                        <h6 class="pb-2">No products found</h6>
+                        <h6>Please try again or scroll through our extensive list of <a class="keep-shopping" href="{% url 'products' %}">Products</a><h6>
+                    </div>
+                </div>
+                {% endif %}
             </div>
         </div>
     </div>

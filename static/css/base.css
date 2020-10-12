@@ -463,6 +463,11 @@ select option[value=""]{
 
 /*-----Font Awesome Icons-----*/
 
+.fa-frown-open{
+    color:rgb(220, 149, 35, 1);
+}
+
+
 .fa-clock{
     color:rgb(255, 255, 255, 1);
 }

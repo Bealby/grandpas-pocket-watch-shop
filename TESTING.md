@@ -4,58 +4,74 @@
 
 ## Automated Testing
 
-[W3C](https://validator.w3.org/) - All HTML files with their data were directly
-    input into the Mark-Up Validation Service.
-    The results: All HTML code adheres to validation requirements. Errors for
-    Python only.
+- [W3C](https://validator.w3.org/) - All HTML files with
+  their data were directly input into the Mark-Up
+  Validation Service.
 
-[WSC](https://jigsaw.w3.org/css-validator/) - CSS data was directly input into
-    the CSS Validation Service. The results: `Congratulations! No Error Found.`
+- Results: All HTML code adheres to validation requirements.
+  Errors for Python only.
 
-[PEP8](http://pep8online.com/) - Python script - `app.py`- was run through PEP8 online
-    for PEP8 requirements. Results: `All Right` (Adheres to PEP requirements)
+- [WSC](https://jigsaw.w3.org/css-validator/) - CSS data was
+  directly input into the CSS Validation Service.
 
-[Markdownlint](https://github.com/Bealby/markdownlint) - Markdownlint was
-used to validate README.md file. 'Validation successful'
+  Results: `Congratulations! No Error Found.`
 
-[Validate JavaScript](https://validatejavascript.com/) - JavaScript
-files were uploaded in in the Validate JavaScript. Overall there
-were no errors that needed to be changed and the JavaScript passed
-general standards.
+- [PEP8](http://pep8online.com/) - Python script - `app.py`-
+  was run through PEP8 online for PEP8 requirements.
 
-**Terminal** - `python3 -m flake8` in command line was used to highlight any
-issues within entire project. Majority of issues were fixed, except:
+  Results: `All Right` (Adheres to PEP requirements)
 
-- **Migration** issues
-- **Imports** unused in empty files or where it was necessary to include
-- **Lines** too long where it was not suitable to shorten
+- [Markdownlint](https://github.com/Bealby/markdownlint) -
+   Markdownlint was used to validate README.md and TESTING.md
+   file. 
+   
+   Results: 'Validation Successful'
 
-[Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
-A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
-on Mobile and Desktop to assess **Performance**, **Accessibility**,
-**Best Practices**, **CEO** and **Progressive Web App**. 
+- [Validate JavaScript](https://validatejavascript.com/) -
+  JavaScript files were uploaded in the Validate JavaScript.
+  Overall there were no errors that needed to be changed and
+  the JavaScript passed general standards.
 
-Overall the results were satisfactory with no critical issue that needed to
-be addressed.
+- **Terminal** - `python3 -m flake8` was typed in command
+  line to highlight any issues within the entire project. 
+  Majority of issues were fixed, aside from:
 
-- **Mobile:** An overall average of 85% was received.
-- **Desktop:** An overall average of 79% was received.
+    - **Migration** file issues
+    - **Imports** that were unused in empty files, or
+      where it was necessary to include them for production
+    - **Lines** that were too long that could not be shortened.
 
-The Lighthouse Audit also analysed the Progressive Web App, which validates
-the aspects of a Progressive Web App. The results were satisfactory.
+- [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
+  A feature in Chrome Developing Tools - Lighthouse Audit -
+  was carried out on Mobile and Desktop to assess
+  **Performance**, **Accessibility**, **Best Practices**,
+  **CEO** and **Progressive Web App**. 
 
-[Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
-Throughout the Website building process console errors were continually assessed
-and fixed accordingly. Currently there are no errors when navigating through the Website.
+  Overall the results were satisfactory with no critical issues
+  that needed to be addressed.
 
-[Unit Tests](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/)
-Django comes with a test suite of `Unit Tests` that all use the
-testing infrastructure that ships with Django for testing applications.
+    - **Mobile:** An overall average of 85% was received.
+    - **Desktop:** An overall average of 80% was received.
 
-A variety of standard unit tests were carried for test_forms.py
-and test_views.py. However a more expansive test program, which
-would include tests on models, would be beneficial and should be
-carried out if more resource time was available.  
+  The Lighthouse Audit also analysed the Progressive Web App,
+  which validates the aspects of a Progressive Web App.
+  The results were satisfactory.
+
+- [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
+  Throughout the Website building process, console errors were
+  continually assessed and fixed accordingly. The deployed
+  Website should have no concole errors. 
+
+- [Unit Tests](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/)
+  Django comes with a test suite of `Unit Tests` that all
+  use the testing infrastructure that ships with Django for
+  testing applications.
+  
+  A variety of standard unit tests were carried out for
+  `test_forms.py` and `test_views.py`. However a more
+  expansive test program would be more beneficial, which
+  would include tests on `models.py`, if resource
+  time would allow it.  
 
 ## Non-Automated Testing
 
@@ -63,24 +79,28 @@ carried out if more resource time was available.
 
 #### Register & Non Registered Users
 
-- Ensure that clicking on the 'Logo' you are returned to the
-  `Home` page.
-- Navigate through Website rigorously, ensuring 'Logo', when clicked,
-  takes you back to the `Home` page.
-- Ensure 'Repair' icon, when clicked, requires you to 'Register' if not
-  already.
-- Ensure 'Repair' icon, when clicked, takes you to the `Services` page
-  when you are registered.
-- Ensure 'Profile' icon, when clicked, dropdown a menu to 'Register'
-  or 'Sign' in.
-- Ensure 'Repair' icon, when clicked, takes you to the 'Register' or
-  'Login' page.
-- Ensure 'Basket' icon, when clicked, takes you to the 'Basket' page.
-- Ensure number under 'Basket' icon, is `0` and colour `rgb(220, 149, 35, 1)`.
-- Ensure number under 'Basket' icon, accumulates the total each time a
-  'Product' is added and displays number accordingly.
-- When search icon is click with empty field user is redirected to `Products`
-  page and error message is displayed.
+- Ensure that when clicking on the 'Logo' you are returned
+  to the `Home` page.
+- Navigate through Website rigorously, ensuring the 'Logo',
+  when clicked, takes you back to the `Home` page.
+- Ensure 'Repair' icon, when clicked, requires you to
+  'Register' if not already signed in.
+- Ensure 'Repair' icon, when clicked, takes you to the
+ `Services` page when you are a registered user.
+- Ensure 'Profile' icon, when clicked, has a dropdown menu
+  of options to `Register` or `Signin`.
+- Ensure 'Repair' icon, when clicked, takes you to the
+  `Register` or `Signin` page.
+- Ensure 'Basket' icon, when clicked, takes you to the `Basket`
+  page.
+- Ensure number under 'Basket' icon, is `0` and colour orange
+  `rgb(220, 149, 35, 1)`.
+- Ensure number under 'Basket' icon, accumulates the total
+  each time a 'Product' is added to the basketand, and
+  displays number accordingly.
+- When the search icon is clicked, with an empty field entry,
+  the user is redirected to the `Products` page along with
+  an error toast message.
 - Ensure search function work with searches made in 'Product' details
   and 'Product' description 
 - Test various product category searches.
