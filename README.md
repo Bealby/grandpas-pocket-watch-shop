@@ -249,7 +249,7 @@ for `Warning`, `Info`. `Error` and `Danger` respectively.
 
 ![Berkshire Swash](/documentation/readme/berkshire.png/)
 
-`Bershire Swash` font will be used for the main headers of the
+`Berkshire Swash` font will be used for the main headers of the
 Website. This font really helps bring out the theme and feel of
 the Website. Creating an old fashioned feel appropriate for
 Pocket Watches.

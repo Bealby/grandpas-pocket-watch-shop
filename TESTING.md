@@ -125,7 +125,7 @@ carried out if more resource time was available.
 ### Home (Index) Page
 
 - Main title `Grandpa's Pocket Watch Shop` should be font
-  `Bershire Swash` and centred.
+  `Berkshire Swash` and centred.
 - Ensure orange horiztonal divider is shown underneath main header
 - Sub heading `Choose a Category` should be font `Roboto`
   and centred.
@@ -161,7 +161,7 @@ carried out if more resource time was available.
 **Product Page**
 
 - Main title `Products` should be font
-  `Bershire Swash` and centred.
+  `Berkshire Swash` and centred.
 - Descriptive text should be font `Roboto`.
 - Ensure orange horiztonal divider is shown underneath main header
 - Ensure product images are consistant in size
@@ -201,7 +201,7 @@ carried out if more resource time was available.
 **Product Detail Page**
 
 - Main title `Products Details` should be font
-  `Bershire Swash` and centred.
+  `Berkshire Swash` and centred.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Ensure when product is added to `Basket` the user is redirected to current
   page.
@@ -229,7 +229,7 @@ carried out if more resource time was available.
 ### Basket App
 
 - Main title `Shopping Basket` should be font
-  `Bershire Swash` and centred.
+  `Berkshire Swash` and centred.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
 - For Desktop there should be a 1 row, 2 column structure. First column
@@ -237,6 +237,7 @@ carried out if more resource time was available.
   total summary.
 - The first column shoul dhave table headers of `Product Name` and
   `Item Price`.
+- Ensure product image is clickable and directs you to product detail page
 - Under the table headers each item in basket should show an image, 
   product name and sku number.
 - Font should be of a light grey colour.
@@ -271,22 +272,93 @@ carried out if more resource time was available.
 ### Checkout App (Stripe/ Webhooks/ Signals)
 
 - Main title `Checkout` should be font
-  `Bershire Swash` and centered.
+  `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
+- `Order Summary` header should display in bold ans show number of
+  items in order.
+- Add and remove items from basket and ensure item count is correct
+- Ensure table headers `Product Name` and `Item Price` are visable
+  bold.
+- Ensure that under the headers there is a product image, name, sku
+  number and price.
+- Ensure details are correct for product image, name, sku
+  number and price.
+- Flood the order with items and ensure layout remains cohesive
+  and that details are correct for each item.
+- For `Order Grand Total` table details ensure `ITEM(S) TOTAL`,
+  `DELIVERY`, `GRAND TOTAL` are bold and undernearth each other
+  respectively.
+- Ensure `ITEM(S) TOTAL`, `DELIVERY`, `GRAND TOTAL` costs are correct and
+  and change as items are deleted or added to `Basket`.
+- Underneath the Payment Form ensure there is a `Complete Payment`
+  with white font against a black background.
+- Underneath the `Complete Payment`icon ensufre there
+  is a link to Àdjust Basket`that is underlined and with back font,
+  with white font against a black background, that when hovered
+  over changes opacity.
+- For mobile devices ensure simalar tests above are carried
+  out.
 
+**Payment Details Form**
 
+- Ensure form is split by `Details`, `Delivery` and `Payment`.
+- Ensure `Details` form fields have correct placeholder text.
+- Ensure `Delivery` form fields have correct placeholder text.
+- Ensure `Payment` form field have correct placeholder text.
+- Ensure each required field display error messgae when not filled in
+- Complete form details, and each time leave a required filled empty
+  and try and `Complete Payment`. Error messages should be displayed
+  each time informing user field which is missing. 
+- Ensure `Email` can not be filled out wiht out correct `@` sign and
+  `.com`.
+- Type incorrect payment details and ensure red error message appears
+- Fill in all fields correctly and process payment. 
+- Ensure there is a `Spinning Wheel` over a green background when
+  payment is being processed. 
+- Once payment is processed ensure user is redirected to a
+  confirmation success page
+- Confirmation success page should display the email order has been made to
+  and all order details.
+- Ensure email is sent to user with correct order detail information
+- Enusre that when unrequired fields are are not inputted in form they do not
+  display in in order summary success page.
+- On the payments success page when clicking back error message appears
+  sttaing there is nothing in user's basket
+- Ensure there is an icon for `BACK TO GRANDPA'S SHOP` under order
+  confirmation, that has whote font on an orange background, that when
+  hovered chnages opacity.
+- For mobile devices ensure simalar tests above are carried
+  out.
 
+**Stripe/ Webhooks/ Signal**
 
+- When order is confirmed ensure pop up window is displayed displaying
+  order number information.
+- When clicking `Complete Payment`, during load spinning, press the bacck button.
+  Order should still get placed.
+- When clicking `Complete Payment`, during load spinning, close page.
+  Order should still get placed.
+- For each `Complete Payment` access Stripe and it's Webhok events and
+  ensure all payment Intents are successfull.
 - For mobile devices ensure simalar tests above are carried
   out.
 
 **Layout**
 
+- Ensure Checkout App has a 1 row, 2 column layout that
+  decreases to 1 column on mobile devices, with
+  `Order Summary` details first, the `Order Grand Total`
+  and `Payment Details`
+- Ensure confirmation success order details have a table of contents
+  with field headers on the left and details on the right for larger devices
+  that are tabulated in 1 column for mobile devices.
+- Ensure order number condenses to a scrolling feature for mobile devices.
+ 
 ### Profile
 
 - Main title `Checkout` should be font
-  `Bershire Swash` and centered.
+  `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
 
@@ -303,7 +375,7 @@ carried out if more resource time was available.
 ### Services
 
 - Main title `Checkout` should be font
-  `Bershire Swash` and centered.
+  `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
 
@@ -318,7 +390,7 @@ carried out if more resource time was available.
 ### Contact
 
 - Main title `Checkout` should be font
-  `Bershire Swash` and centered.
+  `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
 
@@ -333,7 +405,7 @@ carried out if more resource time was available.
 ### About
 
 - Main title `Checkout` should be font
-  `Bershire Swash` and centered.
+  `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
 
@@ -348,7 +420,7 @@ carried out if more resource time was available.
 ### Footer
 
 - Main title `Checkout` should be font
-  `Bershire Swash` and centered.
+  `Berkshire Swash` and centered.
 - Ensure orange horiztonal divider is shown underneath main header.
 - Descriptive text should be font `Roboto`.
 
