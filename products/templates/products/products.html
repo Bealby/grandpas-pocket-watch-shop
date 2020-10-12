@@ -19,9 +19,9 @@
                 <div class="col-12 text-center">
                     <!--Iterate through products and add category name under main heading-->
                     {% for c in current_categories %}
-                        <a class="badge-icons text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
-                            <span class="p-2 mt-2 badge badge-pill badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
-                        </a>
+                    <a class="badge-icons text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
+                        <span class="p-2 mt-2 badge badge-pill badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
+                    </a>
                     {% endfor %}
                 </div>
                 <hr class="blue-divider" />
@@ -40,9 +40,7 @@
 
                         <!-- Product Card Details -->
                         <div class="card-body text-left product-body text-muted mb-0">
-                            <p class="mb-1">
-                                <span style="font-weight: bold;">Name:</span>&nbsp;&nbsp;{{ product.name }}
-                            </p>
+                            <p class="mb-1"><span style="font-weight: bold;">Name:</span>&nbsp;&nbsp;{{ product.name }}</p>
                             <p><span style="font-weight: bold;">Price:</span>&nbsp;&nbsp;£{{ product.price }}</p>
                             <p class="mb-0">
                                 <span style="font-size: 0.8rem;">SKU:&nbsp;{{ product.sku }}</span>&nbsp;
@@ -77,7 +75,7 @@
                     </div>
                     <div>
                         <h6 class="pb-2">No products found</h6>
-                        <h6>Please try again or scroll through our extensive list of <a class="keep-shopping" href="{% url 'products' %}">Products</a><h6>
+                        <h6>Please try again or scroll through our extensive list of <a class="keep-shopping" href="{% url 'products' %}">Products</a></h6>
                     </div>
                 </div>
                 {% endif %}
@@ -89,7 +87,7 @@
 <div class="page-top-button shadow-sm rounded-0 border border-black">
     <a class="page-top-link d-flex h-100">
         <i class="fas fa-chevron-up text-black mx-auto my-auto"></i>
-    </a>	
+    </a>
 </div>
 
 {% endblock %}
@@ -103,10 +101,11 @@
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript">
-		$('.page-top-link').click(function(e) {
-			window.scrollTo(0,0)
-		})
-	</script>
+{{ block.super }}
+<!-- Function to allow users to scroll back to top in products.html when icon is clicked-->
+<script type="text/javascript">
+    $(".page-top-link").click(function (e) {
+        window.scrollTo(0, 0);
+    });
+</script>
 {% endblock %}
