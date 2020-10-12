@@ -466,6 +466,8 @@ UX for the Website.
   being displayed first and then the 'Totals' and 'Checkout'
   icons after.
 
+- Image can be clicked to view product details again.
+
 ### Checkout App
 
 ![Checkout](/documentation/readme/checkout.png/)
