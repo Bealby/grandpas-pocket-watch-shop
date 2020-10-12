@@ -23,8 +23,8 @@
 
 - [Markdownlint](https://github.com/Bealby/markdownlint) -
    Markdownlint was used to validate README.md and TESTING.md
-   file. 
-   
+   file.
+
    Results: 'Validation Successful'
 
 - [Validate JavaScript](https://validatejavascript.com/) -
@@ -33,25 +33,24 @@
   the JavaScript passed general standards.
 
 - **Terminal** - `python3 -m flake8` was typed in command
-  line to highlight any issues within the entire project. 
+  line to highlight any issues within the entire project.
   Majority of issues were fixed, aside from:
-
-    - **Migration** file issues
-    - **Imports** that were unused in empty files, or
-      where it was necessary to include them for production
-    - **Lines** that were too long that could not be shortened.
+  - **Migration** file issues
+  - **Imports** that were unused in empty files, or
+   where it was necessary to include them for production
+  - **Lines** that were too long that could not be shortened.
 
 - [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
   A feature in Chrome Developing Tools - Lighthouse Audit -
   was carried out on Mobile and Desktop to assess
   **Performance**, **Accessibility**, **Best Practices**,
-  **CEO** and **Progressive Web App**. 
+  **CEO** and **Progressive Web App**.
 
   Overall the results were satisfactory with no critical issues
   that needed to be addressed.
 
-    - **Mobile:** An overall average of 85% was received.
-    - **Desktop:** An overall average of 80% was received.
+- **Mobile:** An overall average of 85% was received.
+- **Desktop:** An overall average of 80% was received.
 
   The Lighthouse Audit also analysed the Progressive Web App,
   which validates the aspects of a Progressive Web App.
@@ -60,24 +59,22 @@
 - [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
   Throughout the Website building process, console errors were
   continually assessed and fixed accordingly. The deployed
-  Website should have no concole errors. 
+  Website should have no concole errors.
 
 - [Unit Tests](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/)
   Django comes with a test suite of `Unit Tests` that all
   use the testing infrastructure that ships with Django for
   testing applications.
-  
+
   A variety of standard unit tests were carried out for
   `test_forms.py` and `test_views.py`. However a more
   expansive test program would be more beneficial, which
   would include tests on `models.py`, if resource
-  time would allow it.  
+  time would allow it.
 
 ## Non-Automated Testing
 
-### Main Header
-
-#### Register & Non Registered Users
+### Main Header (Register & Non Registered Users)
 
 - Ensure that when clicking on the 'Logo' you are returned
   to the `Home` page.
@@ -111,7 +108,7 @@
   `(rgb(220, 149, 35, 0.6)` when hovered over.
 - All above tests should be carried on mobile devices.
 
-**Layout**
+#### Layout
 
 - Ensure main header, for desktop devices, has the
   'Logo' far left; 'Search Bar' center; and icons
@@ -121,16 +118,14 @@
   size; 'Search Bar' is removed; and that all
   respective icons decrease in size.
 
-### Navigation Bar
-
-#### Register & Non Registered Users
+### Navigation Bar (Registered & Non Registered Users)
 
 - `All Products`, `Pocket Watches`, `Parts`, `Tools`
   and `Services` links should be displayed in Navigation
   Bar.
 - Ensure headers in navigation bar have font
   `Berkshire Swash`.
-- The Navigation bar should be centered in Medium and 
+- The Navigation bar should be centered in Medium and
   large devices.
 - All Navigation links should, when hovered over,
   turn orange (`rgb(220, 149, 35, 1)`).
@@ -145,20 +140,18 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Layout**
+#### Layout
 
 - As the screen decreases to a medium size, ensure
   link fonts decrease in size.
 - For mobile screen sizes, ensure Navigation links
   collapse to a toggle menu hamburger icon that is
-  positioned to the far left. 
+  positioned to the far left.
 - For mobile screen sizes ensure search bar drops
   down to Navigation Bar, positioned to the right
   of the toggle hamburger menu.
 
-### Home (Index) Page
-
-#### Register & Non Registered Users
+### Home (Index) Page (Registered & Non Registered Users)
 
 - Main title `Grandpa's Pocket Watch Shop` should
   be font `Berkshire Swash` and centered.
@@ -182,7 +175,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Layout**
+#### Layout
 
 - For large screen sizes there should be 4 images
   along with their icon text links underneath on the
@@ -192,17 +185,15 @@
   row, 2 column layout.
 - For small screen sizes there should be no images
   just icon text links.
-- For small screen sizes there should be a 
+- For small screen sizes there should be a
   1 column layout for all icon text links.
 - For smaller devices the main title
   `Grandpa's Pocket Watch Shop` should decrease in
   font size and remain centered.
 
-### Products App
+### Products App (Registered & Non Registered Users)
 
-#### Register & Non Registered Users
-
-**Product Page**
+#### Product Page
 
 - Main title `Products` should be font
   `Berkshire Swash` and centred.
@@ -231,18 +222,18 @@
 - Ensure that if a product is already in the `Basket`,
   that if a user tries to add the product again, a pop
   up window will inform user that the product is already
-  in the `Basket`. 
+  in the `Basket`.
 - Ensure when product is added to the `Basket` the user
   is redirected back to the current page.
 - Ensure products are always centered, whether there is
-  4, 3, 2 or 1 column of products. 
+  4, 3, 2 or 1 column of products.
 - For categories, `Pocket Watches`, `Parts` and `Tools`,
   ensure that `Badges` are displayed that inform user of
   products in selected category.
 - For mobile devices ensure similar tests above are carried
   out.
 
-**Layout**
+#### Layout
 
 - For larger devices image cards should have a 1 row,
   4 column layout.
@@ -251,7 +242,7 @@
   and lastly 1 row, 1 column layout
   for mobile.
 
-**Product Detail Page**
+#### Product Detail Page
 
 - Main title `Products Details` should be font
   `Berkshire Swash` and centered.
@@ -272,19 +263,18 @@
 - Ensure that if a product is already in the `Basket`,
   that if a user tries to add the product again, a pop
   up window will inform the user that the product is
-  already in `Basket`. 
+  already in `Basket`.
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Layout**
+#### Layout
+
 - For larger devices there should be a 1 row, 2 column
   layout, of firstly an image and secondly text.
 - For mobile devices there should be a 1 column layout.
   Image and then text respectively.
 
-### Basket App
-
-#### Register & Non Registered Users
+### Basket App (Register & Non Registered Users)
 
 - Main title `Shopping Basket` should be font
   `Berkshire Swash` and centered.
@@ -307,7 +297,7 @@
   over turn red.
 - If delete icon is clicked the item from the basket
   should be removed and a pop up message confirming
-  removal should appear. 
+  removal should appear.
 - Ensure that when the basket is empty a page displays
   a message 'Your basket is empty' and a 'Keep Shopping'
   link.
@@ -331,19 +321,17 @@
 - For mobile devices ensure similar tests above are carried
   out.
 
-**Layout**
+#### Layout
 
 - For smaller devices there should be a 1 column layout
   with basket list of items first and basket total summary
   second.
 
-### Checkout App (Stripe/ Webhooks/ Signals)
-
-#### Register & Non Registered Users
+### Checkout App (Stripe/ Webhooks/ Signals) (Registered & Non Registered Users)
 
 - Main title `Checkout` should be font
   `Berkshire Swash` and centered.
-- Ensure orange horizontal divider is shown underneath 
+- Ensure orange horizontal divider is shown underneath
   main header.
 - Descriptive text should be font `Roboto`.
 - `Order Summary` header should display in bold and show
@@ -369,12 +357,12 @@
   background.
 - Underneath the `Complete Payment` link ensure there
   is a link to `Adjust Basket`, that is underlined
-  with back font, and that when hovered over changes 
+  with back font, and that when hovered over changes
   opacity.
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Payment Details Form**
+#### Payment Details Form
 
 - Ensure form is split by `Details`, `Delivery`
   and `Payment`.
@@ -389,15 +377,15 @@
 - Complete form details, and each time leave a required
   filled empty and try and `Complete Payment`. Error
   messages should be displayed accordingly, informing
-  user which field is missing or incorrect. 
+  user which field is missing or incorrect.
 - Ensure `Email` cannot be filled out without correct `@`
   sign and `.com`.
 - Type incorrect payment details and ensure red error
   message appears
 - Fill in all fields correctly and process payment using
-  card number `4242 4242 4242 4242 4242 4242 424` 
+  card number `4242 4242 4242 4242 4242 4242 424`.
 - Ensure there is a `Spinning Wheel` over a green
-  background when payment is being processed. 
+  background when payment is being processed.
 - Once payment is processed ensure user is redirected
   to a confirmation success page
 - Confirmation success page should display the order
@@ -416,7 +404,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Stripe/ Webhooks/ Signal**
+#### Stripe/ Webhooks/ Signal
 
 - When order is confirmed ensure pop up window
   appears displaying order number information.
@@ -431,7 +419,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Layout**
+#### Layout
 
 - Ensure Checkout App has a 1 row, 2 column layout
   that decreases to 1 column on mobile devices, with
@@ -445,10 +433,8 @@
   for mobile devices.
 - For mobile devices ensure similar tests above are carried
   out.
- 
-### Profile
 
-#### Register Users
+### Profile App (Registered Users)
 
 - Main title `Profile` should be font
   `Berkshire Swash` and centered.
@@ -467,7 +453,7 @@
   underlined, which when hovered over changes opacity
 - `Order Summary` information should contain headers
   `Order`, `Date`, `Items` and `Total`.
-- Under each heading there should be correct 'Order' 
+- Under each heading there should be correct 'Order'
   information.
 - Order number under `Order` heading should be
   contracted to 6 characters.
@@ -495,7 +481,7 @@
   opacity
 - When the 'Edit' icon is clicked a new page should
   open with prefilled information from previous booked
-  appointment. 
+  appointment.
 - At bottom of appointment form there should be a
   `UPDATE APPOINTMENT`link with white font against
   an orange background.
@@ -515,7 +501,7 @@
 - For mobile devices ensure similar tests above are carried
   out.
 
-**Default Delivery Information Form**
+#### Default Delivery Information Form
 
 - Ensure all fields have correct placeholder
   information.
@@ -523,7 +509,7 @@
   when not filled in.
 - Complete form details, and each time leave a
   required filled empty and try and `UPDATE INFORMATION`.
-  An error messages should be displayed each time, 
+  An error messages should be displayed each time,
   informing user the field which is missing information.
 - Fill in all fields correctly and `UPDATE INFORMATION`.
 - Ensure profile form details saved are used as default
@@ -537,12 +523,13 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Edit Appointment Form**
+#### Edit Appointment Form
+
 - Please repeat same steps for tests carried out for
   the - [Book an Appointment Form](#services) for
   Services
 
-**Layout**
+#### Layout
 
 - The `Profile` page should be split into 2 columns.
   The first column should have the
@@ -555,15 +542,13 @@
 - For mobile devices the `Order History` should only
   include the headers `Order Number` and `Total`.
 - For mobile devices the `Order History` should only
-  include the headers `Date` and `Time`, as well as 
+  include the headers `Date` and `Time`, as well as
   the 'Edit' and `Delete' icons
 
-### Services
-
-#### Register Users
+### Services App (Registered Users)
 
 - Main title `Visit our Shop` should be font in
-  `Berkshire Swash` and centered.
+ `Berkshire Swash` and centered.
 - Ensure orange horizontal divider is shown underneath
   main header.
 - Descriptive text should be font `Roboto`.
@@ -586,7 +571,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Book an Appointment Form**
+#### Book an Appointment Form
 
 - Ensure the `Name` and `Email` fields are prefilled
   with registered users details.
@@ -595,10 +580,13 @@
   and show all options.
 - Ensure Date field displays current date only.
 - For `Date` field ensure users cannot type a date
-  manually. 
+  manually.
 - For `Date` field ensure users cannot select a date
   within 5 days of current date in calendar.
 - Ensure calendar month can be selected.
+- Ensure user cannot fix a date less than 3 days away.
+- Ensure user can fix a date in next month.
+- Ensure user can fox a date in future year
 - Ensure calendar year can be selected.
 - Ensure all field are mandatory.
 - Test required fields by leaving blank while other
@@ -607,11 +595,11 @@
   are missing or not filled in correctly.
 - Ensure `Email` cannot be filled out without correct
   `@` sign and `.com`.
-- Fill all fields of form and click confirm 
+- Fill all fields of form and click confirm
   appointment, and ensure new page is opened up to
   confirm appointment is booked.
 - Ensure pop up window displays message appointment
-  is booked. 
+  is booked.
 - Ensure email is sent to user with correct appointment
   booking details.
 - Ensure `BACK TO GRANDPA's SHOP` link is displayed
@@ -624,7 +612,8 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Layout**
+#### Layout
+
 - The `Services` page should have a 2 column structure
   for desktop and a 1 column structure for mobile.
 - For Desktop the first column should display the detail
@@ -639,9 +628,7 @@
 - Ensure main title `Visit our Shop` reduces in size for
   smaller devices.
 
-### Contact
-
-#### Register & Non Registered Users
+### Contact App (Registered & Non Registered Users)
 
 - Main title `Contact` should be font
   `Berkshire Swash` and centered.
@@ -661,7 +648,7 @@
   times.
 - Ensure Contact form renders on page.
 - Ensure contact form has the header `GET IN TOUCH`
-  along with icon. 
+  along with icon.
 - Ensure contact form has three fields with correct
   placeholder names.
 - Ensure `SEND´ link is displayed at bottom of form
@@ -671,7 +658,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Contact Form**
+#### Contact Form
 
 - Ensure the `Name` and `Email` fields are prefilled
   with registered users details.
@@ -695,7 +682,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-**Layout**
+#### Layout
 
 - The `Contact` page should have a 2 column structure
   for desktop and a 1 column structure for mobile.
@@ -705,9 +692,7 @@
 - For mobile the address and map will be displayed first
   and then ther contact form
 
-### About
-
-#### Register & Non Registered Users
+### About App (Registered & Non Registered Users)
 
 - Main title `About` should be font
   `Berkshire Swash` and centered.
@@ -720,14 +705,14 @@
 
 ### Footer
 
-#### Register & Non Registered Users
+#### Registered & Non Registered Users
 
 - Ensure `Basket` icon, `About Us`, `Contact` links are
   displayed on the left in `Footer`.
 - Ensure `Copyright` is displayed on right in `Footer`
 - Ensure `Footer` background colour is
   `rgb(186, 220, 192, 1)`.
-- Ensure `Basket` icon, `About Us`, `Contact`, when 
+- Ensure `Basket` icon, `About Us`, `Contact`, when
   clicked navigate the user to the correct page.
 - Ensure links change from black to Orange
   (`rgb(220, 149, 35, 0.6)`) when hovered over.
@@ -740,56 +725,57 @@
 ### Allauth - (User Authentication)
 
 - Ensure that the standard format for authentication
-  pages have a main header font `Berkshire Swash` and
+  pages have a main header font `Berkshire Swash` that
   centered.
 - Ensure that the standard format for authentication
-  pages have a orange horizontal divider underneath
+  pages have an orange horizontal divider underneath
   main header.
 - Descriptive text should be font `Roboto`.
-- Ensure that ´Primary` buttons are of white text
+- Ensure that 'Primary' links have white text
   with black background, that when hovered over change
   opacity.
-- Ensure that ´secondary` links are of black text and
-  underlined and when hovered over change opacity.
+- Ensure that ´secondary` links have black text and
+  are underlined and when hovered over change opacity.
 - Text should be centered on all screen sizes.
 - Users while logged in on Website can click profile
-  to `Signout` and be redirected to `Sign Out` page .
-- Ensure when user click `Sign Out´ that you are
-  directed back `Home` page and a pop up message
-  confirms you have signed out. 
-- Ensure registered user can sign in with correct
+  to `Signout` and be redirected to `Sign Out` page.
+- Ensure when user clicks `Sign Out` that users are
+  navigated back to `Home` page and a pop up message
+  confirms user has signed out.
+- Ensure registered users can sign in with correct
   details and that pop up window confirms the user is
   signed in.
-- Ensure that registered user, when typing is user
-  details
-  and password is notified if details are incorrect
+- Ensure that registered users are notifiedd
+  when their username and password is incorrect.
 - Type incorrect user name but correct password. User
-  should be informed of error message
+  should be informed with an error message.
 - Type incorrect password but correct user name. User
-  should be informed of error message
+  should be informed with an error message.
 - Check `Forgot Password` functionality and ensure new
   password is sent to email and can be received and
   confirmed by user.
 - Type a password already used when asked to input new
-  password. Error message with guiding info should appear. 
+  password. Error message with guiding info should appear.
 - Ensure that new user can register in `Sign Up` form.
 - As a potential new user type inconsistent email address.
-  Error message with guiding info should appear. 
-- Type in a user name that already exist. Error message
-  with guiding info should appear. 
+  Error message with guiding info should appear.
+- Type in a user name that already exists. Error message
+  with guiding info should appear.
 - Type a short and easy password. Error message
-  with guiding info should appear. 
-- Type a password already.
+  with guiding info should appear.
+- Type a password already used.
 - As a potential new user type inconsistent passwords.
-  Error message with guiding info should appear. 
+  Error message with guiding info should appear.
 - For mobile devices ensure similar tests above are
   carried out.
 
 ### Toasts
 
-- Ensure all toast message windows correctly appear
-  for all error signals with correct message.
-- Ensure window is viewable for only a data-delay=10000.
+- Ensure all toast message info windows correctly
+  appear for all signals, throughout Website
+  navigation.
+- Ensure pop-up window is viewable for only a
+  `data-delay=10000`.
 - Ensure Toast window can be manually closed.
 
 ### Desktop Browsers
@@ -801,27 +787,35 @@
 
 ### Mobile and Tablet Devices
 
-- The Website was tested on 
-  mobiles, . The results were
-  satisfactory for all devices and continued to achieve the
-  UX and UI goals. Chrome Developing tools
+- The Website was tested in
+  [Chrome Developer Tools](https://www.google.com/chrome/dev/Google)
+  which allowed the Website to be viewed on desktop,
+  ipad and mobile devices. The results were
+  satisfactory for all devices and continued to achieve
+  the UX and UI goals.
 
 ### User Testing
 
-Helped test defensive design and allauth app
+- Family and friends were asked to use the finished
+  Website to test usability and comment on whether
+  they felt it met their needs as discussed in
+  [Agile User Stories](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
-- Family and friends were asked to use the finished Website to test
-  usability and comment on whether they felt it met their needs as
-  discussed in the Strategy section 
-  - iphone 8 - Chrome: Good
-  - iphone xs - Chrome: Good
-  - iphone xs - Safari: Good
-  - iphone 8 - Chrome: Good
-  - iphone 8 - Safari: Good
-  - iphone 8 - Chrome: Good
-  - iphone 11 - Safari: Good
-  - iphone 11 - Safari: Good
-  - Samsung 7 - Chrome: Good
+  User testing was also invaluavle in challenging
+  the definsive design of the Website and
+  the authetication aspect.
+
+  Devices used by users in the User Testing:
+
+- iphone 8 - Chrome: Good
+- iphone xs - Chrome: Good
+- iphone xs - Safari: Good
+- iphone 8 - Chrome: Good
+- iphone 8 - Safari: Good
+- iphone 8 - Chrome: Good
+- iphone 11 - Safari: Good
+- iphone 11 - Safari: Good
+- Samsung 7 - Chrome: Good
 
 ### User Experience
 
@@ -851,9 +845,9 @@ Helped test defensive design and allauth app
 
 - While committing changes there was an error which caused the env.py
   with Stripe and Google Map secret keys being exposed in the commits
-  in GitHub. 
-  
+  in GitHub.
+
   Due to this all secret keys were updated and the old secret keys
   being made rendundant.env.py file.
 
-
+## Not Fixed
