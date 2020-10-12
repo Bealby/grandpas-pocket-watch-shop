@@ -481,10 +481,27 @@ a separate page
   registered users details.
 - ensure dropdown options for `Appointment Type`, `Watch Model`
   `Watch Type` and `Time` are correct and show all opions.
-- Ensure Date field display current date only
-- For `Date` field try and type
-
-
+- Ensure Date field display current date only.
+- For `Date` field ensure user can not type a date manually. 
+- For `Date` field ensure user can not select a date within
+  5 days of current date in Date Picker.
+- Ensure Datepicker month can be selected
+- Ensure Datepicker year can be selected.
+- Ensure all field are manditory
+- Test required fields by leaving blank while other fields
+  are inputted and try to confirm appointment.
+- Ensure error messages appear for user when fields are missing
+  or not filled in correctly.
+- Fill all fields of form and click confirm appointment, and ensure
+  new page is opened up to confirm appointment is booked.
+- Ensure pop up window displays message appointment is booked. 
+- Ensure email is sent to user with correct appoingment booking 
+  details.
+- Ensure `BACK TO GRANDPA's SHOP`icon is displayed under confirmation
+  success page.
+- Ensure `BACK TO GRANDPA's SHOP` icon has white font against a 
+  black background and when hovered over changes opacity.
+- Ensure `BACK TO GRANDPA's SHOP` directs user back to home
 
 **Layout**
 - The `Services` page should have a 2 column structure for desktop
@@ -497,6 +514,8 @@ a separate page
   orange double chevron pointing pojnting downwards towardse Service appointment form
 
 ### Contact
+
+## Register & Non Registered Users
 
 - Main title `Contact` should be font
   `Berkshire Swash` and centered.
