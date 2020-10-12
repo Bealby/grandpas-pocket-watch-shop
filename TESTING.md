@@ -61,7 +61,7 @@ carried out if more resource time was available.
 
 ### Main Header
 
-## Register & Non Registered Users
+#### Register & Non Registered Users
 
 - Ensure that clicking on the 'Logo' you are returned to the
   `Home` page.
@@ -98,7 +98,7 @@ carried out if more resource time was available.
 
 ### Navigation Bar
 
-## Register & Non Registered Users
+#### Register & Non Registered Users
 
 - `All Products`, `Pocket Watches`, `Parts`, `Tools` and
   `Services` links should be displayed in Navigation Bar.
@@ -128,7 +128,7 @@ carried out if more resource time was available.
 
 ### Home (Index) Page
 
-## Register & Non Registered Users
+#### Register & Non Registered Users
 
 - Main title `Grandpa's Pocket Watch Shop` should be font
   `Berkshire Swash` and centred.
@@ -164,7 +164,7 @@ carried out if more resource time was available.
 
 ### Products App
 
-## Register & Non Registered Users
+#### Register & Non Registered Users
 
 **Product Page**
 
@@ -236,7 +236,7 @@ carried out if more resource time was available.
 
 ### Basket App
 
-## Register & Non Registered Users
+#### Register & Non Registered Users
 
 - Main title `Shopping Basket` should be font
   `Berkshire Swash` and centred.
@@ -281,7 +281,7 @@ carried out if more resource time was available.
 
 ### Checkout App (Stripe/ Webhooks/ Signals)
 
-## Register & Non Registered Users
+#### Register & Non Registered Users
 
 - Main title `Checkout` should be font
   `Berkshire Swash` and centered.
@@ -372,7 +372,7 @@ carried out if more resource time was available.
  
 ### Profile
 
-## Register Users
+#### Register Users
 
 - Main title `Profile` should be font
   `Berkshire Swash` and centered.
@@ -454,7 +454,7 @@ a separate page
 
 ### Services
 
-## Register Users
+#### Register Users
 
 - Main title `Visit our Shop` should be font
   `Berkshire Swash` and centered.
@@ -519,7 +519,7 @@ a separate page
 
 ### Contact
 
-## Register & Non Registered Users
+#### Register & Non Registered Users
 
 - Main title `Contact` should be font
   `Berkshire Swash` and centered.
@@ -578,9 +578,12 @@ a separate page
 
 ### About
 
+#### Register & Non Registered Users
 
 
 ### Footer
+
+#### Register & Non Registered Users
 
 - Main title `Checkout` should be font
   `Berkshire Swash` and centered.
@@ -593,7 +596,10 @@ a separate page
 - For mobile devices ensure simalar tests above are carried
   out.
 
+
 ### Allauth
+
+#### Register Users
 
 - Main title `Checkout` should be font
   `Berkshire Swash` and centered.
