@@ -95,10 +95,6 @@ def appointment_success(request):
 def edit_appointment(request, appointment_id):
     # Edit appointment
     appointment = get_object_or_404(Appointment, pk=appointment_id)
-    # Message to inform users of past booking being modified
-    messages.info(request, f'You are editing an appointment for a Pocket \
-                  Watch {appointment.appointment_type.name} booked for \
-                  {appointment.date} at {appointment.time}')
     if request.method == 'GET':
         appointment_form = AppointmentForm(initial={
             'name': appointment.name,
@@ -146,6 +142,11 @@ def edit_appointment(request, appointment_id):
                 messages.error(request, "Please ensure fields "
                                "are filled out correctly")
             return redirect('edit_appointment_success')
+
+    # Message to inform users of past booking being modified
+    messages.info(request, f'You are editing an appointment for a Pocket \
+                  Watch {appointment.appointment_type.name} booked for \
+                  {appointment.date} at {appointment.time}')
 
     template = 'services/edit_appointment.html'
     context = {
