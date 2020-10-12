@@ -36,6 +36,7 @@
                         <tbody>
                             <tr>
                                 <th scope="row">
+                                    <!-- Include image, else add image name-->
                                     <a href="{% url 'product_detail' item.product.id %}">
                                         {% if item.product.image %}
                                         <img class="card-img-top img-fluid" id="image-cards" style="width: 10rem;" src="{{ item.product.image.url }}" alt="{{ product.name }}" />

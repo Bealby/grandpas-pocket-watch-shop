@@ -42,6 +42,7 @@
                         <tbody>
                             <tr>
                                 <th scope="row">
+                                    <!-- Include image, else add image name-->
                                     {% if item.product.image %}
                                     <img class="card-img-top img-fluid" id="image-cards" style="width: 10rem;" src="{{ item.product.image.url }}" alt="{{ product.name }}" />
                                     {% else %}
