@@ -2,7 +2,40 @@
 
 ---
 
+![Testing Image](/documentation/testing/testing.png/)
+
+## Contents
+
+---
+
+1.[Automated Testing](#automated-testing)
+
+- [W3C](#w3c)
+- [WSC](#wsc)
+- [PEP8](#pep8)
+- [Markdownlint](#markdownlint)
+- [Validate JavaScript](#validate-javascript)
+- [Terminal](#terminal)
+- [Lighthouse Audit](#lighthouse-audit)
+- [Chrome Developer Tools](#chrome-developer-tools)
+- [Unit Tests](#unit-tests)
+
+2.[Non-Automated Testing](#non-automated-testing)
+
+- [Main Header](#main-header)
+- [Navigation Bar](#main-header)
+- [Main Header](#main-header)
+- [Main Header](#main-header)
+- [Main Header](#main-header)
+- [Main Header](#main-header)
+- [Main Header](#main-header)
+- [Main Header](#main-header)
+
 ## Automated Testing
+
+---
+
+### W3C
 
 - [W3C](https://validator.w3.org/) - All HTML files with
   their data were directly input into the Mark-Up
@@ -11,15 +44,21 @@
 - Results: All HTML code adheres to validation requirements.
   Errors for Python only.
 
+### WSC
+
 - [WSC](https://jigsaw.w3.org/css-validator/) - CSS data was
   directly input into the CSS Validation Service.
 
   Results: `Congratulations! No Error Found.`
 
+### PEP8
+
 - [PEP8](http://pep8online.com/) - Python script - `app.py`-
   was run through PEP8 online for PEP8 requirements.
 
   Results: `All Right` (Adheres to PEP requirements)
+
+### Markdownlint
 
 - [Markdownlint](https://github.com/Bealby/markdownlint) -
    Markdownlint was used to validate README.md and TESTING.md
@@ -27,10 +66,14 @@
 
    Results: 'Validation Successful'
 
+### Validate JavaScript
+
 - [Validate JavaScript](https://validatejavascript.com/) -
   JavaScript files were uploaded in the Validate JavaScript.
   Overall there were no errors that needed to be changed and
   the JavaScript passed general standards.
+
+### Terminal
 
 - **Terminal** - `python3 -m flake8` was typed in command
   line to highlight any issues within the entire project.
@@ -39,6 +82,8 @@
   - **Imports** that were unused in empty files, or
    where it was necessary to include them for production
   - **Lines** that were too long that could not be shortened.
+
+#### Lighthouse Audit
 
 - [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
   A feature in Chrome Developing Tools - Lighthouse Audit -
@@ -56,10 +101,14 @@
   which validates the aspects of a Progressive Web App.
   The results were satisfactory.
 
+### Chrome Developer Tools
+
 - [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
   Throughout the Website building process, console errors were
   continually assessed and fixed accordingly. The deployed
   Website should have no concole errors.
+
+### Unit Tests
 
 - [Unit Tests](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/)
   Django comes with a test suite of `Unit Tests` that all
@@ -74,7 +123,9 @@
 
 ## Non-Automated Testing
 
-### Main Header (Register & Non Registered Users)
+### Main Header
+
+(Registered & Non Registered Users)
 
 - Ensure that when clicking on the 'Logo' you are returned
   to the `Home` page.
@@ -118,7 +169,9 @@
   size; 'Search Bar' is removed; and that all
   respective icons decrease in size.
 
-### Navigation Bar (Registered & Non Registered Users)
+### Navigation Bar
+
+(Registered & Non Registered Users)
 
 - `All Products`, `Pocket Watches`, `Parts`, `Tools`
   and `Services` links should be displayed in Navigation
@@ -151,7 +204,9 @@
   down to Navigation Bar, positioned to the right
   of the toggle hamburger menu.
 
-### Home (Index) Page (Registered & Non Registered Users)
+### Home Page
+
+(Registered & Non Registered Users)
 
 - Main title `Grandpa's Pocket Watch Shop` should
   be font `Berkshire Swash` and centered.
@@ -191,7 +246,9 @@
   `Grandpa's Pocket Watch Shop` should decrease in
   font size and remain centered.
 
-### Products App (Registered & Non Registered Users)
+### Products App
+
+(Registered & Non Registered Users)
 
 #### Product Page
 
@@ -274,7 +331,9 @@
 - For mobile devices there should be a 1 column layout.
   Image and then text respectively.
 
-### Basket App (Register & Non Registered Users)
+### Basket App
+
+(Register & Non Registered Users)
 
 - Main title `Shopping Basket` should be font
   `Berkshire Swash` and centered.
@@ -434,7 +493,9 @@
 - For mobile devices ensure similar tests above are carried
   out.
 
-### Profile App (Registered Users)
+### Profile App
+
+(Registered Users)
 
 - Main title `Profile` should be font
   `Berkshire Swash` and centered.
@@ -545,7 +606,9 @@
   include the headers `Date` and `Time`, as well as
   the 'Edit' and `Delete' icons
 
-### Services App (Registered Users)
+### Services App
+
+(Registered Users)
 
 - Main title `Visit our Shop` should be font in
  `Berkshire Swash` and centered.
@@ -628,7 +691,9 @@
 - Ensure main title `Visit our Shop` reduces in size for
   smaller devices.
 
-### Contact App (Registered & Non Registered Users)
+### Contact App
+
+(Registered & Non Registered Users)
 
 - Main title `Contact` should be font
   `Berkshire Swash` and centered.
@@ -692,7 +757,9 @@
 - For mobile the address and map will be displayed first
   and then ther contact form
 
-### About App (Registered & Non Registered Users)
+### About App
+
+(Registered & Non Registered Users)
 
 - Main title `About` should be font
   `Berkshire Swash` and centered.
@@ -705,7 +772,7 @@
 
 ### Footer
 
-#### Registered & Non Registered Users
+(Registered & Non Registered Users)
 
 - Ensure `Basket` icon, `About Us`, `Contact` links are
   displayed on the left in `Footer`.
