@@ -516,6 +516,7 @@ a separate page
   form
 - Underneath image ensure `Book an Appointment` header has a flashing
   orange double chevron pointing pojnting downwards towardse Service appointment form
+- Ensure main title `Visit our Shop` reduces in size for smaller devices
 
 ### Contact
 
@@ -580,39 +581,51 @@ a separate page
 
 #### Register & Non Registered Users
 
+- Main title `About` should be font
+  `Berkshire Swash` and centered.
+- Ensure orange horiztonal divider is shown underneath main header.
+- Descriptive text should be font `Roboto`.
+- Ensure image is centred on page
+- Ensure content is centred on page
+- For smaller screen sizes text should be justified.
 
 ### Footer
 
 #### Register & Non Registered Users
 
-- Main title `Checkout` should be font
-  `Berkshire Swash` and centered.
-- Ensure orange horiztonal divider is shown underneath main header.
-- Descriptive text should be font `Roboto`.
-
-
-
-
+- Ensure `Basket` icon, `About Us`, `Contact` links are
+  displayed on the left of `Footer`.
+- Ensure `Copyright` is displayed right on `Footer``
+- Ensure `Footer` backgound colour is `rgb(186, 220, 192, 1)`
+- Ensure `Basket` icon, `About Us`, `Contact` upon hover
+  and click naviagte use to correct pages.
+- Ensure links change from black to Orange `rgb(220, 149, 35, 0.6)``
+  when hovered over.¨
+- Ensure on mobile screen sizes `Basket` icon, `About Us`, `Contact`
+  are centred in one row. While `Copyright`text is centred in
+  row underneath
 - For mobile devices ensure simalar tests above are carried
   out.
 
-
-### Allauth
+### Allauth - (User Authentication)
 
 #### Register Users
 
-- Main title `Checkout` should be font
-  `Berkshire Swash` and centered.
-- Ensure orange horiztonal divider is shown underneath main header.
+- Ensure that the standard format for authentication pages
+  have a main header font `Berkshire Swash` and centered.
+- Ensure that the standard format for authentication pages
+  have a orange horiztonal divider underneath main header.
 - Descriptive text should be font `Roboto`.
+- Ensure that ´Primary` buttons are of white text with 
+  blackbackground, that when hovered over change opacity.
+- Ensure that ´secondary` links are of black text and
+  underlined and when hovered over change opacity.
+- Text should be centered on all screen sizes.
 
-
-
+- 
 
 - For mobile devices ensure simalar tests above are carried
   out.
-
-**Layout**
 
 
 Toasts
@@ -632,6 +645,8 @@ Toasts
   UX and UI goals. Chrome Developing tools
 
 ### User Testing
+
+Helped tes denfensive design and allauth app
 
 - Family and friends were asked to use the finished Website to test
   usability and comment on whether they felt it met their needs as
