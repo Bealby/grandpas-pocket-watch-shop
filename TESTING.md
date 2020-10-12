@@ -609,8 +609,6 @@ a separate page
 
 ### Allauth - (User Authentication)
 
-#### Register Users
-
 - Ensure that the standard format for authentication pages
   have a main header font `Berkshire Swash` and centered.
 - Ensure that the standard format for authentication pages
@@ -621,14 +619,40 @@ a separate page
 - Ensure that ´secondary` links are of black text and
   underlined and when hovered over change opacity.
 - Text should be centered on all screen sizes.
-
-- 
-
+- Users while logged in on Website can click profile to
+  `Signout` and be redirected to `Sign Out`page.
+- Ensure when user click `Sign Out´ that you are directed back
+  `Home` page and a pop up message confirms you have signed out. 
+- Ensure registered user can sign in with correct details
+  and that pop up window confirms the user is signed in.
+- Enusre that registered user, when typing is user details
+  and password is notified if details are incorrect
+- Type incorrect user name but correct password. User should be
+  informed of error message
+- Type incorrect password but correct user name. User should be
+  informed of error message
+- Check `Forgot Passowrd` functionality and ensure new password is sent to 
+  email and can be recived and confirmed by user.
+- Type a password already used when asked to inout neew password. Error message
+  with guiding info shiould appear. 
+- Enusre that new user can register in `Sign Up` form.
+- As a potential new user type inconsitant email adderess. Error message
+  with guiding info shiould appear. 
+- Type ina user name that alreayd exist. Error message
+  with guiding info shiould appear. 
+- Type a short and easy password. Error message
+  with guiding info shiould appear. 
+- Type a password already
+- As a potential new user type inconsitant passwords. Error message
+  with guiding info shiould appear. 
 - For mobile devices ensure simalar tests above are carried
   out.
 
+### Toasts
 
-Toasts
+- Ensure all toast message windows correctly appear for all error signals with correct message.
+- Ensure window is viewable for only a data-delay=10000.
+- Ensure Toast window can be manuaoly closed.
 
 ### Desktop Browsers
 
