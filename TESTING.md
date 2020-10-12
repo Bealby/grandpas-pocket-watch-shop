@@ -91,98 +91,112 @@
   of options to `Register` or `Signin`.
 - Ensure 'Repair' icon, when clicked, takes you to the
   `Register` or `Signin` page.
-- Ensure 'Basket' icon, when clicked, takes you to the `Basket`
-  page.
-- Ensure number under 'Basket' icon, is `0` and colour orange
-  `rgb(220, 149, 35, 1)`.
+- Ensure 'Basket' icon, when clicked, takes you to the
+  `Basket` page.
+- Ensure number under 'Basket' icon, is `0` and colour
+  orange `rgb(220, 149, 35, 1)`.
 - Ensure number under 'Basket' icon, accumulates the total
   each time a 'Product' is added to the basketand, and
   displays number accordingly.
-- When the search icon is clicked, with an empty field entry,
+- When the search icon is clicked with an empty field entry,
   the user is redirected to the `Products` page along with
   an error toast message.
-- Ensure search function work with searches made in 'Product' details
-  and 'Product' description 
+- Ensure search function works with searches made in
+  'Product' details and 'Product' description.
 - Test various product category searches.
-- Ensure that when a search is not found a message for the user
-  is displayes on page.
-- Ensure all three icons turn from orange (`rgb(220, 149, 35, 1)`) to
-  `rgb(220, 149, 35, 0.6)` when hover over.
-- All above tests should be carried on mobile devices with same results.
+- Ensure that when a product search is not found a
+  message for the user is displayed on page.
+- Ensure all three icons turn from orange
+  (`rgb(220, 149, 35, 1)`) to
+  `(rgb(220, 149, 35, 0.6)` when hovered over.
+- All above tests should be carried on mobile devices.
 
 **Layout**
 
-- Ensure main header, for desktop devices, has the 'Logo' far left;
-  'Search Bar' center; and icons for 'Repair', 'Profile' and 'Basket',
-  positioned far right respectively.
-- Ensure for smaller devices 'Logo' decreases in size; 'Search Bar'
-  is removed; and that all respective icons decrease in size.
+- Ensure main header, for desktop devices, has the
+  'Logo' far left; 'Search Bar' center; and icons
+  for 'Repair', 'Profile' and 'Basket', positioned
+  far right respectively.
+- Ensure for smaller devices 'Logo' decreases in
+  size; 'Search Bar' is removed; and that all
+  respective icons decrease in size.
 
 ### Navigation Bar
 
 #### Register & Non Registered Users
 
-- `All Products`, `Pocket Watches`, `Parts`, `Tools` and
-  `Services` links should be displayed in Navigation Bar.
-- Ensure headers in navigation bar have font `Berkshire Swash`.
-- The Navigation bar should be centered in Medium and higher
-  devices.
-- All Navigation links should, when hovered over, turn orange 
-  (`rgb(220, 149, 35, 1)`).
-- Each link when clicked should display a dropdown menu of relevant
-  items assigned to `Pocket Watches`, `Parts`, `Tools` and
-  `Services` respectively. Except for `All Products` which
-  stands alone and display all products when clicked.
+- `All Products`, `Pocket Watches`, `Parts`, `Tools`
+  and `Services` links should be displayed in Navigation
+  Bar.
+- Ensure headers in navigation bar have font
+  `Berkshire Swash`.
+- The Navigation bar should be centered in Medium and 
+  large devices.
+- All Navigation links should, when hovered over,
+  turn orange (`rgb(220, 149, 35, 1)`).
+- Each link when clicked should display a dropdown menu
+  of relevant items assigned to `Pocket Watches`, `Parts`,
+  `Tools` and `Services` respectively. Except for
+  `All Products`, which stands alone and displays
+  all products when clicked.
 - Ensure items in dropdown menu have font `Roboto`.
-- Click through each dropdown menu item and ensure correct page loads
-  up when item is clicked.
-- For mobile devices ensure similar tests above are carried
-  out.
+- Click through each dropdown menu item and ensure
+  correct page loads up when item is clicked.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Layout**
 
-- As the screen decreases to a medium size, ensure link fonts
-  decrease in size.
-- For mobile screen sizes, ensure Navigation links collapse to a toggle
-  menu hamburger icon that is positioned to the far left. 
-- For mobile screen sizes ensure search bar drops down to Navigation Bar,
-  positioned to the right of the toggle hamburger menu.
+- As the screen decreases to a medium size, ensure
+  link fonts decrease in size.
+- For mobile screen sizes, ensure Navigation links
+  collapse to a toggle menu hamburger icon that is
+  positioned to the far left. 
+- For mobile screen sizes ensure search bar drops
+  down to Navigation Bar, positioned to the right
+  of the toggle hamburger menu.
 
 ### Home (Index) Page
 
 #### Register & Non Registered Users
 
-- Main title `Grandpa's Pocket Watch Shop` should be font
-  `Berkshire Swash` and centred.
-- Ensure orange horizontal divider is shown underneath main header
-- Sub heading `Choose a Category` should be font `Roboto`
-  and centred.
-- Ensure there are 4 images with icon/ text links underneath
-  for `Watches`, `Parts`, `Tools`, and `Services`.
-- Ensure all images can be hovered/ clicked and directed to relevant
-  page.
-- Ensure all images fade in opacity when hovered over.
-- Ensure all icon/ text links can be hovered/ clicked and navigate
-  to correct page.
-  page.
-- Ensure all icon/ text links increase in size when hovered over.
-- Ensure for each icon text link that a `Font Awesome` icon is
-  positioned to the right.
-- For mobile devices ensure similar tests above are carried
-  out.
+- Main title `Grandpa's Pocket Watch Shop` should
+  be font `Berkshire Swash` and centered.
+- Ensure orange horizontal divider is shown underneath
+  main header
+- Sub heading `Choose a Category` should be font
+  `Roboto` and centered.
+- Ensure there are 4 images with icon/ text links
+  underneath for `Watches`, `Parts`, `Tools`, and
+  `Services`.
+- Ensure all images can be hovered/ clicked and
+  naviagte to relevant page.
+- Ensure all images fade in opacity when hovered
+  over.
+- Ensure all icon/ text links can be hovered/ clicked
+  and navigate to correct page.
+- Ensure all icon/ text links increase in size when
+  hovered over.
+- Ensure for each icon text link that a `Font Awesome`
+  icon is positioned to the right.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Layout**
 
-- For large screen sizes there should be 4 images along with their
-  icon text links underneath on the same row in 4 columns.
-- For medium screen sizes there should be 2 images along with their
-  icon text links underneath, in a 2 row, 2 column layout.
-- For small screen sizes there should be no images just icon
-  text links.
-- For small screen sizes there should be a 1 row, 1 column layout
-  for all icon text links.
-- For smaller devices the main title `Grandpa's Pocket Watch Shop`
-  should decrease in font size and remain centered.
+- For large screen sizes there should be 4 images
+  along with their icon text links underneath on the
+  same row in 4 columns.
+- For medium screen sizes there should be 2 images
+  along with their icon text links underneath, in a 2
+  row, 2 column layout.
+- For small screen sizes there should be no images
+  just icon text links.
+- For small screen sizes there should be a 
+  1 column layout for all icon text links.
+- For smaller devices the main title
+  `Grandpa's Pocket Watch Shop` should decrease in
+  font size and remain centered.
 
 ### Products App
 
@@ -193,113 +207,135 @@
 - Main title `Products` should be font
   `Berkshire Swash` and centred.
 - Descriptive text should be font `Roboto`.
-- Ensure orange horizontal divider is shown underneath main header
-- Ensure product images are consistent in size
-- Ensure underneath all product images there is `Name`, `Price`
-  `Sku` headings with relevant content in a lighter shade of grey.
-- Ensure for each product card there is a `Read More` next to `Sku`
-  number and a `Add to Basket` button that stretches width of product
-  underneath.
-- Ensure that the image, when hovered over, changes in opacity and when 
-  clicked directs you to ´Product Details` page.
-- Ensure that the `Read More`, when hovered over, changes in opacity and when 
-  clicked directs you to `Product Details` page.
-- Ensure that the `Add to Basket` button, when clicked changes in opacity
-  and adds product to the `Basket`.
-- Ensure number changes in `Basket` to account for new product.
-- Ensure pop up window is displayed when a product is added to the 
-  basket.
-- Ensure that if a product is already in the basket, that if a user tries
-  to add the product again, a pop up window will inform user that product
-  is already in basket. 
-- Ensure when product is added to `Basket` the user is redirected to current
-  page.
-- Ensure products are always centred, whether there is 4, 3, 2 or 1 column
-  of images. 
-- For categories, `Pocket Watches`, `Parts` and `Tools` ensure that
-  `Badges` are displayed that inform user of products in selected options.
+- Ensure orange horizontal divider is shown
+  underneath main header.
+- Ensure product images are consistent in size.
+- Ensure underneath all product images there
+  is `Name`, `Price`, `Sku` headings with relevant
+  content in a lighter shade of grey.
+- Ensure for each product card there is a `Read More`
+  next to `Sku` number and a `Add to Basket` button
+  that stretches width of product underneath.
+- Ensure that the image, when hovered over, changes
+  in opacity and when clicked directs you to the
+  `Product Details` page.
+- Ensure that the `Read More` link, when hovered over,
+  changes in opacity and when clicked naviagtes you
+  to the `Product Details` page.
+- Ensure that the `Add to Basket` button, when clicked
+  changes in opacity and adds product to the `Basket`.
+- Ensure number changes in `Basket` to account for
+  new product.
+- Ensure pop up window is displayed when a product is
+  added to the `Basket`.
+- Ensure that if a product is already in the `Basket`,
+  that if a user tries to add the product again, a pop
+  up window will inform user that the product is already
+  in the `Basket`. 
+- Ensure when product is added to the `Basket` the user
+  is redirected back to the current page.
+- Ensure products are always centered, whether there is
+  4, 3, 2 or 1 column of products. 
+- For categories, `Pocket Watches`, `Parts` and `Tools`,
+  ensure that `Badges` are displayed that inform user of
+  products in selected category.
 - For mobile devices ensure similar tests above are carried
   out.
 
 **Layout**
 
-- For larger devices image cards should have a 1 row, 4 column layout.
-- As screen devices decrease in size product cards should display 1 row,
-  3 column layout; 1 row, 2 column layout; and lastly 1 row, 1 column layout
+- For larger devices image cards should have a 1 row,
+  4 column layout.
+- As screen devices decrease in size product cards should
+  display a 1 row, 3 column layout; 1 row, 2 column layout;
+  and lastly 1 row, 1 column layout
   for mobile.
 
 **Product Detail Page**
 
 - Main title `Products Details` should be font
-  `Berkshire Swash` and centred.
-- Ensure orange horizontal divider is shown underneath main header.
-- Ensure when product is added to `Basket` the user is redirected to current
-  page.
+  `Berkshire Swash` and centered.
+- Ensure orange horizontal divider is shown underneath
+  main header.
+- Ensure when product is added to the `Basket` the user
+  is redirected to current page.
 - Descriptive text should be font `Roboto`.
-- Ensure that there is a `Keep Shopping` link and an `Add to Basket`
-  button shown under product description.
-- Ensure that the `Keep shopping` link, when hovered over, changes in opacity
-  and when clicked directs you to `All Products` page.
-- Ensure that the `Add to Basket` button, when clicked changes in opacity
-  and adds product to the `Basket`.
-- Ensure pop up window is displayed when a product is added to the 
-  basket.
-- Ensure that if a product is already in the basket, that if a user tries
-  to add the product again, a pop up window will inform user that product
-  is already in basket. 
-- For mobile devices ensure similar tests above are carried
-  out.
+- Ensure that there is a `Keep Shopping` link and an
+  `Add to Basket` button shown under product description.
+- Ensure that the `Keep shopping` link, when hovered over,
+  changes in opacity and when clicked directs you to the
+  `All Products` page.
+- Ensure that the `Add to Basket` button, when clicked
+  changes in opacity and adds product to the `Basket`.
+- Ensure pop up window is displayed when a product is
+  added to the basket.
+- Ensure that if a product is already in the `Basket`,
+  that if a user tries to add the product again, a pop
+  up window will inform the user that the product is
+  already in `Basket`. 
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Layout**
-- For larger devices there should be a 1 row, 2 column layout, of firstly
-  an image and secondly text.
-- For mobile devices there should be a 1 row, 1 column layout. Image and then
-  text respectively.
+- For larger devices there should be a 1 row, 2 column
+  layout, of firstly an image and secondly text.
+- For mobile devices there should be a 1 column layout.
+  Image and then text respectively.
 
 ### Basket App
 
 #### Register & Non Registered Users
 
 - Main title `Shopping Basket` should be font
-  `Berkshire Swash` and centred.
-- Ensure orange horizontal divider is shown underneath main header.
+  `Berkshire Swash` and centered.
+- Ensure orange horizontal divider is shown underneath
+  main header.
 - Descriptive text should be font `Roboto`.
-- For Desktop there should be a 1 row, 2 column structure. First column
-  a table that list all items in basket, and in the second column a basket
-  total summary.
-- The first column should have table headers of `Product Name` and
-  `Item Price`.
-- Ensure product image is clickable and directs you to product detail page
-- Under the table headers each item in basket should show an image, 
-  product name and sku number.
+- For Desktop there should be a 1 row, 2 column
+  structure. First column a table that lists all items
+  in basket, and in the second column a basket total
+  summary.
+- The first column should have table headers of
+  `Product Name` and `Item Price`.
+- Ensure product image is clickable and directs you to
+  the `Product Details` page
+- Under the table headers each item in the basket should
+  show an image, product name and sku number.
 - Font should be of a light grey colour.
-- Next to each table line item there should be a delete icon. Which should
-  be black in colour and when hovered over turn red.
-- If delete icon is clicked the item from the basket should be removed and
-  a pop up message confirming removal should appear. 
-- Ensure that when basket is empty a page only displays a message
-  'Your basket is empty' and a 'Keep Shopping'.
-- In the second column there should show a summary of costs, of `Item(s) Total`,
-  `Delivery` and `Grand Total`.
-- Each summary header should show relevant costs and be adjusted when
-  items are deleted from the basket.
+- Next to each table line item there should be a delete
+  icon. Which should be black in colour and when hovered
+  over turn red.
+- If delete icon is clicked the item from the basket
+  should be removed and a pop up message confirming
+  removal should appear. 
+- Ensure that when the basket is empty a page displays
+  a message 'Your basket is empty' and a 'Keep Shopping'
+  link.
+- In the second column there should be a summary of
+  costs, of `Item(s) Total`, `Delivery` and `Grand Total`.
+- Each summary header should show relevant costs and be
+  adjusted when items are deleted from the basket.
 - Delivery charge should always be 10% of item(s) total.
-- Ensure that there is a `Checkout` link and `Keep Shopping` link underneath
-  the summary of costs.
-- Ensure that the `Checkout` button has white text over a black background.
-- Ensure that the `Checkout` button, when clicked changes in opacity
-  directs user to `Checkout´ page.
-- Ensure that the `Keep shopping` link, when hovered over, changes in opacity
-  and when clicked directs you to `All Products` page.
-- Flood the 'Basket` with products and ensure product items and their
-  totals are correct and look clean as a list on page.
+- Ensure that there is a `Checkout` link and `Keep Shopping`
+  link underneath the summary of costs.
+- Ensure that the `Checkout` button has white text over a
+  black background.
+- Ensure that the `Checkout` button, when clicked changes
+  in opacity and navigates user to `Checkout` page.
+- Ensure that the `Keep shopping` link, when hovered over,
+  changes in opacity and when clicked naviagtyes user to
+  the `All Products` page.
+- Flood the `Basket` with products and ensure product items
+  and their totals are correct and look clean as a list on
+  page.
 - For mobile devices ensure similar tests above are carried
   out.
 
 **Layout**
 
-- For smaller devices there should be a 1 row, 1 column layout with basket list
-  of items first and basket total summary second.
+- For smaller devices there should be a 1 column layout
+  with basket list of items first and basket total summary
+  second.
 
 ### Checkout App (Stripe/ Webhooks/ Signals)
 
@@ -307,88 +343,106 @@
 
 - Main title `Checkout` should be font
   `Berkshire Swash` and centered.
-- Ensure orange horizontal divider is shown underneath main header.
+- Ensure orange horizontal divider is shown underneath 
+  main header.
 - Descriptive text should be font `Roboto`.
-- `Order Summary` header should display in bold and show number of
-  items in order.
-- Add and remove items from basket and ensure item count is correct
-- Ensure table headers `Product Name` and `Item Price` are visible
-  bold.
-- Ensure that under the headers there is a product image, name, sku
-  number and price.
-- Ensure details are correct for product image, name, sku
-  number and price.
-- Flood the order with items and ensure layout remains cohesive
-  and that details are correct for each item.
-- For `Order Grand Total` table details ensure `ITEM(S) TOTAL`,
-  `DELIVERY`, `GRAND TOTAL` are bold and underneath each other
-  respectively.
-- Ensure `ITEM(S) TOTAL`, `DELIVERY`, `GRAND TOTAL` costs are correct and
-  and change as items are deleted or added to `Basket`.
-- Underneath the Payment Form ensure there is a `Complete Payment`
-  with white font against a black background.
-- Underneath the `Complete Payment` icon ensure there
-  is a link to `Adjust Basket` that is underlined and with back font,
-  with white font against a black background, that when hovered
-  over changes opacity.
-- For mobile devices ensure similar tests above are carried
-  out.
+- `Order Summary` header should display in bold and show
+  number of items in order.
+- Add and remove items from basket and ensure item count
+  is correct
+- Ensure table headers `Product Name` and `Item Price`
+  are visible and bold.
+- Ensure that under the headers there is a product image,
+  name, sku number and price.
+- Ensure image/ details are correct for product image,
+  name, sku number and price.
+- Flood the order with items and ensure layout remains
+  cohesive and that details are correct for each item.
+- For `Order Grand Total` details ensure
+  `ITEM(S) TOTAL`, `DELIVERY`, `GRAND TOTAL` are bold
+  and underneath each other respectively.
+- Ensure `ITEM(S) TOTAL`, `DELIVERY`, `GRAND TOTAL`
+  costs are correct and change as items are deleted or
+  added to the `Basket`.
+- Underneath the Payment Form ensure there is a
+  `Complete Payment` link with white font against a black
+  background.
+- Underneath the `Complete Payment` link ensure there
+  is a link to `Adjust Basket`, that is underlined
+  with back font, and that when hovered over changes 
+  opacity.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Payment Details Form**
 
-- Ensure form is split by `Details`, `Delivery` and `Payment`.
-- Ensure `Details` form fields have correct placeholder text.
-- Ensure `Delivery` form fields have correct placeholder text.
-- Ensure `Payment` form field have correct placeholder text.
-- Ensure each required field display error message when not filled in
-- Complete form details, and each time leave a required filled empty
-  and try and `Complete Payment`. Error messages should be displayed
-  each time informing user field which is missing. 
-- Ensure `Email` cannot be filled out without correct `@` sign and
-  `.com`.
-- Type incorrect payment details and ensure red error message appears
-- Fill in all fields correctly and process payment using card number
-  `4242 4242 4242 4242 4242 4242 424` 
-- Ensure there is a `Spinning Wheel` over a green background when
-  payment is being processed. 
-- Once payment is processed ensure user is redirected to a
-  confirmation success page
-- Confirmation success page should display the email order has been made to
-  and all order details.
-- Ensure email is sent to user with correct order detail information
-- Ensure that when unrequired fields are not inputted in form they do not
-  display in in order summary success page.
-- On the payments success page when clicking back error message appears
-  stating there is nothing in user's basket
-- Ensure there is an icon for `BACK TO GRANDPA'S SHOP` under order
-  confirmation, that has white font on an orange background, that when
-  hovered changes opacity.
-- For mobile devices ensure similar tests above are carried
-  out.
+- Ensure form is split by `Details`, `Delivery`
+  and `Payment`.
+- Ensure `Details` form fields have correct placeholder
+  text.
+- Ensure `Delivery` form fields have correct placeholder
+  text.
+- Ensure `Payment` form field have correct placeholder
+  text.
+- Ensure each required field displays an error message
+  when not filled in
+- Complete form details, and each time leave a required
+  filled empty and try and `Complete Payment`. Error
+  messages should be displayed accordingly, informing
+  user which field is missing or incorrect. 
+- Ensure `Email` cannot be filled out without correct `@`
+  sign and `.com`.
+- Type incorrect payment details and ensure red error
+  message appears
+- Fill in all fields correctly and process payment using
+  card number `4242 4242 4242 4242 4242 4242 424` 
+- Ensure there is a `Spinning Wheel` over a green
+  background when payment is being processed. 
+- Once payment is processed ensure user is redirected
+  to a confirmation success page
+- Confirmation success page should display the order
+  details.
+- Ensure email is sent to user with correct order detail
+  information.
+- Ensure that when unrequired fields are not inputted in
+  form they do not display in order summary success
+  page.
+- Ensure on the payments success page, when clicking
+  back page, an error message appears stating there is
+  nothing in user's basket
+- Ensure there is an icon for `BACK TO GRANDPA'S SHOP`
+  under order confirmation, that has white font on an
+  orange background, that when hovered changes opacity.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Stripe/ Webhooks/ Signal**
 
-- When order is confirmed ensure pop up window is displayed displaying
-  order number information.
-- When clicking `Complete Payment`, during load spinning, press the back button.
-  Order should still get placed.
-- When clicking `Complete Payment`, during load spinning, close page.
-  Order should still get placed.
-- For each `Complete Payment` access Stripe and it's Webhook events and
-  ensure all payment Intents are successful.
-- For mobile devices ensure similar tests above are carried
-  out.
+- When order is confirmed ensure pop up window
+  appears displaying order number information.
+- When clicking `Complete Payment`, during load
+  spinning, press the back button. Order should
+  still get placed.
+- When clicking `Complete Payment`, during load
+  spinning, close page. Order should still get placed.
+- For each `Complete Payment` access Stripe and it's
+  Webhook events and ensure all payment Intents are
+  successful.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Layout**
 
-- Ensure Checkout App has a 1 row, 2 column layout that
-  decreases to 1 column on mobile devices, with
-  `Order Summary` details first, the `Order Grand Total`
+- Ensure Checkout App has a 1 row, 2 column layout
+  that decreases to 1 column on mobile devices, with
+  `Order Summary` details first, then `Order Grand Total`
   and `Payment Details`
-- Ensure confirmation success order details have a table of contents
-  with field headers on the left and details on the right for larger devices
-  that are tabulated in 1 column for mobile devices.
-- Ensure order number condenses to a scrolling feature for mobile devices.
+- Ensure confirmation success order details have a
+  table of contents with field headers on the left
+  and details on the right forr larger devices. Order
+  dtetails are tabulated in 1 column for mobile devices.
+- Ensure order number condenses to a scrolling feature
+  for mobile devices.
 - For mobile devices ensure similar tests above are carried
   out.
  
@@ -398,81 +452,111 @@
 
 - Main title `Profile` should be font
   `Berkshire Swash` and centered.
-- Ensure orange horizontal divider is shown underneath main header.
+- Ensure orange horizontal divider is shown
+  underneath main header.
 - Descriptive text should be font `Roboto`.
-- `Default Delivery Information` should include profile field information
-- Under profile field information there should be a `Update Information`
-  icon and a `Keep Shopping` link.
-- `Update Information` icon should be of white font over a black background,
-   which when hovered over changes opacity
-- `Keep Shopping` link should be of black font and underlined,
-   which when hovered over changes opacity
-- `Order Summary` information should contain headers `Order`, `Date`, `Items`
-   and `Total`.
--  Under each heading should be correct 'Order' information.
--  Order number under `Order` heading should be contracted to 6 characters.
-- Order number should be clickable and open up the confirmation detail in 
-a separate page
-- When order number is clicked a pop up information window should appear
-  with a message that this is a past order.
-- ensure past order details are correct
-- At the bottom of the past order confirmation there should be an icon
-  `BACK TO MY PROFILE`, that is orange in colour and with white font, and
-  when hovered over changes opacity.
-- `Appointments` information should contain headers `Appointment`,
-  `Model`, `Type`, `Date` and `Time`.
--  There also should be 2 icons for 'Edit' and Delete'
--  Under each heading should be correct 'Appointment' information.
+- `Default Delivery Information` should include
+  profile field information.
+- Under `Default Delivery Infomraiton` fields,
+  there should be an `Update Information` and
+  `Keep Shopping` link.
+- `Update Information` link should be of white font
+  over a black background, which when hovered over
+  changes opacity
+- `Keep Shopping` link should be of black font and
+  underlined, which when hovered over changes opacity
+- `Order Summary` information should contain headers
+  `Order`, `Date`, `Items` and `Total`.
+- Under each heading there should be correct 'Order' 
+  information.
+- Order number under `Order` heading should be
+  contracted to 6 characters.
+- Order number should be clickable and open up the
+  order confirmation detail on a separate page.
+- When order number is clicked a pop up information
+  window should appear with a message stating it is a
+  past order.
+- Ensure past order details are correct.
+- At the bottom of the past order confirmation there
+  should be an link `BACK TO MY PROFILE`, that is orange
+  in colour with white font, and when hovered over
+  changes opacity.
+- `Appointments` information should contain headers
+  `Appointment`, `Model`, `Type`, `Date` and `Time`.
+- There also should be 2 icons for 'Edit' and Delete'
+- Under each heading there should be correct 'Appointment'
+  information.
 - The 'Delete' icon when hovered over should turn red
-- when the 'Delete' icon is clicked the appointment should be removed
-- A message confirming delete of appointment should appear
-- When the 'Edit' icon is hover over it should change in opacity
-- when the 'Edit' icon is clicked a new page should open with prefilled
-  information from previous booked appointment. 
-- At bottom of appointment form there should be a `UPDATE APPOINTMENT``
-  icon with white font against an orange background.
-- Edit details in appointment form and click ÙPDATE APPOINTMENT'. A confirmation
-  page should open up with confirmation of updated appointment
-- Ensure message pops up with confirmation of updates appointment
-- Ensure email with updated appointment information id received.
-- In `My Profile´ Ensure appointment is visible and check to see if updated derails
-  are correct.
-- Flood the `My Profile` page with order and appointment and ensure max height kicks information
-  and is display even on page at level with delivery information.
+- When the 'Delete' icon is clicked the appointment
+  should be removed.
+- A message confirming deletion of appointment should
+  appear.
+- When the 'Edit' icon is hovered over it should change
+  opacity
+- When the 'Edit' icon is clicked a new page should
+  open with prefilled information from previous booked
+  appointment. 
+- At bottom of appointment form there should be a
+  `UPDATE APPOINTMENT`link with white font against
+  an orange background.
+- Edit details in appointment form and click
+  `UPDATE APPOINTMENT`. A confirmation page should open
+  up with confirmation of updated appointment.
+- Ensure message pops up with confirmation of updated
+  appointment.
+- Ensure email with updated appointment information is
+  sent with correct updated appointment details.
+- In `My Profile` ensure appointment is visible and check
+  to see if updated details are correct.
+- Flood the `My Profile` page with orders and
+  appointments and ensure the max height is instigated
+  displaying both `Order` and `Appointment` details
+  even on page at level with delivery information.
 - For mobile devices ensure similar tests above are carried
   out.
 
 **Default Delivery Information Form**
 
-- Ensure all fields have correct placeholder information.
-- Ensure each required field display error message when not filled in
-- Complete form details, and each time leave a required filled empty
-  and try and `UPDATE INFORMATIN`. An error messages should be displayed
-  each time informing user the field which is missing information.
-- Fill in all fields correctly and 'UPDATE INFORMATIN`
-- Ensure profile form details saved are used as default information for
-  Payment Details.
-- Ensure profile form details saved are used as default information for
-  name and email for `Contact` and `Services` form.
-- Repeat different changes in Profile information and ensure changes are
-  updated accodinkg6 in forms for `Checkout`, `Contact` and `Services` 
-- For mobile devices ensure similar tests above are carried
-  out.
+- Ensure all fields have correct placeholder
+  information.
+- Ensure each required field displays an error message
+  when not filled in.
+- Complete form details, and each time leave a
+  required filled empty and try and `UPDATE INFORMATION`.
+  An error messages should be displayed each time, 
+  informing user the field which is missing information.
+- Fill in all fields correctly and `UPDATE INFORMATION`.
+- Ensure profile form details saved are used as default
+  information for payment details.
+- Ensure profile form details saved are used as default
+  information for name and email for `Contact` and
+  `Services` form.
+- Changes profile information and
+  ensure changes are updated accodingly in forms for
+  `Checkout`, `Contact` and `Services`.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Edit Appointment Form**
-- Please refer to test run in ´Services´ App test ...link???
+- Please repeat same steps for tests carried out for
+  the - [Book an Appointment Form](#services) for
+  Services
 
 **Layout**
 
-- The `Profile` page should be split into 2 columns. The first column should
-  have the `Default Delivery Information` and the second column including the
-  `Order History` and `Appointments`.
-- For Mobile devices there should only be 1 column in order of
-  `Default Delivery Information`, `Order History` and `Appointments`.
-- For mobile devices the `Order History` should only include the headers
-  `Order Number` and `Total`
-- For mobile devices the `Order History` should only include the headers
-  `Date` and `Time`, as well as 'Edit' and `Delete' icons
+- The `Profile` page should be split into 2 columns.
+  The first column should have the
+  `Default Delivery Information` and the second column
+  including the `Order History` and `Appointments`
+  details.
+- For Mobile devices there should only be 1 column with 
+  `Default Delivery Information` first, then `Order History`
+  and `Appointments`.
+- For mobile devices the `Order History` should only
+  include the headers `Order Number` and `Total`.
+- For mobile devices the `Order History` should only
+  include the headers `Date` and `Time`, as well as 
+  the 'Edit' and `Delete' icons
 
 ### Services
 
@@ -480,65 +564,78 @@ a separate page
 
 - Main title `Visit our Shop` should be font
   `Berkshire Swash` and centered.
-- Ensure orange horizontal divider is shown underneath main header.
+- Ensure orange horizontal divider is shown underneath
+  main header.
 - Descriptive text should be font `Roboto`.
-- Ensure header `For a Repair or Valuation!` is centered with
-  font `Berkshire Swash`.
-- Under header there should be 2 columns with 2 icons for
-  `Repair` and `Valuation``
-- Under each icons ensure details of services for each is correct
+- Ensure header `For a Repair or Valuation!` is
+  centered with font `Berkshire Swash`.
+- Under header there should be 2 columns with 2 icons
+  for `Repair` and `Valuation``
+- Under each icons ensure details of services for each
+  is correct
 - Ensure image is directly underneath and responsive
-- Underneath image ensure `Book an Appointment` header has a flashing
-  orange double chevron pointing to the right of the Service appointment form
-- ensure Appointment Form includes all correct fields and has a
-  `CONFIRM APPOINTMENT` button with small 'tick 'box' icon.
-- Ensure `CONFIRM APPOINTMENT` button has white font with orange
-  background and when hovered over changes opacity.
-- For mobile devices ensure similar tests above are carried
-  out.
+- Underneath image ensure `Book an Appointment` header
+  has a flashing orange double chevron pointing to the
+  right of the Service appointment form
+- ensure Appointment Form includes all correct fields
+  and has a `CONFIRM APPOINTMENT` button with small
+  'tick 'box' icon.
+- Ensure `CONFIRM APPOINTMENT` button has white font
+  with orange background and when hovered over changes
+  opacity.
+- For mobile devices ensure similar tests above are
+  carried out.
 
 **Book an Appointment Form**
 
-- Ensure the `Name` and `Email` fields are prefilled with
-  registered users details.
-- ensure dropdown options for `Appointment Type`, `Watch Model`
-  `Watch Type` and `Time` are correct and show all options.
+- Ensure the `Name` and `Email` fields are prefilled
+  with registered users details.
+- ensure dropdown options for `Appointment Type`,
+  `Watch Model`, `Watch Type` and `Time` are correct
+  and show all options.
 - Ensure Date field display current date only.
-- For `Date` field ensure user cannot type a date manually. 
-- For `Date` field ensure user cannot select a date within
-  5 days of current date in Date Picker.
+- For `Date` field ensure user cannot type a date
+  manually. 
+- For `Date` field ensure user cannot select a date
+  within 5 days of current date in Date Picker.
 - Ensure Date picker month can be selected
 - Ensure Date picker year can be selected.
 - Ensure all field are mandatory
-- Test required fields by leaving blank while other fields
-  are inputted and try to confirm appointment.
-- Ensure error messages appear for user when fields are missing
-  or not filled in correctly.
-- Fill all fields of form and click confirm appointment, and ensure
-  new page is opened up to confirm appointment is booked.
-- Ensure `Email` cannot be filled out without correct `@` sign and
-  `.com`.
-- Ensure pop up window displays message appointment is booked. 
-- Ensure email is sent to user with correct appointment booking 
-  details.
-- Ensure `BACK TO GRANDPA's SHOP` icon is displayed under confirmation
-  success page.
-- Ensure `BACK TO GRANDPA's SHOP` icon has white font against a 
-  black background and when hovered over changes opacity.
-- Ensure `BACK TO GRANDPA's SHOP` directs user back to home
+- Test required fields by leaving blank while other
+  fields are inputted and try to confirm appointment.
+- Ensure error messages appear for user when fields
+  are missing or not filled in correctly.
+- Fill all fields of form and click confirm appointment,
+  and ensure new page is opened up to confirm appointment
+  is booked.
+- Ensure `Email` cannot be filled out without correct
+  `@` sign and `.com`.
+- Ensure pop up window displays message appointment
+  is booked. 
+- Ensure email is sent to user with correct appointment
+  booking details.
+- Ensure `BACK TO GRANDPA's SHOP` icon is displayed
+  under confirmation success page.
+- Ensure `BACK TO GRANDPA's SHOP` icon has white font
+  against a black background and when hovered over
+  changes opacity.
+- Ensure `BACK TO GRANDPA's SHOP` directs user back to
+  home
 - For mobile devices ensure similar tests above are carried
   out.
 
 **Layout**
-- The `Services` page should have a 2 column structure for desktop
-    and a 1 column structure for mobile.
-- For Desktop the first column should display the detail for the appointment 
-  and the second column the appointment form.
-- For mobile the appointment details will be displayed first and then appointment
-  form
-- Underneath image ensure `Book an Appointment` header has a flashing
-  orange double chevron pointing downwards towards Service appointment form
-- Ensure main title `Visit our Shop` reduces in size for smaller devices
+- The `Services` page should have a 2 column structure for
+  deskto and a 1 column structure for mobile.
+- For Desktop the first column should display the detail for
+  the appointment and the second column the appointment form.
+- For mobile the appointment details will be displayed first
+  and then appointment form
+- Underneath image ensure `Book an Appointment` header has a
+  flashing orange double chevron pointing downwards towards
+  Service appointment form
+- Ensure main title `Visit our Shop` reduces in size for smaller
+  devices
 
 ### Contact
 
