@@ -330,6 +330,10 @@ UX for the Website.
   The search function will allow for searches
   in name fields as well as in description fields.
 
+- If a user searches for a product that is not found a message
+  will be displayed on page requesting user trys again or searches
+  again in 'All Products'.
+
 **Desktop**
 
 ![Nav-Desktop](/documentation/readme/nav-desktop.png/)

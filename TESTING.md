@@ -104,6 +104,8 @@
 - Ensure search function work with searches made in 'Product' details
   and 'Product' description 
 - Test various product category searches.
+- Ensure that when a search is not found a message for the user
+  is displayes on page.
 - Ensure all three icons turn from orange (`rgb(220, 149, 35, 1)`) to
   `rgb(220, 149, 35, 0.6)` when hover over.
 - All above tests should be carried on mobile devices with same results.
