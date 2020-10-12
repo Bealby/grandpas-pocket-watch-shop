@@ -23,13 +23,25 @@
 2.[Non-Automated Testing](#non-automated-testing)
 
 - [Main Header](#main-header)
-- [Navigation Bar](#main-header)
-- [Main Header](#main-header)
-- [Main Header](#main-header)
-- [Main Header](#main-header)
-- [Main Header](#main-header)
-- [Main Header](#main-header)
-- [Main Header](#main-header)
+- [Navigation Bar](#navigation-bar)
+- [Home Page](#home-page)
+- [Products App](#products-app)
+- [Basket App](#basket-app)
+- [Checkout App](#checkout-app)
+- [Profile App](#profile-app)
+- [Services App](#services-app)
+- [Contact App](#contact-app)
+- [Footer](#footer)
+- [Desktop Browsers](#desktop-browsers)
+- [Mobile and Tablet Devices](#mobile-and-tablet-devices)
+- [User Testing](#user-testing)
+- [User Experience](#user-experience)
+
+3.[Fixes](#fixes)
+
+4.[Not Fixed](#not-fixed)
+
+---
 
 ## Automated Testing
 
@@ -386,7 +398,9 @@
   with basket list of items first and basket total summary
   second.
 
-### Checkout App (Stripe/ Webhooks/ Signals) (Registered & Non Registered Users)
+### Checkout App
+
+(Registered & Non Registered Users)
 
 - Main title `Checkout` should be font
   `Berkshire Swash` and centered.
@@ -463,7 +477,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-#### Stripe/ Webhooks/ Signal
+#### Stripe/ Webhooks/ Signals
 
 - When order is confirmed ensure pop up window
   appears displaying order number information.
@@ -789,7 +803,9 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-### Allauth - (User Authentication)
+### Allauth
+
+(User Authentication)
 
 - Ensure that the standard format for authentication
   pages have a main header font `Berkshire Swash` that
