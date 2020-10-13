@@ -122,7 +122,7 @@
 
 - [Unit Tests](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/)
   Django comes with a test suite of `Unit Tests` that all
-  use the testing infrastructure that ships with Django for
+  use the testing infrastructure that comes with Django for
   testing applications.
 
   A variety of standard unit tests were carried out for
@@ -160,7 +160,7 @@
 - Ensure number under 'Basket' icon, is `0` and colour
   orange `rgb(220, 149, 35, 1)`.
 - Ensure number under 'Basket' icon, accumulates the total
-  each time a 'Product' is added to the basketand, and
+  each time a 'Product' is added to the basket, and
   displays number accordingly.
 - When the search icon is clicked with an empty field entry,
   the user is redirected to the `Products` page along with
@@ -173,7 +173,7 @@
 - Ensure all three icons turn from orange
   (`rgb(220, 149, 35, 1)`) to
   `(rgb(220, 149, 35, 0.6)` when hovered over.
-- All above tests should be carried on mobile devices.
+- All above tests should be carried out on mobile devices.
 
 #### Main Header Layout
 
@@ -196,15 +196,15 @@
   Bar.
 - Ensure headers in navigation bar have font
   `Berkshire Swash`.
-- The Navigation bar should be centered in Medium and
-  large devices.
+- The Navigation bar should be centred in Medium and
+  Large devices.
 - All Navigation links should, when hovered over,
   turn orange (`rgb(220, 149, 35, 1)`).
-- Each link when clicked should display a dropdown menu
-  of relevant items assigned to `Pocket Watches`, `Parts`,
-  `Tools` and `Services` respectively. Except for
-  `All Products`, which stands alone and displays
-  all products when clicked.
+- Each link when clicked should display a dropdown
+  menu of relevant items assigned to `Pocket Watches`,
+  `Parts`, `Tools` and `Services` respectively; except
+  for `All Products`, which stands alone and displays
+  all the products when clicked.
 - Ensure items in dropdown menu have font `Roboto`.
 - Click through each dropdown menu item and ensure
   correct page loads up when item is clicked.
@@ -912,8 +912,8 @@
   they felt it met their needs as discussed in
   [Agile User Stories](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
-  User testing was also invaluavle in challenging
-  the definsive design of the Website and
+  User testing was also invaluable in challenging
+  the defensive design of the Website and
   the authetication aspect.
 
   Devices used by users in the User Testing:
@@ -1006,6 +1006,6 @@
   the functionality of the form itself so it was decided
   to leave for now and work on at a future date.
 
-[Go to top](#contents)
-
 ---
+
+[Go to top](#contents)
