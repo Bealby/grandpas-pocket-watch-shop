@@ -870,6 +870,7 @@ The following technologies were used in this project:
    and images
 - [Date Picker](https://bootstrap-datepicker.readthedocs.io/en/latest/) -
    Used to display calendar on appointment form
+   https://temp-mail.org/en/ - tesing emails
 
 ### Frameworks
 
