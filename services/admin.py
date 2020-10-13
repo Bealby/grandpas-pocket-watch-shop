@@ -46,7 +46,7 @@ class AppointmentAdmin(admin.ModelAdmin):
         'time'
     )
     # Orders by latest date
-    ordering = ('-date',)
+    ordering = ('date',)
 
 
 admin.site.register(AppointmentType, AppointmentTypeAdmin)
