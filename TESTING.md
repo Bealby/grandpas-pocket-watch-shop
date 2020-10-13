@@ -116,7 +116,7 @@
 - [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
   Throughout the Website building process, console errors were
   continually assessed and fixed accordingly. The deployed
-  Website should have no concole errors.
+  Website should have no console errors.
 
 ### Unit Tests
 
@@ -229,16 +229,16 @@
 (Registered & Non Registered Users)
 
 - Main title `Grandpa's Pocket Watch Shop` should
-  be font `Berkshire Swash` and centered.
+  be font `Berkshire Swash` and centred.
 - Ensure orange horizontal divider is shown underneath
   main header
 - Sub heading `Choose a Category` should be font
-  `Roboto` and centered.
+  `Roboto` and centred.
 - Ensure there are 4 images with icon/ text links
   underneath for `Watches`, `Parts`, `Tools`, and
   `Services`.
 - Ensure all images can be hovered/ clicked and
-  naviagte to relevant page.
+  navigate to relevant page.
 - Ensure all images fade in opacity when hovered
   over.
 - Ensure all icon/ text links can be hovered/ clicked
@@ -264,7 +264,7 @@
   1 column layout for all icon text links.
 - For smaller devices the main title
   `Grandpa's Pocket Watch Shop` should decrease in
-  font size and remain centered.
+  font size and remain centred.
 
 [Go to top](#contents)
 
@@ -290,7 +290,7 @@
   in opacity and when clicked directs you to the
   `Product Details` page.
 - Ensure that the `Read More` link, when hovered over,
-  changes in opacity and when clicked naviagtes you
+  changes in opacity and when clicked navigates you
   to the `Product Details` page.
 - Ensure that the `Add to Basket` button, when clicked
   changes in opacity and adds product to the `Basket`.
@@ -304,7 +304,7 @@
   in the `Basket`.
 - Ensure when product is added to the `Basket` the user
   is redirected back to the current page.
-- Ensure products are always centered, whether there is
+- Ensure products are always centred, whether there is
   4, 3, 2 or 1 column of products.
 - For categories, `Pocket Watches`, `Parts` and `Tools`,
   ensure that `Badges` are displayed that inform user of
@@ -324,7 +324,7 @@
 #### Product Detail Page
 
 - Main title `Products Details` should be font
-  `Berkshire Swash` and centered.
+  `Berkshire Swash` and centred.
 - Ensure orange horizontal divider is shown underneath
   main header.
 - Ensure when product is added to the `Basket` the user
@@ -346,7 +346,7 @@
 - For mobile devices ensure similar tests above are
   carried out.
 
-#### Product Degtail Layout
+#### Product Details Layout
 
 - For larger devices there should be a 1 row, 2 column
   layout, of firstly an image and secondly text.
@@ -360,7 +360,7 @@
 (Register & Non Registered Users)
 
 - Main title `Shopping Basket` should be font
-  `Berkshire Swash` and centered.
+  `Berkshire Swash` and centred.
 - Ensure orange horizontal divider is shown underneath
   main header.
 - Descriptive text should be font `Roboto`.
@@ -396,7 +396,7 @@
 - Ensure that the `Checkout` button, when clicked changes
   in opacity and navigates user to `Checkout` page.
 - Ensure that the `Keep shopping` link, when hovered over,
-  changes in opacity and when clicked naviagtyes user to
+  changes in opacity and when clicked navigates user to
   the `All Products` page.
 - Flood the `Basket` with products and ensure product items
   and their totals are correct and look clean as a list on
@@ -417,7 +417,7 @@
 (Registered & Non Registered Users)
 
 - Main title `Checkout` should be font
-  `Berkshire Swash` and centered.
+  `Berkshire Swash` and centred.
 - Ensure orange horizontal divider is shown underneath
   main header.
 - Descriptive text should be font `Roboto`.
@@ -514,8 +514,8 @@
   and `Payment Details`
 - Ensure confirmation success order details have a
   table of contents with field headers on the left
-  and details on the right forr larger devices. Order
-  dtetails are tabulated in 1 column for mobile devices.
+  and details on the right for larger devices. Order
+  details are tabulated in 1 column for mobile devices.
 - Ensure order number condenses to a scrolling feature
   for mobile devices.
 - For mobile devices ensure similar tests above are carried
@@ -528,13 +528,13 @@
 (Registered Users)
 
 - Main title `Profile` should be font
-  `Berkshire Swash` and centered.
+  `Berkshire Swash` and centred.
 - Ensure orange horizontal divider is shown
   underneath main header.
 - Descriptive text should be font `Roboto`.
 - `Default Delivery Information` should include
   profile field information.
-- Under `Default Delivery Infomraiton` fields,
+- Under `Default Delivery Information` fields,
   there should be an `Update Information` and
   `Keep Shopping` link.
 - `Update Information` link should be of white font
@@ -574,7 +574,7 @@
   open with prefilled information from previous booked
   appointment.
 - At bottom of appointment form there should be a
-  `UPDATE APPOINTMENT`link with white font against
+  `UPDATE APPOINTMENT` link with white font against
   an orange background.
 - Edit details in appointment form and click
   `UPDATE APPOINTMENT`. A confirmation page should open
@@ -609,7 +609,7 @@
   information for name and email for `Contact` and
   `Services` form.
 - Changes profile information and
-  ensure changes are updated accodingly in forms for
+  ensure changes are updated accordingly in forms for
   `Checkout`, `Contact` and `Services`.
 - For mobile devices ensure similar tests above are
   carried out.
@@ -643,12 +643,12 @@
 (Registered Users)
 
 - Main title `Visit our Shop` should be font in
- `Berkshire Swash` and centered.
+ `Berkshire Swash` and centred.
 - Ensure orange horizontal divider is shown underneath
   main header.
 - Descriptive text should be font `Roboto`.
 - Ensure header `For a Repair or Valuation!` is
-  centered with font `Berkshire Swash`.
+  centred with font `Berkshire Swash`.
 - Under header there should be 2 columns with 2 icons
   for `Repair` and `Valuation`.
 - Under each icons ensure details of services for each
@@ -730,7 +730,7 @@
 (Registered & Non Registered Users)
 
 - Main title `Contact` should be font
-  `Berkshire Swash` and centered.
+  `Berkshire Swash` and centred.
 - Ensure orange horizontal divider is shown underneath
   main header.
 - Descriptive text should be font `Roboto`.
@@ -789,7 +789,7 @@
   and map content and then the second column the contact
   form.
 - For mobile the address and map will be displayed first
-  and then ther contact form
+  and then the contact form
 
 [Go to top](#contents)
 
@@ -798,12 +798,12 @@
 (Registered & Non Registered Users)
 
 - Main title `About` should be font
-  `Berkshire Swash` and centered.
+  `Berkshire Swash` and centred.
 - Ensure orange horizontal divider is shown underneath
   main header.
 - Descriptive text should be font `Roboto`.
-- Ensure image is centered on page.
-- Ensure content is centered on page.
+- Ensure image is centred on page.
+- Ensure content is centred on page.
 - For smaller screen sizes text should be justified.
 
 [Go to top](#contents)
@@ -823,7 +823,7 @@
   (`rgb(220, 149, 35, 0.6)`) when hovered over.
 - Ensure on mobile screen sizes `Basket` icon,
   `About Us`, `Contact` are centred in one row.
-  While `Copyright` text is centered in row underneath.
+  While `Copyright` text is centred in row underneath.
 - For mobile devices ensure similar tests above are
   carried out.
 
@@ -835,7 +835,7 @@
 
 - Ensure that the standard format for authentication
   pages have a main header font `Berkshire Swash` that
-  centered.
+  centred.
 - Ensure that the standard format for authentication
   pages have an orange horizontal divider underneath
   main header.
@@ -845,7 +845,7 @@
   opacity.
 - Ensure that ´secondary` links have black text and
   are underlined and when hovered over change opacity.
-- Text should be centered on all screen sizes.
+- Text should be centred on all screen sizes.
 - Users while logged in on Website can click profile
   to `Signout` and be redirected to `Sign Out` page.
 - Ensure when user clicks `Sign Out` that users are
@@ -854,7 +854,7 @@
 - Ensure registered users can sign in with correct
   details and that pop up window confirms the user is
   signed in.
-- Ensure that registered users are notifiedd
+- Ensure that registered users are notified
   when their username and password is incorrect.
 - Type incorrect user name but correct password. User
   should be informed with an error message.
@@ -914,7 +914,7 @@
 
   User testing was also invaluable in challenging
   the defensive design of the Website and
-  the authetication aspect.
+  the authentication aspect.
 
   Devices used by users in the User Testing:
 
@@ -930,19 +930,19 @@
 
 ### Agile User Stories
 
-- Throughout the build process `Agile User Strories` were
+- Throughout the build process `Agile User Stories` were
   continually monitored to ensure the Website fulfilled
   the requirements for both registered users and non
   registered users.
 
   With the Website's structure in place and testing
-  complete, the Agile User Stories have been satisifed.
+  complete, the Agile User Stories have been satisfied.
 
   User's are able to view products, add to basket,
   checkout and complete a payment. They also have
   access to their orders and CRUD functionality
   with their appointment bookings.
-  
+
   The Store Owner has access to Admin where they can
   view user profiles, user orders and appointment
   bookings. They also have full access to products
@@ -995,12 +995,12 @@
   `Watch Model`, `Watch Type`, preferably showing an empty
   field as in the field for `Time`.
 
-  `Friendly Names` were give to the models `Appointment Type`,
+  `Friendly Names` were given to the models `Appointment Type`,
   `Watch Model`, `Watch Type`, which then caused the difficulty
   in setting the placeholders desired.
 
-  The solution I believe would be to change the atributes in the
-  models, using `empty_label`. 
+  The solution I believe would be to change the attributes in the
+  models, using `empty_label`.
 
   Although a benefit to the UI/UX it does not affect
   the functionality of the form itself so it was decided
@@ -1009,3 +1009,4 @@
 ---
 
 [Go to top](#contents)
+

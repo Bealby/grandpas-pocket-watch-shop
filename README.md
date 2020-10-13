@@ -105,6 +105,7 @@ continually be assessed and achieved to ensure the greatest
 experience and satisfaction for users.
 
 #### Agile User Stories
+
 Agile User Stories can be found
 [here](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
@@ -307,7 +308,7 @@ of the Website remains the same but it was decided to change
 the colour theme of the website along with an app change.
 
 The original colour theme of contrasting greys, was not
-satisfactory to the overall feel of the Website,as it created
+satisfactory to the overall feel of the Website, as it created
 a very bland and dull user interface. It was therefore replaced
 with a more engaging colour theme explained in the **Surface**
 section.
@@ -320,7 +321,7 @@ Pocket Watch Shop.
 
 To allow for 'superusers' to Add/ Edit/ Remove products directly
 from the Website was also not instigated as this is not appropriate
-and could be a securuty risk. Instead Add/ Edit, Remove can only be
+and could be a security risk. Instead Add/ Edit, Remove can only be
 carried out in Admin.
 
 ---
@@ -340,7 +341,7 @@ UX of the Website.
 
 ### Navigation Bar and Main Header
 
-**Mobile**
+#### Mobile
 
 ![Nav-Mobile](/documentation/readme/nav-mobile.png/)
 
@@ -370,11 +371,11 @@ UX of the Website.
   The search function will allow for searches
   in name fields as well as in description fields.
 
-- If a user searches for a product that is not found a 
-  page will be displayed requesting user trys again
+- If a user searches for a product that is not found a
+  page will be displayed requesting user tries again
   or searches again in 'All Products'.
 
-**Desktop**
+#### Desktop
 
 ![Nav-Desktop](/documentation/readme/nav-desktop.png/)
 
@@ -411,16 +412,16 @@ UX of the Website.
   and interactive experience for the user.
 
 - For larger screen devices the layout will involve
-  1 row of category images; for medium screens 2 rows; 
+  1 row of category images; for medium screens 2 rows;
   and for smaller screens the images will be removed and
   replaced with icons for better UI and UX.
-  
+
 - It was decided to use the title 'Grandpa's Pocket Watch
   Shop' on this page to establish the specific nature of
   products being sold on the Website, which is solely
   revolved around Pocket Watches.
-  
-- A sub header, Choose a Category`, is then displayed to
+
+- A sub header, 'Choose a Category`, is then displayed to
   inform the users of the categories available to explore.
 
 ### Products App
@@ -437,7 +438,7 @@ UX of the Website.
   displayed underneath. A large orange button, with the text
   'ADD TO BASKET' is viewable to the user and spans the length
   of the product image width. When hovered over the button
-  enlarges slightly and turns a darker shade of orange. 
+  enlarges slightly and turns a darker shade of orange.
   This allows the user to skip the option to seek further details
   of the product if they prefer to quickly continue shopping.
 
@@ -445,11 +446,11 @@ UX of the Website.
   information on a product enabled through
   clicking on the `Read More` link or hovering over the
   image itself, which in turn will redirect the user to
-  the `Product Details` page. Here the product will be 
+  the `Product Details` page. Here the product will be
   displayed solely on it's own, with a larger image and
   more descriptive text.
 
-- A button for `ADD TO BASKET` is also displayed on the 
+- A button for `ADD TO BASKET` is also displayed on the
   `Product Details` page along with another
   link to enable the user to `Keep Shopping`.
 
@@ -468,13 +469,13 @@ UX of the Website.
   alternative navigation options.
 
 - A `Bootstrap Badge` functionality is set to help the user
-  identify which products are listed on the page. These 
+  identify which products are listed on the page. These
   `Badges`, when hovered over, will turn orange and change
   from black to white text when clicked.
 
 - Once the `ADD TO BASKET` button is clicked an info window
-  will pop up with a notification of the product added. 
-  Defensive design prevents the users from adding the 
+  will pop up with a notification of the product added.
+  Defensive design prevents the users from adding the
   same product twice and the user will be notified
   accordingly by a pop up window.
 
@@ -485,8 +486,8 @@ UX of the Website.
 - The `Basket` page will display an accumulative list of
   products added to the basket that will include their 'Image',
   'Product Name' and 'Sku Number'. Each product in the basket
-  will have a delete icon along side it, that is black in colour
-  and red when hovered over. The delete icon will remove the 
+  will have a delete icon alongside it, that is black in colour
+  and red when hovered over. The delete icon will remove the
   product item from the basket and recalculate costs. A pop-up
   window will be displayed informing user item has been removed
   from the basket.
@@ -497,7 +498,7 @@ UX of the Website.
   respectively. As the basket list expands in the first column
   the second column of totals will remain viewable.
 
--  Underneath the totals summary there will be a button to click to
+- Underneath the totals summary there will be a button to click to
   `CHECKOUT`, which will take a background colour
   of black with white font to highlight it's importance.
   The user will also have a link to `Keep Shopping`,
@@ -508,7 +509,7 @@ UX of the Website.
   being displayed first and then the 'Totals', 'Checkout'
   and 'Keep Shopping' links after.
 
-- For each product in the basket the product image will be 
+- For each product in the basket the product image will be
   clickable and allow users to view the product details
   again.
 
@@ -532,7 +533,7 @@ UX of the Website.
   advise the user of any issues while completing the
   the payment form.
 
-- A `COMPLETE ORDER` button is displayed at the end of the 
+- A `COMPLETE ORDER` button is displayed at the end of the
   payment form along with a secure icon to
   highlight it's security. If all information is completed
   correctly, and the user confirms the order, a spinner
@@ -555,11 +556,11 @@ UX of the Website.
 
 - The `Services` page can only be accessed if you are a
   registered user and non users will be advised to register
-  before hand. This will be highlighted in the sign-up page,
+  beforehand. This will be highlighted in the sign-up page,
   to inform the user the benefits of registering.
 
-- The `Services` page will have a 2 column design for desktop and 
-  1 column for mobile.
+- The `Services` page will have a 2 column design for desktop
+  and 1 column for mobile.
 
 - The main header of the page will invite the user to visit
   the shop, which will then be followed by the proposal for
@@ -569,11 +570,11 @@ UX of the Website.
 
 - Grandpa's Pocket Watch Shop will evaluate customers' Pocket
   Watches and provide an estimate of costs. It is important to
-  add a non-commital repair clause as it could otherwise
+  add a non-committal repair clause as it could otherwise
   deter customers coming in.
 
 - Grandpa's Pocket Watch Shop will provide a valuation for free.
-  It can be assummed that many Pocket Watches brought in will most
+  It can be assumed that many Pocket Watches brought in will most
   often need maintenance and repair and it is this indirect
   business that will make the 'Free' valuation worthwhile.
   A cost of a 'Certified Valuation' or 'Documented History'
@@ -590,7 +591,7 @@ UX of the Website.
   will direct the user accordingly.
 
 - All fields of the form are required and necessary alerts
-  will advise the user when fields are not filled in correctly. 
+  will advise the user when fields are not filled in correctly.
   Dropdown options are used where possible to make the form
   as easy to fill out as possible and also minimise
   input errors.
@@ -601,14 +602,14 @@ UX of the Website.
   when dates can take different formats.
 
 - Calendar Settings:
-    - No manual input by user.
-    - No dates allowed prior to "today's" date plus
-      5 days.
-    - Bookings can only be made 5 days in advance,
-      to allow the shop owner to prepare accordingly
+  - No manual input by user.
+  - No dates allowed prior to "today's" date plus
+    5 days.
+  - Bookings can only be made 5 days in advance,
+    to allow the shop owner to prepare accordingly
 
 - Calendar settings allow for good defensive design and
-  prevent users inputting dates that are redudant for
+  prevent users inputting dates that are redundant for
   the shop owner.
 
 - A bold, `CONFIRM APPOINTMENT` button is displayed at
@@ -618,13 +619,13 @@ UX of the Website.
   the appointment.
 
 - Along with this an email of the appointment booking will
-  be sent to the users email with all details provided. 
+  be sent to the users email with all details provided.
 
 - On the confirmation booking page a 'BACK TO MY PROFILE'
   button will be displayed which will redirect the user
   to their `My Profile` page. This introduces the user to
   all the features in the `My Profile` page, which include
-  a tabulated list of orders and appoiontments made. Along
+  a tabulated list of orders and appointments made. Along
   with the option to 'edit' and 'delete' appointments.
 
 - For smaller devices the 2 column layout will collapse
@@ -638,12 +639,12 @@ UX of the Website.
 - A `Contact` page provides users and non-users
   the opportunity to get in contact with the owners
   with any order, appointment, or general enquiry questions.
-  
+
 - For the desktop the `Contact` page will have a 2 column
   design. The first column will display the address, email
   telephone information and Map, with icons used for better UI.
   The second column will display the `Contact` form.
-  
+
 - Below the contact information there will be an interactive
   map, set up through Google `Maps JavaScript API`, that will
   provide the shop location along with a pop-up information
@@ -657,14 +658,14 @@ UX of the Website.
 
 - Once an email is submitted the user is redirected to
   a success page and an info window pops-up to confirm
-  that the email has been sent. The email recieved
+  that the email has been sent. The email received
   by the owner will include the user's `Full Name` and
   `Email` in order for the owner to respond.
 
 - A `Keep Shopping` link is also provided in the success
   page to enable users to navigate away from the contact
   page.
- 
+
 - For smaller devices the 2 column layout will be
   reduced to 1 column with the contact details and map
   first and contact form displayed after.
@@ -674,7 +675,7 @@ UX of the Website.
 ![About](/documentation/readme/about.png/)
 
 - An `About` page will give the user a little insight into
-  Grandpa's Pocket Watch Shop; providing information on 
+  Grandpa's Pocket Watch Shop; providing information on
   it's history and giving the user a personal connection
   to the Website.
 
@@ -683,17 +684,17 @@ UX of the Website.
   which the Store has accumulated over the past fifty years.
   It also allows reference to be made that the original store
   owners had been trained at the British Horological Institute,
-  thus further bringing authority to what the Store has to offer. 
+  thus further bringing authority to what the Store has to offer.
 
 ### Profile App
 
 ![Profile](/documentation/readme/profile.png/)
 
 - The `My Profile` page is an important part of the
-  Website for authenticated users. 
+  Website for authenticated users.
 
 - Here users are able to view past orders and up and
-  coming appointments booked. 
+  coming appointments booked.
 
 - Past order information can be viewed on a separate page to
   allow the user to double check any details in an order and
@@ -727,12 +728,12 @@ UX of the Website.
 - Order and Appointments are displayed in the second column of
   the page. An `overflow` css command is used for both the
   `Order History` and `Appointments` list, so that each, after a
-  certian amount of orders and appoitnments, turn to a scrolling
+  certain amount of orders and appointments, turn to a scrolling
   view which evenly aligns with the `Delivery` and `Keep Shopping`
   height.
 
 - For smaller devices the Order and Appointment table fields
-  are reduced to `Order Number`and `Order Total` for
+  are reduced to `Order Number` and `Order Total` for
   **Order History** and `Date` and `Time` for **Appointments**
   to allow for a less congested viewing on smaller devices.
 
@@ -762,7 +763,7 @@ UX of the Website.
    out signals securely from Stripe to a URL, each time a model is
    saved or deleted.
 
-- `Users` will be encouraged to registor on the Website to be able
+- `Users` will be encouraged to register on the Website to be able
    to save delivery information, book appointments, and store orders
    on a personal profile page.
 
@@ -788,13 +789,13 @@ add to the Website at a later date:
   delivery and payment address, and also allow for 'Paypal'
   to be used in transactions. An ease of payment such as
   'Paypal' can greatly improve UX.
-  
+
 - **Authentication**
   An authentication signing in procedure that can use
   Gmail/ Facebook authentication can really improve traffic
   to a Website as users are relieved of the duty of having
   type in details.
- 
+
 - **Greater search criteria. Order cancellation feature**
   An order cancellation feature would be reassuring for
   users who may wish to cancel their order and do not want
@@ -876,7 +877,7 @@ The following technologies were used in this project:
    and images
 - [Date Picker](https://bootstrap-datepicker.readthedocs.io/en/latest/) -
    Used to display calendar on appointment form
-   https://temp-mail.org/en/ - tesing emails
+- [Temp Mail](https://temp-mail.org/en/) - Used to test allauth authentications.
 
 ### Frameworks
 
@@ -915,4 +916,6 @@ The following technologies were used in this project:
 
 - The blinking icon feature in the Services app was taken from an idea provided by
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
+
+
 
