@@ -384,8 +384,8 @@ UX of the Website.
   `Tools` and `Services` - and when clicked a dropdown menu
   will display all the categories accordingly.
 
-- The search bar will move to the main header and displayed
-  centrally between the logo and icons.
+- The search bar will move to the main header and be
+  displayed centrally between the logo and icons.
 
 - Media queries are set up for icons and headings to
   decrease in size for smaller devices to ensure the desktop
@@ -410,7 +410,7 @@ UX of the Website.
 - The images create a greater visual
   and interactive experience for the user.
 
-- For larger screen devices the layout will invole one
+- For larger screen devices the layout will involve
   1 row of category images; for medium screens 2 rows; 
   and for smaller screens the images will be removed and
   replaced with icons for better UI and UX.
@@ -567,7 +567,7 @@ UX of the Website.
   An exciting opportunity for any user visiting
   the Website.
 
-- Grandpa's Pocket Watch Shop will evaluate customers Pocket
+- Grandpa's Pocket Watch Shop will evaluate customers' Pocket
   Watches and provide an estimate of costs. It is important to
   add a non-commital repair clause as it could otherwise
   deter customers coming in.
@@ -674,16 +674,16 @@ UX of the Website.
 ![About](/documentation/readme/about.png/)
 
 - An `About` page will give the user a little insight into
-  Grandpa's Pocket Watch Shop. Providing information on 
+  Grandpa's Pocket Watch Shop; providing information on 
   it's history and giving the user a personal connection
   to the Website.
 
 - The inclusion of the “About Us” page gives the opportunity
   to emphasise the depth and experience in Pocket Watches
-  which the store has accumulated over the past fifty years.
+  which the Store has accumulated over the past fifty years.
   It also allows reference to be made that the original store
   owners had been trained at the British Horological Institute,
-  thus further bringing authority to what the Shop has to offer. 
+  thus further bringing authority to what the Store has to offer. 
 
 ### Profile App
 
@@ -744,15 +744,15 @@ UX of the Website.
   and white text. Text input used in templates will be tailored towards
   Grandpa's Pocket Watch Shop friendly language.
 
-  It should be encouraged for users to want register to the Website and
-  users often want to know 'why' they should register. Therefore when
-  a user clicks on the link to services they will be redirected to the
-  Signin in page, and be greeted with the text 'To book a Repair or
-  Valuation please signin/up'.
+  Users should register to the Website and be informed of the reasons
+  why they should register. Consequently when a user clicks on the link
+  to services they will be redirected to the Signin in page, and be
+  greeted with the text 'To book a Repair or Valuation please
+  signin/up'.
 
 - Toast info windows are set up throughout the Website to help
   notify the user of successes, information, warnings and errors.
-  The info toast windows are set with a 15000 time delay after
+  The info toast windows are set with a 15 second time delay after
   which they will disappear if not removed by the user manually.
 
 - `Stripe` functionality is used for the payment procedure which
@@ -795,8 +795,8 @@ add to the Website at a later date:
   to a Website as users are relieved of the duty of having
   type in details.
  
-- **Greater search criteria. Order cancelation feature**
-  A order cancelation feature would be reassuring for
+- **Greater search criteria. Order cancellation feature**
+  An order cancellation feature would be reassuring for
   users who may wish to cancel their order and do not want
   to go through the trouble of having to contact the owner.
 
