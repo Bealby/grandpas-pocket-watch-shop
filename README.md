@@ -9,19 +9,19 @@ the most common type of watch until around 1914 when wrist
 watches started to come into fashion.
 
 Although their professional usage in the modern environment
-has come to an end they still hold a lot of value and
+has come to an end they still hold much value and
 attraction for enthusiasts who enjoy both the pleasure of
 owning a pocket watch and fixing and refurbishing
 one.
 
-Although a niche market **Pocket Watches**,
+A niche market therefore, **Pocket Watches**,
 **Parts** and **Tools** are highly sought after and
-highly valued. However, such intricate parts can be very
+valued. However, such unusual items can be very
 difficult to come by and find, which is why a website is
 a perfect platform to fill this gap in the market place.
 
 The aim of this Website is to provide an outlet for
-**Pocket Watches**, **Parts** and **Tools**, to fill the gap
+**Pocket Watches**, **Parts** and **Tools**, and so fill the gap
 in the market of a modern e-commerce Website that paves the way
 for a smooth, easy and friendly place for consumers to search,
 view and purchase **Pocket Watches**, **Parts** and **Tools**.
@@ -34,6 +34,25 @@ view and purchase **Pocket Watches**, **Parts** and **Tools**.
 
 A live version of Website can be found
 [here](https://grandpas-pocket-watch-shop.herokuapp.com/)
+
+## Contents
+
+1.[UX](#ux)
+
+- [Strategy](#strategy)
+  - [Agile User Stories](#agile-user-stories)
+- [Scope](#scope)
+- [Structure](#structure)
+- [Skeleton](#skeleton)
+- [Surface](#surface)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+
+1.[Features](#features)
+
+- [](#)
+
+---
 
 ## UX
 
@@ -55,7 +74,7 @@ to find products quickly.
 
 The Website needs to stand out from it's competitors by being
 rich in imagery and specific in product details. Creating a repair
-and valuation service for registered users only will increase user
+and valuation service for registered users will increase user
 loyalty to the Website and encourage them to return.
 
 A mobile first approach will be instigated in the design
@@ -66,6 +85,7 @@ For this Website an 'Agile User Stories' list will
 continually be assessed and achieved to ensure the greatest
 experience and satisfaction for users.
 
+#### Agile User Stories
 Agile User Stories can be found
 [here](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
@@ -83,7 +103,7 @@ details and expand the Website's product portfolio.
 
 A contact information page allows users to report back
 any issues, particularly enquiries regarding products
-and purchases. The repair and valuation service
+and purchases. A repair and valuation service
 will also be included.
 
 ### Structure
@@ -94,12 +114,12 @@ the Website, so that users know exactly why they are 'there',
 and what they can immediately 'do'.
 
 To achieve this goal, e-commerce design conventions used by
-strong brands such as 'Amazon', 'Ebay' and
+strong brands such as 'Amazon', 'ebay' and
 'Etsy', need to be applied. This was done.
 
 The **Navigation Bar** will be fixed at the top, with the
 **Logo** and **Search Bar** stretched across the centre.
-**Product** headers will be displayed underneath and centered.
+**Product** headers will be displayed underneath and centred.
 **Icons** will be used for the **Login**, **Basket** and **Service**
 features that will be positioned to the
 far right of the **Navigation Bar**.
@@ -127,11 +147,11 @@ attention being drawn to other parts of the Website rather than
 shopping. An extra icon for `Basket` will also be displayed, providing
 the users plentiful opportunities to follow through with the transaction.
 
-Links to `About`, `Contact` will not however
+Links to `About Us` and `Contact` will not however
 become obsolete for users navigating through the Website. The
 longer users are engaged in the
 Website the more likely their trust will grow, leading them to
-naturally search and find links to `About`, `Contact`.
+naturally search and find links to `About Us` and `Contact`.
 
 ### Skeleton
 
@@ -164,11 +184,11 @@ A light fresh green will then be used for the Navbar which will display
 the product categories. This subtle and less dominant shade of green will
 empathise the categories in a friendly, warm manner.
 
-A complimentary orange will then be used to help draw out the important
+A complementary orange will then be used to help draw out the important
 features of the Website such as the main headers and accumulative costs
 under the `basket` icon.
 
-A suggested complimentary colour for
+A suggested complementary colour for
 ![#badc98](https://via.placeholder.com/15/badc98/000000?text=+)
 `rgb(186, 220, 192, 1)` was a light purple. It was decided that
 this shade of purple did not suit the theme and user profile of
@@ -251,14 +271,14 @@ for `Warning`, `Info`. `Error` and `Danger` respectively.
 
 `Berkshire Swash` font will be used for the main headers of the
 Website. This font really helps bring out the theme and feel of
-the Website. Creating an old fashioned feel appropriate for
+the Website, creating an old fashioned feel appropriate for
 Pocket Watches.
 
 - font-family:'Roboto', sans-serif;
 
 ![Roboto Text](/documentation/readme/roboto.png/)
 
-The complimentary font of `Roboto` will be used for the main
+The complementary font of `Roboto` will be used for the main
 content of the Website.
 
 **N.B.** It should be noted that through the design process
@@ -267,8 +287,8 @@ therefore to the Wireframes. The overall structure and layout
 of the Website remains the same but it was decided to change
 the colour theme of the website along with an app change.
 
-The original colour theme, of contrasting greys, was not
-satisfactory to the overall feel of the Website. As it created
+The original colour theme of contrasting greys, was not
+satisfactory to the overall feel of the Website,as it created
 a very bland and dull user interface. It was therefore replaced
 with a more engaging colour theme explained in the **Surface**
 section.
@@ -279,7 +299,7 @@ more beneficial for both the user and owner, as it would
 potentially create extra business and profit for Grandpa's
 Pocket Watch Shop.
 
-To allow for super users to Add/ Edit/ Remove products directly
+To allow for 'superusers' to Add/ Edit/ Remove products directly
 from the Website was also not instigated as this is not appropriate
 and could be a securuty risk. Instead Add/ Edit, Remove can only be
 carried out in Admin.
