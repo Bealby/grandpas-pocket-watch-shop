@@ -133,7 +133,11 @@
 
 [Go to top](#contents)
 
+---
+
 ## Non-Automated Testing
+
+---
 
 ### Main Header
 
@@ -926,11 +930,34 @@
 
 ### Agile User Stories
 
+- Throughout the build process `Agile User Strories` were
+  continually monitored to ensure the Website fulfilled
+  the requirements for both registered users and non
+  registered users.
+
+  With the Website's structure in place and testing
+  complete, the Agile User Stories have been satisifed.
+
+  User's are able to view products, add to basket,
+  checkout and complete a payment. They also have
+  access to their orders and CRUD functionality
+  with their appointment bookings.
+  
+  The Store Owner has access to Admin where they can
+  view user profiles, user orders and appointment
+  bookings. They also have full access to products
+  and CRUD functionality to add and remove products
+  as they wish.
+
 [Agile User Stories](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
 [Go to top](#contents)
 
+---
+
 ## Fixes
+
+---
 
 - For Web pages with `Crispy-Forms` it was found that when loading
   the Web page on mobile devices the page load to the section of
@@ -959,6 +986,12 @@
   Due to this all secret keys were updated and the old secret keys
   being made rendundant.env.py file.
 
+---
+
 ## Not Fixed
 
+- 
+
 [Go to top](#contents)
+
+---
