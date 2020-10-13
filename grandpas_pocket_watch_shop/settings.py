@@ -31,7 +31,6 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['grandpas-pocket-watch-shop.herokuapp.com', 'localhost']
 
-
 # Application definition
 
 INSTALLED_APPS = [
