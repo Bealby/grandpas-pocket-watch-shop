@@ -5,6 +5,13 @@ Thank you for shopping at Grandpa's Pocket Watch Shop. We value your custom at o
 Please find your confirmation and order information below:
 
 Order Number: {{ order.order_number }}
+
+Ordered Products:
+
+{% for item in order.lineitems.all %}
+{{ item.product.name }}: {{ item.product.description }},
+{% endfor %}
+
 Order Date: {{ order.date }}
 
 Order Total: £{{ order.order_total }}
@@ -13,7 +20,10 @@ Grand Total: £{{ order.grand_total }}
 
 Your order will be shipped to:
 
-{{ order.street_address1 }}, {{ order.town_or_city }}, {{ order.country }}.
+{{ order.full_name }}
+{{ order.street_address1 }},
+{{ order.town_or_city }},
+{{ order.country }}.
 
 If you have any questions, feel free to contact us at {{ contact_email }}.
 

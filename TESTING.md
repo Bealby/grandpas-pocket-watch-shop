@@ -33,7 +33,7 @@
 - [Desktop Browsers](#desktop-browsers)
 - [Mobile and Tablet Devices](#mobile-and-tablet-devices)
 - [User Testing](#user-testing)
-- [User Experience](#user-experience)
+- [Agile User Stories](#agile-user-stories)
 
 3.[Fixes](#fixes)
 
@@ -924,7 +924,7 @@
 - iphone 11 - Safari: Good
 - Samsung 7 - Chrome: Good
 
-### User Experience
+### Agile User Stories
 
 [Agile User Stories](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
