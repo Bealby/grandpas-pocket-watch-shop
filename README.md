@@ -338,8 +338,6 @@ Extra features used from Bootstrap include
 `Cards`, `Badges`, `Tables`, which all helped in the UI and
 UX of the Website.
 
----
-
 ### Navigation Bar and Main Header
 
 **Mobile**
@@ -679,6 +677,13 @@ UX of the Website.
   Grandpa's Pocket Watch Shop. Providing information on 
   it's history and giving the user a personal connection
   to the Website.
+
+- The inclusion of the “About Us” page gives the opportunity
+  to emphasise the depth and experience in Pocket Watches
+  which the store has accumulated over the past fifty years.
+  It also allows reference to be made that the original store
+  owners had been trained at the British Horological Institute,
+  thus further bringing authority to what the Shop has to offer. 
 
 ### Profile App
 
