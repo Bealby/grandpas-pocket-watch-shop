@@ -48,9 +48,26 @@ A live version of Website can be found
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
 
-1.[Features](#features)
+2.[Features](#features)
 
-- [](#)
+- [Navigation Bar and Main Header](#navigation-bar-and-main-header)
+- [Home Page](#home-page)
+- [Products App](#products-app)
+- [Basket App](#basket-app)
+- [Checkout App](#checkout-app)
+- [Services App](#services-app)
+- [Contact App](#contact-app)
+- [About App](#about-app)
+- [Profile App](#profile-app)
+- [Extra Features](#extra-features)
+
+3.[Features left to Implement](#features-left-to-implement)
+
+4.[Technologies Used](#technologies-used)
+
+4.[Deployment](#deployment)
+
+4.[Credits](#credits)
 
 ---
 
@@ -311,13 +328,13 @@ System of containers, rows and columns; styled by css. This
 allowed the Website to be clearly structured and for the
 content to be responsive.
 
-Extra feature used from Bootstrap included features such as
-`Cards`, `Badges`, `Tables` which are helped in the UI and
-UX for the Website.
+Extra features used from Bootstrap include
+`Cards`, `Badges`, `Tables`, which all helped in the UI and
+UX of the Website.
 
 ---
 
-### Navigation Bar/ Main Header
+### Navigation Bar and Main Header
 
 **Mobile**
 
@@ -334,11 +351,10 @@ UX for the Website.
 
 - For the basket icon a total figure will be displayed directly
   underneath. When products are added to the basket the number
-  will change from black to orange `rgb(220, 149, 35, 1)`
-  and show the accumulative sum of products(s) added. This is a
-  subtle feature that will catch the users eye while they are
-  shopping. and perhaps even encourage users to follow through
-  with their transaction.
+  will change and show the accumulative sum of products(s)
+  added. This is a subtle feature that will catch the users
+  eye while they are shopping. and perhaps even encourage
+  users to follow through with their transaction.
 
 - Under the main header a toggle icon will be displayed that once
   clicked will create a dropdown menu of all categories and the
@@ -350,9 +366,9 @@ UX for the Website.
   The search function will allow for searches
   in name fields as well as in description fields.
 
-- If a user searches for a product that is not found a message
-  will be displayed on page requesting user trys again or searches
-  again in 'All Products'.
+- If a user searches for a product that is not found a 
+  page will be displayed requesting user trys again
+  or searches again in 'All Products'.
 
 **Desktop**
 
@@ -360,9 +376,9 @@ UX for the Website.
 
 - For larger devices the features displayed and their
   functionality will mainly remain the same except that the
-  category names will be displayed - `Pocket Watches`, `Parts`, `Tools`
-  and `Services` - and when clicked a dropdown menu will display
-  all the categories accordingly.
+  category names will be displayed - `Pocket Watches`, `Parts`,
+  `Tools` and `Services` - and when clicked a dropdown menu
+  will display all the categories accordingly.
 
 - The search bar will move to the main header and displayed
   centrally between the logo and icons.
@@ -373,39 +389,35 @@ UX for the Website.
   kicks in for mobile devices.
 
 - The Navigation/ Main Header layout will remain constant
-  throughout the navigation through the Website. Allowing
+  throughout the navigation of the Website. Allowing
   the user to become familiar very quickly with the
-  Website navigation.
+  Website's navigation.
 
 ### Home Page
 
 ![Home Desktop](/documentation/readme/home-dt.png/)
 
 - The `Home` page will display 4 images of categories with
-  text icons,`Watches`, `Parts`, `Tools` and `Services` respectively. 
-  Both the images and text icons can be hovered over and when clicked
-  directed to the rlevant links accordingly.
+  text icons underneath for `Watches`, `Parts`, `Tools`
+  and `Services` respectively. Both the images and text
+  icons can be hovered over and when clicked
+  direct the user to the relevant pages accordingly.
 
-- For large devices layout will invole one 1 row of category
-  images; for medium 2 rows and for smaller devices images
-  are removed and replaced with icons for better UI and UX
-  on mobile
-  devices.
+- The images create a greater visual
+  and interactive experience for the user.
 
-- The image feature brings a greater visual
-  and interactive experience to the user.
+- For larger screen devices the layout will invole one
+  1 row of category images; for medium screens 2 rows; 
+  and for smaller screens the images will be removed and
+  replaced with icons for better UI and UX.
   
-- It was chosen to use the title 'Grandpa's Pocket Watch
-  Shop' to first of all establish the specific nature of
-  products being sold, whihc are solely revolved around
-  Pocket Watches.
+- It was decided to use the title 'Grandpa's Pocket Watch
+  Shop' on this page to establish the specific nature of
+  products being sold on the Website, which is solely
+  revolved around Pocket Watches.
   
 - A sub header, Choose a Category`, is then displayed to
   inform the users of the categories available to explore.
-
-- The layout will be of for columns of images on one row
-  on dektop and medium devices, and be reduced to on column
-  for mobile. 
 
 ### Products App
 
@@ -413,7 +425,7 @@ UX for the Website.
 
 - The `Products` page will display products unified in size and
   laid out symmetrically in 4 columns for large screens and
-  decreasing to 3, 2 and 1 column as the screen sizes reduce.
+  decreasing to 3, 2 and 1 column for smaller screens respectively.
   This ensures the products are clearly viewed and not rendered
   too small on any device screen size.
 
@@ -427,24 +439,24 @@ UX for the Website.
 
 - There are of course options for the user to seek more
   information on a product enabled through
-  clicking on the `READ ME` information icon or hovering over the
+  clicking on the `Read More` link or hovering over the
   image itself, which in turn will redirect the user to
   the `Product Details` page. Here the product will be 
   displayed solely on it's own, with a larger image and
   more descriptive text.
 
-- A button for 'ADD TO BASKET' is also displayed on the 
+- A button for `ADD TO BASKET` is also displayed on the 
   `Product Details` page along with another
   link to enable the user to `Keep Shopping`.
 
 - When a user on the `Products` page clicks the `ADD to BASKET`
-  icon the user is redirected to page they are on so that they
+  link the user is redirected to page they are on so that they
   are not thrown back to the `All Products` page and made to
   navigate through Website again to find their location.
 
-- With the vast number of products on the page a upwards facing
-  chevron will be postioned at the bottom right of the screen
-  for users to click whihc will scroll them back up to the top
+- With the vast number of products listed a fixed upwards facing
+  chevron icon will be positioned at the bottom right of the screen
+  for users to click, which will take them back to the top
   of the page.
 
 - The goal of the Website is to always encourage a user
@@ -453,14 +465,14 @@ UX for the Website.
 
 - A `Bootstrap Badge` functionality is set to help the user
   identify which products are listed on the page. These 
-  badge upon hover will turn orange and change from black
-  to white text.
+  `Badges`, when hovered over, will turn orange and change
+  from black to white text when clicked.
 
-- Once the 'ADD TO BASKET' button is clicked an info window
+- Once the `ADD TO BASKET` button is clicked an info window
   will pop up with a notification of the product added. 
   Defensive design prevents the users from adding the 
-  same product twice and will be notified accordingly 
-  by a pop up window.
+  same product twice and the user will be notified
+  accordingly by a pop up window.
 
 ### Basket App
 
@@ -471,26 +483,30 @@ UX for the Website.
   'Product Name' and 'Sku Number'. Each product in the basket
   will have a delete icon along side it, that is black in colour
   and red when hovered over. The delete icon will remove the 
-  product item from the basket and recalculate costs.
+  product item from the basket and recalculate costs. A pop-up
+  window will be displayed informing user item has been removed
+  from the basket.
 
 - For desktop devices there will be a two column structure,
   the first showing a list of items in the basket and the second
-  showing the 'Item(s)Total', 'Delivery' and 'Total Cost'. As the 
-  basket list expands the second column of totals will remain
-  viewable.
+  showing the `Item(s)Total`, `Delivery` and `Total Cost`
+  respectively. As the basket list expands in the first column
+  the second column of totals will remain viewable.
 
 -  Underneath the totals summary there will be a button to click to
-  'CHECKOUT', which will take a background colour
+  `CHECKOUT`, which will take a background colour
   of black with white font to highlight it's importance.
-  The user will also have the option to 'Keep Shopping',
+  The user will also have a link to `Keep Shopping`,
   providing the user alternative options.
 
 - For smaller devices the information will be displayed
   in a single column with the list of products in basket
-  being displayed first and then the 'Totals' and 'Checkout'
-  icons after.
+  being displayed first and then the 'Totals', 'Checkout'
+  and 'Keep Shopping' links after.
 
-- Image can be clicked to view product details again.
+- For each product in the basket the product image will be 
+  clickable and allow users to view the product details
+  again.
 
 ### Checkout App
 
@@ -503,22 +519,22 @@ UX for the Website.
 
 - For the payment form each field will have a placeholder
   text defining which inputs are required and which are
-  optional with the use of an asterisk. For registered users
-  the fields will automatically be prefilled if the user
-  has updated their profile.
+  optional. This will be highlighted with the use of an
+  asterisk. For registered users the fields will automatically
+  be prefilled if the user has updated their profile.
 
 - Defensive design will prevent any form from being
-  submitted and notifications will continually advise the
-  user of any issues while completing the
+  submitted incorrectly and notifications will continually
+  advise the user of any issues while completing the
   the payment form.
 
 - A `COMPLETE ORDER` button is displayed at the end of the 
   payment form along with a secure icon to
-  highlight it's security. If all information is completed,
-  and the user confirms the order, a spinner window of
-  green, matching the colour theme of the website, will
-  be displayed until the payment order goes through on
-  Stripe. After which an info window will pop up
+  highlight it's security. If all information is completed
+  correctly, and the user confirms the order, a spinner
+  window of green, matching the colour theme of the website,
+  will be displayed, until the payment order goes through on
+  Stripe. After which an info window will pop-up
   confirming the order has gone through. The user
   will then be redirected to an order summary page
   that will provide all the details of their order.
@@ -533,35 +549,34 @@ UX for the Website.
 
 ![Services](/documentation/readme/services.png/)
 
-CRUD functionality
-
--  The `Service` page can only be accessed if you are a
+- The `Services` page can only be accessed if you are a
   registered user and non users will be advised to register
-  before hand.
+  before hand. This will be highlighted in the sign-up page,
+  to inform the user the benefits of registering.
 
-- The `Service` will have a 2 column design for desktop and 
+- The `Services` page will have a 2 column design for desktop and 
   1 column for mobile.
 
 - The main header of the page will invite the user to visit
   the shop, which will then be followed by the proposal for
-  the user to have their Pocket Watch repaired or valued,
-  which will be an exciting opportunity for any user visiting
+  the user to have their Pocket Watch repaired or valued.
+  An exciting opportunity for any user visiting
   the Website.
 
 - Grandpa's Pocket Watch Shop will evaluate customers Pocket
   Watches and provide an estimate of costs. It is important to
   add a non-commital repair clause as it could otherwise
-  put customers off coming in.
+  deter customers coming in.
 
-- Grandpa's Pocket Watch Shop will provide a valuation for free
-  as in many situations the Pocket Watch will most often need
-  maintenance and repair and it is this indirect business which
-  will make the 'Free' valuation worthwhile. A cost of a
-  'Certified Valuation' or 'Documented History' of the Pocket
-  Watch will also create business.
+- Grandpa's Pocket Watch Shop will provide a valuation for free.
+  It can be assummed that many Pocket Watches brought in will most
+  often need maintenance and repair and it is this indirect
+  business that will make the 'Free' valuation worthwhile.
+  A cost of a 'Certified Valuation' or 'Documented History'
+  of the Pocket Watch will also create business.
 
 - Icons are used to describe the Repair or Valuation offers,
-  under which details of the service provided will be shown.
+  under which details of the services provided will be shown.
 
 - An image of a man fixing a watch brings the page to
   life with a caption below stating the day and time
@@ -576,35 +591,39 @@ CRUD functionality
   as easy to fill out as possible and also minimise
   input errors.
 
-- For the date field a date picker calendar pops up allowing
-  for the user to pick a date without having to type
-  a date manually. This also prevents field errors when dates
-  can take different formats.
+- For the date field a calendar pops up allowing
+  the user to pick a date without having to type
+  a date manually. This also prevents field errors
+  when dates can take different formats.
 
 - Calendar Settings:
-    - No manual input by user
-    - No dates allowed prior to "today's" date
+    - No manual input by user.
+    - No dates allowed prior to "today's" date plus
+      5 days.
     - Bookings can only be made 5 days in advance,
       to allow the shop owner to prepare accordingly
 
-- Calendar settings allow for good defensive design and prevent users
-  inputting dates that are redudant for the shop owner.
+- Calendar settings allow for good defensive design and
+  prevent users inputting dates that are redudant for
+  the shop owner.
 
-- A bold, 'CONFIRM APPOINTMENT' button is displayed at
-  the bottom of the colour orange and once clicked the
-  user will be redirected to a confirmation booking page.
-  A notification info window will also pop up confirming
+- A bold, `CONFIRM APPOINTMENT` button is displayed at
+  the bottom of the form, of colour orange and once clicked
+  the user will be redirected to a confirmation booking page.
+  A notification info window will also pop-up confirming
   the appointment.
 
 - Along with this an email of the appointment booking will
   be sent to the users email with all details provided. 
 
 - On the confirmation booking page a 'BACK TO MY PROFILE'
-  button will be displayed which will redirect them to their
-  `My Profile` page informing the user of their appointment
-  bookings which they are able to remove or edit.
+  button will be displayed which will redirect the user
+  to their `My Profile` page. This introduces the user to
+  all the features in the `My Profile` page, which include
+  a tabulated list of orders and appoiontments made. Along
+  with the option to 'edit' and 'delete' appointments.
 
-- For smaller devices the 2 columns layout will collapse
+- For smaller devices the 2 column layout will collapse
   into one column with the appointment form positioned at
   the bottom.
 
@@ -612,32 +631,35 @@ CRUD functionality
 
 ![Contact](/documentation/readme/contact.png/)
 
-- A `Contact` page provides the users and non-users
+- A `Contact` page provides users and non-users
   the opportunity to get in contact with the owners
-  with any order or general enquiry questions.
+  with any order, appointment, or general enquiry questions.
   
 - For the desktop the `Contact` page will have a 2 column
   design. The first column will display the address, email
   telephone information and Map, with icons used for better UI.
-  the second column will display the `Contact` form.
+  The second column will display the `Contact` form.
   
 - Below the contact information there will be an interactive
-  map, set up through google, that will provide the shop location
-  along with a pop up information window which will bring up the shop's
-  logo as well as opening and closing times.
+  map, set up through Google `Maps JavaScript API`, that will
+  provide the shop location along with a pop-up information
+  window which will bring up the shop's logo as well as
+  opening and closing times.
 
-- The contact form itself has three required fields and users will
-  be prompted for each field filled in incorrectly. Icons are used
-  in the contact form to highlight the send functionalities for better
-  UI.
+- The contact form itself has three required fields and
+  users will be prompted if fields are not filled in
+  correctly. Icons are used in the contact form to highlight
+  the send functionalities for better UI and UX.
 
-- Once an email is submitted the user is redirected to a success
-  page and an info window pops up to confirm that the email is sent. 
-  An email will be recieved by the owner which will include the user's
-  `Full Name` and `Email` in order for the owner to respond.
+- Once an email is submitted the user is redirected to
+  a success page and an info window pops-up to confirm
+  that the email has been sent. The email recieved
+  by the owner will include the user's `Full Name` and
+  `Email` in order for the owner to respond.
 
-- A 'Keep Shopping' link is also provided in the success page to enable
-  users to navigate away from the contact page.
+- A `Keep Shopping` link is also provided in the success
+  page to enable users to navigate away from the contact
+  page.
  
 - For smaller devices the 2 column layout will be
   reduced to 1 column with the contact details and map
@@ -664,17 +686,27 @@ CRUD functionality
 
 - Past order information can be viewed on a separate page to
   allow the user to double check any details in an order and
-  make enquiries if so required. A `overflow` css command was
+  make enquiries if so required. An `overflow` css command was
   used for order numbers to be displayed on mobile devices.
 
 - Appointments can be edited or removed with icons used for each
   respectively. When an appointment booking is removed
   a pop up notification will be displayed accordingly.
 
-- If a user decides to edit an appointment they will be redirected
-  to an edit appointment page where previous details will be defaulted on
-  the form. Any changes made will then be confirmed and a new updated
-  appointment form sent to their email. CRUD
+- If a user decides to edit an appointment they will be
+  redirected to an edit appointment page where previous
+  details will be defaulted on the form. Any changes made
+  will then be confirmed in a success page along with
+  a pop-up window confirming updated appointment. An email
+  will also be sent to the user with the updated appointment
+  details.
+
+- When a user clicks on the 'edit' icon of an appointment a
+  pop-up window will appear for the user informing them that
+  are editing a past appointment booking.
+
+- Once an appointment is edited and updated a link
+  `BACK TO MY PROFILE` will be accessible for the user.
 
 - In the first column of the page the delivery information is
   shown. Once these fields are filled in correctly they will be used
@@ -682,10 +714,10 @@ CRUD functionality
   forms. Reducing the users work load and providing a good UX.
 
 - Order and Appointments are displayed in the second column of
-  the page. A `overflow` css command is used for both the
+  the page. An `overflow` css command is used for both the
   `Order History` and `Appointments` list, so that each, after a
   certian amount of orders and appoitnments, turn to a scrolling
-  view which evenly align with the `Delivery` and `Keep Shopping`
+  view which evenly aligns with the `Delivery` and `Keep Shopping`
   height.
 
 - For smaller devices the Order and Appointment table fields
@@ -696,31 +728,31 @@ CRUD functionality
 ### Extra Features
 
 - `Allauth` was used for the profile and accounts functionality, which
-  includes features such as Login, Password Reset. All `Alluath` pages 
-  will have a standard format of layout and font. With black icons and
-  white text.
+  includes features such as Signin and Password Reset. All `Alluath`
+  pages will have a standard format of layout and font. With black icons
+  and white text.
 
   It should be encouraged for users to want register to the Website and
-  users often want to know 'why' they should. Therefore when a user clicks on
-  the link to services they will be redirected to the Login in page, and
-  be greeted with the text 'To book a Repair or Valuation please sign
-  in/up', informing the user accordingly.
+  users often want to know 'why' they should register. Therefore when
+  a user clicks on the link to services they will be redirected to the
+  Signin in page, and be greeted with the text 'To book a Repair or
+  Valuation please signin/up'.
 
-- Toast info windows are set up throughout the Website to help notify
-  the user upon any successes, information, warnings and error messages.
-  The info toast windows are set with a 15000 time delay after which they will 
-  disappear if not removed by the user manually.
+- Toast info windows are set up throughout the Website to help
+  notify the user of successes, information, warnings and errors.
+  The info toast windows are set with a 15000 time delay after
+  which they will disappear if not removed by the user manually.
 
 - `Stripe` functionality is used for the payment procedure which
    adds a secure form element for collecting credit card information.
    `Webhooks` are also used to listen for any unprecedented, unusual
    behaviour which could affect the payment process. They will send
-   out signals each time a model is saved or deleted, sent
-   securely from Stripe to a URL.
+   out signals securely from Stripe to a URL, each time a model is
+   saved or deleted.
 
-- `Users` will be encouraged to registor on the Website to be able to save
-   delivery information, book appointments, and store confirmaiton
-   bookings on a personal profile page.
+- `Users` will be encouraged to registor on the Website to be able
+   to save delivery information, book appointments, and store orders
+   on a personal profile page.
 
 ### Features left to Implement
 
