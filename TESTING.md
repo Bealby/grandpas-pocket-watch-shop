@@ -990,7 +990,21 @@
 
 ## Not Fixed
 
-- 
+- For the Booking Appointment Form in the `Services` app
+  placeholders were not shown for the `Appointment Type`,
+  `Watch Model`, `Watch Type`, preferably showing an empty
+  field as in the field for `Time`.
+
+  `Friendly Names` were give to the models `Appointment Type`,
+  `Watch Model`, `Watch Type`, which then caused the difficulty
+  in setting the placeholders desired.
+
+  The solution I believe would be to change the atributes in the
+  models, using `empty_label`. 
+
+  Although a benefit to the UI/UX it does not affect
+  the functionality of the form itself so it was decided
+  to leave for now and work on at a future date.
 
 [Go to top](#contents)
 
