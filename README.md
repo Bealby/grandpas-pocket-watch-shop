@@ -767,10 +767,9 @@ add to the Website at a later date:
 
 - **Introduce Discussion Forum**
   A forum to allow users to connect, share ideas and ask
-  questions would be a beneficial festure to add to the
-  Website. As this increase in traffic will will have a
-  positive affect to business and increase loyalty in the
-  Website
+  questions would be a beneficial feature to add to the
+  Website. As this increase in traffic will have a
+  positive affect to business and increase loyalty.
 
 - **Tracking code**
   A tracking code on the Website would allow the owner to
@@ -782,21 +781,23 @@ add to the Website at a later date:
   A more complex and varied payment procedure to separate
   delivery and payment address, and also allow for 'Paypal'
   to be used in transactions. An ease of payment such as
-  Paypal can greatly improve UX.
+  'Paypal' can greatly improve UX.
   
 - **Authentication**
-  An authentication signing procedure that can use Gmail
-  automarically sign in. The more efficient a user can Signin
-  the higher chance you can hold onto traffic to your Website.
+  An authentication signing in procedure that can use
+  Gmail/ Facebook authentication can really improve traffic
+  to a Website as users are relieved of the duty of having
+  type in details.
  
-- **Greater search criteria. Order canceliation feature**
-A order canceliation feature would be reassuraing for users who many
-wish to cancel their order and not have to go throught rh process of contrasting
-the owner of the Wensite. 
+- **Greater search criteria. Order cancelation feature**
+  A order cancelation feature would be reassuring for
+  users who may wish to cancel their order and do not want
+  to go through the trouble of having to contact the owner.
 
 - **Social Accounts**
-As the Website expands using Websites such as Instagram, Facebook
-and Twitter can greatly promote and spread the word of your business.
+  As the Website expands media outlets such as Instagram,
+  Facebook and Twitter can greatly promote and spread the
+  word of the business.
 
 ---
 
@@ -903,9 +904,8 @@ The following technologies were used in this project:
 
 - Support to fix the Date Picker selecting only certain criteria was inspired from:
   [Stack Overflow](https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker)
-  [Stack Overflow](  https://stackoverflow.com/questions/153759/jquery-datepicker-with-text-input-that-doesnt-allow-user-input#153804)
+  [Stack Overflow](https://stackoverflow.com/questions/153759/jquery-datepicker-with-text-input-that-doesnt-allow-user-input#153804)
 
 - The blinking icon feature in the Services app was taken from an idea provided by
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
 
-  - https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker
