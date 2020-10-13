@@ -26,6 +26,8 @@ in the market of a modern e-commerce Website that paves the way
 for a smooth, easy and friendly place for consumers to search,
 view and purchase **Pocket Watches**, **Parts** and **Tools**.
 
+---
+
 ## DEMO
 
 ---
@@ -321,7 +323,11 @@ from the Website was also not instigated as this is not appropriate
 and could be a securuty risk. Instead Add/ Edit, Remove can only be
 carried out in Admin.
 
+---
+
 ## Features
+
+---
 
 Much of the layout of the Website used the Bootstrap Grid
 System of containers, rows and columns; styled by css. This
@@ -759,27 +765,40 @@ UX of the Website.
 Below is a list of features I feel would be beneficial to
 add to the Website at a later date:
 
-**Frequently asked questions about Pocket Watches**
+- **Introduce Discussion Forum**
+  A forum to allow users to connect, share ideas and ask
+  questions would be a beneficial festure to add to the
+  Website. As this increase in traffic will will have a
+  positive affect to business and increase loyalty in the
+  Website
 
-**Introduce Discussion Forum**
+- **Tracking code**
+  A tracking code on the Website would allow the owner to
+  monitor traffic and also ascertain what is working and
+  not working. Allowing for continued improvement of the
+  Website.
 
-**Introduce a business development: “We buy Pocket Watches and associated spare parts”**
+- **Payment Procedure**
+  A more complex and varied payment procedure to separate
+  delivery and payment address, and also allow for 'Paypal'
+  to be used in transactions. An ease of payment such as
+  Paypal can greatly improve UX.
+  
+- **Authentication**
+  An authentication signing procedure that can use Gmail
+  automarically sign in. The more efficient a user can Signin
+  the higher chance you can hold onto traffic to your Website.
+ 
+- **Greater search criteria. Order canceliation feature**
+A order canceliation feature would be reassuraing for users who many
+wish to cancel their order and not have to go throught rh process of contrasting
+the owner of the Wensite. 
 
-**Introduce a business development: “Expand the site to sell clocks and wrist watches plus associated spares”**
+- **Social Accounts**
+As the Website expands using Websites such as Instagram, Facebook
+and Twitter can greatly promote and spread the word of your business.
 
-**Programme on-line Tutorials/Lectures on Pocket Watches: a paid for facility. This encourages “return customers”**
-
-**Invite Customers to write short Pocket Watch Interest Articles to attract/intice  core customers back to the site.**
-
-**Block out future Bank and Public Holidays so bookings cannot be taken.**
-
-**Include a currency conversion facilty linked to a live site.**
-
-**Greater search criteria. Order canceliation feature**
-
-**Various cards. Other options. Paypal. Delivery pay ment adrees**
-
-**Twitter**
+---
 
 ## Technologies Used
 
@@ -862,11 +881,11 @@ The following technologies were used in this project:
 - [Popper](https://popper.js.org/) - Used to implement Navigation Collapse
    feature JavaScript Plugin
 
+---
+
 ## Credits
 
 ---
-
-image in TESTING
 
 ### Code
 
