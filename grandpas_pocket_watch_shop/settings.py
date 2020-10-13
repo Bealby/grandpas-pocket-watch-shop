@@ -27,13 +27,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG=1
-
-DEVELOPMENT=1
-
-debug=os.getenv('DEVELOPMENT', False)
+DEBUG = False
 
 ALLOWED_HOSTS = ['grandpas-pocket-watch-shop.herokuapp.com', 'localhost']
+
 
 # Application definition
 
