@@ -5,11 +5,10 @@ Thank you for shopping at Grandpa's Pocket Watch Shop. We value your custom at o
 Please find your confirmation and order information below:
 
 Order Number: {{ order.order_number }}
-
-Ordered Products:
-
 {% for item in order.lineitems.all %}
-{{ item.product.name }}: {{ item.product.description }},
+Ordered Product:
+{{ item.product.name }}:
+{{ item.product.description }},
 {% endfor %}
 
 Order Date: {{ order.date }}
