@@ -2,8 +2,6 @@
 
 ---
 
-![Testing Image](/documentation/testing/testing.png/)
-
 ## Contents
 
 ---
