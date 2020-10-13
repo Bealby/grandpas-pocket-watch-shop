@@ -375,7 +375,7 @@ select option[value=""]{
 .product-body button,
 .product-body input[type='submit'] {
 	display: inline-block;
-    color:rgb(0,0,0,1) !important;
+    color:rgb(255,255,255,1) !important;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
