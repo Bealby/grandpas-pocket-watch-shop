@@ -736,7 +736,8 @@ UX of the Website.
 - `Allauth` was used for the profile and accounts functionality, which
   includes features such as Signin and Password Reset. All `Alluath`
   pages will have a standard format of layout and font. With black icons
-  and white text.
+  and white text. Text input used in templates will be tailored towards
+  Grandpa's Pocket Watch Shop friendly language.
 
   It should be encouraged for users to want register to the Website and
   users often want to know 'why' they should register. Therefore when
