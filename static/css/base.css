@@ -394,7 +394,7 @@ select option[value=""]{
 
 .product-body button:hover,
 .product-body input[type='submit']:hover {	
-	color: rgb(255,255,255,1);
+	color: rgb(0,0,0,0.6);
     background-color: rgb(0,0,0,0.6);
     border-color: rgb(0,0,0,0.6);
 }
