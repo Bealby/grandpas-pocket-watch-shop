@@ -45,7 +45,7 @@ class AppointmentAdmin(admin.ModelAdmin):
         'date',
         'time'
     )
-    # Orders by latest date
+    # Appointments by earliest date
     ordering = ('date',)
 
 
