@@ -945,3 +945,7 @@ The following technologies were used in this project:
   Slack community
 - **Friends and Family:** For invaluable feedback and support
 
+### Grandpa's Pocket Watch Shop
+
+- Although the story of Pocket Watches runs in the family the
+  the shop and business is fictitious
