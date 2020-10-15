@@ -832,9 +832,9 @@ The following technologies were used in this project:
 
 ### Hosting
 
-- [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service
-  supporting several programming languages.
-- [GitHub](https://github.com/)** - Used to store repository and deploy Website
+- [Heroku](https://id.heroku.com/) - Heroku is a cloud based platform
+   allowing developers to build, run, and operate applications
+- [GitHub](https://github.com/)** - Used to store repositories and deploy Websites
 
 ### Languages
 
@@ -843,37 +843,36 @@ The following technologies were used in this project:
    HTML elements
 - [Python](https://www.python.org/) - A programming language that lets you work
    quickly and integrate systems more effectively.
-- [JavaScript](https://www.javascript.com/) - Used in collaboration with
-   Bootstrap to collapse Navigation Bar for small devices, Google Maps,
-   Date Picker and Stripe.
+- [JavaScript](https://www.javascript.com/) - Programming langguage
 
 ### Language Validators
 
 - [W3C](https://validator.w3.org/) - Used to validate HTML code
 - [WSC](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
 - [Validate Javascript](https://validatejavascript.com//) - Used to validate
-   javascript
+   JavaScript
 - [Pep8 online](http://pep8online.com/) - Validator for Python code
-- [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
-   checks on README.md content
+- [Markdown Lint](https://github.com/Bealby/markdownlint) - Markdown validation
+   service used to check README.md and TESTING.md
 
 ### Libraries
 
-- [Google Fonts](https://fonts.google.com/) - Programme used to import main
+- [Google Fonts](https://fonts.google.com/) - Program used to import main
    fonts in Website
-- [Font Awesome](https://fontawesome.com/) - Programme used to import a multitude
+- [Font Awesome](https://fontawesome.com/) - Program used to import a multitude
    of icons for the Website
 
 ### Tools
 
-- [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/) - Allowed
-   preliminary designs to be drawn up of Website
-- [Adobe Photoshop](https://www.adobe.com//) - Editing images on Website
-- [Adobe Illustrator](https://www.adobe.com//) - Creating images on Website
+- [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/) - Used to draw
+   up draft designs for the Website
+- [Adobe Photoshop](https://www.adobe.com//) - Graphics editor 
+- [Adobe Illustrator](https://www.adobe.com//) - Vector graphics editor
 - [Responsive Design](http://ami.responsivedesign.is/) - Free software
    to generate Mockup of Website on different devices
 - [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
-    Helped to improve the quality of Website
+   To test the 'Performance, 'Best Practices', 'Accessibility' and 'SEO' of
+   a Websitr. 
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
 - [Placeholder](https://placeholder.com/) - Used for placeholding of colour
