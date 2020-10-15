@@ -930,10 +930,11 @@
 
 ### Agile User Stories
 
-- Throughout the build process `Agile User Stories` were
-  continually monitored to ensure the Website fulfilled
-  the requirements for both registered users and non
-  registered users.
+- Throughout the build process
+  [Agile User Stories](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
+  were continually monitored to ensure the Website
+  fulfilled the requirements for both registered
+  users and non registered users.
 
   With the Website's structure in place and testing
   complete, the Agile User Stories have been satisfied.
@@ -948,8 +949,6 @@
   bookings. They also have full access to products
   and CRUD functionality to add and remove products
   as they wish.
-
-[Agile User Stories](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/documentation/readme/user-stories.pdf)
 
 [Go to top](#contents)
 
