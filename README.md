@@ -873,8 +873,8 @@ The following technologies were used in this project:
 - [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
    To test the 'Performance, 'Best Practices', 'Accessibility' and 'SEO' of
    a Websitr. 
-- [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
-   developing tool in Chrome to edit pages and diagnose problems
+- [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) -
+   Developing tool in Chrome to edit pages and diagnose problems
 - [Placeholder](https://placeholder.com/) - Used for placeholding of colour
    schemes in README.md
 - [Gmail](https://www.emailjs.com/) - Used to create email and confirmation
@@ -921,11 +921,27 @@ The following technologies were used in this project:
   [Learn Django](https://learndjango.com/tutorials/django-email-contact-form).
 
 - Support to fix the Date Picker selecting only certain criteria was inspired from:
-  [Stack Overflow](https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker)
-  [Stack Overflow](https://stackoverflow.com/questions/153759/jquery-datepicker-with-text-input-that-doesnt-allow-user-input#153804)
+  [Stack Overflow - Enable Current Week](https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker)
+  [Stack Overflow - User Input](https://stackoverflow.com/questions/153759/jquery-datepicker-with-text-input-that-doesnt-allow-user-input#153804)
 
 - The blinking icon feature in the Services app was taken from an idea provided by
   [HTML Online](https://html-online.com/articles/blinking-text-css-animation/).
 
+### Content
 
+- All content for this Website was provided by Murray Bealby.
+
+### Media
+
+- All photos and images were provided by Murray Bealby.
+
+### Acknowledgements
+
+- **Aaron Sinnott:** Mentor for professional advice and good practice.
+- **Code Institute Support:** The multitude of fantastic tutors
+  at Code Institute who have advised and succeeded in solving
+  many problems and issues.
+- **Slack Forum:** The benevolent force of the
+  Slack community
+- **Friends and Family:** For invaluable feedback and support
 
