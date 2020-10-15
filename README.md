@@ -65,11 +65,13 @@ A live version of Website can be found
 
 3.[Features left to Implement](#features-left-to-implement)
 
-4.[Technologies Used](#technologies-used)
+4.[Features left to Implement](#features-left-to-implement)
 
-4.[Deployment](#deployment)
+5.[Technologies Used](#technologies-used)
 
-4.[Credits](#credits)
+6.[Deployment](#deployment)
+
+7.[Credits](#credits)
 
 ---
 
@@ -805,6 +807,15 @@ add to the Website at a later date:
   As the Website expands media outlets such as Instagram,
   Facebook and Twitter can greatly promote and spread the
   word of the business.
+
+---
+
+## Testing
+
+---
+
+Testing information can be found here 
+[TESTING.md](https://github.com/Bealby/grandpas-pocket-watch-shop/blob/master/TESTING.md)
 
 ---
 
