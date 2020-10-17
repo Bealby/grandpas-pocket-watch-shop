@@ -1044,11 +1044,11 @@ deployed in GitHub/ Gitpod as instructed in 'Step-1'.
 
 ---
 
-  Then add the
+  Then the path:
   
-DATABASES = {`
-       'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))`
-}
+  `DATABASES = {`
+         `'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))`
+  `}`
 
 - Click the link `Settings`and scroll to the button `Reveal Convig Vars`
 
