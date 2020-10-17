@@ -74,7 +74,7 @@ A live version of Website can be found
 - [Step-1 GitHub Development](#step-1)
 - [Step-2 Heroku Production](#step-2)
 - [Step-3 Store Static Files and Images](#step-3)
-- [Step-2 Email](#step-3)
+- [Step-2 Email](#step-4)
 
 7.[Credits](#credits)
 
@@ -1182,14 +1182,14 @@ else:
 - Ensure all ´Static' and 'Media' files are uploaded in 'Amazon Web Services S3'.
 
 - Access Website in Heroku by clicking on 'Open app'
-  and complete details and ensure you are a 'Varified'
-  and 'Primary'.
+  and complete details and ensure you are have 'Verified'
+  and 'Primary' user checked.
 
-- When deploying to Heroku it is importent to update
+- When deploying to Heroku it is important to update
   the `STRIPE_WH_SECRET` key for Heroku deployment.
-  As explained in earlier istructions create a new
+  As explained in earlier instructions create a new
   path for the Strip Webhook Handler with the 
-  Heroku link.
+  Heroku Website link.
 
 ### Step-4
 ### Email
