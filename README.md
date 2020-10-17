@@ -974,8 +974,6 @@ For deployment of Website please follow the below steps:
   which will contain confidential `USER KEYS`. Ensure there
   is `.gitignore` file created that includes `env.py`.
 
----
-
 | KEY            | VALUE         |
 |----------------|---------------|
 | STRIPE_PUBLIC_KEY| `<STRIPE_PUBLIC_KEY>`  |
@@ -985,8 +983,6 @@ For deployment of Website please follow the below steps:
 | DATABASE_URL| `<DATABASE_URL>`  |
 | SECRET_KEY | `<SECRET_KEY>`  |
 | DEVELOPMENT | `True`  |
-
----
 
 - For Stripe Keys create an account at
   [Stripe](https://stripe.com/en-gb-se). The `STRIPE_PUBLIC_KEY`,
@@ -1025,12 +1021,9 @@ deployed in GitHub/ Gitpod as instructed in 'Step-1'.
 
 - Click on 'Heroku Postgress' and then 'Provision'.
 
-- Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop``
+- Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop`
   folder and comment out the following code:
 
----
-
----
 ```
 # if 'DATABASE_URL' in os.environ:
 #    DATABASES = {
@@ -1044,19 +1037,16 @@ deployed in GitHub/ Gitpod as instructed in 'Step-1'.
 #        }
 #    }
 ```
----
-
----
 
 - Then add the following code:
+  N.B. This code is tempory and will be removed in
+  later instructons.
 
----
 ```
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 ```
----
 
 - Then in the Heroku app created, go to 'Settings',
   then 'Config Vars', and copy and paste the key
@@ -1079,16 +1069,55 @@ DATABASES = {
 
 - Back in the Heroku app click the link `Settings` and scroll to the button `Reveal Convig Vars`
 
-  Ensure all keys are added in 'Config Vars' as found in
-  `env.py`:
+  Ensure all keys are added in 'Config Vars' in Heroku
+  as found in `env.py`:
 
+| KEY            | VALUE         |
+|----------------|---------------|
+| STRIPE_PUBLIC_KEY| `<STRIPE_PUBLIC_KEY>`  |
+| STRIPE_SECRET_KEY| `<STRIPE_SECRET_KEY>`  |
+| STRIPE_WH_SECRET| `<STRIPE_WH_SECRET>`  |   
+| GOOGLE_MAP_KEY| `<GOOGLE_MAP_KEY>`  |
+| DATABASE_URL| `<DATABASE_URL>`  |
+| SECRET_KEY | `<SECRET_KEY>`  |
+| DEVELOPMENT | `True`  |
 
-![env.py](/documentation/readme/env2.png/)
+- To allow the `Postgres` database to run in Heroku and the
+  `SQLite` to run locally, un-comment out the code in settings
+  and remove the (tempoary) code that was added in earlier
+  instructions.
 
-- `EMAIJS USER ID` and `MONGO USER ID` can be provided upon request.
+Final code should be:
 
+```
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+```
 
-### Step-3 - Connecting GitHub to Heroku for deployment
+- Ensure `gunicorn` is installed and is shown in requirements.txt.
+  If not type:
+    - `pip3 install gunicorn`
+    - Then add to requirements by typing `pip3 freeze --local > requirements.txt` 
+
+- If not already created, ensure a new file named `Procfile` is added
+  to the root directory with the following code inputted:
+    - `web: gunicorn grandpas_pocket_watch_shop.wsgi:application`
+  
+- To ensure Heroku doesn't try to collect static files
+  when deploying, type the following code in the temrinal:
+    - `heroku config:set DISABLE_COLLECTSTATIC=1 --app <NAME OF APP>`
+
+- In `settings.py` add the heroku host path to `Allowed Hosts`.
+    - `ALLOWED_HOSTS = ['HEROKU HOST NAME', 'localhost']`
 
 - In the terminal log into Heroku using the command `heroku login`
 
@@ -1096,19 +1125,13 @@ DATABASES = {
 
 - (`Heroku Apps` created can be viewed using the command `heroku apps`)
 
-- Set up `Heroku` as `Master` branch using the command `heroku git:remote -a app-name`.
+- Set up `Heroku` as `Master` branch using the command `heroku git:remote -a <APP NAME>`.
   The `app-name` being the name of the `Heroku App` created in Step-1.
 
-- Then in the terminal type the command `echo web: python app.py > Procfile`.
-
-- Then the command `heroku ps:scale web=1`.
-
 - Finally to update:
-  - `git init`
   - `git add .`
   - `git commit -m ""`
-  - `git push -u heroku master` (Push to heroku)
-  - `git push origin master` (Push locally to GitHub)
+  - `git push origin master` (Push to heroku)
 
 - When you are ready for `Production` deployment change the
   `debug=True` to `debug=False` in the `app.py`.
