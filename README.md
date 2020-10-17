@@ -935,7 +935,7 @@ The following technologies were used in this project:
 
 For deployment of Website please follow the below steps:
 
-### Step-1 - GitHub
+### Step-1 - GitHub (Development)
 
 - Click the following link [GitHub](https://github.com/) and
   and set up an account in GitHub.
@@ -970,12 +970,48 @@ For deployment of Website please follow the below steps:
   `python3 manage.py createsuperuser`, and provid
   a username, email address and password.
 
-- For local development in GitPod, create the file `env.py` which will contain
-  confidential `USER KEYS` that can be provided upon request.
+- For local development in GitPod, create the file `env.py`
+  which will contain confidential `USER KEYS`. Ensure there
+  is `.gitignore` file created that includes `env.py`.
 
-- The app can then be run by typing the command `python3 app.py` in the terminal
+---
 
-### Step-1 - Heroku
+  `import os`
+
+  `os.environ["STRIPE_PUBLIC_KEY"] = “<STRIPE_PUBLIC_KEY>”`
+  `os.environ["STRIPE_SECRET_KEY"] = "<STRIPE_SECRET_KEY>"`
+  `os.environ["STRIPE_WH_SECRET"] = "<STRIPE_WH_SECRET>"`
+  `os.environ["GOOGLE_MAP_KEY"] = "<GOOGLE_MAP_KEY>"`
+  `os.environ["DATABASE_URL"] = "<DATABASE_URL>"`
+  `os.environ["SECRET_KEY"] = "<SECRET_KEY>"`
+  `os.environ["DEVELOPMENT"] = "True"`
+
+---
+
+- For Stripe Keys create an account at
+  [Stripe](https://stripe.com/en-gb-se). The `STRIPE_PUBLIC_KEY`,
+  and `STRIPE_SECRET_KEY` are available in the dashboard once
+  logged in. The `STRIPE_WH_SECRET` is created by navigating to
+  Developers/Webhooks on Stripe Website and clicking
+  '+ Add endpoint'. Copy URL for `Home` page and 
+  add 'checkout/wh/' at end.
+
+  For more detailed information go to [Stripe Documentation](https://stripe.com/docs).
+
+- For the `GOOGLE_MAP_KEY` an account needs to be created at
+  [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/get-api-key).
+  The `GOOGLE_MAP_KEY` can then be found in the Website in
+  the directory 'Credentials'.
+
+- The `SECRET_KEY` can be found in settings in the root
+  directory. 
+
+- The app can then be run by typing the command `python3 manage.py runserver` in the terminal
+
+### Step-2 - Heroku (Production)
+
+The following instructions are based on the Website being
+deployed in GitHub/ Gitpod as instructed in 'Step-1'.
 
 - Click the following link [Heroku Login](https://id.heroku.com/login) and
   and set-up an account in Heroku
@@ -983,6 +1019,36 @@ For deployment of Website please follow the below steps:
 - Click on the icon to `Create New App`
 
 - Input an unique `App Name` and `Choose a Region` and click `Create App`
+
+- In the newly created app click on the tab 'Resources', then type
+  'Postgres' in 'Add-ons'.
+
+- Click on 'Heroku Postgress' and then 'Provision'.
+
+- Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop`
+  folder and comment out the following code:
+
+----
+
+`# if 'DATABASE_URL' in os.environ:`
+`#    DATABASES = {`
+`#       'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))`
+`#   }`
+`#else:`
+`#   DATABASES = {`
+`#       'default': {`
+`#           'ENGINE': 'django.db.backends.sqlite3',`
+`#            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),`
+`#       }`
+`#    }`
+
+---
+
+  Then add the
+  
+DATABASES = {`
+       'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))`
+}
 
 - Click the link `Settings`and scroll to the button `Reveal Convig Vars`
 
@@ -997,7 +1063,7 @@ For deployment of Website please follow the below steps:
 
 ### Step-3 - Connecting GitHub to Heroku for deployment
 
-- In the terminal log login into Heroku using the command `heroku login`
+- In the terminal log into Heroku using the command `heroku login`
 
 - Enter your `Email` and `Password` when prompted
 
