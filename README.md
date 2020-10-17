@@ -71,6 +71,11 @@ A live version of Website can be found
 
 6.[Deployment](#deployment)
 
+- [Step-1 GitHub Development](#step-1)
+- [Step-2 Heroku Production](#step-2)
+- [Step-3 Store Static Files and Images](#step-3)
+- [Step-2 Email](#step-3)
+
 7.[Credits](#credits)
 
 ---
@@ -935,7 +940,8 @@ The following technologies were used in this project:
 
 For deployment of Website please follow the below steps:
 
-### Step-1 - GitHub (Development)
+### Step 1
+### GitHub Development
 
 - Click the following link [GitHub](https://github.com/) and
   and set up an account in GitHub.
@@ -1004,7 +1010,8 @@ For deployment of Website please follow the below steps:
 
 - The app can then be run by typing the command `python3 manage.py runserver` in the terminal
 
-### Step-2 - Heroku (Production)
+### Step-2
+### Heroku (Production)
 
 The following instructions are based on the Website being
 deployed in GitHub/ Gitpod as instructed in 'Step-1'.
@@ -1133,7 +1140,8 @@ else:
   - `git commit -m ""`
   - `git push origin master` (Push to heroku)
 
-### Step-3 - Store Static Files and Images
+### Step-3
+### Store Static Files and Images
 
 - [Amazon Web Services S3](https://aws.amazon.com/) is used
   to store static files and images. Create an account.
@@ -1183,13 +1191,16 @@ else:
   path for the Strip Webhook Handler with the 
   Heroku link.
 
+### Step-4
+### Email
 
-### Step-3 - Email
+- Set-up a gmail account
+
 
 [Go to top](#contents)
 
 ---
-
+  
 ## Credits
 
 ---
