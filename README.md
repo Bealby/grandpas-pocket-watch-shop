@@ -976,7 +976,15 @@ For deployment of Website please follow the below steps:
 
 ---
 
-![env.py](/documentation/readme/env.png/)
+| KEY            | VALUE         |
+|----------------|---------------|
+| STRIPE_PUBLIC_KEY| `<STRIPE_PUBLIC_KEY>`  |
+| STRIPE_SECRET_KEY| `<STRIPE_SECRET_KEY>`  |
+| STRIPE_WH_SECRET| `<STRIPE_WH_SECRET>`  |   
+| GOOGLE_MAP_KEY| `<GOOGLE_MAP_KEY>`  |
+| DATABASE_URL| `<DATABASE_URL>`  |
+| SECRET_KEY | `<SECRET_KEY>`  |
+| DEVELOPMENT | `True`  |
 
 ---
 
@@ -1022,16 +1030,32 @@ deployed in GitHub/ Gitpod as instructed in 'Step-1'.
 
 ---
 
-![Database](/documentation/readme/database.png/)
+---
+```
+# if 'DATABASE_URL' in os.environ:
+#    DATABASES = {
+#        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+#    }
+# else:
+#    DATABASES = {
+#        'default': {
+#            'ENGINE': 'django.db.backends.sqlite3',
+#            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#        }
+#    }
+```
+---
 
 ---
 
 - Then add the following code:
 
 ---
-
-![Postgres](/documentation/readme/postgres.png/)
-
+```
+DATABASES = {
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+}
+```
 ---
 
 - Then in the Heroku app created, go to 'Settings',
