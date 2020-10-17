@@ -976,15 +976,7 @@ For deployment of Website please follow the below steps:
 
 ---
 
-  `import os`
-
-  `os.environ["STRIPE_PUBLIC_KEY"] = “<STRIPE_PUBLIC_KEY>”`
-  `os.environ["STRIPE_SECRET_KEY"] = "<STRIPE_SECRET_KEY>"`
-  `os.environ["STRIPE_WH_SECRET"] = "<STRIPE_WH_SECRET>"`
-  `os.environ["GOOGLE_MAP_KEY"] = "<GOOGLE_MAP_KEY>"`
-  `os.environ["DATABASE_URL"] = "<DATABASE_URL>"`
-  `os.environ["SECRET_KEY"] = "<SECRET_KEY>"`
-  `os.environ["DEVELOPMENT"] = "True"`
+![env.py](/documentation/readme/env.png/)
 
 ---
 
@@ -1025,38 +1017,49 @@ deployed in GitHub/ Gitpod as instructed in 'Step-1'.
 
 - Click on 'Heroku Postgress' and then 'Provision'.
 
-- Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop`
+- Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop``
   folder and comment out the following code:
-
-----
-
-`# if 'DATABASE_URL' in os.environ:`
-`#    DATABASES = {`
-`#       'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))`
-`#   }`
-`#else:`
-`#   DATABASES = {`
-`#       'default': {`
-`#           'ENGINE': 'django.db.backends.sqlite3',`
-`#            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),`
-`#       }`
-`#    }`
 
 ---
 
-  Then the path:
-  
-  `DATABASES = {`
-         `'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))`
-  `}`
+![Database](/documentation/readme/database.png/)
 
-- Click the link `Settings`and scroll to the button `Reveal Convig Vars`
+---
 
-- In the `Convig Vars` add the following inputs for `Key` and `Value`
-  - KEY = `IP`, VALUE = `0.0.0.0`
-  - KEY = `PORT`, VALUE = `5000`
-  - KEY = `EMAILJS_KEY`, VALUE = `EMAIJS USER ID`
-  - KEY = `MONGO_URI`, VALUE = `MONGO USER ID`
+- Then add the following code:
+
+---
+
+![Postgres](/documentation/readme/postgres.png/)
+
+---
+
+- Then in the Heroku app created, go to 'Settings',
+  then 'Config Vars', and copy and paste the key
+  in the env.py file for `DATEBASE_URL`.
+
+- Migrations then need to be carried out for new 'Postgres'
+  database with the command `python3 manage.py migrate`.
+
+- Fixtures also need to be loaded again with the following:
+    - `python3 manage.py loaddata categories`
+    - `python3 manage.py loaddata products`
+    - `python3 manage.py loaddata appointment_type`
+    - `python3 manage.py loaddata watch_models`
+    - `python3 manage.py loaddata watch_types`
+    - `python3 manage.py loaddata appointment_times`
+
+- Create a super user again with the following
+  command, `python3 manage.py createsuperuser`, 
+  providing a username, email address and password.
+
+- Back in the Heroku app click the link `Settings` and scroll to the button `Reveal Convig Vars`
+
+  Ensure all keys are added in 'Config Vars' as found in
+  `env.py`:
+
+
+![env.py](/documentation/readme/env2.png/)
 
 - `EMAIJS USER ID` and `MONGO USER ID` can be provided upon request.
 
