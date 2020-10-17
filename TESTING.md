@@ -982,8 +982,18 @@
   with Stripe and Google Map secret keys being exposed in the commits
   in GitHub.
 
-  Due to this all secret keys were updated and the old secret keys
-  being made rendundant.env.py file.
+  To fix this all secret keys were updated and the old secret keys
+  made rendundant.
+
+  As well as updating the keys all commits of env.py were removed using
+  the following command:
+
+  `git filter-branch --force --index-filter "git rm --cached --ignore-unmatch env.py" --prune-empty --tag-name-filter cat -- --all`
+  `git push --force --verbose --dry-run`
+  `git push --force`
+
+  This code was provided at
+  [Stack Overflow](https://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history/872700#872700)
 
 ---
 
@@ -1004,6 +1014,18 @@
   Although a benefit to the UI/UX it does not affect
   the functionality of the form itself so it was decided
   to leave for now and work on at a future date.
+
+- Products that are available on the Website are one of
+  a kind so when purchased by a user they still remain 
+  in stock on the Website. Of course the owner can remove
+  the product from the Website once an order has been made
+  but there will always be a window of risk until this issue
+  is carried out.
+
+  It would therefore be important to set up a function to remove
+  products from stock once they are purchased. Another alternative
+  would be to display the product but deactive `ADD TO BASKET` 
+  and display text 'Out of stock'. 
 
 ---
 
