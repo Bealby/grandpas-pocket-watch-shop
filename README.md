@@ -1113,7 +1113,7 @@ else:
     - `web: gunicorn grandpas_pocket_watch_shop.wsgi:application`
   
 - To ensure Heroku doesn't try to collect static files
-  when deploying, type the following code in the temrinal:
+  when deploying, type the following code in the terminal:
     - `heroku config:set DISABLE_COLLECTSTATIC=1 --app <NAME OF APP>`
 
 - In `settings.py` add the heroku host path to `Allowed Hosts`.
@@ -1133,14 +1133,60 @@ else:
   - `git commit -m ""`
   - `git push origin master` (Push to heroku)
 
-- When you are ready for `Production` deployment change the
-  `debug=True` to `debug=False` in the `app.py`.
+### Step-3 - Store Static Files and Images
 
-- Login into Heroku in your browser window. Click your hero app and then click
- `Open App` to launch Website. i.e. `https://app-name-here.herokuapp.com/`.
+- [Amazon Web Services S3](https://aws.amazon.com/) is used
+  to store static files and images. Create an account.
+
+- A 'Bucket' then needs to be created once logged in. 
+  A tutorial on 'Creating a Bucket' can be found
+  [Here](https://aws.amazon.com/).
+
+- Further documentation on setting up can be found
+  [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html)
+
+- Back in GitHub, ensure `boto3` and `django-storages`
+  are installed in requirements.txt.
+  If not type:
+    - `pip3 install boto3`
+    - `pip3 install django-storages`
+    - Then add to requirements by typing `pip3 freeze --local > requirements.txt` 
+
+- In `settings.py` ensure `AWS STORAGE NAME` and `REGION NAME` 
+  have correct details.
+
+```
+    AWS_STORAGE_BUCKET_NAME = '<AWS STORAGE NAME>'
+    AWS_S3_REGION_NAME = '<REGION NAME>'
+```
+
+- Ensure AWS keys are added in 'Config Vars' in Heroku, as below:
+
+| KEY            | VALUE         |
+|----------------|---------------|
+| AWS_ACCESS_KEY_ID| `<AWS_ACCESS_KEY_ID>`  |
+| AWS_SECRET_ACCESS_KEY| `<AWS_SECRET_ACCESS_KEY>`  |
+| USE_AWS| `True`  |
+
+- Also ensure that the `DISABLE_COLLECTSTATIC=1` 'Config Vars'
+  is removed from Heroku.
+
+- Ensure all ´Static' and 'Media' files are uploaded in 'Amazon Web Services S3'.
+
+- Access Website in Heroku by clicking on 'Open app'
+  and complete details and ensure you are a 'Varified'
+  and 'Primary'.
+
+- When deploying to Heroku it is importent to update
+  the `STRIPE_WH_SECRET` key for Heroku deployment.
+  As explained in earlier istructions create a new
+  path for the Strip Webhook Handler with the 
+  Heroku link.
+
+
+### Step-3 - Email
 
 [Go to top](#contents)
-
 
 ---
 
