@@ -65,7 +65,7 @@ A live version of Website can be found
 
 3.[Features left to Implement](#features-left-to-implement)
 
-4.[Features left to Implement](#features-left-to-implement)
+4.[Datebase and Models](#database-and-models)
 
 5.[Technologies Used](#technologies-used)
 
@@ -325,6 +325,8 @@ To allow for 'superusers' to Add/ Edit/ Remove products directly
 from the Website was also not instigated as this is not appropriate
 and could be a security risk. Instead Add/ Edit, Remove can only be
 carried out in Admin.
+
+[Go to top](#contents)
 
 ---
 
@@ -769,6 +771,8 @@ UX of the Website.
    to save delivery information, book appointments, and store orders
    on a personal profile page.
 
+[Go to top](#contents)
+
 ### Features left to Implement
 
 Below is a list of features I feel would be beneficial to
@@ -819,6 +823,21 @@ Testing information can be found here
 
 ---
 
+## Datebase and Models
+
+---
+
+During the development of the Website the SQLite
+database was used installed with Django. In the 
+deployed Website in Heroku a Postgres datebase is used.
+
+### Database Relationship Diagram
+
+![Database Relationship Diagram](/documentation/readme/database_relationship_diagram.pdf/)
+
+
+---
+
 ## Technologies Used
 
 ---
@@ -861,6 +880,11 @@ The following technologies were used in this project:
    fonts in Website
 - [Font Awesome](https://fontawesome.com/) - Program used to import a multitude
    of icons for the Website
+- [SQLite](https://sqlite.org/index.html) - SQLite is a C-language library that
+   implements a small, fast, self-contained, high-reliability, full-featured,
+   SQL database engine
+   [Postgres](https://www.heroku.com/postgres#) Heroku's relational database
+   management system
 
 ### Tools
 
@@ -899,6 +923,8 @@ The following technologies were used in this project:
    JavaScript Plugin
 - [Popper](https://popper.js.org/) - Used to implement Navigation Collapse
    feature JavaScript Plugin
+
+[Go to top](#contents)
 
 ---
 
