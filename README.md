@@ -65,7 +65,7 @@ A live version of Website can be found
 
 3.[Features left to Implement](#features-left-to-implement)
 
-4.[Datebase and Models](#database-and-models)
+4.[Database and Models](#database-and-models)
 
 5.[Technologies Used](#technologies-used)
 
@@ -823,13 +823,15 @@ Testing information can be found here
 
 ---
 
-## Datebase and Models
+## Database and Models
 
 ---
 
-During the development of the Website the SQLite
-database was used installed with Django. In the 
-deployed Website in Heroku a Postgres datebase is used.
+- During the development of the Website the SQLite
+  database was used in conjunction with Django.
+
+- In the deployed (production) Website the Postgres
+  datebase was used that comes with Heroku.
 
 ### Database Relationship Diagram
 
@@ -924,6 +926,105 @@ The following technologies were used in this project:
    feature JavaScript Plugin
 
 [Go to top](#contents)
+
+---
+
+## Deployment
+
+---
+
+For deployment of Website please follow the below steps:
+
+### Step-1 - GitHub
+
+- Click the following link [GitHub](https://github.com/) and
+  and set up an account in GitHub.
+
+- Click the following GitHub repository [Granpa's Pocket Watch Shop](https://github.com/Bealby/grandpas-pocket-watch-shop).
+
+- On the main page of the repository click the green button **Code**.
+
+- A drop down menu for `Clone with HTTPS` should appear. Copy `URL` link.
+  There is also an option to 'Download Zip' of Website if preferred.
+
+- Open terminal in IDE; i.e. [Gitpod](https://gitpod.io/)
+
+- Change the current directory to the local directory
+
+- Type `git clone` plus `URL` in terminal (Copied above). Then `Enter`
+
+- In the terminal install the Flask `requirements.txt` file using the
+  command `pip3 install -r requirements.txt`
+
+- Then in the terminal type `python3 manage.py migrate` to migrate models.
+
+- Then load the data in the following order below using the code:
+    - `python3 manage.py loaddata categories`
+    - `python3 manage.py loaddata products`
+    - `python3 manage.py loaddata appointment_type`
+    - `python3 manage.py loaddata watch_models`
+    - `python3 manage.py loaddata watch_types`
+    - `python3 manage.py loaddata appointment_times`
+
+- To allow for Admin access type in the terminal
+  `python3 manage.py createsuperuser`, and provid
+  a username, email address and password.
+
+- For local development in GitPod, create the file `env.py` which will contain
+  confidential `USER KEYS` that can be provided upon request.
+
+- The app can then be run by typing the command `python3 app.py` in the terminal
+
+### Step-1 - Heroku
+
+- Click the following link [Heroku Login](https://id.heroku.com/login) and
+  and set-up an account in Heroku
+
+- Click on the icon to `Create New App`
+
+- Input an unique `App Name` and `Choose a Region` and click `Create App`
+
+- Click the link `Settings`and scroll to the button `Reveal Convig Vars`
+
+- In the `Convig Vars` add the following inputs for `Key` and `Value`
+  - KEY = `IP`, VALUE = `0.0.0.0`
+  - KEY = `PORT`, VALUE = `5000`
+  - KEY = `EMAILJS_KEY`, VALUE = `EMAIJS USER ID`
+  - KEY = `MONGO_URI`, VALUE = `MONGO USER ID`
+
+- `EMAIJS USER ID` and `MONGO USER ID` can be provided upon request.
+
+
+### Step-3 - Connecting GitHub to Heroku for deployment
+
+- In the terminal log login into Heroku using the command `heroku login`
+
+- Enter your `Email` and `Password` when prompted
+
+- (`Heroku Apps` created can be viewed using the command `heroku apps`)
+
+- Set up `Heroku` as `Master` branch using the command `heroku git:remote -a app-name`.
+  The `app-name` being the name of the `Heroku App` created in Step-1.
+
+- Then in the terminal type the command `echo web: python app.py > Procfile`.
+
+- Then the command `heroku ps:scale web=1`.
+
+- Finally to update:
+  - `git init`
+  - `git add .`
+  - `git commit -m ""`
+  - `git push -u heroku master` (Push to heroku)
+  - `git push origin master` (Push locally to GitHub)
+
+- When you are ready for `Production` deployment change the
+  `debug=True` to `debug=False` in the `app.py`.
+
+- Login into Heroku in your browser window. Click your hero app and then click
+ `Open App` to launch Website. i.e. `https://app-name-here.herokuapp.com/`.
+
+[Go to top](#contents)
+
 
 ---
 
