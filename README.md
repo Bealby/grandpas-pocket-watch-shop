@@ -833,7 +833,7 @@ deployed Website in Heroku a Postgres datebase is used.
 
 ### Database Relationship Diagram
 
-![Database Relationship Diagram](/documentation/readme/database_relationship_diagram.pdf)
+![Database Relationship Diagram](/documentation/readme/database_relationship_diagram.pdf/)
 
 ---
 
