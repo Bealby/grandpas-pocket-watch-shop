@@ -988,13 +988,13 @@ For deployment of Website please follow the below steps:
 
 | KEY            | VALUE         |
 |----------------|---------------|
-| STRIPE_PUBLIC_KEY| `<STRIPE_PUBLIC_KEY>`  |
-| STRIPE_SECRET_KEY| `<STRIPE_SECRET_KEY>`  |
-| STRIPE_WH_SECRET| `<STRIPE_WH_SECRET>`  |   
-| GOOGLE_MAP_KEY| `<GOOGLE_MAP_KEY>`  |
-| DATABASE_URL| `<DATABASE_URL>`  |
-| SECRET_KEY | `<SECRET_KEY>`  |
-| DEVELOPMENT | `True`  |
+| STRIPE_PUBLIC_KEY| `<STRIPE_PUBLIC_KEY>` |
+| STRIPE_SECRET_KEY| `<STRIPE_SECRET_KEY>` |
+| STRIPE_WH_SECRET| `<STRIPE_WH_SECRET>` |   
+| GOOGLE_MAP_KEY| `<GOOGLE_MAP_KEY>` |
+| DATABASE_URL| `<DATABASE_URL>` |
+| SECRET_KEY | `<SECRET_KEY>` |
+| DEVELOPMENT | `True` |
 
 13. For Stripe Keys create an account at
     [Stripe](https://stripe.com/en-gb-se). The `STRIPE_PUBLIC_KEY`,
@@ -1092,12 +1092,12 @@ DATABASES = {
 
 | KEY            | VALUE         |
 |----------------|---------------|
-| STRIPE_PUBLIC_KEY| `<STRIPE_PUBLIC_KEY>`  |
-| STRIPE_SECRET_KEY| `<STRIPE_SECRET_KEY>`  |
-| STRIPE_WH_SECRET| `<STRIPE_WH_SECRET>`  |   
-| GOOGLE_MAP_KEY| `<GOOGLE_MAP_KEY>`  |
-| DATABASE_URL| `<DATABASE_URL>`  |
-| SECRET_KEY | `<SECRET_KEY>`  |
+| STRIPE_PUBLIC_KEY| `<STRIPE_PUBLIC_KEY>` |
+| STRIPE_SECRET_KEY| `<STRIPE_SECRET_KEY>` |
+| STRIPE_WH_SECRET| `<STRIPE_WH_SECRET>` |   
+| GOOGLE_MAP_KEY| `<GOOGLE_MAP_KEY>` |
+| DATABASE_URL| `<DATABASE_URL>` |
+| SECRET_KEY | `<SECRET_KEY>` |
 
 
 13. To allow the `Postgres` database to run in Heroku
@@ -1151,10 +1151,10 @@ else:
 
 20. (Any 'Heroku Apps' created can be viewed using the command `heroku apps`)
 
- Set up `Heroku` as `Master` branch using the command `heroku git:remote -a <APP NAME>`.
+   Set up `Heroku` as `Master` branch using the command `heroku git:remote -a <APP NAME>`.
   The `app-name` being the name of the `Heroku App` created (Step 2 - 2).
 
-- Finally to update to Heroku:
+21. Finally to update to Heroku:
   - `git add .`
   - `git commit -m ""`
   - `git push origin master` (Push to heroku)
@@ -1162,67 +1162,69 @@ else:
 ### Step-3
 ### Store Static Files and Images
 
-- [Amazon Web Services S3](https://aws.amazon.com/) is used
-  to store static files and images. Create an account.
+1. [Amazon Web Services S3](https://aws.amazon.com/) is used
+   to store static files and images. Create an account.
 
-- Once logged in a 'Bucket' needs to be created. 
-  A tutorial on 'Creating a Bucket' can be found
-  [Here](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html).
+2.  Once logged in a 'Bucket' needs to be created. 
+    A tutorial on 'Creating a Bucket' can be found
+    [Here](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html).
 
-- Further documentation on setting up can be found
-  [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html)
+3. Further documentation on setting up can be found
+   [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html)
 
-- Back in GitHub, ensure `boto3` and `django-storages`
-  are installed in requirements.txt.
-  If not type:
+4. Back in GitHub, ensure `boto3` and `django-storages`
+   are installed in requirements.txt.
+   If not type:
     - `pip3 install boto3`
     - `pip3 install django-storages`
     - Then add to requirements by typing `pip3 freeze --local > requirements.txt` 
 
-- In `settings.py` ensure `AWS STORAGE NAME` and `REGION NAME` 
-  have correct details.
+5. In `settings.py` ensure `AWS STORAGE NAME` and `REGION NAME` 
+   have correct details.
 
 ```
     AWS_STORAGE_BUCKET_NAME = '<AWS STORAGE NAME>'
     AWS_S3_REGION_NAME = '<REGION NAME>'
 ```
 
-- Then add the AWS keys to 'Config Vars' in Heroku, as below:
+6. Then add the AWS keys to 'Config Vars' in Heroku, as below:
+
 
 | KEY            | VALUE         |
 |----------------|---------------|
-| AWS_ACCESS_KEY_ID| `<AWS_ACCESS_KEY_ID>`  |
-| AWS_SECRET_ACCESS_KEY| `<AWS_SECRET_ACCESS_KEY>`  |
-| USE_AWS| `True`  |
+| AWS_ACCESS_KEY_ID| `<AWS_ACCESS_KEY_ID>` |
+| AWS_SECRET_ACCESS_KEY| `<AWS_SECRET_ACCESS_KEY>` |
+| USE_AWS| `True` |
 
-- Also ensure that `DISABLE_COLLECTSTATIC=1`
-  is removed from 'Config Vars' in Heroku.
 
-- Then push all changes to Heroku:
+7. Also ensure that `DISABLE_COLLECTSTATIC=1`
+   is removed from 'Config Vars' in Heroku.
+
+8. Then push all changes to Heroku:
   - `git add .`
   - `git commit -m ""`
   - `git push origin master`
 
-- Log in to [Amazon Web Services S3](https://aws.amazon.com/) and
-  make sure all ´Static' files are uploaded.
+9. Log in to [Amazon Web Services S3](https://aws.amazon.com/) and
+   make sure all ´Static' files are uploaded.
   
-  Within the same directory in AWS, create a new folder called `media`
-  and upload all product image files from the GitHub folder
-  `media`.
+   Within the same directory in AWS, create a new folder called `media`
+   and upload all product image files from the GitHub folder
+   `media`.
 
-- An email address for our superuser on the `Postgres` database
-  needs to be confirmed. Access Website in Heroku by clicking on
-  'Open app' and then access the Django Admin.
+10. An email address for our superuser on the `Postgres` database
+    needs to be confirmed. Access Website in Heroku by clicking on
+    'Open app' and then access the Django Admin.
 
-  Access your email addess in Admin and ensure 'Verified' and
-  'Primary' boxes are checked and then save changes.
+    Access your email addess in Admin and ensure 'Verified' and
+    'Primary' boxes are checked and then save changes.
 
-- When deploying to Heroku it is important to update
-  the `STRIPE_WH_SECRET` key in the 'Config Vars' in Heroku.
-  As explained in earlier instructions (Step 1 - 13), create a new
-  path for the Strip Webhook Handler using the Heroku Website link.
+11. When deploying to Heroku it is important to update
+    the `STRIPE_WH_SECRET` key in the 'Config Vars' in Heroku.
+    As explained in earlier instructions (Step 1 - 13), create a new
+    path for the Strip Webhook Handler using the Heroku Website link.
 
-- Finally push all changes again to Heroku:
+12. Finally push all changes again to Heroku:
   - `git add .`
   - `git commit -m ""`
   - `git push origin master`
@@ -1230,14 +1232,22 @@ else:
 ### Step-4
 ### Email
 
+To allow Django to send real emails, one solution is to use the
+email provider, [Gmail](https://www.google.com/gmail/about/)
 
+1. In your security settings set up 2step-verification.
 
+2. Then click the option 'App passwords' and select 'Mail'
+   as the app type, and 'Django' as the device.
 
-
-
-
-- Set-up a gmail account
-
+3. A password will then be generated and should be added
+   to the 'Config Vars' in the Heroku. As well as 
+   `EMAIL_HOST_USER`.
+   
+| KEY            | VALUE         |
+|----------------|---------------|
+| EMAIL_HOST_PASS| `<EMAIL_HOST_PASS>` |
+| EMAIL_HOST_USER| `<EMAIL>` |
 
 [Go to top](#contents)
 
