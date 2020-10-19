@@ -959,7 +959,7 @@ For deployment of Website please follow the below steps:
 
 - Change the current directory to the local directory
 
-- Type `git clone` plus `URL` in terminal (Copied above). Then `Enter`
+- Type `git clone` plus `URL` link copied from GitHub in terminal. Then `Enter`
 
 - In the terminal install the Flask `requirements.txt` file using the
   command `pip3 install -r requirements.txt`
@@ -1022,7 +1022,7 @@ For deployment of Website please follow the below steps:
 #### Heroku (Production)
 
 The following instructions are based on the Website being
-deployed in GitHub/ Gitpod as instructed in [Step 1](#step-1).
+deployed in GitHub/ Gitpod as instructed in Step 1.
 
 - Click the following link [Heroku Login](https://id.heroku.com/login) and
   and set-up an account in Heroku.
@@ -1037,7 +1037,7 @@ deployed in GitHub/ Gitpod as instructed in [Step 1](#step-1).
 - Click on 'Heroku Postgress' and then 'Provision'.
 
 - Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop`
-   folder and comment out the following code:
+  folder and comment out the following code:
 
 ```
 # if 'DATABASE_URL' in os.environ:
@@ -1063,12 +1063,12 @@ DATABASES = {
 }
 ```
 
-- Then in the Heroku app created, go to 'Settings',
-   then 'Config Vars', and copy and paste the key
-   in the `env.py` file for `DATEBASE_URL`.
+- In the Heroku app created, go to 'Settings',
+  then 'Config Vars', and copy and paste the key
+  in the `env.py` file for `DATEBASE_URL`.
 
 - Migrations then need to be carried out for new 'Postgres'
-   database with the command `python3 manage.py migrate`.
+  database with the command `python3 manage.py migrate`.
 
 - Fixtures also need to be loaded again with the following command:
   - `python3 manage.py loaddata categories`
@@ -1086,10 +1086,10 @@ DATABASES = {
   and scroll to the button `Reveal Convig Vars`
 
   Ensure all keys are added in 'Config Vars' in Heroku
-  as found in [Step 1 - 12](#environ-variables):
+  as found in Step 1 `env.py` file:
 
   N.B. Do **NOT** include the variable
-  'DEVELOPMENT = `True`' in Heroku.
+  '`DEVELOPMENT = True`' in Heroku 'Config Vars'.
 
 | KEY            | VALUE         |
 |----------------|---------------|
@@ -1102,11 +1102,11 @@ DATABASES = {
 
 - To allow the `Postgres` database to run in Heroku
   (production) and `SQLite` to run locally (development),
-  un-comment out the code in `settings.py` (Step 2 - 6)
-  and remove the tempoary code that was added in earlier
-  instructions (Step 2 - 7).
+  un-comment out the code in `settings.py` previously
+  commented out. Then remove the tempoary code that was added
+  in earlier instructions.
 
-  The Final code in `settings.py`should be:
+  The Final code in `settings.py` should be:
 
 ```
 if 'DATABASE_URL' in os.environ:
@@ -1147,7 +1147,7 @@ else:
 
 - Set up `Heroku` as `Master` branch using the command
   `heroku git:remote -a <APP NAME>`.
-  The `app-name` being the name of the `Heroku App` created (Step 2 - 2).
+  The `app-name` being the name of the `Heroku App`.
 
 - Finally to update to Heroku:
   - `git add .`
@@ -1214,8 +1214,9 @@ else:
 
 - When deploying to Heroku it is important to update
   the `STRIPE_WH_SECRET` key in the 'Config Vars' in Heroku.
-  As explained in earlier instructions (Step 1 - 13), create a new
-  path for the Strip Webhook Handler using the Heroku Website link.
+  As explained in earlier instructions, create a new
+  path for the Strip Webhook Handler using the deployed
+  Heroku Website link.
 
 - Finally push all changes again to Heroku:
   - `git add .`
@@ -1232,11 +1233,11 @@ email provider, [Gmail](https://www.google.com/gmail/about/)
 - In your security settings set up 2step-verification.
 
 - Then click the option 'App passwords' and select 'Mail'
-   as the app type, and 'Django' as the device.
+  as the app type, and 'Django' as the device.
 
 - A password will then be generated and should be added
-   to the 'Config Vars' in the Heroku. As well as
-   `EMAIL_HOST_USER`.
+  to the 'Config Vars' in the Heroku, as well as a
+  `EMAIL_HOST_USER`. See below:
 
 | KEY            | VALUE         |
 |----------------|---------------|
