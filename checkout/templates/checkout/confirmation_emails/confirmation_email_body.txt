@@ -24,7 +24,7 @@ Your order will be shipped to:
 {{ order.town_or_city }},
 {{ order.country }}.
 
-If you have any questions, feel free to contact us at {{ contact_email }}.
+If you have any questions, feel free to contact us at grandpaspocketwatchshop@gmail.com.
 
 Sincerely,
 
