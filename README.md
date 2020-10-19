@@ -836,7 +836,7 @@ Testing information can be found here
   database was used in conjunction with Django.
 
 - In the deployed (production) Website the Postgres
-  datebase was used that comes with Heroku.
+  database was used that comes with Heroku.
 
 ### Database Relationship Diagram
 
@@ -859,7 +859,7 @@ The following technologies were used in this project:
 
 - [Heroku](https://id.heroku.com/) - Heroku is a cloud based platform
    allowing developers to build, run, and operate applications
-- [GitHub](https://github.com/)** - Used to store repositories and deploy Websites
+- [GitHub](https://github.com/) - Used to store repositories and deploy Websites
 
 ### Languages
 
@@ -868,7 +868,7 @@ The following technologies were used in this project:
    HTML elements
 - [Python](https://www.python.org/) - A programming language that lets you work
    quickly and integrate systems more effectively.
-- [JavaScript](https://www.javascript.com/) - Programming langguage
+- [JavaScript](https://www.javascript.com/) - Programming language
 
 ### Language Validators
 
@@ -902,7 +902,7 @@ The following technologies were used in this project:
    to generate Mockup of Website on different devices
 - [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
    To test the 'Performance, 'Best Practices', 'Accessibility' and 'SEO' of
-   a Websitr.
+   a Website.
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) -
    Developing tool in Chrome to edit pages and diagnose problems
 - [Placeholder](https://placeholder.com/) - Used for placeholding of colour
@@ -948,7 +948,7 @@ For deployment of Website please follow the below steps:
   and set up an account in GitHub.
 
 - Click the following GitHub repository
-  [Granpa's Pocket Watch Shop](https://github.com/Bealby/grandpas-pocket-watch-shop).
+  [Grandpa's Pocket Watch Shop](https://github.com/Bealby/grandpas-pocket-watch-shop).
 
 - On the main page of the repository click the green button **Code**.
 
@@ -975,7 +975,7 @@ For deployment of Website please follow the below steps:
   - `python3 manage.py loaddata appointment_times`
 
 - To allow for Admin access type in the terminal
-  `python3 manage.py createsuperuser`, and provid
+  `python3 manage.py createsuperuser`, and provide
   a username, email address and password.
 
 - For local development in GitPod, create the file `env.py`
@@ -1054,8 +1054,8 @@ deployed in GitHub/ Gitpod as instructed in Step 1.
 ```
 
 - Then add the following code below:
-   N.B. This code is tempoary and will be removed in
-   later instructons.
+   N.B. This code is temporary and will be removed in
+   later instructions.
 
 ```
 DATABASES = {
@@ -1103,7 +1103,7 @@ DATABASES = {
 - To allow the `Postgres` database to run in Heroku
   (production) and `SQLite` to run locally (development),
   un-comment out the code in `settings.py` previously
-  commented out. Then remove the tempoary code that was added
+  commented out. Then remove the temporary code that was added
   in earlier instructions.
 
   The Final code in `settings.py` should be:
