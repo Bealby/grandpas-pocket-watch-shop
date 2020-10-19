@@ -941,30 +941,30 @@ The following technologies were used in this project:
 For deployment of Website please follow the below steps:
 
 ### Step 1
-### GitHub Development
+#### GitHub Development
 
-- Click the following link [GitHub](https://github.com/) and
-  and set up an account in GitHub.
+1. Click the following link [GitHub](https://github.com/) and
+   and set up an account in GitHub.
 
-- Click the following GitHub repository [Granpa's Pocket Watch Shop](https://github.com/Bealby/grandpas-pocket-watch-shop).
+2. Click the following GitHub repository [Granpa's Pocket Watch Shop](https://github.com/Bealby/grandpas-pocket-watch-shop).
 
-- On the main page of the repository click the green button **Code**.
+3. On the main page of the repository click the green button **Code**.
 
-- A drop down menu for `Clone with HTTPS` should appear. Copy `URL` link.
-  There is also an option to 'Download Zip' of Website if preferred.
+4. A drop down menu for `Clone with HTTPS` should appear. Copy `URL` link.
+   There is also an option to 'Download Zip' of Website if preferred.
 
-- Open terminal in IDE; i.e. [Gitpod](https://gitpod.io/)
+5. Open terminal in IDE; i.e. [Gitpod](https://gitpod.io/)
 
-- Change the current directory to the local directory
+6. Change the current directory to the local directory
 
-- Type `git clone` plus `URL` in terminal (Copied above). Then `Enter`
+7. Type `git clone` plus `URL` in terminal (Copied above). Then `Enter`
 
-- In the terminal install the Flask `requirements.txt` file using the
-  command `pip3 install -r requirements.txt`
+8. In the terminal install the Flask `requirements.txt` file using the
+   command `pip3 install -r requirements.txt`
 
-- Then in the terminal type `python3 manage.py migrate` to migrate models.
+9. Then in the terminal type `python3 manage.py migrate` to migrate models.
 
-- Then load the data in the following order below using the code:
+10. Then load the data in the following order below using the code:
     - `python3 manage.py loaddata categories`
     - `python3 manage.py loaddata products`
     - `python3 manage.py loaddata appointment_type`
@@ -972,13 +972,19 @@ For deployment of Website please follow the below steps:
     - `python3 manage.py loaddata watch_types`
     - `python3 manage.py loaddata appointment_times`
 
-- To allow for Admin access type in the terminal
-  `python3 manage.py createsuperuser`, and provid
-  a username, email address and password.
+11. To allow for Admin access type in the terminal
+    `python3 manage.py createsuperuser`, and provid
+    a username, email address and password.
 
-- For local development in GitPod, create the file `env.py`
-  which will contain confidential `USER KEYS`. Ensure there
-  is `.gitignore` file created that includes `env.py`.
+12. For local development in GitPod, create the file `env.py`
+    which will contain confidential `USER KEYS` as shown in
+    the 'Environ Variables' below. 
+    
+    Ensure there is a `.gitignore` file also created that
+    includes `env.py`, to ensure all 'Environ Variables'
+    are never exposed in GitHub. 
+
+##### Environ Variables
 
 | KEY            | VALUE         |
 |----------------|---------------|
@@ -990,46 +996,47 @@ For deployment of Website please follow the below steps:
 | SECRET_KEY | `<SECRET_KEY>`  |
 | DEVELOPMENT | `True`  |
 
-- For Stripe Keys create an account at
-  [Stripe](https://stripe.com/en-gb-se). The `STRIPE_PUBLIC_KEY`,
-  and `STRIPE_SECRET_KEY` are available in the dashboard once
-  logged in. The `STRIPE_WH_SECRET` is created by navigating to
-  Developers/Webhooks on Stripe Website and clicking
-  '+ Add endpoint'. Copy URL for `Home` page and 
-  add 'checkout/wh/' at end.
+13. For Stripe Keys create an account at
+    [Stripe](https://stripe.com/en-gb-se). The `STRIPE_PUBLIC_KEY`,
+    and `STRIPE_SECRET_KEY` are available in the dashboard once
+    logged in. The `STRIPE_WH_SECRET` is created by navigating to
+    Developers/Webhooks on Stripe Website and clicking
+    '+ Add endpoint'. Copy URL for `Home` page and 
+    add 'checkout/wh/' at end.
 
-  For more detailed information go to [Stripe Documentation](https://stripe.com/docs).
+    For more detailed information go to [Stripe Documentation](https://stripe.com/docs).
 
-- For the `GOOGLE_MAP_KEY` an account needs to be created at
-  [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/get-api-key).
-  The `GOOGLE_MAP_KEY` can then be found in the Website in
-  the directory 'Credentials'.
+14. For the `GOOGLE_MAP_KEY` an account needs to be created at
+    [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/get-api-key).
+    The `GOOGLE_MAP_KEY` can then be found in the Website in
+    the directory 'Credentials'.
 
-- The `SECRET_KEY` can be found in settings in the root
-  directory. 
+15. The `SECRET_KEY` can be found in `settings.py` in the root
+    directory. 
 
-- The app can then be run by typing the command `python3 manage.py runserver` in the terminal
+16. The app can then be run by typing the command
+    `python3 manage.py runserver` in the terminal
 
 ### Step-2
-### Heroku (Production)
+#### Heroku (Production)
 
 The following instructions are based on the Website being
-deployed in GitHub/ Gitpod as instructed in 'Step-1'.
+deployed in GitHub/ Gitpod as instructed in [Step 1](#step-1).
 
-- Click the following link [Heroku Login](https://id.heroku.com/login) and
-  and set-up an account in Heroku
+1. Click the following link [Heroku Login](https://id.heroku.com/login) and
+   and set-up an account in Heroku.
 
-- Click on the icon to `Create New App`
+2. Click on the icon to `Create New App`
 
-- Input an unique `App Name` and `Choose a Region` and click `Create App`
+3. Input an unique `App Name` and `Choose a Region` and click `Create App`
 
-- In the newly created app click on the tab 'Resources', then type
-  'Postgres' in 'Add-ons'.
+4. In the newly created app click on the tab 'Resources', then type
+   'Postgres' in 'Add-ons'.
 
-- Click on 'Heroku Postgress' and then 'Provision'.
+5. Click on 'Heroku Postgress' and then 'Provision'.
 
-- Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop`
-  folder and comment out the following code:
+6. Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop`
+   folder and comment out the following code:
 
 ```
 # if 'DATABASE_URL' in os.environ:
@@ -1045,9 +1052,9 @@ deployed in GitHub/ Gitpod as instructed in 'Step-1'.
 #    }
 ```
 
-- Then add the following code:
-  N.B. This code is tempory and will be removed in
-  later instructons.
+7. Then add the following code below:
+   N.B. This code is tempoary and will be removed in
+   later instructons.
 
 ```
 DATABASES = {
@@ -1055,14 +1062,14 @@ DATABASES = {
 }
 ```
 
-- Then in the Heroku app created, go to 'Settings',
-  then 'Config Vars', and copy and paste the key
-  in the env.py file for `DATEBASE_URL`.
+8. Then in the Heroku app created, go to 'Settings',
+   then 'Config Vars', and copy and paste the key
+   in the `env.py` file for `DATEBASE_URL`.
 
-- Migrations then need to be carried out for new 'Postgres'
-  database with the command `python3 manage.py migrate`.
+9. Migrations then need to be carried out for new 'Postgres'
+   database with the command `python3 manage.py migrate`.
 
-- Fixtures also need to be loaded again with the following:
+10. Fixtures also need to be loaded again with the following command:
     - `python3 manage.py loaddata categories`
     - `python3 manage.py loaddata products`
     - `python3 manage.py loaddata appointment_type`
@@ -1070,14 +1077,18 @@ DATABASES = {
     - `python3 manage.py loaddata watch_types`
     - `python3 manage.py loaddata appointment_times`
 
-- Create a super user again with the following
-  command, `python3 manage.py createsuperuser`, 
-  providing a username, email address and password.
+11. Create a super user again with the following
+    command, `python3 manage.py createsuperuser`, 
+    providing a username, email address and password.
 
-- Back in the Heroku app click the link `Settings` and scroll to the button `Reveal Convig Vars`
+12. Back in the Heroku app click the link `Settings` and scroll to the button `Reveal Convig Vars`
 
-  Ensure all keys are added in 'Config Vars' in Heroku
-  as found in `env.py`:
+    Ensure all keys are added in 'Config Vars' in Heroku
+    as found in [Step 1 - 12](#environ-variables):
+
+    N.B. Do **NOT** include the variable
+    'DEVELOPMENT = `True`' in Heroku.
+
 
 | KEY            | VALUE         |
 |----------------|---------------|
@@ -1087,14 +1098,15 @@ DATABASES = {
 | GOOGLE_MAP_KEY| `<GOOGLE_MAP_KEY>`  |
 | DATABASE_URL| `<DATABASE_URL>`  |
 | SECRET_KEY | `<SECRET_KEY>`  |
-| DEVELOPMENT | `True`  |
 
-- To allow the `Postgres` database to run in Heroku and the
-  `SQLite` to run locally, un-comment out the code in settings
-  and remove the (tempoary) code that was added in earlier
-  instructions.
 
-Final code should be:
+13. To allow the `Postgres` database to run in Heroku
+    (production) and `SQLite` to run locally (development),
+    un-comment out the code in `settings.py` (Step 2 - 6)
+    and remove the tempoary code that was added in earlier 
+    instructions (Step 2 - 7).
+
+    The Final code in `settings.py`should be:
 
 ```
 if 'DATABASE_URL' in os.environ:
@@ -1110,32 +1122,39 @@ else:
     }
 ```
 
-- Ensure `gunicorn` is installed and is shown in requirements.txt.
-  If not type:
+14. Ensure `gunicorn` is installed and is shown in requirements.txt.
+    If not type:
     - `pip3 install gunicorn`
     - Then add to requirements by typing `pip3 freeze --local > requirements.txt` 
 
-- If not already created, ensure a new file named `Procfile` is added
+15. If not already created, ensure a new file named `Procfile` is added
   to the root directory with the following code inputted:
     - `web: gunicorn grandpas_pocket_watch_shop.wsgi:application`
   
-- To ensure Heroku doesn't try to collect static files
+16. To ensure Heroku doesn't try to collect static files
   when deploying, type the following code in the terminal:
     - `heroku config:set DISABLE_COLLECTSTATIC=1 --app <NAME OF APP>`
+      (If logged in on terminal)
 
-- In `settings.py` add the heroku host path to `Allowed Hosts`.
+    or
+    
+    - Open up 'Convig Vars' in Heroku and add:
+      `DISABLE_COLLECTSTATIC=1`
+      
+
+17. In `settings.py` add the following Heroku host path to `Allowed Hosts`.
     - `ALLOWED_HOSTS = ['HEROKU HOST NAME', 'localhost']`
 
-- In the terminal log into Heroku using the command `heroku login`
+18. In the terminal log into Heroku using the command `heroku login`
 
-- Enter your `Email` and `Password` when prompted
+19. Enter your `Email` and `Password` when prompted
 
-- (`Heroku Apps` created can be viewed using the command `heroku apps`)
+20. (Any 'Heroku Apps' created can be viewed using the command `heroku apps`)
 
-- Set up `Heroku` as `Master` branch using the command `heroku git:remote -a <APP NAME>`.
-  The `app-name` being the name of the `Heroku App` created in Step-1.
+ Set up `Heroku` as `Master` branch using the command `heroku git:remote -a <APP NAME>`.
+  The `app-name` being the name of the `Heroku App` created (Step 2 - 2).
 
-- Finally to update:
+- Finally to update to Heroku:
   - `git add .`
   - `git commit -m ""`
   - `git push origin master` (Push to heroku)
@@ -1146,9 +1165,9 @@ else:
 - [Amazon Web Services S3](https://aws.amazon.com/) is used
   to store static files and images. Create an account.
 
-- A 'Bucket' then needs to be created once logged in. 
+- Once logged in a 'Bucket' needs to be created. 
   A tutorial on 'Creating a Bucket' can be found
-  [Here](https://aws.amazon.com/).
+  [Here](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html).
 
 - Further documentation on setting up can be found
   [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html)
@@ -1168,7 +1187,7 @@ else:
     AWS_S3_REGION_NAME = '<REGION NAME>'
 ```
 
-- Ensure AWS keys are added in 'Config Vars' in Heroku, as below:
+- Then add the AWS keys to 'Config Vars' in Heroku, as below:
 
 | KEY            | VALUE         |
 |----------------|---------------|
@@ -1176,23 +1195,46 @@ else:
 | AWS_SECRET_ACCESS_KEY| `<AWS_SECRET_ACCESS_KEY>`  |
 | USE_AWS| `True`  |
 
-- Also ensure that the `DISABLE_COLLECTSTATIC=1` 'Config Vars'
-  is removed from Heroku.
+- Also ensure that `DISABLE_COLLECTSTATIC=1`
+  is removed from 'Config Vars' in Heroku.
 
-- Ensure all ´Static' and 'Media' files are uploaded in 'Amazon Web Services S3'.
+- Then push all changes to Heroku:
+  - `git add .`
+  - `git commit -m ""`
+  - `git push origin master`
 
-- Access Website in Heroku by clicking on 'Open app'
-  and complete details and ensure you are have 'Verified'
-  and 'Primary' user checked.
+- Log in to [Amazon Web Services S3](https://aws.amazon.com/) and
+  make sure all ´Static' files are uploaded.
+  
+  Within the same directory in AWS, create a new folder called `media`
+  and upload all product image files from the GitHub folder
+  `media`.
+
+- An email address for our superuser on the `Postgres` database
+  needs to be confirmed. Access Website in Heroku by clicking on
+  'Open app' and then access the Django Admin.
+
+  Access your email addess in Admin and ensure 'Verified' and
+  'Primary' boxes are checked and then save changes.
 
 - When deploying to Heroku it is important to update
-  the `STRIPE_WH_SECRET` key for Heroku deployment.
-  As explained in earlier instructions create a new
-  path for the Strip Webhook Handler with the 
-  Heroku Website link.
+  the `STRIPE_WH_SECRET` key in the 'Config Vars' in Heroku.
+  As explained in earlier instructions (Step 1 - 13), create a new
+  path for the Strip Webhook Handler using the Heroku Website link.
+
+- Finally push all changes again to Heroku:
+  - `git add .`
+  - `git commit -m ""`
+  - `git push origin master`
 
 ### Step-4
 ### Email
+
+
+
+
+
+
 
 - Set-up a gmail account
 
