@@ -1089,7 +1089,7 @@ DATABASES = {
   as found in Step 1 `env.py` file:
 
   N.B. Do **NOT** include the variable
-  '`DEVELOPMENT = True`' in Heroku 'Config Vars'.
+   '`DEVELOPMENT = True`' in Heroku 'Config Vars'.
 
 | KEY            | VALUE         |
 |----------------|---------------|
@@ -1132,10 +1132,10 @@ else:
   - `web: gunicorn grandpas_pocket_watch_shop.wsgi:application`
 
 - To ensure Heroku doesn't try to collect static files
-    when deploying, type the following code in the terminal:
+  when deploying, type the following code in the terminal:
   - `heroku config:set DISABLE_COLLECTSTATIC=1 --app <NAME OF APP>`
     (If logged in on terminal).
-  - Open up 'Convig Vars' in Heroku and add:
+  - Otherwise open up 'Convig Vars' in Heroku and add:
     `DISABLE_COLLECTSTATIC=1`
 
 - In `settings.py` add the following Heroku host path to `Allowed Hosts`.
