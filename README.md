@@ -209,7 +209,7 @@ and icon features become apparent and distinct.
 
 A light fresh green will then be used for the Navbar which will display
 the product categories. This subtle and less dominant shade of green will
-empathise the categories in a friendly, warm manner.
+emphasise the categories in a friendly, warm manner.
 
 A complementary orange will then be used to help draw out the important
 features of the Website such as the main headers and accumulative costs
@@ -540,7 +540,7 @@ UX of the Website.
 - Defensive design will prevent any form from being
   submitted incorrectly and notifications will continually
   advise the user of any issues while completing the
-  the payment form.
+  payment form.
 
 - A `COMPLETE ORDER` button is displayed at the end of the
   payment form along with a secure icon to
@@ -805,7 +805,7 @@ add to the Website at a later date:
   An authentication signing in procedure that can use
   Gmail/ Facebook authentication can really improve traffic
   to a Website as users are relieved of the duty of having
-  type in details.
+  to type in details.
 
 - **Greater search criteria. Order cancellation feature**
   An order cancellation feature would be reassuring for

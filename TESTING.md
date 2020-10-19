@@ -462,7 +462,7 @@
 - Ensure each required field displays an error message
   when not filled in
 - Complete form details, and each time leave a required
-  filled empty and try and `Complete Payment`. Error
+  field empty and try and `Complete Payment`. Error
   messages should be displayed accordingly, informing
   user which field is missing or incorrect.
 - Ensure `Email` cannot be filled out without correct `@`
@@ -599,8 +599,8 @@
 - Ensure each required field displays an error message
   when not filled in.
 - Complete form details, and each time leave a
-  required filled empty and try and `UPDATE INFORMATION`.
-  An error messages should be displayed each time,
+  required field empty and try and `UPDATE INFORMATION`.
+  An error message should be displayed each time,
   informing user the field which is missing information.
 - Fill in all fields correctly and `UPDATE INFORMATION`.
 - Ensure profile form details saved are used as default
