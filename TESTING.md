@@ -989,9 +989,10 @@
   the following command:
 
 ```
-  `git filter-branch --force --index-filter "git rm --cached --ignore-unmatch env.py" --prune-empty --tag-name-filter cat -- --all`
-  `git push --force --verbose --dry-run`
-  `git push --force`
+  git filter-branch --force --index-filter "git rm --cached  \
+  --ignore-unmatch env.py" --prune-empty --tag-name-filter cat -- --all
+  git push --force --verbose --dry-run`
+  git push --force`
 ```
 
   This code was provided at
@@ -1018,7 +1019,7 @@
   to leave for now and work on at a future date.
 
 - Products that are available on the Website are one of
-  a kind so when purchased by a user they still remain 
+  a kind so when purchased by a user they still remain
   in stock on the Website. Of course the owner can remove
   the product from the Website once an order has been made
   but there will always be a window of risk until this issue
@@ -1026,8 +1027,8 @@
 
   It would therefore be important to set up a function to remove
   products from stock once they are purchased. Another alternative
-  would be to display the product but deactive `ADD TO BASKET` 
-  and display text 'Out of stock'. 
+  would be to display the product but deactive `ADD TO BASKET`
+  and display text 'Out of stock'.
 
 ---
 
