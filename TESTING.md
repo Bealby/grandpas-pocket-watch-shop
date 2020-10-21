@@ -988,9 +988,11 @@
   As well as updating the keys all commits of env.py were removed using
   the following command:
 
+```
   `git filter-branch --force --index-filter "git rm --cached --ignore-unmatch env.py" --prune-empty --tag-name-filter cat -- --all`
   `git push --force --verbose --dry-run`
   `git push --force`
+```
 
   This code was provided at
   [Stack Overflow](https://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history/872700#872700)

@@ -100,7 +100,8 @@ to find products quickly.
 
 The Website needs to stand out from it's competitors by being
 rich in imagery and specific in product details. Creating a repair
-and valuation service for registered users will increase user
+and valuation service for registered users gives an
+added value to the Website an will increase user
 loyalty to the Website and encourage them to return.
 
 A mobile first approach will be instigated in the design
@@ -142,7 +143,7 @@ and what they can immediately 'do'.
 
 To achieve this goal, e-commerce design conventions used by
 strong brands such as 'Amazon', 'ebay' and
-'Etsy', need to be applied. This was done.
+'Etsy', can be used as a benchmark.
 
 The **Navigation Bar** will be fixed at the top, with the
 **Logo** and **Search Bar** stretched across the centre.
@@ -463,10 +464,11 @@ UX of the Website.
   `Product Details` page along with another
   link to enable the user to `Keep Shopping`.
 
-- When a user on the `Products` page clicks the `ADD to BASKET`
-  link the user is redirected to page they are on so that they
-  are not thrown back to the `All Products` page and made to
-  navigate through Website again to find their location.
+- When a user on the `Products` page clicks the `ADD TO BASKET`
+  link the user is redirected to the same page they are on
+  so that they are not thrown back to the `All Products`
+  page and made to navigate through the Website again
+  to find their location.
 
 - With the vast number of products listed a fixed upwards facing
   chevron icon will be positioned at the bottom right of the screen
@@ -724,7 +726,7 @@ UX of the Website.
 
 - When a user clicks on the 'edit' icon of an appointment a
   pop-up window will appear for the user informing them that
-  are editing a past appointment booking.
+  they are editing a past appointment booking.
 
 - Once an appointment is edited and updated a link
   `BACK TO MY PROFILE` will be accessible for the user.
@@ -734,7 +736,7 @@ UX of the Website.
   as default field content for the payment, contact and service
   forms. Reducing the users work load and providing a good UX.
 
-- Order and Appointments are displayed in the second column of
+- Orders and Appointments are displayed in the second column of
   the page. An `overflow` css command is used for both the
   `Order History` and `Appointments` list, so that each, after a
   certain amount of orders and appointments, turn to a scrolling
@@ -758,7 +760,7 @@ UX of the Website.
   why they should register. Consequently when a user clicks on the link
   to services they will be redirected to the Signin in page, and be
   greeted with the text 'To book a Repair or Valuation please
-  signin/up'.
+  signin/ up'.
 
 - Toast info windows are set up throughout the Website to help
   notify the user of successes, information, warnings and errors.
@@ -1293,5 +1295,5 @@ email provider, [Gmail](https://www.google.com/gmail/about/)
 
 ### Grandpa's Pocket Watch Shop - Disclaimer
 
-- Although the story of Pocket Watches runs in the family the
+- Although the story of Pocket Watches runs in the family
   the shop and business is fictitious
