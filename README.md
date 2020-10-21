@@ -667,6 +667,9 @@ UX of the Website.
   correctly. Icons are used in the contact form to highlight
   the send functionalities for better UI and UX.
 
+- For registered users the `Full Name` and `Email`
+  fields will be prefilled.
+
 - Once an email is submitted the user is redirected to
   a success page and an info window pops-up to confirm
   that the email has been sent. The email received
