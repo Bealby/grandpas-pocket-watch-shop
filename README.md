@@ -328,9 +328,9 @@ potentially create extra business and profit for Grandpa's
 Pocket Watch Shop.
 
 To allow for 'superusers' to Add/ Edit/ Remove products directly
-from the Website was also not instigated as this is not appropriate
+from the Website was deemed not appropriate
 and could be a security risk. Instead Add/ Edit, Remove can only be
-carried out in Admin.
+carried out in `Admin`.
 
 [Go to top](#contents)
 
@@ -424,7 +424,7 @@ UX of the Website.
 - For larger screen devices the layout will involve
   1 row of category images; for medium screens 2 rows;
   and for smaller screens the images will be removed and
-  replaced with icons for better UI and UX.
+  replaced with icons only for better UI and UX.
 
 - It was decided to use the title 'Grandpa's Pocket Watch
   Shop' on this page to establish the specific nature of
@@ -446,7 +446,7 @@ UX of the Website.
 
 - Each product will have their 'Name', 'Cost' and 'Sku Number'
   displayed underneath. A large orange button, with the text
-  'ADD TO BASKET' is viewable to the user and spans the length
+  `ADD TO BASKET` is viewable to the user and spans the length
   of the product image width. When hovered over the button
   enlarges slightly and turns a darker shade of orange.
   This allows the user to skip the option to seek further details
@@ -775,8 +775,9 @@ UX of the Website.
    saved or deleted.
 
 - `Users` will be encouraged to register on the Website to be able
-   to save delivery information, book appointments, and store orders
-   on a personal profile page.
+   to 'Save Delivery' information, 'Book Appointments', and view
+   past 'Orders' and upcoming 'Appointments' - all
+   on a personal 'My Profile' page.
 
 [Go to top](#contents)
 
@@ -785,36 +786,36 @@ UX of the Website.
 Below is a list of features I feel would be beneficial to
 add to the Website at a later date:
 
-- **Introduce Discussion Forum**
+- **Discussion Forum**:
   A forum to allow users to connect, share ideas and ask
   questions would be a beneficial feature to add to the
   Website. As this increase in traffic will have a
   positive affect to business and increase loyalty.
 
-- **Tracking code**
+- **Tracking code**:
   A tracking code on the Website would allow the owner to
   monitor traffic and also ascertain what is working and
   not working. Allowing for continued improvement of the
   Website.
 
-- **Payment Procedure**
+- **Payment Procedure**:
   A more complex and varied payment procedure to separate
   delivery and payment address, and also allow for 'Paypal'
   to be used in transactions. An ease of payment such as
   'Paypal' can greatly improve UX.
 
-- **Authentication**
+- **Authentication**:
   An authentication signing in procedure that can use
   Gmail/ Facebook authentication can really improve traffic
   to a Website as users are relieved of the duty of having
   to type in details.
 
-- **Greater search criteria. Order cancellation feature**
+- **Order cancellation feature**:
   An order cancellation feature would be reassuring for
   users who may wish to cancel their order and do not want
   to go through the trouble of having to contact the owner.
 
-- **Social Accounts**
+- **Social Accounts**:
   As the Website expands media outlets such as Instagram,
   Facebook and Twitter can greatly promote and spread the
   word of the business.
@@ -861,7 +862,7 @@ The following technologies were used in this project:
 
 - [Heroku](https://id.heroku.com/) - Heroku is a cloud based platform
    allowing developers to build, run, and operate applications
-- [GitHub](https://github.com/) - Used to store repositories and deploy Websites
+- [GitHub](https://github.com/) - Used to store repositories and deploy Website
 
 ### Languages
 
@@ -891,7 +892,7 @@ The following technologies were used in this project:
 - [SQLite](https://sqlite.org/index.html) - SQLite is a C-language library that
    implements a small, fast, self-contained, high-reliability, full-featured,
    SQL database engine
-- [Postgres](https://www.heroku.com/postgres#) Heroku's relational database
+- [Postgres](https://www.heroku.com/postgres#) - Heroku's relational database
    management system
 
 ### Tools
