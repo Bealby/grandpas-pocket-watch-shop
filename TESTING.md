@@ -63,7 +63,7 @@
 
 ### PEP8
 
-- [PEP8](http://pep8online.com/) - Python script - `app.py`-
+- [PEP8](http://pep8online.com/) - All `.py` code
   was run through PEP8 online for PEP8 requirements.
 
   Results: `All Right` (Adheres to PEP requirements)
@@ -72,7 +72,7 @@
 
 - [Markdownlint](https://github.com/Bealby/markdownlint) -
    Markdownlint was used to validate README.md and TESTING.md
-   file.
+   files.
 
    Results: 'Validation Successful'
 
@@ -87,11 +87,12 @@
 
 - **Terminal** - `python3 -m flake8` was typed in command
   line to highlight any issues within the entire project.
-  Majority of issues were fixed, aside from:
-  - **Migration** file issues
+  The majority of issues were fixed, aside from:
+  - **Migration** files
   - **Imports** that were unused in empty files, or
-   where it was necessary to include them for production
-  - **Lines** that were too long that could not be shortened.
+    where it was necessary to include them for production
+  - **Lines** that were too long but not appropriate
+    to be shortened.
 
 #### Lighthouse Audit
 
@@ -959,34 +960,34 @@
 ---
 
 - For Web pages with `Crispy-Forms` it was found that when loading
-  the Web page on mobile devices the page load to the section of
-  the Crispy Form rather than top of the page.
+  the Web page on mobile devices the page loaded to the section of
+  the Crispy Form rather than at top of page.
 
-  To fix this the onload command, `<body onLoad="window.scroll(0, 0)">`,
-  was used in the `Body` of base.html to ensure all pages loading to
+  To fix this the `onload` command, `<body onLoad="window.scroll(0, 0)">`,
+  was used in the `Body` of base.html to ensure all pages loaded to
   section at top of page.
 
 - It was important to have a `Date Picker` for the services form so
   that a user can pick a date and time with a calendar that is formatted
   with specific date options.
 
-  Calibrating a `Date Picker` with good UI and UX became an issue with
-  UI of the Date Picker being very un user friendly with the time aspect
-  needing to be chosen as well as the date.
+  Calibrating a `Date Picker` with good UI and UX for both
+  'Calendar Date' and 'Time' did not display in a very user
+  friendly way.
 
-  It was therefore decided to create a separate model for 'Time'
-  with the two options of 09:00 and 12:00. Allowing for a better
-  user experience for the user when picking a date.
+  It was therefore decided to create a separate `model` for 'Time'
+  with two options of 09:00 and 12:00. This allowed for a much
+  better user experience.
 
-- While committing changes there was an error which caused the env.py
-  with Stripe and Google Map secret keys being exposed in the commits
-  in GitHub.
+- While committing changes during the Website build there was an
+  error that caused the `env.py` file to be pushed to GitHub.
+  This exposed both 'Stripe' and 'Google Map' secret keys.
 
-  To fix this all secret keys were updated and the old secret keys
-  made rendundant.
+  To resolve this exposure, all secret keys were updated and
+  the old secret keys were made rendundant.
 
-  As well as updating the keys all commits of env.py were removed using
-  the following command:
+  As well as updating the secret keys all commits of `env.py`
+  were removed using the following command:
 
 ```
   git filter-branch --force --index-filter "git rm --cached  \
@@ -1003,32 +1004,35 @@
 ## Not Fixed
 
 - For the Booking Appointment Form in the `Services` app
-  placeholders were not shown for the `Appointment Type`,
-  `Watch Model`, `Watch Type`, preferably showing an empty
-  field as in the field for `Time`.
+  preferred placeholder names were not shown for the
+  `Appointment Type`, `Watch Model`, `Watch Type` fields.
+  Ideally showing an empty field as in the field for `Time`.
 
   `Friendly Names` were given to the models `Appointment Type`,
   `Watch Model`, `Watch Type`, which then caused the difficulty
   in setting the placeholders desired.
 
-  The solution I believe would be to change the attributes in the
-  models, using `empty_label`.
+  The solution I believe would be to change the attributes
+  in the models, using `empty_label`. However, further
+  investigation into this would be necessary.
 
   Although a benefit to the UI/UX it does not affect
   the functionality of the form itself so it was decided
   to leave for now and work on at a future date.
 
 - Products that are available on the Website are one of
-  a kind so when purchased by a user they still remain
-  in stock on the Website. Of course the owner can remove
-  the product from the Website once an order has been made
-  but there will always be a window of risk until this issue
-  is carried out.
+  a kind so when a product is purchased by a user
+  the product will still remain in stock
+  on the Website. Of course the owner could remove
+  the product from the Website once an order has been
+  made but there will always be a window of risk until
+  this removal is carried out.
 
-  It would therefore be important to set up a function to remove
-  products from stock once they are purchased. Another alternative
-  would be to display the product but deactive `ADD TO BASKET`
-  and display text 'Out of stock'.
+  It would therefore be important to set up a function to
+  remove products from stock once they are purchased.
+  Another alternative would be to display the product
+  but deactive `ADD TO BASKET` and display text
+  'Out of Stock'.
 
 ---
 

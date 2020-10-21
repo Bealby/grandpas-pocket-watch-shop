@@ -891,7 +891,7 @@ The following technologies were used in this project:
 - [SQLite](https://sqlite.org/index.html) - SQLite is a C-language library that
    implements a small, fast, self-contained, high-reliability, full-featured,
    SQL database engine
-   [Postgres](https://www.heroku.com/postgres#) Heroku's relational database
+- [Postgres](https://www.heroku.com/postgres#) Heroku's relational database
    management system
 
 ### Tools
@@ -919,7 +919,9 @@ The following technologies were used in this project:
    and images
 - [Date Picker](https://bootstrap-datepicker.readthedocs.io/en/latest/) -
    Used to display calendar on appointment form
-- [Temp Mail](https://temp-mail.org/en/) - Used to test allauth authentications.
+- [Temp Mail](https://temp-mail.org/en/) - Used to test allauth authentications
+- [dbdiagram](https://dbdiagram.io/home/) - Used to draw Entity-Relationship
+   Diagrams
 
 ### Frameworks
 
@@ -944,7 +946,7 @@ For deployment of Website please follow the below steps:
 
 ### Step 1
 
-#### GitHub Development
+#### GitHub (Development)
 
 - Click the following link [GitHub](https://github.com/)
   and set up an account in GitHub.
@@ -1026,17 +1028,18 @@ For deployment of Website please follow the below steps:
 The following instructions are based on the Website being
 deployed in GitHub/ Gitpod as instructed in Step 1.
 
-- Click the following link [Heroku Login](https://id.heroku.com/login) and
-  and set-up an account in Heroku.
+- Create a Heroku account byt click the following
+  link [Heroku Login](https://id.heroku.com/login).
 
-- Click on the icon to `Create New App`
+- Click on the icon, `Create New App`.
 
-- Input an unique `App Name` and `Choose a Region` and click `Create App`
+- Input an unique `App Name` and `Choose a Region`. Then
+  click `Create App`.
 
 - In the newly created app click on the tab 'Resources', then type
   'Postgres' in 'Add-ons'.
 
-- Click on 'Heroku Postgress' and then 'Provision'.
+- Click on 'Heroku Postgres' and then 'Provision'.
 
 - Then in 'Gitpod' click on `settings.py` in `grandpas_pocket_watch_shop`
   folder and comment out the following code:
@@ -1167,8 +1170,8 @@ else:
   A tutorial on 'Creating a Bucket' can be found
   [Here](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html).
 
-- Further documentation on setting up can be found
-  [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html)
+- Further documentation on setting up AWS can be found
+  [here](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html).
 
 - Back in GitHub, ensure `boto3` and `django-storages`
    are installed in requirements.txt. If not type:
@@ -1201,7 +1204,7 @@ else:
   - `git push origin master`
 
 - Log in to [Amazon Web Services S3](https://aws.amazon.com/) and
-  make sure all ´Static' files are uploaded.
+  make sure all 'Static' files are uploaded.
 
   Within the same directory in AWS, create a new folder called `media`
   and upload all product image files from the GitHub folder
@@ -1217,7 +1220,7 @@ else:
 - When deploying to Heroku it is important to update
   the `STRIPE_WH_SECRET` key in the 'Config Vars' in Heroku.
   As explained in earlier instructions, create a new
-  path for the Strip Webhook Handler using the deployed
+  path for the Stripe Webhook Handler using the deployed
   Heroku Website link.
 
 - Finally push all changes again to Heroku:
@@ -1230,9 +1233,9 @@ else:
 #### Email
 
 To allow Django to send real emails, one solution is to use the
-email provider, [Gmail](https://www.google.com/gmail/about/)
+email provider, [Gmail](https://www.google.com/gmail/about/).
 
-- In your security settings set up 2step-verification.
+- In your Gmail security settings set up 2step-verification.
 
 - Then click the option 'App passwords' and select 'Mail'
   as the app type, and 'Django' as the device.
@@ -1259,17 +1262,18 @@ email provider, [Gmail](https://www.google.com/gmail/about/)
 - Grandpa's Pocket Watch Shop Website was influenced and inspired by the
   Boutique Ado lessons tutored by @ckz8780 at
   [code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
-  , especially concepts and frameworks behind e-commerce Websites
-  and the features available. Grandpa's Pocket Watch Shop however
-  was customised accordingly to fit the Website's aim as well as
-  modified and extended to create new features and apps tailored
-  towards the Websites requirements.
+  , especially code used for concepts and frameworks behind
+  e-commerce Websites and the features available. Grandpa's Pocket
+  Watch Shop however was customised accordingly to fit the Website's
+  aim as well as modified and extended to create new features and
+  apps tailored towards the Websites requirements.
 
 - The contact form was guided by a tutorial at
   [Learn Django](https://learndjango.com/tutorials/django-email-contact-form).
 
 - Support to fix the Date Picker selecting only certain criteria was inspired from:
   [Stack Overflow - Enable Current Week](https://stackoverflow.com/questions/34063300/enable-only-current-week-days-in-bootstrap-datepicker)
+  and
   [Stack Overflow - User Input](https://stackoverflow.com/questions/153759/jquery-datepicker-with-text-input-that-doesnt-allow-user-input#153804)
 
 - The blinking icon feature in the Services app was taken from an idea provided by
